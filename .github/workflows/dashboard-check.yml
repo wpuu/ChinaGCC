@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - fix/grok-dashboard-v1-audit
+      - fix/mobile-dashboard-v2
   workflow_dispatch:
 
 jobs:

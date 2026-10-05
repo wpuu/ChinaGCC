@@ -26,6 +26,21 @@ html,
 body,
 #root {
   min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
 }
 
 body {
@@ -80,4 +95,18 @@ table {
 .score-num {
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.03em;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  button,
+  a,
+  input,
+  select {
+    min-height: 40px;
+  }
 }

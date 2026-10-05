@@ -17,17 +17,17 @@ export function SectionCard({
   return (
     <section
       className={cn(
-        "rounded-lg border border-slate-800/90 bg-[#0e1520]/90",
+        "rounded-xl border border-slate-800/90 bg-[#0e1520]/90",
         className,
       )}
     >
-      <header className="flex items-center justify-between gap-3 border-b border-slate-800 px-3 py-2">
-        <h2 className="text-xs font-semibold tracking-wide text-slate-300">
+      <header className="flex items-center justify-between gap-3 border-b border-slate-800 px-4 py-3 md:px-3 md:py-2">
+        <h2 className="text-sm font-semibold tracking-wide text-slate-200 md:text-xs md:text-slate-300">
           {title}
         </h2>
         {extra}
       </header>
-      <div className={cn("p-3", bodyClassName)}>{children}</div>
+      <div className={cn("p-4 md:p-3", bodyClassName)}>{children}</div>
     </section>
   );
 }

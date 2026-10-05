@@ -76,7 +76,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen bg-[#070b12] text-slate-100">
+    <div className="min-h-screen w-full overflow-x-hidden bg-[#070b12] text-slate-100">
       <aside className="fixed inset-y-0 left-0 z-30 hidden w-[220px] border-r border-slate-800 bg-[#0b111a] md:flex md:flex-col">
         <div className="border-b border-slate-800 px-4 py-3">
           <div className="text-[11px] tracking-[0.22em] text-amber-400/90">CHINAGCC</div>
@@ -107,24 +107,28 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
       ) : null}
 
-      <div className="md:pl-[220px]">
+      <div className="w-full min-w-0 md:pl-[220px]">
         <header className="sticky top-0 z-20 border-b border-slate-800 bg-[#070b12]/95 backdrop-blur">
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3 py-2 md:px-4">
+          <div className="flex min-h-14 flex-wrap items-center gap-x-3 gap-y-2 px-4 py-2 md:min-h-0 md:gap-x-4 md:px-4">
             <button
               type="button"
-              className="rounded border border-slate-700 p-1 text-slate-300 md:hidden"
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-200 md:hidden"
               onClick={() => setOpen(true)}
             >
-              <Menu className="h-4 w-4" />
+              <Menu className="h-5 w-5" />
             </button>
-            <div className="text-xs text-slate-400">
+            <div className="mr-auto md:hidden">
+              <div className="text-sm font-semibold text-slate-100">ChinaGCC</div>
+              <div className="text-[11px] text-slate-500">商业机会决策台</div>
+            </div>
+            <div className="hidden text-xs text-slate-400 sm:block">
               当前数据来源{" "}
               <span className="text-amber-300">{SOURCE_LABEL[source]}</span>
             </div>
-            <div className="text-xs text-slate-500">
+            <div className="hidden text-xs text-slate-500 sm:block">
               最后更新 <span className="score-num text-slate-300">{formatDateTime(lastUpdated)}</span>
             </div>
-            <div className="text-xs text-slate-500">
+            <div className="hidden text-xs text-slate-500 lg:block">
               最近同步{" "}
               <span className="score-num text-slate-300">
                 {lastSynced ? formatDateTime(lastSynced) : "未同步"}
@@ -144,7 +148,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               type="button"
               onClick={() => void refreshGithub()}
               disabled={loading}
-              className="ml-auto rounded border border-slate-700 bg-slate-900 px-2 py-1 text-[12px] text-slate-200 hover:border-amber-500/40 hover:text-amber-200 disabled:opacity-50"
+              className="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-slate-200 hover:border-amber-500/40 hover:text-amber-200 disabled:opacity-50 md:ml-auto md:py-1"
             >
               {loading ? "同步中…" : "手动刷新"}
             </button>
@@ -155,11 +159,38 @@ export function AppShell({ children }: { children: ReactNode }) {
             </div>
           ) : null}
         </header>
-        <main className="px-3 py-3 md:px-4 md:py-4" key={location.pathname}>
+        <main className="w-full min-w-0 px-4 py-4 pb-24 md:px-4 md:py-4 md:pb-4" key={location.pathname}>
           {children}
         </main>
+        <nav className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-t border-slate-800 bg-[#0b111a]/98 pb-[max(env(safe-area-inset-bottom),0.5rem)] pt-1 backdrop-blur md:hidden">
+          {[
+            { to: "/", label: "总览", icon: LayoutGrid, end: true },
+            { to: "/radar", label: "机会", icon: Radar },
+            { to: "/compare", label: "对比", icon: Columns3 },
+            { to: "/daily", label: "雷达", icon: Activity },
+          ].map((item) => {
+            const Icon = item.icon;
+            return (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                className={({ isActive }) =>
+                  cn(
+                    "flex min-h-14 flex-col items-center justify-center gap-1 text-[11px]",
+                    isActive ? "text-amber-300" : "text-slate-500",
+                  )
+                }
+              >
+                <Icon className="h-5 w-5" />
+                <span>{item.label}</span>
+              </NavLink>
+            );
+          })}
+        </nav>
+
         {compareIds.length > 0 ? (
-          <div className="sticky bottom-3 z-20 mx-3 flex flex-wrap items-center gap-2 rounded border border-amber-500/30 bg-[#0e1520]/95 px-3 py-2 text-[12px] shadow-lg md:mx-4">
+          <div className="sticky bottom-20 z-20 mx-4 flex flex-wrap items-center gap-2 rounded-lg border border-amber-500/30 bg-[#0e1520]/95 px-3 py-2 text-xs shadow-lg md:bottom-3 md:mx-4">
             <span className="text-slate-400">SKU对比 {compareIds.length}/4</span>
             <span className="truncate text-slate-200">{compareNames}</span>
             <Link to="/compare" className="ml-auto text-amber-300 hover:underline">
@@ -184,8 +215,8 @@ export function PageTitle({
 }) {
   return (
     <div className="mb-3">
-      <h1 className="text-base font-semibold tracking-wide text-slate-100">{title}</h1>
-      {desc ? <p className="mt-0.5 text-xs text-slate-500">{desc}</p> : null}
+      <h1 className="text-lg font-semibold tracking-wide text-slate-100 md:text-base">{title}</h1>
+      {desc ? <p className="mt-1 text-sm leading-5 text-slate-500 md:mt-0.5 md:text-xs">{desc}</p> : null}
     </div>
   );
 }
