@@ -22,16 +22,16 @@ export function ScoreBlock({
 }) {
   const tone = scoreTone(value);
   const numClass =
-    size === "lg" ? "text-4xl" : size === "sm" ? "text-xl" : "text-3xl";
+    size === "lg" ? "text-4xl" : size === "sm" ? "text-2xl md:text-xl" : "text-3xl";
   return (
     <div className="min-w-0">
-      <div className="text-[11px] uppercase tracking-[0.14em] text-slate-500">
+      <div className="text-xs tracking-wide text-slate-500 md:text-[11px] md:uppercase md:tracking-[0.14em]">
         {label}
       </div>
       <div className={cn("score-num mt-1 font-semibold leading-none", numClass, TONE[tone])}>
         {value === null ? WAITING_V2 : value}
       </div>
-      {sub ? <div className="mt-1 text-[11px] text-slate-500">{sub}</div> : null}
+      {sub ? <div className="mt-1 text-xs leading-4 text-slate-500 md:text-[11px]">{sub}</div> : null}
     </div>
   );
 }
