@@ -33,7 +33,7 @@ export default function HanlinPage() {
     <div className="space-y-3">
       <PageTitle
         title="翰林生物面膜 · 战略资产"
-        desc="不是普通随机 SKU。销售权只是 Owner 独特优势中的一个评分因素，不自动高分，不自动启动。"
+        desc="不是普通随机 SKU。销售权只是你的独特优势中的一个评分因素，不自动高分，不自动启动。"
       />
 
       <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
