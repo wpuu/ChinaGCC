@@ -41,12 +41,12 @@ function TopCard({ sku, index }: { sku: Sku; index: number }) {
   return (
     <Link
       to={`/sku/${sku.id}`}
-      className="block rounded-lg border border-slate-800 bg-[#0e1520] p-3 hover:border-amber-500/30"
+      className="block rounded-xl border border-slate-800 bg-[#0e1520] p-4 hover:border-amber-500/30 md:p-3"
     >
       <div className="flex items-start justify-between gap-2">
         <div>
           <div className="text-[11px] text-slate-500">排名 {sku.rank ?? "—"}</div>
-          <div className="mt-0.5 text-sm font-semibold text-slate-100">{sku.name}</div>
+          <div className="mt-1 text-base font-semibold text-slate-100 md:text-sm">{sku.name}</div>
         </div>
         <div className="flex items-center gap-1.5">
           <StatusBadge status={sku.status} />
@@ -60,7 +60,7 @@ function TopCard({ sku, index }: { sku: Sku; index: number }) {
         <ScoreBlock label="证据置信度" value={scores.evidence} size="sm" />
         <ScoreBlock label="数据完整度" value={scores.completeness} size="sm" />
       </div>
-      <div className="mt-3 grid grid-cols-2 gap-2 text-[12px]">
+      <div className="mt-4 grid grid-cols-1 gap-3 text-sm sm:grid-cols-2 md:mt-3 md:gap-2 md:text-[12px]">
         <div>
           <div className="text-slate-500">最大优点</div>
           <div className="truncate text-slate-200">{adv?.name ?? "待验证"}</div>
@@ -83,7 +83,7 @@ function TopCard({ sku, index }: { sku: Sku; index: number }) {
         </div>
       </div>
       <div className="mt-3 flex items-center justify-between gap-2 border-t border-slate-800 pt-2 text-[12px]">
-        <span className="truncate text-slate-400">下一步：{sku.nextAction ?? "待验证"}</span>
+        <span className="min-w-0 text-sm leading-5 text-slate-400 md:truncate md:text-[12px]">下一步：{sku.nextAction ?? "待验证"}</span>
         {gate.allowed ? (
           <span className="shrink-0 text-emerald-300">可取样</span>
         ) : (
@@ -114,18 +114,18 @@ export default function OverviewPage() {
     <div>
       <PageTitle title="总览" desc="每天查看 SKU 机会、评分、风险、供应链、利润与排名变化。" />
 
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-8">
-        <div className="col-span-2 rounded border border-slate-800 bg-[#0e1520] px-3 py-2">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-2 lg:grid-cols-8">
+        <div className="col-span-2 rounded-xl border border-slate-800 bg-[#0e1520] px-4 py-3 md:rounded md:px-3 md:py-2">
           <div className="text-[11px] text-slate-500">项目状态</div>
           <div className="text-sm font-medium text-amber-200">{data.meta.status}</div>
         </div>
-        <div className="col-span-2 rounded border border-slate-800 bg-[#0e1520] px-3 py-2">
+        <div className="col-span-2 rounded-xl border border-slate-800 bg-[#0e1520] px-4 py-3 md:rounded md:px-3 md:py-2">
           <div className="text-[11px] text-slate-500">30天投入判断</div>
           <div className="line-clamp-2 text-[12px] text-slate-200">
             {data.meta.thirtyDayJudgment}
           </div>
         </div>
-        <div className="rounded border border-slate-800 bg-[#0e1520] px-3 py-2">
+        <div className="rounded-xl border border-slate-800 bg-[#0e1520] px-4 py-3 md:rounded md:px-3 md:py-2">
           <div className="text-[11px] text-slate-500">当前置信度</div>
           <div className="score-num text-xl font-semibold text-slate-100">
             {data.meta.overallConfidence === null ? "待验证" : data.meta.overallConfidence}
@@ -135,7 +135,7 @@ export default function OverviewPage() {
         <CountChip label="P1条件型" value={p1c} />
         <CountChip label="P2" value={p2} />
         <CountChip label="观察" value={watch} />
-        <div className="rounded border border-slate-800 bg-[#0e1520] px-3 py-2">
+        <div className="rounded-xl border border-slate-800 bg-[#0e1520] px-4 py-3 md:rounded md:px-3 md:py-2">
           <div className="text-[11px] text-slate-500">淘汰</div>
           <div className="score-num text-xl font-semibold text-rose-300">{drop}</div>
         </div>
@@ -149,7 +149,55 @@ export default function OverviewPage() {
 
       <div className="mt-3 grid gap-3 lg:grid-cols-3">
         <SectionCard title="Top10 动态排名" className="lg:col-span-2">
-          <div className="overflow-x-auto">
+          <div className="space-y-3 md:hidden">
+            {top10.map((sku) => {
+              const s = resolveSkuScores(sku);
+              const adv = getTopAdvantage(sku);
+              const risk = getMaxRisk(sku);
+              return (
+                <Link
+                  key={sku.id}
+                  to={`/sku/${sku.id}`}
+                  className="block rounded-xl border border-slate-800 bg-slate-950/30 p-4 active:border-amber-500/40"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="score-num flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-slate-800 text-sm font-semibold text-slate-200">
+                      {sku.rank ?? "—"}
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="text-base font-semibold text-slate-100">{sku.name}</div>
+                        <StatusBadge status={sku.status} className="shrink-0" />
+                      </div>
+                      <div className="mt-1 text-xs text-slate-500">
+                        <RankDelta n={sku.rankChange} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 grid grid-cols-3 gap-2">
+                    <div>
+                      <div className="text-xs text-slate-500">商业机会</div>
+                      <div className="score-num mt-1 text-xl font-semibold text-amber-300">{formatScore(s.opportunity)}</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500">证据置信</div>
+                      <div className="score-num mt-1 text-xl font-semibold text-emerald-300">{formatScore(s.evidence)}</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500">数据完整</div>
+                      <div className="score-num mt-1 text-xl font-semibold text-rose-300">{s.completeness}</div>
+                    </div>
+                  </div>
+                  <div className="mt-4 grid grid-cols-1 gap-2 text-sm">
+                    <div><span className="text-slate-500">最大优点：</span><span className="text-slate-200">{adv?.name ?? "待验证"}</span></div>
+                    <div><span className="text-slate-500">最大风险：</span><span className="text-slate-200">{risk?.name ?? "待验证"}</span></div>
+                    <div><span className="text-slate-500">下一步：</span><span className="text-slate-300">{sku.nextAction ?? "待验证"}</span></div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+          <div className="hidden overflow-x-auto md:block">
             <table className="min-w-[920px] w-full text-left text-[12px]">
               <thead className="text-[11px] text-slate-500">
                 <tr className="border-b border-slate-800">
