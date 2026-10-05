@@ -2,6 +2,9 @@ import type { ChinaGCCData } from "../types";
 import { isChinaGCCData, normalizeData } from "./dataSource";
 export interface GithubSnapshotResponse { ok:boolean; reason?:string; data?:ChinaGCCData; lastSynced?:string; sha?:string; path?:string; }
 export async function fetchGithubSnapshot():Promise<GithubSnapshotResponse>{
+  if (typeof window !== "undefined" && window.location.hostname.endsWith(".github.io")) {
+    return { ok:false, reason:"GitHub Pages测试模式：使用仓库默认快照，不调用实时同步接口。" };
+  }
   try{
     const res=await fetch("/api/github-snapshot",{method:"GET",cache:"no-store",headers:{Accept:"application/json"}});
     if(res.status===204)return{ok:false,reason:"未配置GitHub同步，已跳过远程读取。"};
