@@ -1,0 +1,231 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": null,
+  "legacyScore": 76,
+  "opportunityScore": null,
+  "evidenceBreakdown": null,
+  "dataCompleteness": null,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "silicone-brush",
+  "name": "硅胶沐浴刷",
+  "status": "P1_CONDITIONAL",
+  "category": "beauty",
+  "rank": 1,
+  "evidenceConfidence": 81,
+  "opportunityBreakdown": {
+    "A1": 4,
+    "A2": 3,
+    "A3": 2,
+    "A4": 2,
+    "A5": 2,
+    "B1": 4,
+    "B2": 2,
+    "B3": 2,
+    "B4": 2,
+    "B5": 2,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 1,
+    "D1": 4,
+    "D2": 3,
+    "D3": 2,
+    "D4": 1,
+    "E1": 3,
+    "E2": 3,
+    "E3": 2,
+    "E4": 2,
+    "F1": 1,
+    "F2": 3,
+    "F3": 2,
+    "F4": 2,
+    "G1": 1,
+    "G2": 0,
+    "G3": 0,
+    "H1": 1,
+    "H2": 1,
+    "H3": 2,
+    "I1": 2,
+    "I2": 1,
+    "I3": 1,
+    "J1": 2,
+    "J2": 1,
+    "J3": 1,
+    "J4": 1,
+    "K1": 1,
+    "K2": 0
+  },
+  "advantages": [
+    {
+      "name": "AED30以上成交能力已被部分证明",
+      "evidence": "UAE存在AED30.57且60+近期成交的样本",
+      "businessImpact": "让15%利润安全线不再只依赖理论高价",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": [
+        "https://www.noon.com/uae-en/silicone-body-brush-gentle-exfoliating-body-scrubber-in-shower-silicone-loofah-with-easily-leather-bristles-long-lasting-and-more-hygienic-than-traditional-shower-loofah-1pack-black/Z09AF76947FAE98CD9ABAZ/p/"
+      ]
+    },
+    {
+      "name": "供应端深、试错门槛低",
+      "evidence": "中国公开供应存在低MOQ、多供应商",
+      "businessImpact": "可以用少量样品筛选硬度、异味与结构，不被单一工厂锁定",
+      "impactLevel": 5,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": [
+        "https://www.alibaba.com/wholesale/silicon-body-scrubber.html"
+      ]
+    },
+    {
+      "name": "重量和体积适合跨境小件",
+      "evidence": "公开样本约150g、13.3×7.8×3.6cm",
+      "businessImpact": "头程和平台履约成本相对友好",
+      "impactLevel": 5,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": []
+    }
+  ],
+  "risks": [
+    {
+      "name": "价格竞争明显",
+      "evidence": "UAE存在大量AED20–30区间同类商品",
+      "probability": 5,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "只研究已有AED30以上成交的升级结构或套装",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "Noon UAE竞品"
+    },
+    {
+      "name": "肤感和软硬度评价主观",
+      "evidence": "皮肤直接接触，过硬、过软会影响评价",
+      "probability": 3,
+      "impact": 4,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "多硬度样品盲测并固定质检标准",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "品类特性"
+    },
+    {
+      "name": "Amazon类目与费率尚未确认",
+      "evidence": "低费率只是候选分类，实际ASIN类目未核实",
+      "probability": 2,
+      "impact": 4,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "正式上架前用同类ASIN确认实际类目和佣金",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "Amazon费用规则"
+    },
+    {
+      "name": "低质硅胶可能有异味",
+      "evidence": "低价硅胶存在气味和材料稳定性风险",
+      "probability": 3,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "高温、浸水、气味与拉伸测试",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "供应风险"
+    },
+    {
+      "name": "复购弱",
+      "evidence": "耐用品更换周期长，没有补充装生态",
+      "probability": 5,
+      "impact": 2,
+      "isHardStop": false,
+      "canMitigate": "no",
+      "mitigation": "依靠套装和结构差异，不以复购作为核心模型",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "产品属性"
+    }
+  ],
+  "knownFacts": [
+    "UAE和Saudi均存在同类真实成交信号。",
+    "UAE已经出现AED30以上仍有近期成交的样本。",
+    "中国公开供应端存在低MOQ和多供应商。"
+  ],
+  "pendingVerifications": [
+    "确认2–3个AED30以上且持续成交的具体结构。",
+    "确认Amazon UAE实际类目和佣金。",
+    "确认最终包装尺寸对应的平台履约档位。",
+    "取得真实含包装样品报价并做异味、硬度、毛刺和高温测试。"
+  ],
+  "uaeDemand": "真实成交存在；AED30以上成交能力已部分证明。",
+  "saudiDemand": "存在较强同类成交信号，仍需统一口径复核。",
+  "currentPriceAed": 30.57,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": 10,
+  "weightG": 150,
+  "dimensions": "13.3 × 7.8 × 3.6 cm（公开供应样本，最终包装待确认）",
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": 15,
+  "returnAssumptionPct": 10,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "补齐AED30以上成交结构、Amazon类目和真实样品报价，再重评是否达到80分。",
+  "evidenceLinks": [
+    {
+      "title": "Noon UAE 硅胶沐浴刷成交样本",
+      "url": "https://www.noon.com/uae-en/silicone-body-brush-gentle-exfoliating-body-scrubber-in-shower-silicone-loofah-with-easily-leather-bristles-long-lasting-and-more-hygienic-than-traditional-shower-loofah-1pack-black/Z09AF76947FAE98CD9ABAZ/p/"
+    },
+    {
+      "title": "Amazon UAE 官方销售费用",
+      "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+    },
+    {
+      "title": "Alibaba 硅胶沐浴刷供应",
+      "url": "https://www.alibaba.com/wholesale/silicon-body-scrubber.html"
+    }
+  ],
+  "hasRepurchase": false,
+  "isStrategicAsset": false,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "gccPrice",
+    "competition",
+    "moq",
+    "weight",
+    "dimensions",
+    "adSpend",
+    "returnRate",
+    "supplierCount",
+    "nextAction",
+    "compliance"
+  ]
+}

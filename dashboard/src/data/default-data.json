@@ -1,0 +1,973 @@
+{
+  "version": "2.1.0",
+  "meta": {
+    "name": "ChinaGCC",
+    "status": "继续验证",
+    "thirtyDayJudgment": "继续研究，但目前没有任何SKU达到样品准入标准；以证据和严格V2评分继续淘汰。",
+    "overallConfidence": 76,
+    "lastUpdated": "2026-10-05T22:55:00+08:00",
+    "lastSynced": null
+  },
+  "skus": [
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 76,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "silicone-brush",
+      "name": "硅胶沐浴刷",
+      "status": "P1_CONDITIONAL",
+      "category": "beauty",
+      "rank": 1,
+      "evidenceConfidence": 81,
+      "opportunityBreakdown": {
+        "A1": 4,
+        "A2": 3,
+        "A3": 2,
+        "A4": 2,
+        "A5": 2,
+        "B1": 4,
+        "B2": 2,
+        "B3": 2,
+        "B4": 2,
+        "B5": 2,
+        "C1": 4,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "D1": 4,
+        "D2": 3,
+        "D3": 2,
+        "D4": 1,
+        "E1": 3,
+        "E2": 3,
+        "E3": 2,
+        "E4": 2,
+        "F1": 1,
+        "F2": 3,
+        "F3": 2,
+        "F4": 2,
+        "G1": 1,
+        "G2": 0,
+        "G3": 0,
+        "H1": 1,
+        "H2": 1,
+        "H3": 2,
+        "I1": 2,
+        "I2": 1,
+        "I3": 1,
+        "J1": 2,
+        "J2": 1,
+        "J3": 1,
+        "J4": 1,
+        "K1": 1,
+        "K2": 0
+      },
+      "advantages": [
+        {
+          "name": "AED30以上成交能力已被部分证明",
+          "evidence": "UAE存在AED30.57且60+近期成交的样本",
+          "businessImpact": "让15%利润安全线不再只依赖理论高价",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/silicone-body-brush-gentle-exfoliating-body-scrubber-in-shower-silicone-loofah-with-easily-leather-bristles-long-lasting-and-more-hygienic-than-traditional-shower-loofah-1pack-black/Z09AF76947FAE98CD9ABAZ/p/"
+          ]
+        },
+        {
+          "name": "供应端深、试错门槛低",
+          "evidence": "中国公开供应存在低MOQ、多供应商",
+          "businessImpact": "可以用少量样品筛选硬度、异味与结构，不被单一工厂锁定",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.alibaba.com/wholesale/silicon-body-scrubber.html"
+          ]
+        },
+        {
+          "name": "重量和体积适合跨境小件",
+          "evidence": "公开样本约150g、13.3×7.8×3.6cm",
+          "businessImpact": "头程和平台履约成本相对友好",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": []
+        }
+      ],
+      "risks": [
+        {
+          "name": "价格竞争明显",
+          "evidence": "UAE存在大量AED20–30区间同类商品",
+          "probability": 5,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "只研究已有AED30以上成交的升级结构或套装",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "Noon UAE竞品"
+        },
+        {
+          "name": "肤感和软硬度评价主观",
+          "evidence": "皮肤直接接触，过硬、过软会影响评价",
+          "probability": 3,
+          "impact": 4,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "多硬度样品盲测并固定质检标准",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "品类特性"
+        },
+        {
+          "name": "Amazon类目与费率尚未确认",
+          "evidence": "低费率只是候选分类，实际ASIN类目未核实",
+          "probability": 2,
+          "impact": 4,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "正式上架前用同类ASIN确认实际类目和佣金",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "Amazon费用规则"
+        },
+        {
+          "name": "低质硅胶可能有异味",
+          "evidence": "低价硅胶存在气味和材料稳定性风险",
+          "probability": 3,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "高温、浸水、气味与拉伸测试",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "供应风险"
+        },
+        {
+          "name": "复购弱",
+          "evidence": "耐用品更换周期长，没有补充装生态",
+          "probability": 5,
+          "impact": 2,
+          "isHardStop": false,
+          "canMitigate": "no",
+          "mitigation": "依靠套装和结构差异，不以复购作为核心模型",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "产品属性"
+        }
+      ],
+      "knownFacts": [
+        "UAE和Saudi均存在同类真实成交信号。",
+        "UAE已经出现AED30以上仍有近期成交的样本。",
+        "中国公开供应端存在低MOQ和多供应商。"
+      ],
+      "pendingVerifications": [
+        "确认2–3个AED30以上且持续成交的具体结构。",
+        "确认Amazon UAE实际类目和佣金。",
+        "确认最终包装尺寸对应的平台履约档位。",
+        "取得真实含包装样品报价并做异味、硬度、毛刺和高温测试。"
+      ],
+      "uaeDemand": "真实成交存在；AED30以上成交能力已部分证明。",
+      "saudiDemand": "存在较强同类成交信号，仍需统一口径复核。",
+      "currentPriceAed": 30.57,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": 10,
+      "weightG": 150,
+      "dimensions": "13.3 × 7.8 × 3.6 cm（公开供应样本，最终包装待确认）",
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": 15,
+      "returnAssumptionPct": 10,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "补齐AED30以上成交结构、Amazon类目和真实样品报价，再重评是否达到80分。",
+      "evidenceLinks": [
+        {
+          "title": "Noon UAE 硅胶沐浴刷成交样本",
+          "url": "https://www.noon.com/uae-en/silicone-body-brush-gentle-exfoliating-body-scrubber-in-shower-silicone-loofah-with-easily-leather-bristles-long-lasting-and-more-hygienic-than-traditional-shower-loofah-1pack-black/Z09AF76947FAE98CD9ABAZ/p/"
+        },
+        {
+          "title": "Amazon UAE 官方销售费用",
+          "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+        },
+        {
+          "title": "Alibaba 硅胶沐浴刷供应",
+          "url": "https://www.alibaba.com/wholesale/silicon-body-scrubber.html"
+        }
+      ],
+      "hasRepurchase": false,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "gccPrice",
+        "competition",
+        "moq",
+        "weight",
+        "dimensions",
+        "adSpend",
+        "returnRate",
+        "supplierCount",
+        "nextAction",
+        "compliance"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 73,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "travel-bottles",
+      "name": "旅行分装瓶套装",
+      "status": "P1_CONDITIONAL",
+      "category": "travel",
+      "rank": 2,
+      "evidenceConfidence": 76,
+      "opportunityBreakdown": {
+        "A1": 3,
+        "A2": 2,
+        "A3": 2,
+        "A4": 2,
+        "A5": 2,
+        "B1": 5,
+        "B2": 2,
+        "B3": 2,
+        "B4": 2,
+        "B5": 2,
+        "C1": 4,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "D1": 4,
+        "D2": 3,
+        "D3": 2,
+        "D4": 2,
+        "E1": 2,
+        "E2": 3,
+        "E3": 0,
+        "E4": 2,
+        "F1": 2,
+        "F2": 3,
+        "F3": 2,
+        "F4": 1,
+        "G1": 1,
+        "G2": 0,
+        "G3": 0,
+        "H1": 0,
+        "H2": 2,
+        "H3": 1,
+        "I1": 2,
+        "I2": 1,
+        "I3": 1,
+        "J1": 1,
+        "J2": 0,
+        "J3": 1,
+        "J4": 1,
+        "K1": 2,
+        "K2": 0
+      },
+      "advantages": [
+        {
+          "name": "潜在单位经济性较好",
+          "evidence": "UAE 8件套在AED45左右有在售，中国公开供应显示低MOQ套装",
+          "businessImpact": "若实际整套报价成立，售价与货值之间空间明显",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/8-pack-travel-bottles-set-for-toiletries-tsa-approved-toiletry-containers-50ml-2oz-leak-proof-travel-size-accessories-with-label-and-storage-box-perfect-for-business-or-personal-travel-use/Z191A5D02E64A12A276EAZ/p/",
+            "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+          ]
+        },
+        {
+          "name": "MOQ友好",
+          "evidence": "公开供应存在MOQ20的完整套装条目",
+          "businessImpact": "失败库存可以控制在较低规模",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+          ]
+        },
+        {
+          "name": "通用性高",
+          "evidence": "不依赖车型、设备或复杂尺寸匹配",
+          "businessImpact": "GCC买家拿到即可使用，适配型退货低",
+          "impactLevel": 4,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": []
+        }
+      ],
+      "risks": [
+        {
+          "name": "漏液",
+          "evidence": "该品类典型风险集中在瓶盖、阀门和喷头漏液",
+          "probability": 4,
+          "impact": 5,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "倒置24小时、挤压、跌落、高温和喷头循环测试",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "品类典型风险"
+        },
+        {
+          "name": "公开报价是否对应完整套装仍需确认",
+          "evidence": "公开页面可能存在计价单位歧义",
+          "probability": 3,
+          "impact": 4,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "向至少3个供应端确认BOM、件数和完整套装报价",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "供应报价"
+        },
+        {
+          "name": "Amazon实际类目费率未确认",
+          "evidence": "佣金差异会直接改变利润模型",
+          "probability": 3,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "用同类ASIN确认实际类目与佣金",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "Amazon费用规则"
+        },
+        {
+          "name": "不应滥用航空安检认证措辞",
+          "evidence": "容量兼容不等于拥有独立认证",
+          "probability": 2,
+          "impact": 4,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "仅描述容量和航空液体规则，不写未核实认证",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "营销合规"
+        },
+        {
+          "name": "喷头和泵头耐久",
+          "evidence": "多部件套装增加单点故障概率",
+          "probability": 3,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "样品做100次循环和跌落测试",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "产品结构"
+        }
+      ],
+      "knownFacts": [
+        "UAE存在AED45左右的8件套产品。",
+        "Saudi存在多件套真实成交信号。",
+        "中国公开供应存在MOQ20的多件套条目。"
+      ],
+      "pendingVerifications": [
+        "向3个供应端确认完整套装真实报价与BOM。",
+        "确认Amazon UAE实际类目和佣金。",
+        "用样品关闭漏液、喷头和瓶盖耐久风险。"
+      ],
+      "uaeDemand": "有稳定在售和价格带证据，当前成交强度仍需进一步补证。",
+      "saudiDemand": "多件套已有较强成交信号。",
+      "currentPriceAed": 45.19,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": 20,
+      "weightG": 206,
+      "dimensions": "16.5 × 14.5 × 4.5 cm（公开样本，最终包装待确认）",
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": 15,
+      "returnAssumptionPct": 10,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "先确认3家完整套装报价和Amazon类目；未关闭漏液严重风险前不拿大货。",
+      "evidenceLinks": [
+        {
+          "title": "Noon UAE 8件旅行分装瓶",
+          "url": "https://www.noon.com/uae-en/8-pack-travel-bottles-set-for-toiletries-tsa-approved-toiletry-containers-50ml-2oz-leak-proof-travel-size-accessories-with-label-and-storage-box-perfect-for-business-or-personal-travel-use/Z191A5D02E64A12A276EAZ/p/"
+        },
+        {
+          "title": "Alibaba 旅行分装瓶套装供应",
+          "url": "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+        },
+        {
+          "title": "Amazon UAE 官方销售费用",
+          "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+        }
+      ],
+      "hasRepurchase": false,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "gccPrice",
+        "competition",
+        "moq",
+        "weight",
+        "dimensions",
+        "adSpend",
+        "returnRate",
+        "supplierCount",
+        "nextAction"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 79,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "lint-roller",
+      "name": "粘毛滚+补充卷",
+      "status": "P1_CONDITIONAL",
+      "category": "cleaning",
+      "rank": 3,
+      "evidenceConfidence": 82,
+      "opportunityBreakdown": {
+        "A1": 4,
+        "A2": 3,
+        "A3": 3,
+        "A4": 2,
+        "A5": 2,
+        "B1": 2,
+        "B2": 0,
+        "B3": 1,
+        "B4": 1,
+        "B5": 1,
+        "C1": 4,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "D1": 4,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "E1": 2,
+        "E2": 1,
+        "E3": 2,
+        "E4": 2,
+        "F1": 1,
+        "F2": 3,
+        "F3": 1,
+        "F4": 1,
+        "G1": 3,
+        "G2": 2,
+        "G3": 1,
+        "H1": 2,
+        "H2": 2,
+        "H3": 2,
+        "I1": 2,
+        "I2": 2,
+        "I3": 1,
+        "J1": 2,
+        "J2": 1,
+        "J3": 1,
+        "J4": 1,
+        "K1": 1,
+        "K2": 0
+      },
+      "advantages": [
+        {
+          "name": "跨UAE和Saudi成交证据扎实",
+          "evidence": "UAE与Saudi均有多补充卷和粘毛滚商品持续成交",
+          "businessImpact": "真实需求比纯搜索热度更可靠",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+          ]
+        },
+        {
+          "name": "补充卷具有复购结构",
+          "evidence": "市场同时存在手柄套装和单独补充卷",
+          "businessImpact": "理论上可提高生命周期价值",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+          ]
+        },
+        {
+          "name": "产品通用且低售后",
+          "evidence": "用于衣物、家具、汽车和宠物毛发，无复杂安装",
+          "businessImpact": "退货主要集中在粘性与纸张体验，而不是适配",
+          "impactLevel": 4,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": []
+        }
+      ],
+      "risks": [
+        {
+          "name": "主流成交价低于盈利所需价位",
+          "evidence": "当前高销量组合多集中在AED30附近，未证明AED35–50仍有稳定成交",
+          "probability": 4,
+          "impact": 5,
+          "isHardStop": false,
+          "canMitigate": "unknown",
+          "mitigation": "先验证高客单多补充卷组合是否有稳定销量；无则降级",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "UAE价格带"
+        },
+        {
+          "name": "多补充卷套装可能过厚",
+          "evidence": "厚度可能导致更高平台履约档位",
+          "probability": 3,
+          "impact": 4,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "压缩包装、减少手柄、确认实测尺寸",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "包装结构"
+        },
+        {
+          "name": "成熟工厂MOQ偏高",
+          "evidence": "公开低MOQ存在，但成熟套装常要求更高数量",
+          "probability": 3,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "首批用现货经销商或贸易商验证",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "供应端"
+        },
+        {
+          "name": "价格竞争明显",
+          "evidence": "功能标准化、白牌多",
+          "probability": 4,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "通过补充卷数量、撕线、粘性和手柄结构区分",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "市场竞争"
+        },
+        {
+          "name": "补充卷兼容和粘性差评",
+          "evidence": "卷芯规格与胶粘质量会影响复购",
+          "probability": 2,
+          "impact": 3,
+          "isHardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "固定卷芯规格并做粘性、撕线和纸筒质检",
+          "mitigationCost": "low",
+          "residualRisk": null,
+          "mitigationVerified": false,
+          "source": "产品质量"
+        }
+      ],
+      "knownFacts": [
+        "UAE和Saudi均有真实成交信号。",
+        "市场存在补充卷单卖和多补充卷套装。",
+        "目前未找到足够强的AED35–50高客单稳定成交证据。"
+      ],
+      "pendingVerifications": [
+        "验证UAE AED35–50的多补充卷套装是否有稳定成交。",
+        "确认1手柄+4/5补充卷的小MOQ、总重和包装厚度。",
+        "确认Amazon UAE实际类目和履约档位。"
+      ],
+      "uaeDemand": "需求强，但高客单价盈利场景尚未被证明。",
+      "saudiDemand": "补充卷套装存在较强成交信号。",
+      "currentPriceAed": 29,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": 130,
+      "weightG": 200,
+      "dimensions": null,
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": 15,
+      "returnAssumptionPct": 10,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "只验证高客单多补充卷组合；若AED35以上稳定成交仍找不到，降为P2。",
+      "evidenceLinks": [
+        {
+          "title": "Noon UAE 粘毛滚类目",
+          "url": "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+        },
+        {
+          "title": "Amazon UAE 官方销售费用",
+          "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+        },
+        {
+          "title": "Alibaba 粘毛滚补充卷供应",
+          "url": "https://www.alibaba.com/wholesale/lint-refill.html"
+        }
+      ],
+      "hasRepurchase": true,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "gccPrice",
+        "competition",
+        "moq",
+        "weight",
+        "adSpend",
+        "returnRate",
+        "compliance",
+        "supplierCount",
+        "nextAction"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 70,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "hanlin-mask",
+      "name": "翰林生物面膜",
+      "status": "WATCH",
+      "category": "beauty",
+      "rank": 4,
+      "evidenceConfidence": null,
+      "opportunityBreakdown": null,
+      "advantages": [],
+      "risks": [],
+      "knownFacts": [
+        "你可以在合适时机随时取得销售权。",
+        "GCC面膜品类存在真实需求，但翰林具体SKU尚未完成匹配。"
+      ],
+      "pendingVerifications": [
+        "具体SKU、成分、包装、供货价、MOQ、功效宣称资料。",
+        "UAE/Saudi合规路径和渠道经济性。"
+      ],
+      "uaeDemand": "面膜品类需求强，具体翰林SKU未验证。",
+      "saudiDemand": "待具体SKU验证。",
+      "currentPriceAed": null,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": null,
+      "weightG": null,
+      "dimensions": null,
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": null,
+      "returnAssumptionPct": null,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "建立UAE/Saudi热卖结构对标后，再决定是否正式向翰林启动销售权。",
+      "evidenceLinks": [],
+      "hasRepurchase": true,
+      "isStrategicAsset": true,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "nextAction"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 66,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "makeup-sponge",
+      "name": "化妆海绵/粉扑套装",
+      "status": "P2",
+      "category": "beauty",
+      "rank": 5,
+      "evidenceConfidence": null,
+      "opportunityBreakdown": null,
+      "advantages": [],
+      "risks": [],
+      "knownFacts": [
+        "旧版临时分66，尚未完成V2重评。"
+      ],
+      "pendingVerifications": [
+        "等待完整V2重评。"
+      ],
+      "uaeDemand": "已有成交信号，待V2重评。",
+      "saudiDemand": "已有成交信号，待V2重评。",
+      "currentPriceAed": null,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": null,
+      "weightG": null,
+      "dimensions": null,
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": null,
+      "returnAssumptionPct": null,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "等待V2重评。",
+      "evidenceLinks": [],
+      "hasRepurchase": true,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "nextAction"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 64,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "car-sunshade",
+      "name": "汽车前挡遮阳板",
+      "status": "P2",
+      "category": "auto",
+      "rank": 6,
+      "evidenceConfidence": null,
+      "opportunityBreakdown": null,
+      "advantages": [],
+      "risks": [],
+      "knownFacts": [
+        "Saudi成交信号强，但体积、尺寸兼容和红海竞争明显。"
+      ],
+      "pendingVerifications": [
+        "等待完整V2重评。"
+      ],
+      "uaeDemand": "有需求。",
+      "saudiDemand": "成交强。",
+      "currentPriceAed": null,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": null,
+      "weightG": null,
+      "dimensions": null,
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": null,
+      "returnAssumptionPct": null,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "等待V2重评，不进入首测。",
+      "evidenceLinks": [],
+      "hasRepurchase": false,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "nextAction"
+      ]
+    },
+    {
+      "englishName": "",
+      "channels": [
+        "B2C"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "rankChange": null,
+      "legacyScore": 58,
+      "opportunityScore": null,
+      "evidenceBreakdown": null,
+      "dataCompleteness": null,
+      "suppliers": [],
+      "tianjinHebeiAdvantage": null,
+      "githubIssue": null,
+      "rankingHistory": [],
+      "complianceNote": null,
+      "realNegativeReviews": null,
+      "id": "microfiber-cloth",
+      "name": "微纤维清洁布",
+      "status": "WATCH",
+      "category": "cleaning",
+      "rank": 7,
+      "evidenceConfidence": null,
+      "opportunityBreakdown": null,
+      "advantages": [],
+      "risks": [],
+      "knownFacts": [
+        "Amazon UAE FBA固定费用使低价零售经济性偏弱。",
+        "保留B2B大包装、酒店清洁、汽车美容批发观察。"
+      ],
+      "pendingVerifications": [
+        "如出现明确B2B需求再复活。"
+      ],
+      "uaeDemand": "需求存在但跨境FBA经济性弱。",
+      "saudiDemand": "需求存在。",
+      "currentPriceAed": null,
+      "currentPriceSar": null,
+      "chinaCostCny": null,
+      "moq": null,
+      "weightG": null,
+      "dimensions": null,
+      "amazonCategory": null,
+      "amazonCommissionPct": null,
+      "fbaFeeAed": null,
+      "inboundCostAed": null,
+      "adSpendAssumptionPct": null,
+      "returnAssumptionPct": null,
+      "contributionProfitAed": null,
+      "contributionMarginPct": null,
+      "worstLoss100Aed": null,
+      "nextAction": "只保留B2B观察。",
+      "evidenceLinks": [],
+      "hasRepurchase": true,
+      "isStrategicAsset": false,
+      "confirmedFields": [
+        "gccSalesEvidence",
+        "nextAction"
+      ]
+    }
+  ],
+  "dailyRadar": [],
+  "decisionLog": [],
+  "hanlinMask": {
+    "salesRightsStatus": "可在合适时机随时取得销售权，当前未正式启动。",
+    "gccDemand": "GCC面膜品类存在真实需求；是否适合翰林必须以具体SKU验证。",
+    "uaeMarket": "UAE面膜需求强，韩国品牌竞争明显；具体翰林SKU与渠道经济性待验证。",
+    "saudiMarket": "待具体SKU、注册和渠道验证。",
+    "benchmarkSkus": [],
+    "skuMatchScore": null,
+    "complianceReadiness": null,
+    "channelReadiness": null,
+    "profitReadiness": null,
+    "evidenceConfidence": null,
+    "launchReady": false,
+    "launchBlockers": [
+      "具体SKU未确定",
+      "供货价/MOQ未确认",
+      "目标国合规路径未完成",
+      "渠道与利润模型未闭合"
+    ],
+    "notes": "销售权是特殊优势，不等于自动启动。出现强需求、SKU匹配、合规和利润同时成立时再正式启动。",
+    "nextAction": "先做GCC热卖面膜结构对标，再向翰林索取对应SKU资料。"
+  }
+}

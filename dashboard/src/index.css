@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+    ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, SFMono-Regular,
+    Menlo, monospace;
+  --color-terminal: #070b12;
+  --color-panel: #0e1520;
+  --color-panel-2: #121b28;
+  --color-line: #1c2a3d;
+  --color-line-2: #24344a;
+  --color-ink: #e8eef7;
+  --color-muted: #8b9bb0;
+  --color-faint: #5d6d82;
+  --color-amber: #f5c14a;
+  --color-cyan: #4fd1c5;
+  --color-em: #34d399;
+}
+
+html {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #070b12;
+  color: #e8eef7;
+  font-family: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+    ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "tnum" 1, "ss01" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #24344a;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-grid {
+  background-image: linear-gradient(rgba(28, 42, 61, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 42, 61, 0.35) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.score-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}

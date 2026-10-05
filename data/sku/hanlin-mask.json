@@ -1,0 +1,63 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": null,
+  "legacyScore": 70,
+  "opportunityScore": null,
+  "evidenceBreakdown": null,
+  "dataCompleteness": null,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "hanlin-mask",
+  "name": "翰林生物面膜",
+  "status": "WATCH",
+  "category": "beauty",
+  "rank": 4,
+  "evidenceConfidence": null,
+  "opportunityBreakdown": null,
+  "advantages": [],
+  "risks": [],
+  "knownFacts": [
+    "你可以在合适时机随时取得销售权。",
+    "GCC面膜品类存在真实需求，但翰林具体SKU尚未完成匹配。"
+  ],
+  "pendingVerifications": [
+    "具体SKU、成分、包装、供货价、MOQ、功效宣称资料。",
+    "UAE/Saudi合规路径和渠道经济性。"
+  ],
+  "uaeDemand": "面膜品类需求强，具体翰林SKU未验证。",
+  "saudiDemand": "待具体SKU验证。",
+  "currentPriceAed": null,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": null,
+  "weightG": null,
+  "dimensions": null,
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": null,
+  "returnAssumptionPct": null,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "建立UAE/Saudi热卖结构对标后，再决定是否正式向翰林启动销售权。",
+  "evidenceLinks": [],
+  "hasRepurchase": true,
+  "isStrategicAsset": true,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "nextAction"
+  ]
+}
