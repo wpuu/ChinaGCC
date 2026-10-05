@@ -1,0 +1,230 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": null,
+  "legacyScore": 73,
+  "opportunityScore": null,
+  "evidenceBreakdown": null,
+  "dataCompleteness": null,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "travel-bottles",
+  "name": "旅行分装瓶套装",
+  "status": "P1_CONDITIONAL",
+  "category": "travel",
+  "rank": 2,
+  "evidenceConfidence": 76,
+  "opportunityBreakdown": {
+    "A1": 3,
+    "A2": 2,
+    "A3": 2,
+    "A4": 2,
+    "A5": 2,
+    "B1": 5,
+    "B2": 2,
+    "B3": 2,
+    "B4": 2,
+    "B5": 2,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 2,
+    "D1": 4,
+    "D2": 3,
+    "D3": 2,
+    "D4": 2,
+    "E1": 2,
+    "E2": 3,
+    "E3": 0,
+    "E4": 2,
+    "F1": 2,
+    "F2": 3,
+    "F3": 2,
+    "F4": 1,
+    "G1": 1,
+    "G2": 0,
+    "G3": 0,
+    "H1": 0,
+    "H2": 2,
+    "H3": 1,
+    "I1": 2,
+    "I2": 1,
+    "I3": 1,
+    "J1": 1,
+    "J2": 0,
+    "J3": 1,
+    "J4": 1,
+    "K1": 2,
+    "K2": 0
+  },
+  "advantages": [
+    {
+      "name": "潜在单位经济性较好",
+      "evidence": "UAE 8件套在AED45左右有在售，中国公开供应显示低MOQ套装",
+      "businessImpact": "若实际整套报价成立，售价与货值之间空间明显",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": [
+        "https://www.noon.com/uae-en/8-pack-travel-bottles-set-for-toiletries-tsa-approved-toiletry-containers-50ml-2oz-leak-proof-travel-size-accessories-with-label-and-storage-box-perfect-for-business-or-personal-travel-use/Z191A5D02E64A12A276EAZ/p/",
+        "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+      ]
+    },
+    {
+      "name": "MOQ友好",
+      "evidence": "公开供应存在MOQ20的完整套装条目",
+      "businessImpact": "失败库存可以控制在较低规模",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": [
+        "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+      ]
+    },
+    {
+      "name": "通用性高",
+      "evidence": "不依赖车型、设备或复杂尺寸匹配",
+      "businessImpact": "GCC买家拿到即可使用，适配型退货低",
+      "impactLevel": 4,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "verified",
+      "evidenceLinks": []
+    }
+  ],
+  "risks": [
+    {
+      "name": "漏液",
+      "evidence": "该品类典型风险集中在瓶盖、阀门和喷头漏液",
+      "probability": 4,
+      "impact": 5,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "倒置24小时、挤压、跌落、高温和喷头循环测试",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "品类典型风险"
+    },
+    {
+      "name": "公开报价是否对应完整套装仍需确认",
+      "evidence": "公开页面可能存在计价单位歧义",
+      "probability": 3,
+      "impact": 4,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "向至少3个供应端确认BOM、件数和完整套装报价",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "供应报价"
+    },
+    {
+      "name": "Amazon实际类目费率未确认",
+      "evidence": "佣金差异会直接改变利润模型",
+      "probability": 3,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "用同类ASIN确认实际类目与佣金",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "Amazon费用规则"
+    },
+    {
+      "name": "不应滥用航空安检认证措辞",
+      "evidence": "容量兼容不等于拥有独立认证",
+      "probability": 2,
+      "impact": 4,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "仅描述容量和航空液体规则，不写未核实认证",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "营销合规"
+    },
+    {
+      "name": "喷头和泵头耐久",
+      "evidence": "多部件套装增加单点故障概率",
+      "probability": 3,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "样品做100次循环和跌落测试",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "产品结构"
+    }
+  ],
+  "knownFacts": [
+    "UAE存在AED45左右的8件套产品。",
+    "Saudi存在多件套真实成交信号。",
+    "中国公开供应存在MOQ20的多件套条目。"
+  ],
+  "pendingVerifications": [
+    "向3个供应端确认完整套装真实报价与BOM。",
+    "确认Amazon UAE实际类目和佣金。",
+    "用样品关闭漏液、喷头和瓶盖耐久风险。"
+  ],
+  "uaeDemand": "有稳定在售和价格带证据，当前成交强度仍需进一步补证。",
+  "saudiDemand": "多件套已有较强成交信号。",
+  "currentPriceAed": 45.19,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": 20,
+  "weightG": 206,
+  "dimensions": "16.5 × 14.5 × 4.5 cm（公开样本，最终包装待确认）",
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": 15,
+  "returnAssumptionPct": 10,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "先确认3家完整套装报价和Amazon类目；未关闭漏液严重风险前不拿大货。",
+  "evidenceLinks": [
+    {
+      "title": "Noon UAE 8件旅行分装瓶",
+      "url": "https://www.noon.com/uae-en/8-pack-travel-bottles-set-for-toiletries-tsa-approved-toiletry-containers-50ml-2oz-leak-proof-travel-size-accessories-with-label-and-storage-box-perfect-for-business-or-personal-travel-use/Z191A5D02E64A12A276EAZ/p/"
+    },
+    {
+      "title": "Alibaba 旅行分装瓶套装供应",
+      "url": "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+    },
+    {
+      "title": "Amazon UAE 官方销售费用",
+      "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+    }
+  ],
+  "hasRepurchase": false,
+  "isStrategicAsset": false,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "gccPrice",
+    "competition",
+    "moq",
+    "weight",
+    "dimensions",
+    "adSpend",
+    "returnRate",
+    "supplierCount",
+    "nextAction"
+  ]
+}

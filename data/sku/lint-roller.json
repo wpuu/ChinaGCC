@@ -1,0 +1,229 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": null,
+  "legacyScore": 79,
+  "opportunityScore": null,
+  "evidenceBreakdown": null,
+  "dataCompleteness": null,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "lint-roller",
+  "name": "粘毛滚+补充卷",
+  "status": "P1_CONDITIONAL",
+  "category": "cleaning",
+  "rank": 3,
+  "evidenceConfidence": 82,
+  "opportunityBreakdown": {
+    "A1": 4,
+    "A2": 3,
+    "A3": 3,
+    "A4": 2,
+    "A5": 2,
+    "B1": 2,
+    "B2": 0,
+    "B3": 1,
+    "B4": 1,
+    "B5": 1,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 1,
+    "D1": 4,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "E1": 2,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2,
+    "F1": 1,
+    "F2": 3,
+    "F3": 1,
+    "F4": 1,
+    "G1": 3,
+    "G2": 2,
+    "G3": 1,
+    "H1": 2,
+    "H2": 2,
+    "H3": 2,
+    "I1": 2,
+    "I2": 2,
+    "I3": 1,
+    "J1": 2,
+    "J2": 1,
+    "J3": 1,
+    "J4": 1,
+    "K1": 1,
+    "K2": 0
+  },
+  "advantages": [
+    {
+      "name": "跨UAE和Saudi成交证据扎实",
+      "evidence": "UAE与Saudi均有多补充卷和粘毛滚商品持续成交",
+      "businessImpact": "真实需求比纯搜索热度更可靠",
+      "impactLevel": 5,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "verified",
+      "evidenceLinks": [
+        "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+      ]
+    },
+    {
+      "name": "补充卷具有复购结构",
+      "evidence": "市场同时存在手柄套装和单独补充卷",
+      "businessImpact": "理论上可提高生命周期价值",
+      "impactLevel": 5,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "partial",
+      "evidenceLinks": [
+        "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+      ]
+    },
+    {
+      "name": "产品通用且低售后",
+      "evidence": "用于衣物、家具、汽车和宠物毛发，无复杂安装",
+      "businessImpact": "退货主要集中在粘性与纸张体验，而不是适配",
+      "impactLevel": 4,
+      "persistence": "long",
+      "isOwnerAdvantage": false,
+      "verificationStatus": "verified",
+      "evidenceLinks": []
+    }
+  ],
+  "risks": [
+    {
+      "name": "主流成交价低于盈利所需价位",
+      "evidence": "当前高销量组合多集中在AED30附近，未证明AED35–50仍有稳定成交",
+      "probability": 4,
+      "impact": 5,
+      "isHardStop": false,
+      "canMitigate": "unknown",
+      "mitigation": "先验证高客单多补充卷组合是否有稳定销量；无则降级",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "UAE价格带"
+    },
+    {
+      "name": "多补充卷套装可能过厚",
+      "evidence": "厚度可能导致更高平台履约档位",
+      "probability": 3,
+      "impact": 4,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "压缩包装、减少手柄、确认实测尺寸",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "包装结构"
+    },
+    {
+      "name": "成熟工厂MOQ偏高",
+      "evidence": "公开低MOQ存在，但成熟套装常要求更高数量",
+      "probability": 3,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "首批用现货经销商或贸易商验证",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "供应端"
+    },
+    {
+      "name": "价格竞争明显",
+      "evidence": "功能标准化、白牌多",
+      "probability": 4,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "通过补充卷数量、撕线、粘性和手柄结构区分",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "市场竞争"
+    },
+    {
+      "name": "补充卷兼容和粘性差评",
+      "evidence": "卷芯规格与胶粘质量会影响复购",
+      "probability": 2,
+      "impact": 3,
+      "isHardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "固定卷芯规格并做粘性、撕线和纸筒质检",
+      "mitigationCost": "low",
+      "residualRisk": null,
+      "mitigationVerified": false,
+      "source": "产品质量"
+    }
+  ],
+  "knownFacts": [
+    "UAE和Saudi均有真实成交信号。",
+    "市场存在补充卷单卖和多补充卷套装。",
+    "目前未找到足够强的AED35–50高客单稳定成交证据。"
+  ],
+  "pendingVerifications": [
+    "验证UAE AED35–50的多补充卷套装是否有稳定成交。",
+    "确认1手柄+4/5补充卷的小MOQ、总重和包装厚度。",
+    "确认Amazon UAE实际类目和履约档位。"
+  ],
+  "uaeDemand": "需求强，但高客单价盈利场景尚未被证明。",
+  "saudiDemand": "补充卷套装存在较强成交信号。",
+  "currentPriceAed": 29,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": 130,
+  "weightG": 200,
+  "dimensions": null,
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": 15,
+  "returnAssumptionPct": 10,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "只验证高客单多补充卷组合；若AED35以上稳定成交仍找不到，降为P2。",
+  "evidenceLinks": [
+    {
+      "title": "Noon UAE 粘毛滚类目",
+      "url": "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+    },
+    {
+      "title": "Amazon UAE 官方销售费用",
+      "url": "https://sell.amazon.ae/pricing?pageName=SA%3ASD%3ASOA-home"
+    },
+    {
+      "title": "Alibaba 粘毛滚补充卷供应",
+      "url": "https://www.alibaba.com/wholesale/lint-refill.html"
+    }
+  ],
+  "hasRepurchase": true,
+  "isStrategicAsset": false,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "gccPrice",
+    "competition",
+    "moq",
+    "weight",
+    "adSpend",
+    "returnRate",
+    "compliance",
+    "supplierCount",
+    "nextAction"
+  ]
+}
