@@ -1,0 +1,50 @@
+{
+  "id": "press-on-nails",
+  "name": "穿戴甲/甲片（胶贴优先）",
+  "asOf": "2026-10-06",
+  "rank": 3,
+  "status": "P1_CONDITIONAL",
+  "opportunityScore": 77,
+  "evidenceConfidence": 86,
+  "dataCompleteness": 70,
+  "dimensions": {
+    "A": 14,
+    "B": 13,
+    "C": 9,
+    "D": 10,
+    "E": 10,
+    "F": 7,
+    "G": 2,
+    "H": 3,
+    "I": 5,
+    "J": 3,
+    "K": 1
+  },
+  "channelAccessGate": "PASS_CONDITIONAL_NOON_NGS_FIRST",
+  "hardStop": false,
+  "sampleReady": false,
+  "risks": [
+    [
+      "低价红海",
+      20
+    ],
+    [
+      "NGS最终零售价竞争力未知",
+      16
+    ],
+    [
+      "款式生命周期/SKU膨胀",
+      15
+    ],
+    [
+      "尺寸/弧度不适配",
+      12
+    ],
+    [
+      "胶贴牢固度",
+      12
+    ]
+  ],
+  "worstLoss100": "Noon NGS下100套裸货约SAR68–251；全成本尚未闭环",
+  "finding": "SAR35–49 premium成品/2–3盒组合强成交仍未验证；强成交仍集中SAR19。"
+}
