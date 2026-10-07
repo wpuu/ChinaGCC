@@ -1,1 +1,51 @@
-{"date":"2026-10-06","status":"draft"}
+{
+  "date": "2026-10-06",
+  "status": "completed",
+  "runTag": "ngs-v4",
+  "scanOrder": [
+    "人群",
+    "种草/发现渠道",
+    "现实成交渠道",
+    "购买触发",
+    "产品族",
+    "具体SKU",
+    "中国供应链",
+    "单位经济性/风险"
+  ],
+  "channelPriority": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "channelAccessGate": {
+    "noonNgsPlatform": "PASS",
+    "ownerReality": "BLOCKED_UNTIL_VALID_CHINESE_COMMERCIAL_REGISTRATION_AND_APPROVAL",
+    "eligibilityReview": "Noon官方说明Legal Entity approved/linked后Eligibility Review最多24–48 working hours；不是端到端上线SLA",
+    "transferPriceRule": "USD Transfer Price；成功送达后按TP结算；Noon内部决定消费者markup，必须Seller Lab实测"
+  },
+  "result": "本轮无足够强的新SKU替换Top5",
+  "updates": [
+    "4件套化妆包：Saudi SAR66.58，460+ sold recently；目标轻量4件套整包重量仍未闭环",
+    "8件套抓夹：Saudi SAR25，250+ sold recently；证据增强",
+    "穿戴甲：强成交继续集中SAR18.95–19；SAR35–49 premium仍无同等级强成交，降级",
+    "原创IP：WAKUKU/SIINONO/ZIYULI中国端增长已证实，但本轮无GCC新IP强sell-through；无授权禁止自营"
+  ],
+  "transferPriceTestGridUsd": {
+    "cosmeticBag4pc": [
+      4.5,
+      5.5,
+      6.5
+    ],
+    "hairClaw8pc": [
+      2,
+      2.6,
+      3.2
+    ],
+    "pressOnNailsBasic": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "originalIp": null
+  },
+  "sampleReadyCount": 0
+}
