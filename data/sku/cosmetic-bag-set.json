@@ -1,13 +1,41 @@
 {
   "id": "cosmetic-bag-set",
-  "name": "化妆/旅行收纳套装",
+  "name": "4件套化妆/旅行收纳包",
   "asOf": "2026-10-06",
   "rank": 1,
   "status": "P1_CONDITIONAL",
   "opportunityScore": 78,
-  "evidenceConfidence": 81,
-  "dataCompleteness": 67,
-  "dimensions": {
+  "evidenceConfidence": 90,
+  "dataCompleteness": 73,
+  "corePersona": "Saudi女性25–39；18–29趋势发现；UAE女性18–39交叉验证",
+  "ageBand": [
+    "Saudi 18–45",
+    "UAE 18–39"
+  ],
+  "genderFit": "female-primary",
+  "discoveryChannel": [
+    "Snapchat",
+    "TikTok",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "viralPotential": "medium",
+  "collectibility": "low",
+  "giftability": "medium",
+  "visualDemoStrength": "high",
+  "trendHalfLife": "medium-long",
+  "IPRisk": "low",
+  "seasonalTrigger": [
+    "旅行",
+    "返校",
+    "节庆",
+    "日常收纳"
+  ],
+  "localPlatformFit": "high",
+  "dimensionScores": {
     "A": 14,
     "B": 11,
     "C": 10,
@@ -20,31 +48,85 @@
     "J": 4,
     "K": 1
   },
-  "channelAccessGate": "PASS_CONDITIONAL_NOON_NGS_FIRST",
-  "hardStop": false,
-  "sampleReady": false,
-  "risks": [
-    [
-      "包装重量/体积超预期",
-      20
-    ],
-    [
-      "NGS最终零售价竞争力未知",
-      16
-    ],
-    [
-      "PVC异味/拉链/缝线",
-      12
-    ],
-    [
-      "审美趋势",
-      12
-    ],
-    [
-      "SKU膨胀",
-      12
-    ]
+  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "transferPriceTestGridUsd": [
+    4.5,
+    5.5,
+    6.5
   ],
-  "worstLoss100": "按旧公开$1.26–1.62/套，100套裸货约SAR473–608；全成本尚未闭环",
-  "finding": "4件套<=250–300g未证明；公开4件绒布套装可达1kg，改验证可套娃轻量3/4件套。"
+  "evidence": [
+    "Saudi 4件套SAR66.58，460+ sold recently",
+    "公开4件绒布供应样本包装可达30×30×20cm、1kg；轻量假设未证实"
+  ],
+  "advantages": [
+    {
+      "name": "强成交",
+      "evidence": "Saudi 460+近期成交",
+      "businessImpact": "需求先成立",
+      "impactLevel": 5,
+      "persistence": "medium-long",
+      "ownerUnique": false,
+      "verified": "yes"
+    },
+    {
+      "name": "低买错率",
+      "evidence": "无尺码/设备适配",
+      "businessImpact": "低售后",
+      "impactLevel": 4,
+      "persistence": "long",
+      "ownerUnique": false,
+      "verified": "yes"
+    }
+  ],
+  "topRisks": [
+    {
+      "name": "整包重量/体积",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "mitigation": "3家整套毛重+压缩尺寸"
+    },
+    {
+      "name": "NGS最终零售价",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "mitigation": "TP三点Seller Lab实测"
+    },
+    {
+      "name": "中国到深圳成本",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false,
+      "mitigation": "拿真实国内运费/验证直发"
+    },
+    {
+      "name": "拉链缝线异味",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "mitigation": "样品QC"
+    },
+    {
+      "name": "SKU膨胀",
+      "probability": 4,
+      "impact": 3,
+      "riskScore": 12,
+      "hardStop": false,
+      "mitigation": "1色1套型"
+    }
+  ],
+  "hardStop": false,
+  "worstLoss100": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Owner主体未Ready",
+    "毛重/尺寸未闭环",
+    "NGS最终价未实测"
+  ],
+  "nextAction": "只询3家轻量4件套；不能证明约200–300g则转3件套"
 }
