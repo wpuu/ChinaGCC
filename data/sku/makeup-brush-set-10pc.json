@@ -1,0 +1,223 @@
+{
+  "id": "makeup-brush-set-10pc",
+  "name": "10件套便携化妆刷+收纳袋",
+  "asOf": "2026-10-07",
+  "rank": 3,
+  "status": "P1_CONDITIONAL",
+  "opportunityScore": 76,
+  "evidenceConfidence": 91,
+  "dataCompleteness": 82,
+  "corePersona": "Saudi女性18–39，尤其Gen Z/学生与经常外出补妆人群；UAE女性18–39交叉验证",
+  "ageBand": [
+    "Saudi 18–45",
+    "UAE 18–39"
+  ],
+  "genderFit": "female-primary",
+  "discoveryChannel": [
+    "TikTok",
+    "Snapchat",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "viralPotential": "medium-high",
+  "collectibility": "low",
+  "giftability": "medium-high",
+  "visualDemoStrength": "high",
+  "trendHalfLife": "medium-long",
+  "IPRisk": "low for generic/original packaging; branded copies prohibited",
+  "seasonalTrigger": [
+    "旅行",
+    "返校",
+    "节庆送礼",
+    "日常补妆"
+  ],
+  "localPlatformFit": "high in Saudi; medium-high in UAE",
+  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "opportunityBreakdown": {
+    "A1": 3,
+    "A2": 3,
+    "A3": 2,
+    "A4": 2,
+    "A5": 2,
+    "B1": 4,
+    "B2": 2,
+    "B3": 2,
+    "B4": 2,
+    "B5": 3,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 1,
+    "D1": 4,
+    "D2": 3,
+    "D3": 2,
+    "D4": 1,
+    "E1": 3,
+    "E2": 3,
+    "E3": 2,
+    "E4": 2,
+    "F1": 1,
+    "F2": 2,
+    "F3": 2,
+    "F4": 2,
+    "G1": 1,
+    "G2": 0,
+    "G3": 1,
+    "H1": 1,
+    "H2": 1,
+    "H3": 1,
+    "I1": 2,
+    "I2": 2,
+    "I3": 1,
+    "J1": 2,
+    "J2": 1,
+    "J3": 1,
+    "J4": 1,
+    "K1": 0,
+    "K2": 0
+  },
+  "dimensionScores": {
+    "A": 12,
+    "B": 13,
+    "C": 10,
+    "D": 10,
+    "E": 10,
+    "F": 7,
+    "G": 2,
+    "H": 3,
+    "I": 5,
+    "J": 5,
+    "K": 0
+  },
+  "transferPriceTestGridUsd": [
+    3.5,
+    4.5,
+    5.5
+  ],
+  "demandEvidence": [
+    {
+      "market": "Saudi",
+      "evidence": "TRENZ 10件刷+收纳盒 SAR35.50，370+ sold recently，239评价",
+      "url": "https://supermall.noon.com/saudi-en/the-on-the-go-makeup-brush-set-contains-ten-makeup-brushes-plus-a-case-s07/ZD92DDC1198B9AF82BBB8Z/p/"
+    },
+    {
+      "market": "UAE",
+      "evidence": "DUcare 15件套+旅行袋 AED96.50，90+ sold recently；同类旅行刷套装多款持续成交",
+      "url": "https://supermall.noon.com/uae-en/ducare/"
+    }
+  ],
+  "supplyEvidence": [
+    {
+      "evidence": "义乌10支迷你化妆刷+刷包，CN¥7.8起，MOQ 1，约95g，13×7×2cm",
+      "url": "https://en.yiwugo.com/product/detail/986877044.html"
+    },
+    {
+      "evidence": "Alibaba 10支套装，MOQ 10，单包150g/20×15×3cm（较重备选）",
+      "url": "https://www.alibaba.com/product-detail/Makeup-Brush-Set-With-Custom-Logo_1601044154355.html"
+    }
+  ],
+  "advantages": [
+    {
+      "name": "Saudi强成交已验证",
+      "evidence": "单SKU 370+近期成交",
+      "businessImpact": "不是供应端倒推，购买触发明确",
+      "impactLevel": 5,
+      "persistence": "medium-long",
+      "ownerUnique": false,
+      "verified": "yes"
+    },
+    {
+      "name": "轻小且中国首测成本低",
+      "evidence": "义乌现货95g、MOQ1、CN¥7.8起",
+      "businessImpact": "适合NGS订单后送深圳，不需压中东库存",
+      "impactLevel": 5,
+      "persistence": "long",
+      "ownerUnique": false,
+      "verified": "yes"
+    },
+    {
+      "name": "视觉演示和礼赠性兼具",
+      "evidence": "完整刷具+便携包可直接展示前后使用场景",
+      "businessImpact": "适合短视频种草并提高套装感知价值",
+      "impactLevel": 4,
+      "persistence": "medium-long",
+      "ownerUnique": false,
+      "verified": "partial"
+    }
+  ],
+  "topRisks": [
+    {
+      "name": "NGS最终消费者售价未知",
+      "evidence": "Noon只公开Transfer Price，markup内部计算",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "Seller Lab用$3.5/$4.5/$5.5三点实测",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    },
+    {
+      "name": "刷毛掉毛/扎脸/软硬主观",
+      "evidence": "直接接触皮肤且不同刷毛密度体验差异大",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "拉毛、洗刷、干湿粉底、连续使用样品QC",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    },
+    {
+      "name": "低价白牌与品牌竞争",
+      "evidence": "UAE/Saudi已有大量品牌和白牌刷具",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "只做便携完整套装，不拼单支低价",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    },
+    {
+      "name": "卫生/异味质量争议",
+      "evidence": "刷毛胶水、塑料柄、包装卫生会影响评价",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "气味、掉色、清洗后脱胶测试",
+      "mitigationCost": "low",
+      "residualRisk": "low-medium"
+    },
+    {
+      "name": "款式颜色膨胀",
+      "evidence": "供应端颜色多，容易拆散库存",
+      "probability": 3,
+      "impact": 3,
+      "riskScore": 9,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "首测只1色1结构",
+      "mitigationCost": "low",
+      "residualRisk": "low"
+    }
+  ],
+  "hardStop": false,
+  "worstLoss100": "按义乌CN¥7.8/套裸货约CN¥780；加入包装、国内交仓、QC和退货压力储备后首测100件止损上限暂定USD180，正式值以深圳交仓报价替换",
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Opportunity<80",
+    "Owner中国商业主体未通过Noon Legal Entity",
+    "NGS最终消费者价未实测",
+    "刷毛QC未完成"
+  ],
+  "nextAction": "Noon主体通过后优先做TP三点映射；同时只拿2–3个95–150g低MOQ样品做掉毛/异味/洗刷测试"
+}
