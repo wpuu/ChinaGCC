@@ -1,50 +1,142 @@
 {
   "id": "press-on-nails",
-  "name": "穿戴甲/甲片（胶贴优先）",
+  "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
   "asOf": "2026-10-06",
-  "rank": 3,
-  "status": "P1_CONDITIONAL",
-  "opportunityScore": 77,
-  "evidenceConfidence": 86,
-  "dataCompleteness": 70,
-  "dimensions": {
+  "rank": 7,
+  "status": "P2",
+  "opportunityScore": 67,
+  "evidenceConfidence": 92,
+  "dataCompleteness": 80,
+  "corePersona": "Saudi女性18–29趋势发现；25–39利润验证；UAE女性18–39观察",
+  "ageBand": [
+    "Saudi 18–45",
+    "UAE 18–39"
+  ],
+  "genderFit": "female-primary",
+  "discoveryChannel": [
+    "Snapchat",
+    "TikTok",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "viralPotential": "high",
+  "collectibility": "medium",
+  "giftability": "medium",
+  "visualDemoStrength": "very-high",
+  "trendHalfLife": "short-medium",
+  "IPRisk": "low for original/generic designs",
+  "seasonalTrigger": [
+    "聚会",
+    "婚礼",
+    "节庆",
+    "周末社交"
+  ],
+  "localPlatformFit": "Saudi demand very high but low-price concentrated",
+  "dimensionScores": {
     "A": 14,
-    "B": 13,
+    "B": 7,
     "C": 9,
     "D": 10,
     "E": 10,
-    "F": 7,
+    "F": 4,
     "G": 2,
     "H": 3,
-    "I": 5,
+    "I": 4,
     "J": 3,
     "K": 1
   },
-  "channelAccessGate": "PASS_CONDITIONAL_NOON_NGS_FIRST",
-  "hardStop": false,
-  "sampleReady": false,
-  "risks": [
-    [
-      "低价红海",
-      20
+  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "transferPriceTestGridUsd": {
+    "basic": [
+      1.5,
+      1.9,
+      2.3
     ],
-    [
-      "NGS最终零售价竞争力未知",
-      16
-    ],
-    [
-      "款式生命周期/SKU膨胀",
-      15
-    ],
-    [
-      "尺寸/弧度不适配",
-      12
-    ],
-    [
-      "胶贴牢固度",
-      12
+    "premiumShadowOnly": [
+      3,
+      3.8,
+      4.5
     ]
+  },
+  "evidence": [
+    "Saudi基础款SAR19，1200+ sold recently",
+    "KHAJUL SAR19，640+；kaixin SAR18.95，460+",
+    "SAR35–49 premium仍无同等级强成交",
+    "中国预贴胶24片约$1.21–1.35、MOQ10"
   ],
-  "worstLoss100": "Noon NGS下100套裸货约SAR68–251；全成本尚未闭环",
-  "finding": "SAR35–49 premium成品/2–3盒组合强成交仍未验证；强成交仍集中SAR19。"
+  "advantages": [
+    {
+      "name": "需求极强",
+      "evidence": "多个SKU 460–1200+近期成交",
+      "businessImpact": "真实需求明确",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "ownerUnique": false,
+      "verified": "yes"
+    },
+    {
+      "name": "轻小低库存风险",
+      "evidence": "低MOQ供应充足",
+      "businessImpact": "适合小批验证",
+      "impactLevel": 4,
+      "persistence": "long",
+      "ownerUnique": false,
+      "verified": "partial"
+    }
+  ],
+  "topRisks": [
+    {
+      "name": "低价带锁死",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "mitigation": "只测基础低TP"
+    },
+    {
+      "name": "NGS最终零售价",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "mitigation": "TP三点实测"
+    },
+    {
+      "name": "款式生命周期",
+      "probability": 5,
+      "impact": 3,
+      "riskScore": 15,
+      "hardStop": false,
+      "mitigation": "1–2款滚动"
+    },
+    {
+      "name": "尺寸/弧度",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "mitigation": "多尺寸+尺码图"
+    },
+    {
+      "name": "胶贴牢固度",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "mitigation": "24h佩戴测试"
+    }
+  ],
+  "hardStop": false,
+  "worstLoss100": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Opportunity<80",
+    "premium强成交未证实",
+    "Owner主体未Ready",
+    "NGS最终价未实测"
+  ],
+  "nextAction": "只做基础款NGS价格映射；TP约$1.9若最终价明显高于SAR19–24则继续P2"
 }
