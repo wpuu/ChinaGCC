@@ -59,3 +59,14 @@ Upwork Shopify Demo 负责：
 - 客户交付演示
 
 禁止把作品集 Demo 反向当成 ChinaGCC SKU 已验证的证据。
+
+
+## 2026-10-08 Owner 更新
+
+- 盲盒 / Collectibles 从当前 Shopify Build Queue 移除。
+- 不再为盲盒单独搜索、设计或开发 Shopify Demo。
+- 只有 ChinaGCC 以后出现“原创/授权 + 无IP硬风险 + GCC强成交证据”时，才重新开启独立评估。
+- 当前 Shopify 对接只保留：
+  1. Demo A：GCC旅行美妆收纳系统；
+  2. Demo B：高端护肤/面膜品牌；
+  3. 共用可快速换 SKU 的 Shopify Commerce Core。
