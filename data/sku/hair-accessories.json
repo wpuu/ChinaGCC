@@ -1,0 +1,223 @@
+{
+  "id": "hair-accessories",
+  "name": "8件套强抓力抓夹",
+  "asOf": "2026-10-07",
+  "rank": 5,
+  "status": "P1_CONDITIONAL",
+  "opportunityScore": 74,
+  "evidenceConfidence": 92,
+  "dataCompleteness": 78,
+  "corePersona": "Saudi女性18–39，学生/Gen Z趋势发现；25–39日常实用与利润验证；UAE女性18–39交叉验证",
+  "ageBand": [
+    "Saudi 18–45",
+    "UAE 18–39"
+  ],
+  "genderFit": "female-primary",
+  "discoveryChannel": [
+    "TikTok",
+    "Snapchat",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "viralPotential": "medium-high",
+  "collectibility": "low-medium",
+  "giftability": "medium",
+  "visualDemoStrength": "high",
+  "trendHalfLife": "medium",
+  "IPRisk": "low for generic shapes/colors; branded/logo copies prohibited",
+  "seasonalTrigger": [
+    "返校",
+    "旅行",
+    "日常通勤",
+    "节庆送礼"
+  ],
+  "localPlatformFit": "high in Saudi; medium in UAE",
+  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "opportunityBreakdown": {
+    "A1": 4,
+    "A2": 3,
+    "A3": 2,
+    "A4": 2,
+    "A5": 2,
+    "B1": 3,
+    "B2": 1,
+    "B3": 1,
+    "B4": 1,
+    "B5": 3,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 1,
+    "D1": 4,
+    "D2": 3,
+    "D3": 2,
+    "D4": 2,
+    "E1": 3,
+    "E2": 3,
+    "E3": 2,
+    "E4": 2,
+    "F1": 1,
+    "F2": 3,
+    "F3": 1,
+    "F4": 1,
+    "G1": 1,
+    "G2": 0,
+    "G3": 0,
+    "H1": 1,
+    "H2": 1,
+    "H3": 1,
+    "I1": 2,
+    "I2": 2,
+    "I3": 1,
+    "J1": 1,
+    "J2": 1,
+    "J3": 1,
+    "J4": 1,
+    "K1": 2,
+    "K2": 0
+  },
+  "dimensionScores": {
+    "A": 13,
+    "B": 9,
+    "C": 10,
+    "D": 11,
+    "E": 10,
+    "F": 6,
+    "G": 1,
+    "H": 3,
+    "I": 5,
+    "J": 4,
+    "K": 2
+  },
+  "transferPriceTestGridUsd": [
+    2.4,
+    2.9,
+    3.4
+  ],
+  "demandEvidence": [
+    {
+      "market": "Saudi",
+      "evidence": "KHAJUL 8件套 SAR25，250+ sold recently，约110评价，2026-10-07复核仍成立",
+      "url": "https://supermall.noon.com/saudi-en/beauty/hair-care/khajul/"
+    },
+    {
+      "market": "UAE",
+      "evidence": "多件套抓夹/发夹普遍10–60+近期成交，强度低于Saudi",
+      "url": "https://supermall.noon.com/uae-en/beauty/hair-care/hair-accessories/clips-24997/"
+    }
+  ],
+  "supplyEvidence": [
+    {
+      "evidence": "Alibaba 8件套蝴蝶结/亚克力抓夹 $1.23–1.36，MOQ100，河北供应商",
+      "url": "https://www.alibaba.com/pla/8-Pcsset-Luxury-Bow-Crab-Hair_1601277903063.html"
+    },
+    {
+      "evidence": "义乌大号抓夹单只约CN¥2.75–4.71，20–30g级，低MOQ可拿样",
+      "url": "https://wap.yiwugo.com/products/976946015"
+    }
+  ],
+  "advantages": [
+    {
+      "name": "Saudi成交强且连续",
+      "evidence": "8件套250+近期成交，多轮复核仍存在",
+      "businessImpact": "需求不是一次性搜索热度",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "ownerUnique": false,
+      "verified": "yes"
+    },
+    {
+      "name": "轻小耐运",
+      "evidence": "单只抓夹公开供应样本约20–30g，普通货无电池液体",
+      "businessImpact": "适合NGS中国直发",
+      "impactLevel": 5,
+      "persistence": "long",
+      "ownerUnique": false,
+      "verified": "partial"
+    },
+    {
+      "name": "河北供应信号",
+      "evidence": "8件套Alibaba样本来自河北供应商",
+      "businessImpact": "天津附近询样/QC/补货潜在更便利",
+      "impactLevel": 3,
+      "persistence": "medium-long",
+      "ownerUnique": true,
+      "verified": "partial"
+    }
+  ],
+  "topRisks": [
+    {
+      "name": "SAR25低客单限制TP",
+      "evidence": "头部8件套成交价约SAR25",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "只接受TP映射后终价仍在SAR22–29",
+      "mitigationCost": "low",
+      "residualRisk": "medium-high"
+    },
+    {
+      "name": "NGS最终消费者售价未知",
+      "evidence": "Noon markup不公开",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "$2.4/$2.9/$3.4 TP实测",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    },
+    {
+      "name": "弹簧/塑料齿断裂",
+      "evidence": "抓夹核心故障点直接导致差评",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "500次开合+跌落+夹持测试",
+      "mitigationCost": "low",
+      "residualRisk": "low-medium"
+    },
+    {
+      "name": "颜色组合造成库存分散",
+      "evidence": "消费者审美分化、套装配色多",
+      "probability": 4,
+      "impact": 3,
+      "riskScore": 12,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "首测固定中性色2风格8件套",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    },
+    {
+      "name": "供应套装与Saudi畅销结构不完全同款",
+      "evidence": "河北样本为蝴蝶结/亚克力组合，Saudi畅销为4雾面+4亮面",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "canMitigate": "yes",
+      "mitigation": "按畅销结构定向找现货/组合，不拿仿品牌",
+      "mitigationCost": "low",
+      "residualRisk": "medium"
+    }
+  ],
+  "hardStop": false,
+  "worstLoss100": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Opportunity<80",
+    "Owner主体未Ready",
+    "NGS最终价未实测",
+    "目标8件套结构与真实供应尚未完全对齐"
+  ],
+  "nextAction": "找3家能做4雾面+4亮面强抓力结构的中国现货/低MOQ供应商，并取得整套毛重/尺寸；随后做TP映射"
+}
