@@ -1,0 +1,223 @@
+{
+  "id": "makeup-brushes-10pc",
+  "name": "10支便携化妆刷+收纳袋",
+  "asOf": "2026-10-08",
+  "rank": 3,
+  "status": "P1_CONDITIONAL",
+  "opportunityScore": 76,
+  "evidenceConfidence": 91,
+  "dataCompleteness": 82,
+  "scoreCaveat": "B1及售价安全垫未实测，91/82为前轮工作值，需真实费用后重算",
+  "corePersona": "Saudi女性18–45；18–29趋势/25–39利润，UAE女性18–39交叉",
+  "ageBand": [
+    "Saudi18–45",
+    "UAE18–39"
+  ],
+  "genderFit": "female-primary",
+  "discoveryChannel": [
+    "TikTok",
+    "Snapchat",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS(未获准)",
+    "Amazon UAE/Saudi(备选)"
+  ],
+  "viralPotential": "medium",
+  "collectibility": "low",
+  "giftability": "high",
+  "visualDemoStrength": "high",
+  "trendHalfLife": "medium",
+  "IPRisk": "generic only",
+  "seasonalTrigger": [
+    "旅行",
+    "返校",
+    "Eid"
+  ],
+  "localPlatformFit": "Saudi-high UAE-unverified",
+  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_LEGAL_ENTITY_AND_PAYOUT",
+  "opportunityBreakdown": {
+    "A1": 4,
+    "A2": 3,
+    "A3": 2,
+    "A4": 2,
+    "A5": 2,
+    "B1": 2,
+    "B2": 2,
+    "B3": 2,
+    "B4": 1,
+    "B5": 3,
+    "C1": 4,
+    "C2": 3,
+    "C3": 2,
+    "C4": 2,
+    "D1": 3,
+    "D2": 3,
+    "D3": 2,
+    "D4": 2,
+    "E1": 3,
+    "E2": 3,
+    "E3": 2,
+    "E4": 2,
+    "F1": 1,
+    "F2": 2,
+    "F3": 1,
+    "F4": 2,
+    "G1": 1,
+    "G2": 0,
+    "G3": 0,
+    "H1": 1,
+    "H2": 1,
+    "H3": 2,
+    "I1": 2,
+    "I2": 1,
+    "I3": 1,
+    "J1": 2,
+    "J2": 1,
+    "J3": 1,
+    "J4": 1,
+    "K1": 2,
+    "K2": 0
+  },
+  "dimensionScores": {
+    "A": 13,
+    "B": 10,
+    "C": 11,
+    "D": 10,
+    "E": 10,
+    "F": 6,
+    "G": 1,
+    "H": 4,
+    "I": 4,
+    "J": 5,
+    "K": 2
+  },
+  "transferPriceTestGridUsd": [
+    3.5,
+    4.5,
+    5.5
+  ],
+  "evidence": [
+    {
+      "type": "GCC成交",
+      "description": "TRENZ S06 SAR34.52–35.50 350+ recently；S07 SAR35.50 370+ (同品牌)",
+      "url": "https://supermall.noon.com/saudi-en/trenz/"
+    },
+    {
+      "type": "中国供应",
+      "description": "义乌10支带包¥7.8 MOQ1 95g 13×7×2cm (未含运输包装)",
+      "url": "https://en.yiwugo.com/product/detail/986877044.html"
+    },
+    {
+      "type": "异构供应样本",
+      "description": "10支$4.84 MOQ20 含包250g；不能以此推断目标同款",
+      "url": "https://www.alibaba.com/product-detail/Nude-Cosmetic-Small-Wood-Portable-10_1600458442587.html"
+    }
+  ],
+  "advantages": [
+    {
+      "name": "Saudi350+成交",
+      "evidence": "公开平台页面",
+      "businessImpact": "证明品类需求",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "ownerUnique": false,
+      "verified": "partial"
+    },
+    {
+      "name": "MOQ1轻量供应",
+      "evidence": "义乌供应页面95g标重",
+      "businessImpact": "小批验证成本低",
+      "impactLevel": 5,
+      "persistence": "medium",
+      "ownerUnique": false,
+      "verified": "partial"
+    }
+  ],
+  "topRisks": [
+    {
+      "name": "Noon最终价与送仓费用",
+      "evidence": "品类/公开竞品风险，未取得退货统计",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false,
+      "mitigation": "取得Seller Lab实价+快递合同价",
+      "mitigationCost": "low-medium",
+      "residualRisk": "unknown"
+    },
+    {
+      "name": "掉毛/扎脸",
+      "evidence": "品类/公开竞品风险，未取得退货统计",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false,
+      "mitigation": "3家样品刷毛与水洗测试",
+      "mitigationCost": "low-medium",
+      "residualRisk": "unknown"
+    },
+    {
+      "name": "价格战/本地快送",
+      "evidence": "品类/公开竞品风险，未取得退货统计",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false,
+      "mitigation": "验证最终价竞争安全边际",
+      "mitigationCost": "low-medium",
+      "residualRisk": "unknown"
+    },
+    {
+      "name": "胶水气味/卫生",
+      "evidence": "品类/公开竞品风险，未取得退货统计",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false,
+      "mitigation": "固定QC留样",
+      "mitigationCost": "low-medium",
+      "residualRisk": "unknown"
+    },
+    {
+      "name": "换款SKU膨胀",
+      "evidence": "品类/公开竞品风险，未取得退货统计",
+      "probability": 3,
+      "impact": 3,
+      "riskScore": 9,
+      "hardStop": false,
+      "mitigation": "先选1色1版",
+      "mitigationCost": "low-medium",
+      "residualRisk": "unknown"
+    }
+  ],
+  "hardStop": false,
+  "worstLoss100": {
+    "currency": "CNY",
+    "type": "ESTIMATE_NOT_QUOTE",
+    "lossIfZeroReceipts": 2480,
+    "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
+    "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
+  },
+  "unitEconomics": {
+    "transferPriceUsd": [
+      3.5,
+      4.5,
+      5.5
+    ],
+    "consumerPrice": null,
+    "chinaCostCny": 7.8,
+    "deliveryCost": null,
+    "contributionMargin": null,
+    "markup": null
+  },
+  "sampleReady": false,
+  "sampleBlockers": [
+    "主体未批准",
+    "Seller Lab实价未知",
+    "送仓+包装/QC未知",
+    "严重风险未关闭",
+    "V2<80"
+  ],
+  "nextAction": "同规格3家询含包装重量/尺寸/报价；账号通过后三点TP映射"
+}
