@@ -1,12 +1,103 @@
 {
   "date": "2026-10-08",
-  "status": "research_completed",
-  "result": "本轮无足够强新机会替换Top5",
-  "channelPriority": [
-    "Noon NGS",
-    "Amazon UAE/Saudi"
+  "status": "audit_completed_partial_sync",
+  "model": "Issue#12 V2",
+  "asOfBeijing": "2026-10-08T22:36:26+08:00",
+  "mainConclusion": "Noon NGS仍第一、Amazon第二。Top5暂无充分新证据换榜；0 SKU通过Sample Gate；不进货、不办执照。",
+  "top10": [
+    [
+      "cosmetic-bag-set",
+      78,
+      90,
+      73
+    ],
+    [
+      "silicone-brush",
+      78,
+      82,
+      84
+    ],
+    [
+      "makeup-brushes-10pc",
+      76,
+      91,
+      82
+    ],
+    [
+      "travel-bottles",
+      75,
+      76,
+      84
+    ],
+    [
+      "lint-roller",
+      74,
+      83,
+      80
+    ],
+    [
+      "hair-accessories",
+      70,
+      92,
+      78
+    ],
+    [
+      "press-on-nails",
+      67,
+      92,
+      80
+    ],
+    [
+      "phone-charm-beaded",
+      68,
+      84,
+      76
+    ],
+    [
+      "cable-management",
+      69,
+      63,
+      58
+    ],
+    [
+      "makeup-sponge",
+      67,
+      78,
+      68
+    ]
   ],
-  "sampleReadyCount": 0,
-  "evidenceNote": "公开商品页仅为快照，非Seller Lab实时成交",
-  "nextAction": "核实主体资格、售价映射、完整包装及中国交仓成本"
+  "disclaimer": "上述排名是按女性首单可执行性筛选的执行顺序，不按机会分机械排序；机会分仍为临时值，尚无完整15%贡献毛利实证。",
+  "verifiedSources": {
+    "ngs": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "saudiBrush": "https://supermall.noon.com/saudi-en/the-on-the-go-makeup-brush-set-contains-ten-makeup-brushes-plus-a-case-s06/Z37192E767E9C14D8B91AZ/p/",
+    "chinaBrush": "https://en.yiwugo.com/product/detail/986877044.html",
+    "fourBagCounterexample": "https://www.alibaba.com/product-detail/2026-Hot-Selling-4-Pcs-Flannel_1600838608630.html",
+    "basicNails": "https://supermall.noon.com/saudi-en/khajul/vitasign/"
+  },
+  "todayFacts": [
+    "Saudi TRENZ S06 10件化妆刷+包SAR34.52、350+ sold recently；中国10支带包CN¥7.8 MOQ1 95g（未证明与同款一致）。",
+    "Saudi TRENZ Z40四件套SAR66.58、460+ sold recently；另一4件绒布套单包1kg，仅作反例，目标轻薄款最终计费毛重未知。",
+    "Saudi KHAJUL基础甲片SAR19、640+ sold recently；SAR35–49 premium成品/2–3盒套装仍没强成交证据。",
+    "2026-09-26 Amazon公布FBA头程短期优惠，截止2026-10-31，不计入长期利润模型。"
+  ],
+  "statusGates": {
+    "noonNgs": "0/12",
+    "amazon": "0/15",
+    "sampleReady": 0,
+    "originalIP": "UNLICENSED_HARD_STOP",
+    "hanlin": "NO_LAUNCH",
+    "premiumNails": "NOT_PROVEN",
+    "cosmeticBag15pct": "NOT_PROVEN"
+  },
+  "needs": [
+    "合法中国主体/Noon审批真实性",
+    "目标SKU三家真实报价+整包尺寸重量+QC",
+    "Seller Lab TP到消费者价格映射与15%贡献毛利"
+  ],
+  "nextTasks": [
+    "查Noon账户Organization ID/Store完成凭证，无证据不算完成",
+    "对化妆包和10件刷具补同款供应商报价与整包实测",
+    "Seller Lab可用后实测TP三点，否则不通过经济性Gate"
+  ],
+  "syncNote": "此文件为每日简报；完整A-K和Top5风险当前仍在对应SKU源文件或V2规则中。权威current.json尚需写入同步。"
 }
