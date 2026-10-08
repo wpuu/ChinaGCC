@@ -1,7 +1,7 @@
 {
   "id": "press-on-nails",
   "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-08",
   "rank": 7,
   "status": "P2",
   "opportunityScore": 67,
@@ -138,5 +138,12 @@
     "Owner主体未Ready",
     "NGS最终价未实测"
   ],
-  "nextAction": "只做基础款NGS价格映射；TP约$1.9若最终价明显高于SAR19–24则继续P2"
+  "nextAction": "只做基础款NGS价格映射；TP约$1.9若最终价明显高于SAR19–24则继续P2",
+  "latestAudit": {
+    "date": "2026-10-08",
+    "premiumSAR35to49StrongSales": "NOT_PROVEN",
+    "verifiedBasicOffer": "SAR19 640+ sold recently",
+    "source": "https://supermall.noon.com/saudi-en/khajul/vitasign/",
+    "fullWorstLoss100": null
+  }
 }
