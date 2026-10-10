@@ -1,0 +1,341 @@
+{
+  "project": "ChinaGCC",
+  "date": "2026-10-10",
+  "run": "evening",
+  "asOfAsiaShanghai": "2026-10-10T20:06:35+08:00",
+  "runResult": "No newly qualified SKU; new verified Noon Finds discovery-to-checkout route; no approval for buying samples, SKU 0 Sample Ready",
+  "researchSequence": [
+    "persona",
+    "discoveryChannel",
+    "checkoutChannel",
+    "purchaseTrigger",
+    "productFamily",
+    "GCC evidence for specific SKU",
+    "China supplier after GCC evidence",
+    "NGS contribution and risk"
+  ],
+  "personas": {
+    "primary": [
+      "Saudi women 18–45",
+      "UAE women 18–39",
+      "female Gen Z/students"
+    ],
+    "secondary": [
+      "young families"
+    ],
+    "watchOnly": [
+      "50+"
+    ]
+  },
+  "discoveryChannels": [
+    {
+      "name": "Snapchat",
+      "function": "organic demand discovery; no conversion assumption"
+    },
+    {
+      "name": "TikTok",
+      "function": "trend discovery; no conversion assumption"
+    },
+    {
+      "name": "Instagram",
+      "function": "trend discovery; no conversion assumption"
+    },
+    {
+      "name": "noon Finds",
+      "function": "official free in-app shoppable video capability for KSA/UAE sellers; eligibility for China NGS stores and video listing QC UNVERIFIED; opportunity for 15s–3min demos and in-app conversion",
+      "firstParty": true,
+      "strategicChange": "test after account approval, not before"
+    }
+  ],
+  "checkoutChannels": [
+    {
+      "name": "noon NGS",
+      "priority": 1,
+      "gate": "PLATFORM_PASS_OWNER_BLOCKED"
+    },
+    {
+      "name": "Amazon UAE/Saudi",
+      "priority": 2,
+      "gate": "OWNER_ACCOUNT_UNVERIFIED"
+    }
+  ],
+  "purchaseTriggers": [
+    "daily beauty organization",
+    "travel",
+    "back-to-school",
+    "gifts",
+    "fast hairstyle",
+    "nail salon alternative",
+    "charm personalization/collecting"
+  ],
+  "productFamilies": [
+    "legal-original blind boxes, collectibles, plush and charms: WATCH",
+    "cosmetic bags and beauty organizers: P1 conditional",
+    "hair accessories: P1 conditional",
+    "press-on nails with adhesive tabs and no liquid glue: P2",
+    "phone and bag charms original/no IP: P2"
+  ],
+  "newOpportunity": {
+    "type": "CHANNEL_NOT_SKU",
+    "name": "noon Finds official free shoppable video channel",
+    "evidence": "noon official FAQs: video length 15 sec–3 min; video categories incl Fashion/Beauty/Home; KSA/UAE; no fee to list/view; noon-account checkout; seller may contact vidcom.support@noon.com",
+    "limitations": [
+      "No evidence that NGS China sellers may participate",
+      "No evidence of feed distribution/organic impressions",
+      "No proof of any ChinaGCC conversion, revenue, or permission"
+    ],
+    "recommendedTest": "after NGS Legal Entity+Product QC, ask seller support to confirm NGS eligibility for Finds and whether 15–30 second original product demonstrations can be featured; no ad or inventory budget until confirmed"
+  },
+  "gccEvidenceBeforeSupply": [
+    {
+      "product": "8-piece KHAJUL strong hold claw hair clips",
+      "market": "KSA",
+      "price": "SAR25",
+      "label": "240+ sold recently",
+      "source": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/clips-24997/",
+      "limitation": "old search crawl, not independently verified 2026-10-10 orders"
+    },
+    {
+      "product": "8-piece claw clips",
+      "market": "UAE",
+      "price": "AED29.26",
+      "label": "20+ sold recently",
+      "source": "https://www.noon.com/uae-en/beauty/hair-care/hair-accessories/tabby-noon/",
+      "limitation": "old search crawl"
+    },
+    {
+      "product": "24pc press-on nails",
+      "market": "KSA",
+      "price": "SAR19",
+      "label": "1300+ sold recently",
+      "source": "https://www.noon.com/saudi-en/beauty/makeup-16142/nails-20024/false-nails/press-on-false-nails/",
+      "limitation": "old search crawl; not premium economics"
+    }
+  ],
+  "chinaSupplyAfterGccEvidence": {
+    "cosmeticBagSet": "existing supplier samples only; exact 4pc package weighed price MOQ and Shenzhen unit transport still missing",
+    "hairAccessories": "previous explicit 8pcs set $1.23-1.36 MOQ100, not today's live quote",
+    "pressOnNails": "previous low price 24pcs supply indicative only; cosmetic category rules and adhesive tab spec not verified",
+    "originalCharms": "generic supply exists but same-SKU GCC strong demand, category compliance and enforceable IP clearance unproved"
+  },
+  "rankings": [
+    {
+      "id": "cosmetic-bag-set",
+      "rank": 1,
+      "opportunityScore": 78,
+      "evidenceConfidence": 90,
+      "dataCompleteness": 73,
+      "status": "P1_CONDITIONAL",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "silicone-brush",
+      "rank": 2,
+      "opportunityScore": 78,
+      "evidenceConfidence": 82,
+      "dataCompleteness": 84,
+      "status": "P1_CONDITIONAL",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "travel-bottles",
+      "rank": 3,
+      "opportunityScore": 75,
+      "evidenceConfidence": 76,
+      "dataCompleteness": 84,
+      "status": "P1_CONDITIONAL",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "lint-roller",
+      "rank": 4,
+      "opportunityScore": 74,
+      "evidenceConfidence": 83,
+      "dataCompleteness": 80,
+      "status": "P1_CONDITIONAL",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "hair-accessories",
+      "rank": 5,
+      "opportunityScore": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78,
+      "status": "P1_CONDITIONAL",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "makeup-brushes-10pc",
+      "rank": 6,
+      "opportunityScore": 69,
+      "evidenceConfidence": 74,
+      "dataCompleteness": 58,
+      "status": "P2",
+      "scoreProvenance": "41-item corrected estimate (not yet in GitHub)"
+    },
+    {
+      "id": "press-on-nails",
+      "rank": 7,
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "status": "P2",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    },
+    {
+      "id": "phone-charm-beaded",
+      "rank": 8,
+      "opportunityScore": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "status": "P2",
+      "scoreProvenance": "existing V2 work score, not recalculated from new orders"
+    }
+  ],
+  "ngsModel": {
+    "formula": "Transfer Price USD - China product purchase - packaging and QC - domestic delivery to Shenzhen hub - seller-paid promotion - expected returns/local FBN losses - payout/FX = contribution USD",
+    "consumerPriceMarkup": "UNKNOWN; noon chooses; Seller Lab same SKU + TP test needed",
+    "deliveryEta": "UNKNOWN; must compare NGS checkout ETA against local fast-ship competitor",
+    "restrictedCategories": "unknown until noon category listing QC; prohibit unlicensed IP and restricted products",
+    "tpTrialUsd": {
+      "cosmetic-bag-set": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "hair-accessories": [
+        2.4,
+        2.9,
+        3.4
+      ],
+      "press-on-nails": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "original-non-IP-phone-charm": [
+        1.7,
+        2.2,
+        2.7
+      ]
+    },
+    "sensitivity": "20% TP contribution margin is TARGET not a realized result; gross estimate missing packaging/QC/domestic shipping/FX/returns and final selling price",
+    "returns": "NGS salable return can become FBN inventory charged local rate; non-salable can produce zero proceeds",
+    "worstLoss100": {
+      "cosmeticBagSet": "historical planning scenario USD620; not a true absolute maximum",
+      "hairAccessories": "historical planning scenario USD210; not an all-in bound",
+      "pressOnNails": "historical planning scenario USD180; not a verified max",
+      "nonIPCharm": "historical planning scenario USD150; not a verified max",
+      "others": "unknown; 100 units x cash committed + nonrefundable delivery and promotions + unsaleable returns minus recoveries must be priced before purchase"
+    }
+  },
+  "registration": {
+    "confirmed": "Valid Chinese Commercial Registration; valid LE; authorized signer/T&C; warehouse in China uses Noon International Logistics; SKU/QC; USD TP; Invoicing Profile; payout approval",
+    "requiredData": "license number/name/address/dates, company registration document, selected Non VAT Registered per NGS policy, authorized signatory and identity, correct sales/trading business activity",
+    "eligibleReview": "24-48 working hours only after approved LE linked to store, NOT entire onboarding SLA",
+    "ownerStatus": "not verified; 0/12",
+    "inCountryVAT": "NGS only, not ordinary international cross-border program",
+    "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
+  },
+  "IPTrendLag": {
+    "status": "NOT_MEASURABLE",
+    "reason": "no matched first real China sale date + GCC first real purchase/restock date for a specific legally licensable IP SKU; operator self-reports of brands and shops do not establish sales lead",
+    "risk": "MUSE in Dubai claims 50+ SKU and 2-5d fulfilment, competition already present",
+    "ipPolicy": "no unlicensed franchise, logos, counterfeit, unclear authorizations"
+  },
+  "topRisks": [
+    {
+      "name": "Noon transfer price to checkout markup unobserved",
+      "severity": 20,
+      "hardStop": false
+    },
+    {
+      "name": "Noon China business identity approval unknown",
+      "severity": 20,
+      "hardStop": false
+    },
+    {
+      "name": "NGS China seller Noon Finds eligibility unverified",
+      "severity": 12,
+      "hardStop": false
+    },
+    {
+      "name": "4pc cosmetic packaging weight and Shenzhen handoff cost unknown",
+      "severity": 20,
+      "hardStop": false
+    },
+    {
+      "name": "cross-border ETA weaker than local near-hour deliveries",
+      "severity": 16,
+      "hardStop": false
+    }
+  ],
+  "hardStops": [
+    "Counterfeit/unlicensed IP",
+    "SKU prohibited under Noon destination-country rules",
+    "no legally approved seller identity for live sales",
+    "no acceptable SKU QC and consumer price margin",
+    "critical unmitigated risks block Sample Ready"
+  ],
+  "channelAccessGate": {
+    "platformNGS": "PASS_BY_OFFICIAL_DOC",
+    "ownerNGS": "BLOCKED_UNVERIFIED",
+    "productNGS": "BLOCKED_UNVERIFIED",
+    "findsForNGS": "UNKNOWN",
+    "amazon": "SECONDARY_UNVERIFIED"
+  },
+  "sampleReady": 0,
+  "approvedToPurchase": 0,
+  "sourceRefs": [
+    {
+      "type": "official_channel",
+      "topic": "NGS China entry logistics settlement returns",
+      "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "verifiedOn": "2026-10-10",
+      "reliability": "official"
+    },
+    {
+      "type": "official_channel",
+      "topic": "Noon Finds video-commerce free listing and checkout KSA/UAE; NGS seller eligibility unknown",
+      "url": "https://helpcenter.noon.partners/en/category/advertising-and-marketing/noon-finds-faqs",
+      "verifiedOn": "2026-10-10",
+      "reliability": "official"
+    },
+    {
+      "type": "official_onboarding",
+      "topic": "LE eligibility review 24–48 working hours only, not full go-live SLA",
+      "url": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+      "verifiedOn": "2026-10-10",
+      "reliability": "official"
+    },
+    {
+      "type": "market_snapshot",
+      "topic": "Saudi 8-piece KHAJUL clips SAR25 240+ sold recently search snapshot; NOT sales on this date",
+      "url": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/clips-24997/",
+      "verifiedOn": "2026-10-10",
+      "reliability": "marketplace crawl historical"
+    },
+    {
+      "type": "market_snapshot",
+      "topic": "Saudi 24pc press-on nail SAR19 1300+ sold recently on cached marketplace crawl; NOT 2026-10-10 orders",
+      "url": "https://www.noon.com/saudi-en/beauty/makeup-16142/nails-20024/false-nails/press-on-false-nails/",
+      "verifiedOn": "2026-10-10",
+      "reliability": "marketplace crawl historical"
+    },
+    {
+      "type": "market_snapshot",
+      "topic": "UAE 8pc claw clips AED29.26 20+ sold recently historical crawl",
+      "url": "https://www.noon.com/uae-en/beauty/hair-care/hair-accessories/tabby-noon/",
+      "verifiedOn": "2026-10-10",
+      "reliability": "marketplace crawl historical"
+    },
+    {
+      "type": "channel_competitor_claim",
+      "topic": "Dubai MUSE holds 50+ SKUs from 10+ Chinese toy brands and delivers 2-5 days per its own statement",
+      "url": "https://toys.aimuse.ae/about/",
+      "verifiedOn": "2026-10-10",
+      "reliability": "operator claim unverified independent"
+    }
+  ],
+  "integrity": "Historical web crawl sale labels are not transactions observed on Oct 10; prior rank scores are working values; score change makeup brushes 76=>69 based on 41 subitems, not new sell-through"
+}
