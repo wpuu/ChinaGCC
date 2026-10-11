@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-11",
+  "run": "morning",
+  "project": "ChinaGCC",
+  "sequence": [
+    "persona",
+    "discovery",
+    "checkout",
+    "trigger",
+    "family",
+    "SKU/GCC-transaction evidence",
+    "China supply",
+    "NGS economics/risk"
+  ],
+  "personas": [
+    "Saudi women 18-45",
+    "UAE women 18-39",
+    "female Gen Z/students",
+    "young families secondary",
+    "50+ WATCH"
+  ],
+  "channels": {
+    "discovery": [
+      "Snapchat",
+      "TikTok",
+      "Instagram",
+      "Noon Finds: NGS eligibility UNVERIFIED"
+    ],
+    "checkout": [
+      "Noon NGS first",
+      "Amazon UAE/Saudi second"
+    ]
+  },
+  "triggers": [
+    "travel",
+    "beauty routine",
+    "gift",
+    "style/collectible"
+  ],
+  "gccSales": {
+    "Z40": "SAR59.90, 360-430+ sold recently, historical summer crawl NOT 2026-10-11 sales",
+    "Z03": "SAR24.90, 150-450+ sold recently historical snapshots"
+  },
+  "chinaSupply": "Known 4pc bag suppliers not verified same SKU weight/dimensions; no supply sourcing for IP without GCC transaction first.",
+  "rankings": [
+    {
+      "id": "cosmetic-bag-set",
+      "rank": 1,
+      "opportunityScore": 78,
+      "evidenceConfidence": 90,
+      "dataCompleteness": 73,
+      "skuMetadataReference": "data/sku/cosmetic-bag-set.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "silicone-brush",
+      "rank": 2,
+      "opportunityScore": 78,
+      "evidenceConfidence": 82,
+      "dataCompleteness": 84,
+      "skuMetadataReference": "data/sku/silicone-brush.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "lint-roller",
+      "rank": 3,
+      "opportunityScore": 74,
+      "evidenceConfidence": 83,
+      "dataCompleteness": 80,
+      "skuMetadataReference": "data/sku/lint-roller.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "travel-bottles",
+      "rank": 4,
+      "opportunityScore": 74,
+      "evidenceConfidence": 76,
+      "dataCompleteness": 84,
+      "skuMetadataReference": "data/sku/travel-bottles.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "hair-accessories",
+      "rank": 5,
+      "opportunityScore": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78,
+      "skuMetadataReference": "data/sku/hair-accessories.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "makeup-brushes-10pc",
+      "rank": 6,
+      "opportunityScore": 69,
+      "evidenceConfidence": 74,
+      "dataCompleteness": 58,
+      "skuMetadataReference": "data/sku/makeup-brushes-10pc.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "phone-charm-beaded",
+      "rank": 7,
+      "opportunityScore": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "skuMetadataReference": "data/sku/phone-charm-beaded.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    },
+    {
+      "id": "press-on-nails",
+      "rank": 8,
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "skuMetadataReference": "data/sku/press-on-nails.json",
+      "scoreSource": "V2 prior score or audited correction; no new Oct 11 sales"
+    }
+  ],
+  "scoreCorrections": [
+    {
+      "id": "makeup-brushes-10pc",
+      "was": 76,
+      "proposed": 69,
+      "corrections": {
+        "A1": [
+          4,
+          3
+        ],
+        "D4": [
+          2,
+          0
+        ],
+        "E2": [
+          3,
+          1
+        ],
+        "K1": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "travel-bottles",
+      "was": 75,
+      "proposed": 74,
+      "reason": "sum of subitems 74; B-subscore 13 not dimension 14"
+    },
+    {
+      "id": "phone-charm-beaded",
+      "retained": 68,
+      "reason": "SKU file K1=1 without owner evidence; current K1=0; correct file to0"
+    }
+  ],
+  "ipWatch": {
+    "brand": "LUCKY LOOP",
+    "newOriginal": "BIKA 比卡",
+    "chinaLaunch": "2026-09-19",
+    "sameSkuGccSales": "NOT_VERIFIED",
+    "license": "NOT_VERIFIED",
+    "lagDays": null,
+    "source": "https://www.bbtnews.com.cn/2026/0920/606379.shtml",
+    "decision": "WATCH, no supply search or purchases"
+  },
+  "ngs": {
+    "officialChinaRoute": "PASS",
+    "ownerLegalEntity": "UNVERIFIED",
+    "skuQC": "UNVERIFIED",
+    "TPtoRetail": "UNVERIFIED",
+    "returns": "salable may become FBN; nonsalable zero proceeds",
+    "trialTP": {
+      "bag": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "clips": [
+        2.4,
+        2.9,
+        3.4
+      ],
+      "nails": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "originalCharm": [
+        1.7,
+        2.2,
+        2.7
+      ]
+    },
+    "formula": "TP - China procurement - QC/packaging - domestic Shenzhen delivery - promotions - return/FBN reserve - FX costs",
+    "review": "LE eligibility 24-48 working hours only, not go-live SLA",
+    "video": "Noon Finds 15s-3min, English+Arabic, free listing, FAQ reply 24-48h; NGS eligibility unknown",
+    "official": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "videoDoc": "https://helpcenter.noon.partners/en/category/advertising-and-marketing/noon-finds-faqs"
+  },
+  "risks": [
+    "Noon buyer retail unknown",
+    "LE and category gate unknown",
+    "packaging and Shenzhen cost unquoted",
+    "local fast shipping comparison",
+    "unlicensed IP HARD STOP"
+  ],
+  "worstLoss100": "Existing scenarios USD620 bag, USD210 clips, USD180 nails, USD150 generic charm are NOT verified worst-case caps; full cash exposure unknown.",
+  "sampleReady": 0,
+  "approvedPurchase": 0
+}
