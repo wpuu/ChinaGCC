@@ -9,9 +9,9 @@
   ],
   "rankChange": null,
   "legacyScore": 73,
-  "opportunityScore": null,
+  "opportunityScore": 74,
   "evidenceBreakdown": null,
-  "dataCompleteness": null,
+  "dataCompleteness": 84,
   "suppliers": [],
   "tianjinHebeiAdvantage": null,
   "githubIssue": null,
@@ -226,5 +226,24 @@
     "returnRate",
     "supplierCount",
     "nextAction"
-  ]
+  ],
+  "dimensionScores": {
+    "A": 11,
+    "B": 13,
+    "C": 11,
+    "D": 11,
+    "E": 7,
+    "F": 8,
+    "G": 1,
+    "H": 3,
+    "I": 4,
+    "J": 3,
+    "K": 2
+  },
+  "scoreAudit": {
+    "date": "2026-10-11",
+    "previousCurrentScore": 75,
+    "correctedScore": 74,
+    "reason": "B1+B2+B3+B4+B5=13, not 14; original total 75 overstated one point; pricing proof still absent"
+  }
 }
