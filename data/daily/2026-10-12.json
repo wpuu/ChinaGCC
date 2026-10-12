@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
-  "run": "morning",
-  "retrievedAtBeijing": "2026-10-12T08:12:00+08:00",
+  "run": "evening_reconciled",
+  "retrievedAtBeijing": "2026-10-12 evening Asia/Shanghai",
   "project": "ChinaGCC",
   "issue12V2": "https://github.com/wpuu/ChinaGCC/issues/12",
   "dataQuality": "No newly observed orders or supplier RFQ. Search-engine crawls are historical snapshots; 'sold recently' is a platform label, NOT Oct-12 daily sales.",
@@ -178,7 +178,7 @@
   "rankings": [
     {
       "id": "cosmetic-bag-set",
-      "name": "4件套化妆/旅行收纳包",
+      "name": "轻量3/4件化妆/旅行收纳包",
       "rank": 1,
       "opportunityScore": 78,
       "evidenceConfidence": 90,
@@ -187,7 +187,7 @@
       "v2Breakdown": null,
       "v2SubitemCount": 0,
       "v2SubitemSum": null,
-      "v2ScoringIntegrity": "A–K dimensions only; 41-subitem V2 audit incomplete",
+      "v2ScoringIntegrity": "INCOMPLETE_41_SUBITEMS",
       "coreAttrs": {
         "corePersona": "Saudi女性25–39；18–29趋势发现；UAE女性18–39交叉验证",
         "ageBand": [
@@ -218,7 +218,7 @@
         ],
         "localPlatformFit": "high"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "强成交",
@@ -246,8 +246,7 @@
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
-          "mitigation": "3家整套毛重+压缩尺寸",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "3家整套毛重+压缩尺寸"
         },
         {
           "name": "NGS最终零售价",
@@ -255,8 +254,7 @@
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
-          "mitigation": "TP三点Seller Lab实测",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "TP三点Seller Lab实测"
         },
         {
           "name": "中国到深圳成本",
@@ -264,8 +262,7 @@
           "impact": 4,
           "riskScore": 16,
           "hardStop": false,
-          "mitigation": "拿真实国内运费/验证直发",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "拿真实国内运费/验证直发"
         },
         {
           "name": "拉链缝线异味",
@@ -273,8 +270,7 @@
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
-          "mitigation": "样品QC",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "样品QC"
         },
         {
           "name": "SKU膨胀",
@@ -282,8 +278,7 @@
           "impact": 3,
           "riskScore": 12,
           "hardStop": false,
-          "mitigation": "1色1套型",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "1色1套型"
         }
       ],
       "hardStops": [
@@ -292,9 +287,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": [
@@ -317,7 +311,23 @@
         "pricingVerdict": "UNVERIFIED. TEST GRID IS NOT A QUOTE."
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 14,
+        "B": 11,
+        "C": 10,
+        "D": 10,
+        "E": 7,
+        "F": 8,
+        "G": 2,
+        "H": 6,
+        "I": 5,
+        "J": 4,
+        "K": 1
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "silicone-brush",
@@ -372,7 +382,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 78,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi/UAE女性18–39美容清洁；年轻家庭次级",
         "ageBand": [
@@ -400,7 +410,7 @@
         ],
         "localPlatformFit": "UAE/Saudi historical evidence"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "AED30以上成交能力已被部分证明",
@@ -436,45 +446,35 @@
           "probability": 5,
           "impact": 3,
           "riskScore": 15,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "肤感/软硬度主观评价",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "低复购导致LTV低",
           "probability": 5,
           "impact": 2,
           "riskScore": 10,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "低质硅胶异味",
           "probability": 3,
           "impact": 3,
           "riskScore": 9,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "平台类目/费用误判",
           "probability": 2,
           "impact": 4,
           "riskScore": 8,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         }
       ],
       "hardStops": [
@@ -483,9 +483,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": null,
@@ -497,11 +496,27 @@
         "pricingVerdict": "AWAITING REAL NGS LISTING"
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 13,
+        "B": 12,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 8,
+        "G": 1,
+        "H": 4,
+        "I": 4,
+        "J": 5,
+        "K": 1
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "lint-roller",
-      "name": "粘毛滚+补充卷",
+      "name": "粘毛滚+refill",
       "rank": 3,
       "opportunityScore": 74,
       "evidenceConfidence": 83,
@@ -552,7 +567,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 74,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi/UAE女性18–45衣物整理；年轻家庭次级",
         "ageBand": [
@@ -581,7 +596,7 @@
         ],
         "localPlatformFit": "conditional; buyer price untested"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "跨UAE和Saudi成交证据扎实",
@@ -617,45 +632,35 @@
           "probability": 4,
           "impact": 5,
           "riskScore": 20,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "多refill包装偏厚",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "价格竞争",
           "probability": 4,
           "impact": 3,
           "riskScore": 12,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "小批量MOQ偏高",
           "probability": 3,
           "impact": 3,
           "riskScore": 9,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "粘性/撕线/refill兼容",
           "probability": 2,
           "impact": 3,
           "riskScore": 6,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         }
       ],
       "hardStops": [
@@ -664,9 +669,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": null,
@@ -678,7 +682,23 @@
         "pricingVerdict": "AWAITING REAL NGS LISTING"
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 14,
+        "B": 5,
+        "C": 10,
+        "D": 9,
+        "E": 7,
+        "F": 6,
+        "G": 6,
+        "H": 6,
+        "I": 5,
+        "J": 5,
+        "K": 1
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "travel-bottles",
@@ -733,7 +753,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 74,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi/UAE女性18–45旅行美容；年轻家庭次级",
         "ageBand": [
@@ -763,7 +783,7 @@
         ],
         "localPlatformFit": "conditional; leakage risk"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "潜在单位经济性较好",
@@ -799,45 +819,35 @@
           "probability": 4,
           "impact": 5,
           "riskScore": 20,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "公开报价BOM仍需实际确认",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "喷头/泵头耐久",
           "probability": 3,
           "impact": 3,
           "riskScore": 9,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "Amazon类目费率未确认",
           "probability": 3,
           "impact": 3,
           "riskScore": 9,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         },
         {
           "name": "TSA等宣称误用",
           "probability": 2,
           "impact": 4,
           "riskScore": 8,
-          "hardStop": false,
-          "mitigation": null,
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "hardStop": false
         }
       ],
       "hardStops": [
@@ -846,9 +856,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": null,
@@ -860,7 +869,23 @@
         "pricingVerdict": "AWAITING REAL NGS LISTING"
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 11,
+        "B": 13,
+        "C": 11,
+        "D": 11,
+        "E": 7,
+        "F": 8,
+        "G": 1,
+        "H": 3,
+        "I": 4,
+        "J": 3,
+        "K": 2
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "hair-accessories",
@@ -915,7 +940,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 70,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi女性18–39，学生/Gen Z趋势发现；25–39日常实用与利润验证；UAE女性18–39交叉验证",
         "ageBand": [
@@ -946,7 +971,7 @@
         ],
         "localPlatformFit": "high in Saudi; medium in UAE"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "Saudi成交强且连续",
@@ -979,48 +1004,63 @@
       "top5Risks": [
         {
           "name": "SAR25低客单限制TP",
+          "evidence": "头部8件套成交价约SAR25",
           "probability": 5,
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "只接受TP映射后终价仍在SAR22–29",
-          "evidence": "头部8件套成交价约SAR25"
+          "mitigationCost": "low",
+          "residualRisk": "medium-high"
         },
         {
           "name": "NGS最终消费者售价未知",
+          "evidence": "Noon markup不公开",
           "probability": 5,
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "$2.4/$2.9/$3.4 TP实测",
-          "evidence": "Noon markup不公开"
+          "mitigationCost": "low",
+          "residualRisk": "medium"
         },
         {
           "name": "弹簧/塑料齿断裂",
+          "evidence": "抓夹核心故障点直接导致差评",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "500次开合+跌落+夹持测试",
-          "evidence": "抓夹核心故障点直接导致差评"
+          "mitigationCost": "low",
+          "residualRisk": "low-medium"
         },
         {
           "name": "颜色组合造成库存分散",
+          "evidence": "消费者审美分化、套装配色多",
           "probability": 4,
           "impact": 3,
           "riskScore": 12,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "首测固定中性色2风格8件套",
-          "evidence": "消费者审美分化、套装配色多"
+          "mitigationCost": "low",
+          "residualRisk": "medium"
         },
         {
           "name": "供应套装与Saudi畅销结构不完全同款",
+          "evidence": "河北样本为蝴蝶结/亚克力组合，Saudi畅销为4雾面+4亮面",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "按畅销结构定向找现货/组合，不拿仿品牌",
-          "evidence": "河北样本为蝴蝶结/亚克力组合，Saudi畅销为4雾面+4亮面"
+          "mitigationCost": "low",
+          "residualRisk": "medium"
         }
       ],
       "hardStops": [
@@ -1029,9 +1069,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": [
@@ -1054,11 +1093,27 @@
         "pricingVerdict": "UNVERIFIED. TEST GRID IS NOT A QUOTE."
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 13,
+        "B": 8,
+        "C": 10,
+        "D": 11,
+        "E": 7,
+        "F": 6,
+        "G": 1,
+        "H": 3,
+        "I": 5,
+        "J": 4,
+        "K": 2
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "makeup-brushes-10pc",
-      "name": "10支便携化妆刷+收纳袋",
+      "name": "10件便携化妆刷+收纳袋",
       "rank": 6,
       "opportunityScore": 69,
       "evidenceConfidence": 74,
@@ -1109,7 +1164,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 69,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi女性18–45；18–29趋势/25–39利润，UAE女性18–39交叉",
         "ageBand": [
@@ -1139,7 +1194,7 @@
         ],
         "localPlatformFit": "Saudi-high UAE-unverified"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "Saudi350+成交",
@@ -1163,48 +1218,58 @@
       "top5Risks": [
         {
           "name": "Noon最终价与送仓费用",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
           "probability": 5,
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
           "mitigation": "取得Seller Lab实价+快递合同价",
-          "evidence": "品类/公开竞品风险，未取得退货统计"
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
         },
         {
           "name": "掉毛/扎脸",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
           "probability": 4,
           "impact": 4,
           "riskScore": 16,
           "hardStop": false,
           "mitigation": "3家样品刷毛与水洗测试",
-          "evidence": "品类/公开竞品风险，未取得退货统计"
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
         },
         {
           "name": "价格战/本地快送",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
           "probability": 4,
           "impact": 4,
           "riskScore": 16,
           "hardStop": false,
           "mitigation": "验证最终价竞争安全边际",
-          "evidence": "品类/公开竞品风险，未取得退货统计"
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
         },
         {
           "name": "胶水气味/卫生",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
           "mitigation": "固定QC留样",
-          "evidence": "品类/公开竞品风险，未取得退货统计"
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
         },
         {
           "name": "换款SKU膨胀",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
           "probability": 3,
           "impact": 3,
           "riskScore": 9,
           "hardStop": false,
           "mitigation": "先选1色1版",
-          "evidence": "品类/公开竞品风险，未取得退货统计"
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
         }
       ],
       "hardStops": [
@@ -1213,15 +1278,14 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": {
+        "legacyScenario": {
           "currency": "CNY",
           "type": "ESTIMATE_NOT_QUOTE",
           "lossIfZeroReceipts": 2480,
           "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
           "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
         },
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": null,
@@ -1233,11 +1297,27 @@
         "pricingVerdict": "AWAITING REAL NGS LISTING"
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 12,
+        "B": 10,
+        "C": 11,
+        "D": 8,
+        "E": 8,
+        "F": 6,
+        "G": 1,
+        "H": 4,
+        "I": 4,
+        "J": 5,
+        "K": 0
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "phone-charm-beaded",
-      "name": "无IP串珠手机挂绳/包挂",
+      "name": "无IP串珠手机/包挂",
       "rank": 7,
       "opportunityScore": 68,
       "evidenceConfidence": 84,
@@ -1288,7 +1368,7 @@
       },
       "v2SubitemCount": 41,
       "v2SubitemSum": 68,
-      "v2ScoringIntegrity": "ARITHMETIC_MATCH",
+      "v2ScoringIntegrity": "ARITHMETIC_PASS_NOT_EMPIRICALLY_VERIFIED",
       "coreAttrs": {
         "corePersona": "Saudi female Gen Z/学生18–29为主，UAE女性18–29观察",
         "ageBand": [
@@ -1320,7 +1400,7 @@
         ],
         "localPlatformFit": "medium in Saudi; weak/unproven in UAE"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "极轻小、低MOQ",
@@ -1344,48 +1424,63 @@
       "top5Risks": [
         {
           "name": "真实成交强度不足",
+          "evidence": "当前Saudi可复核多为10–50+近期成交，弱于化妆包/发饰",
           "probability": 5,
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "继续等到至少多个100+稳定成交再升P1",
-          "evidence": "当前Saudi可复核多为10–50+近期成交，弱于化妆包/发饰"
+          "mitigationCost": "low",
+          "residualRisk": "medium-high"
         },
         {
           "name": "趋势半衰期短",
+          "evidence": "配色/形状随季节和社媒风格变化快",
           "probability": 5,
           "impact": 3,
           "riskScore": 15,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "极小批量、月度换款",
-          "evidence": "配色/形状随季节和社媒风格变化快"
+          "mitigationCost": "low",
+          "residualRisk": "medium"
         },
         {
           "name": "未经授权IP",
+          "evidence": "供应端常夹杂Hello Kitty等角色元素",
           "probability": 4,
           "impact": 5,
           "riskScore": 20,
           "hardStop": true,
+          "canMitigate": "yes",
           "mitigation": "仅纯几何/珍珠/星星等原创或通用设计，角色/logo全部DROP",
-          "evidence": "供应端常夹杂Hello Kitty等角色元素"
+          "mitigationCost": "low",
+          "residualRisk": "low"
         },
         {
           "name": "绳结/串珠断裂",
+          "evidence": "承重与日常拉扯可能造成断裂",
           "probability": 3,
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "5kg静载/反复拉扯/跌落测试",
-          "evidence": "承重与日常拉扯可能造成断裂"
+          "mitigationCost": "low",
+          "residualRisk": "low-medium"
         },
         {
           "name": "UAE成交未验证",
+          "evidence": "本轮未找到UAE同等级强sold-recently",
           "probability": 4,
           "impact": 3,
           "riskScore": 12,
           "hardStop": false,
+          "canMitigate": "yes",
           "mitigation": "Saudi先观察，不扩UAE库存",
-          "evidence": "本轮未找到UAE同等级强sold-recently"
+          "mitigationCost": "low",
+          "residualRisk": "medium"
         }
       ],
       "hardStops": [
@@ -1394,9 +1489,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": [
@@ -1419,11 +1513,27 @@
         "pricingVerdict": "UNVERIFIED. TEST GRID IS NOT A QUOTE."
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 8,
+        "B": 11,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 7,
+        "G": 1,
+        "H": 2,
+        "I": 5,
+        "J": 4,
+        "K": 0
+      },
+      "hardStop": "UNLICENSED_IP_ONLY",
+      "salesEvidenceFreshOnOct12": false
     },
     {
       "id": "press-on-nails",
-      "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
+      "name": "穿戴甲（胶贴优先）",
       "rank": 8,
       "opportunityScore": 67,
       "evidenceConfidence": 92,
@@ -1432,7 +1542,7 @@
       "v2Breakdown": null,
       "v2SubitemCount": 0,
       "v2SubitemSum": null,
-      "v2ScoringIntegrity": "A–K dimensions only; 41-subitem V2 audit incomplete",
+      "v2ScoringIntegrity": "INCOMPLETE_41_SUBITEMS",
       "coreAttrs": {
         "corePersona": "Saudi女性18–29趋势发现；25–39利润验证；UAE女性18–39观察",
         "ageBand": [
@@ -1463,7 +1573,7 @@
         ],
         "localPlatformFit": "Saudi demand very high but low-price concentrated"
       },
-      "channelAccessGate": "NGS China public route PASS; Owner LE/Payout/Store/QC/TP-price mapping UNVERIFIED",
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
       "advantages": [
         {
           "name": "需求极强",
@@ -1491,8 +1601,7 @@
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
-          "mitigation": "只测基础低TP",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "只测基础低TP"
         },
         {
           "name": "NGS最终零售价",
@@ -1500,8 +1609,7 @@
           "impact": 4,
           "riskScore": 20,
           "hardStop": false,
-          "mitigation": "TP三点实测",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "TP三点实测"
         },
         {
           "name": "款式生命周期",
@@ -1509,8 +1617,7 @@
           "impact": 3,
           "riskScore": 15,
           "hardStop": false,
-          "mitigation": "1–2款滚动",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "1–2款滚动"
         },
         {
           "name": "尺寸/弧度",
@@ -1518,8 +1625,7 @@
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
-          "mitigation": "多尺寸+尺码图",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "多尺寸+尺码图"
         },
         {
           "name": "胶贴牢固度",
@@ -1527,8 +1633,7 @@
           "impact": 4,
           "riskScore": 12,
           "hardStop": false,
-          "mitigation": "24h佩戴测试",
-          "evidence": "original V2 working assessment; no 2026-10-12 new return data"
+          "mitigation": "24h佩戴测试"
         }
       ],
       "hardStops": [
@@ -1537,9 +1642,8 @@
         "NGS category QC or Owner eligibility not approved for launch"
       ],
       "worstLoss100": {
-        "existingStressScenario": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
-        "verifiedWorstCaseCapUsd": null,
-        "warning": "Scenario is NOT comprehensive max loss; return/ads/stock/claims/FX/fulfilment uncertainties remain"
+        "legacyScenario": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+        "verifiedComprehensiveUpperBound": null
       },
       "unitEconomics": {
         "transferPriceTestUsd": [
@@ -1562,7 +1666,167 @@
         "pricingVerdict": "UNVERIFIED. TEST GRID IS NOT A QUOTE."
       },
       "sampleReady": false,
-      "approvedPurchase": false
+      "approvedPurchase": false,
+      "rankChangeFromOct11": "→",
+      "dimensionScores": {
+        "A": 14,
+        "B": 7,
+        "C": 9,
+        "D": 10,
+        "E": 10,
+        "F": 4,
+        "G": 2,
+        "H": 3,
+        "I": 4,
+        "J": 3,
+        "K": 1
+      },
+      "hardStop": false,
+      "salesEvidenceFreshOnOct12": false
+    },
+    {
+      "id": "cable-management",
+      "name": "线材整理/编织套管",
+      "rank": 9,
+      "rankChangeFromOct11": "→",
+      "opportunityScore": 69,
+      "evidenceConfidence": 63,
+      "dataCompleteness": 58,
+      "dimensionScores": {
+        "A": 10,
+        "B": 6,
+        "C": 11,
+        "D": 10,
+        "E": 10,
+        "F": 5,
+        "G": 1,
+        "H": 6,
+        "I": 5,
+        "J": 4,
+        "K": 1
+      },
+      "v2Breakdown": null,
+      "v2SubitemCount": 0,
+      "v2SubitemSum": null,
+      "v2ScoringIntegrity": "INCOMPLETE_41_SUBITEMS",
+      "top5Risks": [
+        {
+          "name": "AED25-30低价带压缩Amazon利润",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "同质化价格战",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "粘胶或套管质量不稳",
+          "probability": 2,
+          "impact": 4,
+          "riskScore": 8,
+          "hardStop": false
+        },
+        {
+          "name": "跨市场证据不足",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "复购弱",
+          "probability": 4,
+          "impact": 2,
+          "riskScore": 8,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "worstLoss100": {
+        "legacyScenario": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
+        "verifiedComprehensiveUpperBound": null
+      },
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "sampleReady": false,
+      "approvedPurchase": false,
+      "salesEvidenceFreshOnOct12": false
+    },
+    {
+      "id": "makeup-sponge",
+      "name": "化妆海绵/粉扑套装",
+      "rank": 10,
+      "rankChangeFromOct11": "→",
+      "opportunityScore": 67,
+      "evidenceConfidence": 78,
+      "dataCompleteness": 68,
+      "dimensionScores": {
+        "A": 12,
+        "B": 7,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 6,
+        "G": 2,
+        "H": 2,
+        "I": 4,
+        "J": 3,
+        "K": 1
+      },
+      "v2Breakdown": null,
+      "v2SubitemCount": 0,
+      "v2SubitemSum": null,
+      "v2ScoringIntegrity": "INCOMPLETE_41_SUBITEMS",
+      "top5Risks": [
+        {
+          "name": "低售价导致Amazon经济性差",
+          "probability": 5,
+          "impact": 3,
+          "riskScore": 15,
+          "hardStop": false
+        },
+        {
+          "name": "肤感/回弹主观性",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "皮肤接触品质风险",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "品牌心智",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "颜色/形状SKU膨胀",
+          "probability": 3,
+          "impact": 2,
+          "riskScore": 6,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "worstLoss100": {
+        "legacyScenario": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
+        "verifiedComprehensiveUpperBound": null
+      },
+      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "sampleReady": false,
+      "approvedPurchase": false,
+      "salesEvidenceFreshOnOct12": false
     }
   ],
   "scoreAuditPending": [
@@ -1623,6 +1887,117 @@
     "buyerPriceAndDelivery": "UNVERIFIED",
     "sampleReady": 0
   },
-  "approvedPurchase": 0,
-  "nextDecision": "No purchase. Validate Owner NGS actual Seller Lab, TP->buyer retail and ETA, 4-piece BAG final packed weight/quote. 65pcs accessories WATCH only."
+  "approvedPurchase": false,
+  "nextDecision": "No purchase; 0 Sample Ready; remove stale authority gap, do not claim new daily sales.",
+  "reconciliationTimestampUtc": "2026-10-12T15:08:26.308+00:00",
+  "morningRadarPreserved": true,
+  "reconciliation": {
+    "previousBaseline": "data/current.json 2026-10-08-v2; ranked latest against 2026-10-11 morning radar",
+    "rankingChangeFromOct11": "No changes. Morning radar top8 unchanged; position 9 cable, position 10 sponge carried from last complete Top10.",
+    "authorityCorrection": "canonical 10-piece brushes score 69/74/58 (old 76/91/82), travel bottles 74 (old 75), phone charm K1=0. This reconciles past conflicting records, not newly observed orders.",
+    "newWatch": "65-piece mixed hair accessories Miamia Saudi SAR31.50, 100+ historical sold recently label: WATCH only, not equivalent to today sales, no matched BOM or packing weight.",
+    "scoreAudit": "41 detailed scores remain absent for cosmetic bag, press-on nails, cable management, makeup sponge; do not fill fabricated scores. Scores are provisional and pre-sample.",
+    "scoreDiscrepancies": [],
+    "latestOfficialRules": "Noon China NGS official program remains supported. Buyer retail markup not public; payout after delivered, returned unsalable yields no sale proceeds. Amazon nonresident FBA VAT separate.",
+    "noNewVerifiedSales": true,
+    "ownerStatus": "No authenticated Noon/Amazon seller approval, payout, company documents or SKU transaction evidence available.",
+    "firstSaleReadiness": {
+      "noonNgs": {
+        "completed": 0,
+        "total": 12,
+        "percent": 0,
+        "items": {
+          "organizationId": false,
+          "uaeStore": false,
+          "ksaStore": false,
+          "chinaLegalEntityApproved": false,
+          "ngsWarehouse": false,
+          "payoutApproved": false,
+          "firstSkuQcApproved": false,
+          "transferPriceLive": false,
+          "firstOrder": false,
+          "shenzhenHandoff": false,
+          "delivered": false,
+          "firstPayout": false
+        },
+        "blockers": {
+          "organizationId": "缺Noon Seller Lab已创建Organization ID的实际后台凭证（不等于需要先有执照）。",
+          "uaeStore": "缺该Organization关联的UAE Store实际创建/通过凭证。",
+          "ksaStore": "缺该Organization关联的KSA Store实际创建/通过凭证。",
+          "chinaLegalEntityApproved": "中国具体主体形式可否通过NGS审核未取得实际批准；个体工商户资格未被官方公开明确。",
+          "ngsWarehouse": "未建NGS对应深圳集货/中国本地仓和国际物流仓模式。",
+          "payoutApproved": "收款资料尚未核验并由平台批准。",
+          "firstSkuQcApproved": "首个具体SKU的上架/产品QC未通过。",
+          "transferPriceLive": "上架与TP未上线；最终消费者价缺Seller Lab实测。",
+          "firstOrder": "没有真实支付订单。",
+          "shenzhenHandoff": "未有实际出单后的深圳交仓凭证。",
+          "delivered": "尚无国际段成功妥投。",
+          "firstPayout": "没有Noon首次结算到账证据。"
+        }
+      },
+      "amazon": {
+        "completed": 0,
+        "total": 15,
+        "percent": 0,
+        "items": {
+          "amazonChinaSellerAccount": false,
+          "uaeAccount": false,
+          "saudiAccount": false,
+          "vat": false,
+          "iorImport": false,
+          "skuLocked": false,
+          "threeSupplierQuotes": false,
+          "finalPackedWeight": false,
+          "sampleQc": false,
+          "listingReady": false,
+          "fbaShipmentCreated": false,
+          "inventoryReceived": false,
+          "adsLive": false,
+          "firstOrder": false,
+          "firstPayout": false
+        },
+        "blockers": {
+          "amazonChinaSellerAccount": "缺已审批的中国经营主体及亚马逊实际Seller Account状态。",
+          "uaeAccount": "Amazon主卖家资料尚未批准开通UAE站。",
+          "saudiAccount": "Amazon主卖家资料尚未批准开通Saudi站。",
+          "vat": "FBA模式下目的国VAT登记/履责方案未完成，不能发库存。",
+          "iorImport": "进口商IOR、清关责任、发票/HS编码和货代方案未完成。",
+          "skuLocked": "0个SKU达到Sample Ready；NGS消费者最终价、风险和样品未闭环。",
+          "threeSupplierQuotes": "目标同结构SKU没有3份可执行到岸报价。",
+          "finalPackedWeight": "首SKU尚未取得最终零售包装完整毛重/外箱尺寸。",
+          "sampleQc": "未下样和验证产品手感、掉毛/漏液/拉链/弹簧问题。",
+          "listingReady": "无锁定SKU、平台许可和已审批详情页。",
+          "fbaShipmentCreated": "未满足VAT/IOR/商品/卖家账户前置条件。",
+          "inventoryReceived": "尚无合规FBA货件入仓。",
+          "adsLive": "Listing未上线，广告不能开始。",
+          "firstOrder": "尚无真实订单。",
+          "firstPayout": "无已完成可核验真实回款。"
+        }
+      }
+    },
+    "profitSafety15Percent": "NOT_PROVEN_ALL_SKUS",
+    "sampleReadyCount": 0,
+    "productReadouts": {
+      "highDemandWeakEconomics": [
+        "press-on-nails low-price base",
+        "lint-roller low resale price",
+        "makeup-sponge low-price set"
+      ],
+      "lowestOperationalComplexity": "silicone-brush (economic margin still unverified)",
+      "premiumPressOnNailsSar35to49": "NO_VERIFIED_RECENT_SALES_FOR_MATCHING_FINISHED_SETS",
+      "cosmeticBagLightweight": "No target supplier 3/4 piece finished packed weight/dimensions; historical 4-piece 1kg variant proves structure variance; 15% profit NOT_PROVEN",
+      "hanlin": "NO_LAUNCH: specific SKU/INCI/MOQ/rights terms/regulatory/actual profit unverified",
+      "ipLag": "LUCKY LOOP BIKA only watch; China first order and GCC first order absent; authorized sales channel absent. Unlicensed IP hard stop."
+    },
+    "rolling30d": {
+      "decision": "RESEARCH_ONLY_NO_MAIN_STARTUP_COMMITMENT",
+      "confidence": 74,
+      "rationale": "Channel route proven at platform level, no seller approval, first SKU, TP-buyer price mapping, full cost, sample or paid first order."
+    },
+    "tomorrowPriorities": [
+      "核实Noon Organization ID、UAE/KSA Store及中国Legal Entity审批状态的实际后台凭证；没有则记录确切开户阻塞，不代填。",
+      "仅选择3/4件化妆包一个目标BOM，取得同规格三份供应报价及最终零售整包重量、尺寸、天津/供应商到深圳成本；无法取得则不采购。",
+      "仅在Seller Lab获批后测试同SKU三档USD Transfer Price到买家含税最终价及预计配送时效；否则不反复扫描。"
+    ]
+  }
 }
