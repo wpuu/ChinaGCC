@@ -6,7 +6,7 @@
 
 **先做非翰林商品真实销售成绩，再考虑联系翰林生物。** 用户已明确暂停翰林全部商品的当期推进，冻结研究，不占用厂家/亲属资源，不进行外联、采购、授权谈判。
 
-当前仅做非翰林商品的只读选品、平台与产品合规核查。最新优先核选**双片硅胶化妆刷清洗垫（不含化妆液）**，其次为**5件硅胶理线夹**；旋转架和黏毛器降级。所有候选均只是调研对象。首批候选为非液体、非电池、通用消费品，**没有任何已确认盈利SKU**，也没有获得Noon对具体SKU的合规批准。暂不注册营业执照、进货、投广告，直到主体与商品资格、全成本经济性通过闸门。
+当前仅做非翰林商品的只读选品、平台与产品合规核查。**007最新核查**：双片硅胶化妆刷清洗垫只是待核SKU，已发现6家深圳/珠三角相邻产品供货线索，但未证实3家可供应同规格低MOQ套装；Noon中国个体户、沙特品类合规及终端售价仍未确认。原有硅胶理线夹、旋转架、黏毛器均为备选，不直接采购。首批候选为非液体、非电池、通用消费品，**没有任何已确认盈利SKU**，也没有获得Noon对具体SKU的合规批准。暂不注册营业执照、进货、投广告，直到主体与商品资格、全成本经济性通过闸门。
 
 ## 2026-10-15 研究与恢复索引
 
@@ -15,7 +15,8 @@
 | [HANLIN_PAUSED_RESTART_PACKAGE.md](research/2026-10-15/HANLIN_PAUSED_RESTART_PACKAGE.md) | 翰林企业/产品/Noon/法规研究汇总、未解决事项、用户恢复门槛 | **FROZEN** |
 | [HANLIN_COMMUNICATION_DRAFT_ARCHIVED.md](research/2026-10-15/HANLIN_COMMUNICATION_DRAFT_ARCHIVED.md) | 历史Word一页纸的可复制正文、微信/电话提纲、未发送的Noon化妆品问询 | **ARCHIVED / 不得外发** |
 | [NON_HANLIN_SKU_FIRST_PASS.md](research/2026-10-15/NON_HANLIN_SKU_FIRST_PASS.md) | 非翰林Noon沙特7类SKU的需求/竞争/货源初筛、法规与下一步闸门 | **ACTIVE READ-ONLY RESEARCH** |
-| [NOON_006_REVERSE_PRICING_AND_SUPPLIER_GATE.md](research/2026-10-15/NOON_006_REVERSE_PRICING_AND_SUPPLIER_GATE.md) | 二轮：硅胶化妆刷清洗垫与理线夹核选、实际竞争价格反推转移价理论天花板、深圳履约与条码/商品合规官方规则、行动闸门 | **CURRENT / 本轮最新判断** |
+| [NOON_006_REVERSE_PRICING_AND_SUPPLIER_GATE.md](research/2026-10-15/NOON_006_REVERSE_PRICING_AND_SUPPLIER_GATE.md) | 二轮：硅胶化妆刷清洗垫与理线夹核选、实际竞争价格反推转移价理论天花板、深圳履约与条码/商品合规官方规则、行动闸门 | **HISTORY / 反向定价基础** |
+| [NOON_007_REAL_SUPPLIER_AND_REGISTRATION_GATE.md](research/2026-10-15/NOON_007_REAL_SUPPLIER_AND_REGISTRATION_GATE.md) | 六家供应商的具体公开线索与规格缺口、官方入驻/收款/条码规则、无花费验证路径、中文询价及平台书面提问稿 | **CURRENT / 最新只读结果** |
 
 ## 执行约束
 
@@ -25,4 +26,4 @@
 4. 若无用户后续明确授权，**不主动联系翰林**；至少先完成另一个非翰林SKU真实付款、妥投、结算及全成本复核，再讨论重新启用。
 5. 本仓库保留事实与证据；仅以产品合法销售及真实收款衡量阶段进度。
 
-最后更新：2026-10-15。
+最后更新：2026-10-15（第007轮）。
