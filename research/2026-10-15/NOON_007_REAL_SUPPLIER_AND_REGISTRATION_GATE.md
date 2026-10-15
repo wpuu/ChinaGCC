@@ -47,6 +47,15 @@
 - “Noon统一办理清关”不能扩大解释为所有跨境物品自动合规。
 - 商品必须符合Noon禁限售政策及当地规定：https://helpcenter.noon.partners/en/category/product-listing/prohibited-products
 
+## 1.5 第三方中文入驻文章存在直接互相矛盾（只作风险证据）
+
+本轮还查到两篇2026年10月的新文：2026-10-13的Noon数据文章写“大陆个体户是否适用需要人工补充证据”；2026-10-14同类站点另一篇却称“个体户大多数类目可提交申请”。2026-07-10的另一篇又写“Noon不接受个体工商户”但讨论重点是中东当地卖家。它们并非Noon官方针对中国NGS给出的书面认证，不能据此决定注册何种执照，且不同卖家场景容易混淆。
+- https://noon.shanuoo.com/article/ecommerce/35882
+- https://noon.menglar.com/article/ecommerce/35947
+- https://noon.shanuoo.com/article/operate/30522
+
+因此**中国个体工商户可否参加Noon China NGS，仍为未确认P0**；不能把近期文章的肯定语气当作证据升级。
+
 ## 2. 目标对标品和供应商公开线索
 
 ### 2.1 对标SKU（不是我们的货）
