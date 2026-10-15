@@ -2151,7 +2151,21 @@
       "salesEvidenceFreshOnOct15": false,
       "v2ScoreValidity": "PROVISIONAL_INCOMPLETE_OR_MISMATCH",
       "worstLoss100VerifiedUpperBoundUsd": null,
-      "worstLoss100ScenarioPolicy": "No fixed maximum until actual BOM/FX/order-freight/return data. Calculate (i) 100 unsold, (ii) 100 nondeliverable or unsalable returns separately."
+      "worstLoss100ScenarioPolicy": "No fixed maximum until actual BOM/FX/order-freight/return data. Calculate (i) 100 unsold, (ii) 100 nondeliverable or unsalable returns separately.",
+      "corePersona": null,
+      "ageBand": [],
+      "genderFit": null,
+      "discoveryChannel": [],
+      "checkoutChannel": [],
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": null,
+      "seasonalTrigger": [],
+      "localPlatformFit": null,
+      "profileEvidenceCaveat": "Missing fields are explicit null/empty; do NOT infer verified demographics, IP safety, marketing suitability, or improve Data Completeness."
     },
     {
       "id": "makeup-sponge",
@@ -2260,7 +2274,21 @@
       "salesEvidenceFreshOnOct15": false,
       "v2ScoreValidity": "PROVISIONAL_INCOMPLETE_OR_MISMATCH",
       "worstLoss100VerifiedUpperBoundUsd": null,
-      "worstLoss100ScenarioPolicy": "No fixed maximum until actual BOM/FX/order-freight/return data. Calculate (i) 100 unsold, (ii) 100 nondeliverable or unsalable returns separately."
+      "worstLoss100ScenarioPolicy": "No fixed maximum until actual BOM/FX/order-freight/return data. Calculate (i) 100 unsold, (ii) 100 nondeliverable or unsalable returns separately.",
+      "corePersona": null,
+      "ageBand": [],
+      "genderFit": null,
+      "discoveryChannel": [],
+      "checkoutChannel": [],
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": null,
+      "seasonalTrigger": [],
+      "localPlatformFit": null,
+      "profileEvidenceCaveat": "Missing fields are explicit null/empty; do NOT infer verified demographics, IP safety, marketing suitability, or improve Data Completeness."
     }
   ],
   "scoringAndRiskRules": {
@@ -2307,7 +2335,8 @@
     "reason": "No verified paired first actual Chinese checkout and first same-IP GCC checkout or RFQ with explicit licensed distribution rights",
     "watchOnly": [
       "genuine-original IP plush",
-      "genuine-original blind boxes"
+      "genuine-original blind boxes",
+      "YONNNA (China 2026-08 first launch news, no matched China/GCC paid-order dates, licensing unknown)"
     ],
     "rightsHardStop": "UNLICENSED_IP_AND_REPLICAS_BANNED",
     "policyClassificationUnverified": true
@@ -2345,13 +2374,20 @@
       "url": "https://www.noon.com/saudi-en/beauty/noon-collect/",
       "observedOn": "2026-10-15",
       "snapshotNote": "about four months"
+    },
+    {
+      "type": "secondary_trade_news",
+      "url": "https://www.hkcd.com/hkcdweb/content/2026/09/12/content_8774576.html",
+      "checkedDate": "2026-10-15",
+      "note": "2026-08 Chinese original IP launch, NOT first paid order; GCC lag not measurable"
     }
   ],
   "topNextAction": "No stock. First secure China NGS Seller Lab / payout, then 4pc quilted and comparable 3pc packed BOM quotes and real per-order Shenzhen shipment, and TP-to-buyer total/ETA measurements. Kanza finished nail+tab product is watch only.",
   "changelog": [
     "2026-10-15: clarified Kanza finished kit contains tabs; do not borrow sold counts from mismatched variants",
     "2026-10-15: NGS seller is paid full stated TP only after delivery; China-side and returns remain seller economics",
-    "2026-10-15: no confirmed new first-hand orders/RFQs or authorized China-GCC IP lag; zero sample and purchase"
+    "2026-10-15: no confirmed new first-hand orders/RFQs or authorized China-GCC IP lag; zero sample and purchase",
+    "2026-10-15 evening: cross-market Saudi rainbow-product policy reviewed; original IP YONNNA Aug-China launch is WATCH only; explicitly marked missing 13 profile fields for non-priority SKUs; no confidence upgrade."
   ],
   "intraday20261015Evening": {
     "observedAtBeijing": "2026-10-15T20:06:48+08:00",
