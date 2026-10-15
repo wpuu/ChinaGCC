@@ -54,6 +54,13 @@ Noon禁限售：https://helpcenter.noon.partners/en/category/product-listing/pro
 - D：https://www.alibaba.com/product-detail/Customizable-PU-Leather-Travel-Jewellery-Organizer_1601716623836.html
 - F：https://www.alibaba.com/wholesale/organize-set.html
 
+## 2A. 2026-10-15 交叉检查：两款优先产品也存在严重经济风险
+
+- **9格旋转收纳架的体积风险**：其他品牌、非相同SKU的9格塑料桌面旋转架有约18×18×13cm、重约350g的公开规格线索；另一款9格类比商品包装约7.6×7.13×5.43英寸，约0.79磅。这些只是品类参考，不能挪作拟采购SKU参数；但提示该商品可能体积较大、易碎，不适合仅凭出厂价低就决策。样品**包装后长宽高、毛重及体积重**必须取得实际数据。参见 https://www.ubuy.com.jm/product/B38Q2LOZS-ggiantgo-pencil-pen-holder-for-desk-9-slots-360-degree-rotating-desk-organizer-desktop-storage-pen-organizers-stationery-supplies-cute-pencil-cup 和 https://www.ebay.com/itm/387334696368 （仅供品类体积核对）。
+- **黏毛器套装的极端低价竞争**：除此前看到的SAPU 5补充卷SAR29，Noon也有更多补充卷数的低价竞品线索；不同卷数、尺寸和黏性不宜简单等价，但本地同类供应商可能形成价格下限。先核商品规格/评价与NGS最终零售价，再决定样品。
+- 两款现在都是**报价、尺寸和合规核验对象，不代表入选可盈利SKU**。如果真实跨境终端售价缺乏竞争力，直接放弃，不因前期研究而继续采购。
+- 后续替代选品判断：非液体、非电池只是降低若干风险，不是免除沙特/阿联酋的具体品类符合性审查；优先考虑较轻、较小、抗损坏、客单价有空间的商品，仍要求Noon端实价和买家需求证据。
+
 ## 3. 当前选择与原因
 
 **只让A和B进入下一轮样品/实际报价核查，尚未批准采购。**
