@@ -1,7 +1,7 @@
 {
   "schemaVersion": "chinagcc-daily-radar-v2",
   "date": "2026-10-15",
-  "retrievedAtBeijing": "2026-10-15T08:10:49+08:00",
+  "retrievedAtBeijing": "2026-10-15T20:06:48+08:00",
   "project": "wpuu/ChinaGCC",
   "issue12V2": "https://github.com/wpuu/ChinaGCC/issues/12",
   "decision": "RESEARCH_ONLY__NO_FIRST_ORDER__NO_SAMPLES__NO_STOCK",
@@ -2352,5 +2352,23 @@
     "2026-10-15: clarified Kanza finished kit contains tabs; do not borrow sold counts from mismatched variants",
     "2026-10-15: NGS seller is paid full stated TP only after delivery; China-side and returns remain seller economics",
     "2026-10-15: no confirmed new first-hand orders/RFQs or authorized China-GCC IP lag; zero sample and purchase"
-  ]
+  ],
+  "intraday20261015Evening": {
+    "observedAtBeijing": "2026-10-15T20:06:48+08:00",
+    "newFirstPartyTransactions": 0,
+    "sellerAccessVerified": false,
+    "launchApproved": false,
+    "keyPolicyFinding": "Official Noon prohibited-products page lists rainbow-colored products in Saudi Arabia. Perform exact-design/category review for hair accessories, charms and collectibles; do not treat all multicolour designs as rainbow designs.",
+    "originalIpWatch": "China original IP YONNNA reportedly launched Aug 2026; first paid China and GCC orders not verified. Trend lag unmeasurable.",
+    "demandEvidence": "No new first-party orders; historical UAE press-on nails and KSA hair-clip sold-recently labels are proxies with ambiguous time windows.",
+    "sourceUrls": [
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "https://www.noon.com/uae-en/false-nails/",
+      "https://supermall.noon.com/saudi-en/20pcs-5cm-printed-water-drop-hair-clips-non-slip-metal-hair-clips-for-girls-kids-teens-and-women/Z0EFF9DA65942152BC378Z/p/",
+      "https://www.hkcd.com/hkcdweb/content/2026/09/12/content_8774576.html"
+    ],
+    "tpScenarioChange": "None; unverified model retained.",
+    "channelAccessGate": "BLOCKED_OWNER_PROOF",
+    "sampleReady": 0
+  }
 }
