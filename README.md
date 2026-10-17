@@ -6,7 +6,7 @@
 
 **先做非翰林商品真实销售成绩，再考虑联系翰林生物。** 用户已明确暂停翰林全部商品的当期推进，冻结研究，不占用厂家/亲属资源，不进行外联、采购、授权谈判。
 
-**013最新审计（2026-10-17）**：已将原3条TradeWheel海湾B2B询价退出当前执行池——网站自报信任分均为82%/88分，无法在公开资料中核实公司身份、当前采购或联系授权，拒绝付费买卖线索。Noon China NGS自营仍保留为首单通道；连连支付官网提供Noon沙特USD专用收款账户和`暂无店铺`预申请，但明确受益人姓名须与Noon合法开店主体一致。Noon是否接纳中国个体工商户、个体户应如何进行连连KYC与接收美元TP，仍需官方书面答复；**一般Noon FAQ不接受私人银行卡**与连连个人KYC规则不能自行混同。无商家资格/真实终端价/完整成本则不采购。**翰林冻结、订单0、收入0、对外联络0。** 下一步只以[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)官方/账号证据为触发，不重复选品或刷平台线索。
+**014最新可执行进展（2026-10-17）**：已通过连接的Gmail实际创建Noon中国NGS与连连Noon沙特USD收款资格两封官方咨询草稿，**均未发送**。Noon仍无中国个体户LE审核通过或美元回款门槛确认；连连允许Noon-沙特站USD“暂无店铺”预申请，但受益人必须与最终卖家主体一致，不能替代Noon资质审核。此阶段不注册营业执照、不采购、不对外联系、不开发工具。外部验证阻塞的下一具体动作是用户审核并决定是否发送两份草稿，不能报告“官方已被问询”。旧三条TradeWheel RFQ退出执行池，翰林保持冻结。详见 [014记录](research/2026-10-17/CHINAGCC_014_OFFICIAL_QUALIFICATION_DRAFTS.md) 和[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)。
 
 ## 研究与恢复索引
 
@@ -22,7 +22,8 @@
 | [CHINAGCC_010_FIRST_ORDER_CHANNEL_DECISION.md](research/2026-10-16/CHINAGCC_010_FIRST_ORDER_CHANNEL_DECISION.md) | 官方来源对比Noon NGS自营、Noon Affiliate零库存推广与eBay中国个人卖家；分离获客佣金和自营产品销量，记录中国法登记例外及跨境合规未解项 | **HISTORY / 第010轮渠道比较** |
 | [CHINAGCC_011_PLATFORM_FEASIBILITY_AUDIT.md](research/2026-10-17/CHINAGCC_011_PLATFORM_FEASIBILITY_AUDIT.md) | 第011轮Noon Affiliate银行与开票条款、eBay美加EIS实际资格、Noon自营仍待中国个体户与商品准入书面答复、盈利路径否决与解锁条件 | **HISTORY / 渠道条件基础** |
 | [CHINAGCC_012_BUYER_FIRST_AND_ACCOUNT_GATE.md](research/2026-10-17/CHINAGCC_012_BUYER_FIRST_AND_ACCOUNT_GATE.md) | Noon允许先创建Org ID但执照资格未知；3条海湾B2B公开RFQ分层核查；TradeWheel付费及买家真实性风险；[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)首单外部验证闸门 | **HISTORY / 公开线索初筛** |
-| [CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md](research/2026-10-17/CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md) | RFQ原网页独立复查并退出无验真的3条旧线索；连连沙特USD平台账户、预申请/开店主体匹配规则、Noon准入与最低付款额未解项 | **CURRENT / 真实阻塞判断** |
+| [CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md](research/2026-10-17/CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md) | RFQ原网页独立复查并退出无验真的3条旧线索；连连沙特USD平台账户、预申请/开店主体匹配规则、Noon准入与最低付款额未解项 | **HISTORY / 旧买家与收款政策核验** |
+| [CHINAGCC_014_OFFICIAL_QUALIFICATION_DRAFTS.md](research/2026-10-17/CHINAGCC_014_OFFICIAL_QUALIFICATION_DRAFTS.md) | 已实际创建但未发送的Noon与连连Gmail官方问询草稿、资格及收款主体匹配待确认清单、无外联无采购审计 | **CURRENT / 草稿待发送** |
 
 ## 执行约束
 
@@ -32,4 +33,4 @@
 4. 若无用户后续明确授权，**不主动联系翰林**；至少先完成另一个非翰林SKU真实付款、妥投、结算及全成本复核，再讨论重新启用。
 5. 本仓库保留事实与证据；仅以产品合法销售及真实收款衡量阶段进度。
 
-最后更新：2026-10-17（第013轮旧买方线索退出、Noon连连结算核查）。
+最后更新：2026-10-17（第014轮官方问询草稿与实务阻塞）。
