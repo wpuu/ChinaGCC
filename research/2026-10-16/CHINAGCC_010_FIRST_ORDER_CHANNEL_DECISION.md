@@ -1,5 +1,9 @@
 # ChinaGCC-010｜首单通道决策：从Noon账号阻塞转为“合规销售 + 无库存需求验证”双轨
 
+> **2026-10-17 复核提醒：**本文件是历史010渠道初筛，eBay个人首单和Noon Affiliate银行/开票可行性尚未通过。011已核实eBay International Shipping仅限合格美加卖家及美国在库商品、中国SpeedPAK未找到沙特费率、Noon Affiliate合同有银行与发票义务。请以[CHINAGCC_011_PLATFORM_FEASIBILITY_AUDIT.md](../2026-10-17/CHINAGCC_011_PLATFORM_FEASIBILITY_AUDIT.md)作为最新商业判断。翰林继续冻结。
+
+
+
 **核验日期：2026-10-16（北京时间）**  
 **执行模型：GPT-6**  
 **状态：只读事实核验与决策存档；未注册账号、未采购、未联系平台或供应商、未向外发布营销内容、未产生费用。**  
