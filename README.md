@@ -2,11 +2,16 @@
 
 中国现成产品面向GCC（海湾合作委员会）市场的真实需求、合规及利润验证项目。
 
-## 当前方向（2026-10-17）
+## 当前方向（2026-10-22）
 
-**先做非翰林商品真实销售成绩，再考虑联系翰林生物。** 用户已明确暂停翰林全部商品的当期推进，冻结研究，不占用厂家/亲属资源，不进行外联、采购、授权谈判。
+**先用非翰林产品建立可审计的真实交易能力；翰林全部商品保持冻结**，未经用户明确许可不联系厂家或恢复采购。
 
-**015最新实务纠偏（2026-10-17）**：两封Gmail官方咨询草稿继续保持未发送，且已**实际更新并回读**：除中国个体工商户NGS资格、连连KYC主体匹配外，新增确认`Saudi USD`与`UAE AED`能否用于China NGS，以及不同币种对应的最低付款门槛、最终消费者到手价/ETA和连连0.7%公开费率适用性。Noon通用政策的`100本币 vs 1000跨币种`不能直接宣布中国NGS适用；若跨币种门槛确实适用，历史$4.5—$6.5转移价方案下首次提现可能需42—60笔成功妥投，**不是已证明的真实订单量或开户结果**。是否可以以阿联酋AED减少首次回款门槛，等Noon官方确认后才能决定首单国家。**不注册主体、不采购、不刷单、不联系翰林、不发邮件。** [015条件计算及执行记录](research/2026-10-17/CHINAGCC_015_PAYOUT_CURRENCY_PILOT_GATE.md) · [Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)
+**022业务纠偏：买方先于平台。** 连续多轮原方案等待Noon陌生客服邮件、没有平台审核也没有首单，是错误的推进依赖。当前新增两个明确隔离的收入轨道：
+
+- **A｜买方已付费的中国采购执行服务**：不用臆测哪种SKU能卖，优先发现海湾买家已经公开发布、经身份与预算筛查的中国采购任务；通过Upwork等有预存里程碑的合规平台接单后，Codex辅助报价、证据/供应商比较，再由人工完成实际工厂沟通与履约。这条路径有可能在不先成立Noon商家的情况下取得**服务费**；但服务收入**不是自有商品销售**，不构成解冻翰林条件。本次已核沙特干发帽$100仅可条件试投，阿联酋$50化妆包物流及沙特$250止汗膏由于报酬/责任不匹配暂不投。详见[022真实买方证据研究](research/2026-10-22/CHINAGCC_022_BUYER_FIRST_MARKETPLACE_VALIDATION.md)与[Issue #25](https://github.com/wpuu/ChinaGCC/issues/25)。
+- **B｜自有产品跨境零售/出口**：Noon China NGS仍是可研究的正规平台路径，但中国个体工商户审核、收款、目的地商品合规、消费端真实价格、逐单国内物流仍未通过；[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)继续待一手证据，不为收到陌生邮箱回复而反复做同义研究。不注册主体、不采购库存、不投广告。
+
+**硬约束**：不会自动向Upwork客户申请、不花Connects、不联系供应商、不发送Noon/连连咨询草稿；历史三条TradeWheel旧买家不可验真已退出；绝不将其他商家销量、Noon联盟佣金或买方服务费写成`OwnedSKURevenue`。真正解冻翰林需要另一个非翰林**商品**实际付款、妥投、货款到账、全成本复核及用户明确批准。
 
 ## 研究与恢复索引
 
@@ -24,7 +29,8 @@
 | [CHINAGCC_012_BUYER_FIRST_AND_ACCOUNT_GATE.md](research/2026-10-17/CHINAGCC_012_BUYER_FIRST_AND_ACCOUNT_GATE.md) | Noon允许先创建Org ID但执照资格未知；3条海湾B2B公开RFQ分层核查；TradeWheel付费及买家真实性风险；[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)首单外部验证闸门 | **HISTORY / 公开线索初筛** |
 | [CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md](research/2026-10-17/CHINAGCC_013_RFQ_DISQUALIFICATION_AND_LIANLIAN_PAYOUT.md) | RFQ原网页独立复查并退出无验真的3条旧线索；连连沙特USD平台账户、预申请/开店主体匹配规则、Noon准入与最低付款额未解项 | **HISTORY / 旧买家与收款政策核验** |
 | [CHINAGCC_014_OFFICIAL_QUALIFICATION_DRAFTS.md](research/2026-10-17/CHINAGCC_014_OFFICIAL_QUALIFICATION_DRAFTS.md) | 已实际创建但未发送的Noon与连连Gmail官方问询草稿、资格及收款主体匹配待确认清单、无外联无采购审计 | **HISTORY / 草稿创建记录** |
-| [CHINAGCC_015_PAYOUT_CURRENCY_PILOT_GATE.md](research/2026-10-17/CHINAGCC_015_PAYOUT_CURRENCY_PILOT_GATE.md) | 新增Noon一般100/1000 AED/SAR最低打款条件比较、连连USD与AED收款路径、0.7%公开提现费率与尚未发出的已更新官方咨询草稿 | **CURRENT / 收款与首单市场决策** |
+| [CHINAGCC_015_PAYOUT_CURRENCY_PILOT_GATE.md](research/2026-10-17/CHINAGCC_015_PAYOUT_CURRENCY_PILOT_GATE.md) | 新增Noon一般100/1000 AED/SAR最低打款条件比较、连连USD与AED收款路径、0.7%公开提现费率与尚未发出的已更新官方咨询草稿 | **HISTORY / Noon主体收款验证** |
+| [CHINAGCC_022_BUYER_FIRST_MARKETPLACE_VALIDATION.md](research/2026-10-22/CHINAGCC_022_BUYER_FIRST_MARKETPLACE_VALIDATION.md) | 实际检索Upwork海湾买方采购岗位并读账户活动/预算/竞争/支付条件；确立服务成交与自营商品交易分账，试投与否决条件及Codex分工 | **CURRENT / 买方先行商业路线** |
 
 ## 执行约束
 
@@ -34,4 +40,4 @@
 4. 若无用户后续明确授权，**不主动联系翰林**；至少先完成另一个非翰林SKU真实付款、妥投、结算及全成本复核，再讨论重新启用。
 5. 本仓库保留事实与证据；仅以产品合法销售及真实收款衡量阶段进度。
 
-最后更新：2026-10-17（第015轮沙特USD / 阿联酋AED收款门槛分支验证）。
+最后更新：2026-10-22（第022轮买方主动付费需求验证与商业路线纠偏）。
