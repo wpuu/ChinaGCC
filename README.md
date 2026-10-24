@@ -24,6 +24,13 @@
 - 采购服务费、联盟佣金、岗位预算和买方询盘都不是自营商品销售。第022轮采购服务研究只作独立历史资料，不是ChinaGCC默认下一步，不再据此推进Upwork。
 - 旧Issue #21的30–50件采购/广告测试、#22的立即注册公司、#23的立即开店指令已被本次收口取代，不构成当前执行依据。
 
+### 2026-10-24 第024轮真实核查增量
+
+- **Noon已有注册线索，不等于卖家获准**：邮箱找到10月8日Noon Partners一次邮箱OTP验证邮件；仍未从已验证渠道取得Organization/Project ID、UAE/KSA Store、Legal Entity审核或批准收款凭证；本轮连接浏览器没有可读的Noon后台会话。未使用旧验证码；原Noon/连连咨询草稿尚未发出。**不要凭OTP声称已开户成功，也不重复注册第二账号**。
+- **具体供货源NO-GO**：[Everful公开商品](https://www.everfulwholesale.com/products/quilted-cotton-makeup-bag-set-travel-toiletry-organizer-evfpvvn23y7)四件套变体 `EVFVQN9Q9XZ` 标价 **US$9.10/套**，但材料字段为 **Polyester**，与本项目棉质目标不符；页面131—560g是不同变体总范围，不能冒充四件套打包毛重。光采购价已超过历史$6.50 USD Transfer Price模拟格及20%贡献率全成本上限$5.20，**该具体供应商品在历史测试条件下淘汰**；不代表全部四件套、其他价位、别家货源已经被否定。
+- **同类本地竞争**：[沙特TRENZ Z40](https://supermall.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/) 是Noon本地快送四件棉质绗缝包，公开展示约SAR66.58含VAT/约1小时配送；非本项目NGS实际买家结账总价或时效，不能推算中国卖家利润。
+- 完整核查及审批闸门：[Issue #24第024轮更新](https://github.com/wpuu/ChinaGCC/issues/24)。**采购、主体、收款、商品上线和真实交易仍均未获证据通过，翰林继续冻结**。
+
 ### 下一步只补真实缺口
 
 先核已存在的主体、Seller Lab和收款状态；没有证据只问状态，不重复索取已提供资料，不索取密码。再判断是否存在授权范围内的实际平台资格核验入口，并与同BOM成本、买家总价/ETA证据合并作GO/NO-GO。官方书面答复是证据渠道之一，不把等待陌生邮件当作无限循环的商业计划。外联、注册、采购、付费、上架均未因本次收口获得授权。
