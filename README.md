@@ -31,6 +31,16 @@
 - **同类本地竞争**：[沙特TRENZ Z40](https://supermall.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/) 是Noon本地快送四件棉质绗缝包，公开展示约SAR66.58含VAT/约1小时配送；非本项目NGS实际买家结账总价或时效，不能推算中国卖家利润。
 - 完整核查及审批闸门：[Issue #24第024轮更新](https://github.com/wpuu/ChinaGCC/issues/24)。**采购、主体、收款、商品上线和真实交易仍均未获证据通过，翰林继续冻结**。
 
+### 2026-10-27 09:43（北京时间）｜官方API / MCP接入可行性核验
+
+- 用户询问能否通过MCP等连接Noon。本轮仅检索插件目录及公开官方文档，未读取任何受阻账号内容；未创建服务账号、密钥、OAuth应用或MCP服务，未修改后台权限。
+- 当前可用工具没有Noon电商专用连接器；插件目录搜索未返回匹配的Seller Lab连接器。这不证明全网不存在相关插件。搜索中的 `noon.ai/docs/mcp` 属于招聘产品，不能作为Noon电商Seller Lab连接方案。
+- **官方API真实存在**：[卖家帮助中心API入口](https://helpcenter.noon.partners/en/category/global-selling/noon-api-platform)明确链接[开发文档](https://noon-docs.noonpartners.dev/)。公开功能包括商品/价格/库存、订单履约、仓库、报表及事件等；本轮未找到明确覆盖Legal Entity审批、银行审批和本账号China NGS资格状态的公开端点，覆盖范围保持UNVERIFIED。
+- [官方凭据指南](https://noon-docs.noonpartners.dev/docs/authentication/getting-credentials)：使用已有Partner账号，在Access App的API Users中创建Service Account、选择必要角色并下载含私钥的JSON；创建前应先检查是否已有服务账号，优先沿用。该步骤产生持续API访问权限，不能把本轮可行性询问当作创建/扩大权限的批准。
+- [官方Quick Start](https://noon-docs.noonpartners.dev/docs/getting-started/quick-start)：凭据用于JWT认证换取会话，提供只读身份核验示例。可在用户明确授权、权限合适并安全配置有效凭据后先验证身份/项目，再按官方公开端点范围实现必要读取，并按需要封装MCP。**技术可接入不等于本账号已连接，也不等于可通过API完成所有准入核查。**
+- 下一步先确认既有API用户/凭据是否存在及实际角色范围；若没有，由用户本人完成正式服务账号创建/授权，或在相应权限动作前明确确认。私钥不粘贴聊天、不写GitHub；接入结果仅保存脱敏状态。若所需审核状态未公开API，仍需获准的后台页面或官方审核结果。
+- 原 `welcome.noon.partners` 来源拒绝仍未解除；本轮未用API、MCP、其他浏览器、提取Cookie等方式绕过。采购/付费/广告/上架/签约/联系翰林均未发生；各账号审批状态沿用UNKNOWN。
+
 ### 2026-10-26 22:42（北京时间）｜现有Noon账号接管执行记录
 
 **当前状态：`BLOCKED_BROWSER_ORIGIN_AUTHORIZATION`。用户已报告原账号注册并登录；本轮不重复注册，账号是否存在不再作为调查目标。**
