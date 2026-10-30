@@ -219,5 +219,20 @@
     "严重风险未关闭",
     "V2<80"
   ],
-  "nextAction": "同规格3家询含包装重量/尺寸/报价；账号通过后三点TP映射"
+  "nextAction": "同规格3家询含包装重量/尺寸/报价；账号通过后三点TP映射",
+  "latestSupplierVerification": {
+    "originalSku": "https://en.yiwugo.com/product/detail/986877044.html",
+    "retailSupplyPriceCny": 7.8,
+    "minOrderUnits": 1,
+    "advertisedProductWeightG": 95,
+    "finalPackedWeightG": null,
+    "shenzhenBaoanCheckoutShippingCny": null,
+    "oneOrderOneUnitFulfillmentApproved": null,
+    "threeSameBomQuotes": 0,
+    "skuLocked": false,
+    "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+    "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
+  },
+  "latestSupplierVerificationAsOf": "2026-10-30T22:34:58+08:00",
+  "latestSupplierVerificationReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
 }
