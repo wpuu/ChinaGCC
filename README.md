@@ -31,6 +31,18 @@
 - **同类本地竞争**：[沙特TRENZ Z40](https://supermall.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/) 是Noon本地快送四件棉质绗缝包，公开展示约SAR66.58含VAT/约1小时配送；非本项目NGS实际买家结账总价或时效，不能推算中国卖家利润。
 - 完整核查及审批闸门：[Issue #24第024轮更新](https://github.com/wpuu/ChinaGCC/issues/24)。**采购、主体、收款、商品上线和真实交易仍均未获证据通过，翰林继续冻结**。
 
+### 2026-10-30 17:26（北京时间）｜Ego Lite / Terra Medium实际派工与工具缺失
+
+**状态：`BLOCKED_CONTROL_TOOL_UNAVAILABLE`。用户本轮明确表示原Noon账号已登录，并授权GPT-6.1 Terra中思考等级子代理在Ego Lite推进。**
+
+- 已实际启动子代理 `noon_ego_takeover`，模型 `gpt-6.1-terra`，思考等级 `medium`，交付组织/店铺/主体/收款/China NGS核查任务及原有限制。
+- 子代理读取Browser操作技能并检索当前可用工具；主代理独立复查：本会话没有Browser关联JavaScript工具、原生电脑控制工具或Ego控制入口。此前可用的 `mcp__cua_repl` 与 `mcp__node_repl` 已从当前会话移除。**本轮没有发出鼠标键盘操作、没有盘点当前窗口、没有读取Noon页面。** 2026-10-26旧窗口编号不能当当前连接证据。
+- 插件目录检索没有提供可控制本机Ego的恢复入口；已安装TinyFish是另一云浏览器，不能当Ego连接或复用其当前登录会话，本轮未启用它替代Ego。
+- 本轮未触发新的来源授权提示，也没有新的拒绝结果。2026-10-26的 `welcome.noon.partners` 来源拒绝只作为历史记录保留；不得把它冒充本次失败原因。用户当前读取账号的明确意图已收到；应先恢复可用的正式控制工具，后续如工具实际要求来源授权，再由用户正常处理该提示。
+- 账号保持 `OWNER_REPORTED_LOGGED_IN`，Org ID、UAE Store、KSA Store、Legal Entity、Payment/Payout、China NGS仍为 `NOT_OBSERVED_THIS_RUN`。本轮不判断用户是否持有资质、不否定既有组织或店铺，不要求重新注册或重复登录。
+- **下一步接续位置：** 在能提供本机Browser或电脑操作工具的Work会话恢复Ego Lite连接，读取已登录原账号；先只读核查组织是否存在→UAE/KSA店铺及阶段→主体审核/具体缺件→收款绑定/审批→China NGS状态。普通安全配置仅在真实页面可见后判断。当前主/子代理不能自行给本会话加载被移除的控制工具，不用自制CDP、提Cookie、其他浏览器或API绕过。
+- 本轮后台普通配置0项，审核提交0项；未提交营业执照/身份证/银行资料，未签约、采购、付费、投广告、上架或联系翰林。GitHub仅记录脱敏事实。该派工和工具发现不计为店铺审核通过、真实销售推进或首单完成。
+
 ### 2026-10-27 09:43（北京时间）｜官方API / MCP接入可行性核验
 
 - 用户询问能否通过MCP等连接Noon。本轮仅检索插件目录及公开官方文档，未读取任何受阻账号内容；未创建服务账号、密钥、OAuth应用或MCP服务，未修改后台权限。
