@@ -245,5 +245,21 @@
     "previousCurrentScore": 75,
     "correctedScore": 74,
     "reason": "B1+B2+B3+B4+B5=13, not 14; original total 75 overstated one point; pricing proof still absent"
-  }
+  },
+  "latestSupplierVerification": {
+    "originalSku": "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+    "unitPriceCny": 3.8,
+    "minOrderUnits": 2,
+    "unitPackWeightG": null,
+    "shenzhenBaoanCheckoutShippingCny": null,
+    "oneBuyerSingleSetDirectShippingApproved": null,
+    "threeSameBomQuotes": 0,
+    "skuLocked": false,
+    "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+    "operationalGate": "MOQ_2_CONFLICTS_WITH_NO_STOCK_ONE_SET_ORDER_UNLESS_SPLIT_FULFILLMENT_CONFIRMED",
+    "decision": "WATCH_OPERATIONAL_GATE"
+  },
+  "latestSupplierVerificationAsOf": "2026-10-30T22:34:58+08:00",
+  "latestSupplierVerificationReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+  "scoreIntegrityNote": "Current 75 vs V2 item sum 74 and independent SKU 74; unresolved cross-file discrepancy, no silent score adjustment."
 }
