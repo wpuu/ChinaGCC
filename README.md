@@ -31,6 +31,19 @@
 - **同类本地竞争**：[沙特TRENZ Z40](https://supermall.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/) 是Noon本地快送四件棉质绗缝包，公开展示约SAR66.58含VAT/约1小时配送；非本项目NGS实际买家结账总价或时效，不能推算中国卖家利润。
 - 完整核查及审批闸门：[Issue #24第024轮更新](https://github.com/wpuu/ChinaGCC/issues/24)。**采购、主体、收款、商品上线和真实交易仍均未获证据通过，翰林继续冻结**。
 
+### 2026-10-30 18:14（北京时间）｜新Ego插件实连：CLI可用，bootstrap连接失败
+
+**最新状态：`BLOCKED_EGO_BOOTSTRAP_CONNECTION`。本节取代上一节“本会话缺少控制工具”的当前原因；账号已登录仍为Owner直接报告，未否定或要求重注册。**
+
+- 用户本轮明确启用 `ego:ego-browser`，并要求 `gpt-6.1-terra / medium` 子代理操作。已实际启动 `noon_ego_plugin`；读取Ego技能并运行 `ego-browser skill`，成功取得本机v2.2.0完整指南及结束标记。
+- 子代理实际尝试官方CLI任务空间/Noon导航流程，没有取得页面输出。随后最小连接检查 `ego-browser nodejs -e "console.log(await listTaskSpaces())"` 及最小运行验证 `ego-browser nodejs -e "console.log('ego-browser ready')"` 均退出码1，核心错误 **`Failed to connect to ego_cli bootstrap`**。任务空间是否创建成功未证实，不声称已打开或读取Noon。
+- CLI诊断提示当前agent sandbox无法连接，建议Full Access/沙箱外执行或手动打开ego lite；本环境不允许沙箱提权，本轮未申请或更改Full Access/安全设置、未自制连接通道。只读进程检查当时未发现名称含ego的进程；这不证明用户没安装Ego、账号未登录或其他环境不存在会话。
+- 官方操作指南与Windows安装/恢复说明未提供适用的普通启动命令，要求用户手动打开应用。**最小接续动作：在执行本任务的同一台Windows电脑手动打开已安装的Ego Lite并保持运行；若本机可用但该会话仍报bootstrap失败，改在能正常连接Ego CLI的本机Work执行环境接续。** 已有账号登录状态沿用；不因本轮连接故障要求用户重注册或交出密码。无须安装/升级或清除浏览器状态。
+- 本轮阻碍发生在连接浏览器之前，**没有本轮新的来源授权拒绝**。2026-10-26的来源拒绝保留为历史，不冒充当前失败。后续若正式控制工具实际要求页面授权，按当时提示处理，不绕过。
+- Org/Project ID、UAE/KSA Store、Legal Entity、Payment/Payout、China NGS均 `NOT_OBSERVED_THIS_RUN`。尚未进入具体材料页，不能虚构执照、代表人或银行资料缺件；普通配置0项、审核提交0项。
+- 未采购/付款/广告/上架/导入库存/签约/创建API凭据/联系翰林或其他人。未读取或保存账号秘密、验证码、完整银行资料；未改变用户其他空间与标签内容。该实连诊断不计为卖家批准、商品交易或利润完成。
+- 恢复后的唯一业务序列仍是读取原账号组织与店铺→主体审批及真实缺件→收款审批→China NGS资格，再决定可安全完成的普通配置；证件上传、银行资料和正式签约停在提交前。
+
 ### 2026-10-30 17:26（北京时间）｜Ego Lite / Terra Medium实际派工与工具缺失
 
 **状态：`BLOCKED_CONTROL_TOOL_UNAVAILABLE`。用户本轮明确表示原Noon账号已登录，并授权GPT-6.1 Terra中思考等级子代理在Ego Lite推进。**
