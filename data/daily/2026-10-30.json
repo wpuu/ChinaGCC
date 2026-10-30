@@ -2000,5 +2000,40 @@
   "verifiedOwnerFirstSale": false,
   "verifiedOwnerPayout": false,
   "approvedPurchaseCount": 0,
-  "sampleReadyCount": 0
+  "sampleReadyCount": 0,
+  "crossFileScoreAudit": [
+    {
+      "sku": "phone-charm-beaded",
+      "mainOpportunity": 68,
+      "mainDimensionSum": 68,
+      "independentOpportunity": 68,
+      "independentDimensionSum": 69,
+      "independentSubitemSum": 69,
+      "status": "CONFLICT_DO_NOT_AUTOCORRECT"
+    },
+    {
+      "sku": "travel-bottles",
+      "mainOpportunity": 75,
+      "mainDimensionSum": 75,
+      "mainSubitemSum": 74,
+      "status": "HISTORICAL_SUBITEM_MISMATCH_DO_NOT_AUTOCORRECT"
+    },
+    {
+      "sku": "cosmetic-bag-set",
+      "status": "NO_COMPLETE_41_SUBITEM_BREAKDOWN"
+    },
+    {
+      "sku": "press-on-nails",
+      "status": "NO_COMPLETE_41_SUBITEM_BREAKDOWN"
+    }
+  ],
+  "repoWriteAudit": {
+    "date": "2026-10-30",
+    "dailyUpdated": true,
+    "currentUpdated": true,
+    "fourFocusSkuUpdated": true,
+    "dailyIssueUrl": "https://github.com/wpuu/ChinaGCC/issues/26",
+    "verifiedBy": "readback",
+    "ownerSalesEvidenceAdded": false
+  }
 }
