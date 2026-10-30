@@ -216,5 +216,66 @@
     "Owner主体未Ready",
     "未授权IP必须完全排除"
   ],
-  "nextAction": "不拿样；继续监控Saudi是否出现多个100+ sold recently的无IP款，出现后再测TP"
+  "nextAction": "不拿样；继续监控Saudi是否出现多个100+ sold recently的无IP款，出现后再测TP",
+  "latestRadar": {
+    "date": "2026-10-30",
+    "observedAt": "2026-10-30T20:11:41+08:00",
+    "dailyPath": "data/daily/2026-10-30.json",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "personas": [
+      "Saudi女性18-45",
+      "UAE女性18-39",
+      "female Gen Z/学生"
+    ],
+    "process": [
+      "人群",
+      "发现渠道",
+      "现实成交渠道",
+      "购买触发",
+      "产品族",
+      "SKU",
+      "中国供应链",
+      "单位经济性/风险"
+    ],
+    "latestCompetitor": {
+      "competitor": "UAE branded Jellycat plush bag charm listing; not independent demand evidence for original beaded phone charm",
+      "url": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-clasp/Z081FB92388BE6551AE09Z/p/",
+      "newVerifiedTransactions": 0
+    },
+    "transferPriceGridUsd": [
+      1.7,
+      2.2,
+      2.7
+    ],
+    "sellerTotalCostCapAt20PctUsd": [
+      1.36,
+      1.76,
+      2.16
+    ],
+    "transferPriceAndCostStatus": "SCENARIO_ONLY_NOT_LIVE_ACCOUNT_PRICING",
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBOMSupplierQuote": null,
+    "actualChinaToShenzhenCost": null,
+    "actualReturnLoss": null,
+    "ngsRestrictedCategoryDecision": null,
+    "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+    "evidenceConfidenceStatus": "HISTORICAL_UNCHANGED",
+    "dataCompletenessStatus": "HISTORICAL_UNCHANGED",
+    "channelAccessGate": "OWNER_REPORTED_LOGGED_IN__LE_PAYMENT_NGS_NOT_OBSERVED__EGO_BOOTSTRAP_BLOCKED",
+    "hardStopIfUnlicensedIP": true,
+    "sampleReady": false,
+    "approvedStock": false,
+    "top5RisksBasis": "retain historic SKU risks; not recalculated without new first-party transaction/cost evidence",
+    "worstLoss100": {
+      "unsold100": null,
+      "nonSaleableReturns100": null,
+      "certifiedUpperBound": false,
+      "formulas": [
+        "100*(item+packing+domesticHub)+sunkMarketing+fixedCosts",
+        "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
+      ]
+    },
+    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+  }
 }
