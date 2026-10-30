@@ -239,7 +239,7 @@
     ],
     "latestCompetitor": {
       "competitor": "UAE branded Jellycat plush bag charm listing; not independent demand evidence for original beaded phone charm",
-      "url": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-clasp/Z081FB92388BE6551AE09Z/p/",
+      "url": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-metal-clasp/Z081FB92388BE6551AE09Z/p/",
       "newVerifiedTransactions": 0
     },
     "transferPriceGridUsd": [
@@ -276,6 +276,15 @@
         "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
       ]
     },
-    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+    "scoreIntegrityAudit": {
+      "storedOpportunityScore": 68,
+      "independentDimensionTotal": 69,
+      "independentSubitemTotal": 69,
+      "mainTableScore": 68,
+      "mainTableDimensionTotal": 68,
+      "result": "INDEPENDENT_SKU_DIMENSION_MISMATCH_DO_NOT_AUTO_CORRECT",
+      "note": "主表与独立SKU历史维度存在差异；须按Issue #12逐项取证后再修订，不直接将68改69"
+    }
   }
 }
