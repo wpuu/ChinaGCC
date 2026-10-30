@@ -2035,5 +2035,171 @@
     "dailyIssueUrl": "https://github.com/wpuu/ChinaGCC/issues/26",
     "verifiedBy": "readback",
     "ownerSalesEvidenceAdded": false
-  }
+  },
+  "postRadarDailyReconciliation": {
+    "auditDate": "2026-10-30",
+    "reconciledAt": "2026-10-30T22:34:58+08:00",
+    "status": "POST_RADAR_READ_ONLY_RECONCILIATION_NO_SALE_NO_PURCHASE",
+    "sourceIssue": "https://github.com/wpuu/ChinaGCC/issues/24",
+    "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+    "notes": [
+      "2026-10-30 20:11 radar/current already written; late daily review augments rather than replaces them. No evidence supporting a new ranked score.",
+      "Existing noon seller account is OWNER_REPORTED_REGISTERED_LOGGED_IN. Actual Organization ID/UAE/KSA/LE/payment/NGS approvals remain UNOBSERVED because Ego official CLI bootstrap failed; do not infer account absent or attempt bypass.",
+      "Supplier original pages independently cross-checked 2026-10-30: brush 10pc with bag ¥7.80 MOQ1 and 95g advertised item weight; travel 11pc PE/60ml ¥3.80 MOQ2. Neither has verified Shenzhen-Baoan checkout shipping fee or final packed weight.",
+      "MOQ2 travel bottles conflicts with single-buyer single-unit no-inventory drop shipment unless supplier splitting and fulfillment are proven. Not a confirmed platform prohibition; operational hard gate for this sourcing model.",
+      "Noon NGS China official pathway and destination VAT handling remain confirmed; payout requires successful delivery, LE/payment approval and applicable weekly payout thresholds; China NGS USD-specific threshold unverified.",
+      "Amazon UAE/Saudi remains second. China seller registration does not waive nonresident VAT and IOR responsibilities for local FBA.",
+      "Competitor 'sold recently' and cached delivery estimates are not same-day purchase transactions; YONNNA/POP MART/WAKUKU IP signals remain WATCH without China-to-GCC first paid order pair and authorization. Hanlin NO LAUNCH."
+    ],
+    "sources": [
+      "https://en.yiwugo.com/product/detail/986877044.html",
+      "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://www.tax.gov.ae/en/content/registration.for.vat.aspx"
+    ],
+    "suppliers": {
+      "makeup-brushes-10pc": {
+        "originalSku": "https://en.yiwugo.com/product/detail/986877044.html",
+        "retailSupplyPriceCny": 7.8,
+        "minOrderUnits": 1,
+        "advertisedProductWeightG": 95,
+        "finalPackedWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneOrderOneUnitFulfillmentApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
+      },
+      "travel-bottles": {
+        "originalSku": "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+        "unitPriceCny": 3.8,
+        "minOrderUnits": 2,
+        "unitPackWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneBuyerSingleSetDirectShippingApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "operationalGate": "MOQ_2_CONFLICTS_WITH_NO_STOCK_ONE_SET_ORDER_UNLESS_SPLIT_FULFILLMENT_CONFIRMED",
+        "decision": "WATCH_OPERATIONAL_GATE"
+      }
+    },
+    "financialVerification": {
+      "grossTPRevenueOnlyOnSuccessfulDelivery": true,
+      "actualGccBuyerTotal": null,
+      "actualNgsTP": null,
+      "actualPayoutExchangeCost": null,
+      "actualPackedDomesticShipping": null,
+      "actualReturnLoss": null,
+      "actualContributionMargin": null,
+      "minimumPayoutThresholdForThisChinaNgsAccount": null,
+      "allSkuHundredUnitCertifiedWorstLoss": false,
+      "lossFormula": "100*(verified_unit_item+pack+domestic_Shenzhen)+fixed_setup+prepaid_marketing+return_disposal_and_related_costs; no TP proceeds for unsalable returns"
+    },
+    "nextActions": [
+      "Recover officially authorized Ego Lite/Work connection without changing security settings; read existing Noon Org, UAE/KSA Store, LE, approved payout and China NGS status only.",
+      "Read-only checkout-before-payment quote to Shenzhen Baoan for 1 brush kit and 2 travel-bottle sets; verify packed weight and supplier capacity for one paid buyer order/one labeled parcel; do not buy or contact supplier.",
+      "After actual legal/payout approval, confirm NGS category access and lawful real SKU buyer total/ETA plus TP/payout; then recalculate >=15% contribution and 100-unit stress before any sample or public listing."
+    ]
+  },
+  "firstSaleReadinessVerified": {
+    "auditDate": "2026-10-30",
+    "noonNgs": {
+      "completed": 0,
+      "total": 12,
+      "percent": 0,
+      "items": {
+        "organizationId": false,
+        "uaeStore": false,
+        "ksaStore": false,
+        "chinaLegalEntityApproved": false,
+        "ngsWarehouse": false,
+        "payoutApproved": false,
+        "firstSkuQcApproved": false,
+        "transferPriceLive": false,
+        "firstOrder": false,
+        "shenzhenHandoff": false,
+        "delivered": false,
+        "firstPayout": false
+      },
+      "blockers": {
+        "organizationId": "Owner报告已有Noon注册并登录；尚缺获准只读后台中的Organization ID存在性凭证；Ego CLI bootstrap连接失败，不能推断账号不存在。",
+        "uaeStore": "Owner报告已有账号；未读到实际UAE Store创建或审批状态，不应要求重新注册。",
+        "ksaStore": "Owner报告已有账号；未读到实际KSA Store创建或审批状态，不应要求重新注册。",
+        "chinaLegalEntityApproved": "中国具体主体形式可否通过NGS审核未取得实际批准；个体工商户资格未被官方公开明确。",
+        "ngsWarehouse": "未建NGS对应深圳集货/中国本地仓和国际物流仓模式。",
+        "payoutApproved": "收款资料尚未核验并由平台批准。",
+        "firstSkuQcApproved": "首个具体SKU的上架/产品QC未通过。",
+        "transferPriceLive": "上架与TP未上线；最终消费者价缺Seller Lab实测。",
+        "firstOrder": "没有真实支付订单。",
+        "shenzhenHandoff": "未有实际出单后的深圳交仓凭证。",
+        "delivered": "尚无国际段成功妥投。",
+        "firstPayout": "没有Noon首次结算到账证据。"
+      }
+    },
+    "amazon": {
+      "completed": 0,
+      "total": 15,
+      "percent": 0,
+      "items": {
+        "amazonChinaSellerAccount": false,
+        "uaeAccount": false,
+        "saudiAccount": false,
+        "vat": false,
+        "iorImport": false,
+        "skuLocked": false,
+        "threeSupplierQuotes": false,
+        "finalPackedWeight": false,
+        "sampleQc": false,
+        "listingReady": false,
+        "fbaShipmentCreated": false,
+        "inventoryReceived": false,
+        "adsLive": false,
+        "firstOrder": false,
+        "firstPayout": false
+      },
+      "blockers": {
+        "amazonChinaSellerAccount": "缺已审批的中国经营主体及亚马逊实际Seller Account状态。",
+        "uaeAccount": "Amazon主卖家资料尚未批准开通UAE站。",
+        "saudiAccount": "Amazon主卖家资料尚未批准开通Saudi站。",
+        "vat": "FBA模式下目的国VAT登记/履责方案未完成，不能发库存。",
+        "iorImport": "进口商IOR、清关责任、发票/HS编码和货代方案未完成。",
+        "skuLocked": "0个SKU达到Sample Ready；NGS消费者最终价、风险和样品未闭环。",
+        "threeSupplierQuotes": "目标同结构SKU没有3份可执行到岸报价。",
+        "finalPackedWeight": "首SKU尚未取得最终零售包装完整毛重/外箱尺寸。",
+        "sampleQc": "未下样和验证产品手感、掉毛/漏液/拉链/弹簧问题。",
+        "listingReady": "无锁定SKU、平台许可和已审批详情页。",
+        "fbaShipmentCreated": "未满足VAT/IOR/商品/卖家账户前置条件。",
+        "inventoryReceived": "尚无合规FBA货件入仓。",
+        "adsLive": "Listing未上线，广告不能开始。",
+        "firstOrder": "尚无真实订单。",
+        "firstPayout": "无已完成可核验真实回款。"
+      }
+    },
+    "meaning": "0% = 0 independent completion proofs in repo, not proof account does not exist."
+  },
+  "nextDayHighValueTasks": [
+    "Recover officially authorized Ego Lite/Work connection without changing security settings; read existing Noon Org, UAE/KSA Store, LE, approved payout and China NGS status only.",
+    "Read-only checkout-before-payment quote to Shenzhen Baoan for 1 brush kit and 2 travel-bottle sets; verify packed weight and supplier capacity for one paid buyer order/one labeled parcel; do not buy or contact supplier.",
+    "After actual legal/payout approval, confirm NGS category access and lawful real SKU buyer total/ETA plus TP/payout; then recalculate >=15% contribution and 100-unit stress before any sample or public listing."
+  ],
+  "dailyReviewFlags": {
+    "pressOnNailsPremiumSAR35to49VerifiedTransactions": false,
+    "cosmeticBag3or4PackFinalWeightVerified": false,
+    "cosmeticBagSafeMargin15PctProven": false,
+    "mostStableProfitStructure": "silicone-brush (relative structural estimate, actual NGS margin unverified)",
+    "highDemandWeakEconomics": [
+      "press-on-nails",
+      "lint-roller",
+      "makeup-sponge"
+    ],
+    "originalIpChinaToGccLagVerified": false,
+    "ipRightsCleared": false,
+    "hanlinLaunchSignal": false,
+    "firstSaleReadinessNoonPct": 0,
+    "firstSaleReadinessAmazonPct": 0
+  },
+  "scoreIntegrityNote": "Keep historical scores/A-K unchanged pending verified V2 41-subitem re-audit; travel-bottles current 75 vs independent 74 requires explicit reconciliation, not silent rewrite."
 }
