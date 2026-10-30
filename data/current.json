@@ -17,7 +17,9 @@
     "latestRadarDate": "2026-10-30",
     "latestRadarPath": "data/daily/2026-10-30.json",
     "latestRadarStatus": "READ_ONLY_RESEARCH__NGS_OWNER_ACCOUNT_UNVERIFIED__NO_SAMPLE_OR_PURCHASE",
-    "latestRadarNote": "2026-10-30: 公开Noon竞品销售标签不是本项目新订单；美国POP MART 10-15发布不是中国→GCC趋势时差证据；Noon Ego CLI bootstrap仍阻塞，不要重新注册/绕过授权。V2历史分数不重算。"
+    "latestRadarNote": "2026-10-30: 公开Noon竞品销售标签不是本项目新订单；美国POP MART 10-15发布不是中国→GCC趋势时差证据；Noon Ego CLI bootstrap仍阻塞，不要重新注册/绕过授权。V2历史分数不重算。 22:34复盘：Issue #24第029轮确认义乌购化妆刷¥7.80 MOQ1 / 标称95g、11件分装瓶¥3.80 MOQ2，均无深圳宝安准确运费及包裹毛重；分装瓶MOQ2与单件逐单零库存履约冲突待验证。未形成价格/回款/利润成交证据。",
+    "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
+    "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
   },
   "skus": [
     {
@@ -734,7 +736,21 @@
       ],
       "nextAction": "同规格3家询含包装重量/尺寸/报价；账号通过后三点TP映射",
       "rankChange": "→",
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestSupplierVerification": {
+        "originalSku": "https://en.yiwugo.com/product/detail/986877044.html",
+        "retailSupplyPriceCny": 7.8,
+        "minOrderUnits": 1,
+        "advertisedProductWeightG": 95,
+        "finalPackedWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneOrderOneUnitFulfillmentApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
+      },
+      "supplierEvidenceSource": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
     },
     {
       "englishName": "",
@@ -1024,7 +1040,21 @@
           "hardStop": false
         }
       ],
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestSupplierVerification": {
+        "originalSku": "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+        "unitPriceCny": 3.8,
+        "minOrderUnits": 2,
+        "unitPackWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneBuyerSingleSetDirectShippingApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "operationalGate": "MOQ_2_CONFLICTS_WITH_NO_STOCK_ONE_SET_ORDER_UNLESS_SPLIT_FULFILLMENT_CONFIRMED",
+        "decision": "WATCH_OPERATIONAL_GATE"
+      },
+      "scoreIntegrityNote": "历史current 75 vs 41项/独立sku 74冲突；本轮不重算，不能作为审核通过的精确分。"
     },
     {
       "englishName": "",
@@ -2860,7 +2890,7 @@
     "signal": "品类需求仍强，但没有翰林具体SKU、成本、合规与渠道利润闭环，未达到正式启动信号。"
   },
   "firstSaleReadiness": {
-    "authorityDate": "2026-10-08",
+    "authorityDate": "2026-10-30",
     "primaryChannel": "Noon NGS",
     "amazon": {
       "completed": 0,
@@ -2920,9 +2950,9 @@
         "firstPayout": false
       },
       "blockers": {
-        "organizationId": "缺Noon Seller Lab已创建Organization ID的实际后台凭证（不等于需要先有执照）。",
-        "uaeStore": "缺该Organization关联的UAE Store实际创建/通过凭证。",
-        "ksaStore": "缺该Organization关联的KSA Store实际创建/通过凭证。",
+        "organizationId": "Owner报告已有Noon注册并登录；尚缺获准只读后台中的Organization ID存在性凭证；Ego CLI bootstrap连接失败，不能推断账号不存在。",
+        "uaeStore": "Owner报告已有账号；未读到实际UAE Store创建或审批状态，不应要求重新注册。",
+        "ksaStore": "Owner报告已有账号；未读到实际KSA Store创建或审批状态，不应要求重新注册。",
         "chinaLegalEntityApproved": "中国具体主体形式可否通过NGS审核未取得实际批准；个体工商户资格未被官方公开明确。",
         "ngsWarehouse": "未建NGS对应深圳集货/中国本地仓和国际物流仓模式。",
         "payoutApproved": "收款资料尚未核验并由平台批准。",
@@ -2935,11 +2965,11 @@
       }
     },
     "biggestBlockers": [
-      "中国经营主体形式及Noon实体审批无凭证",
-      "首SKU未有三家真实完整报价、整包毛重尺寸和QC",
-      "Noon Transfer Price→消费者终价未由Seller Lab同SKU三点实测"
+      "Owner现有Noon账号的UAE/KSA店铺、Legal Entity、Payout与NGS真实审批状态未读到；Ego CLI bootstrap阻塞",
+      "首SKU供应商深圳宝安结账前准确运费/整包毛重/逐单代发能力及三家同BOM报价/QC未核实（分装瓶MOQ2）",
+      "Noon USD Transfer Price对应自有SKU最终买家含税价格/ETA、退损与结算门槛尚未实测"
     ],
-    "lastAuditDate": "2026-10-08"
+    "lastAuditDate": "2026-10-30"
   },
   "channelAccess": {
     "noonNgs": {
@@ -2978,5 +3008,73 @@
     "verifiedOwnerOrders": 0,
     "verifiedOwnerPayouts": 0,
     "sourceType": "PUBLIC_COMPETITOR_MARKERS_NOT_NEW_PAYMENT_PROOF"
+  },
+  "dailyReconciliation": {
+    "auditDate": "2026-10-30",
+    "reconciledAt": "2026-10-30T22:34:58+08:00",
+    "status": "POST_RADAR_READ_ONLY_RECONCILIATION_NO_SALE_NO_PURCHASE",
+    "sourceIssue": "https://github.com/wpuu/ChinaGCC/issues/24",
+    "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+    "notes": [
+      "2026-10-30 20:11 radar/current already written; late daily review augments rather than replaces them. No evidence supporting a new ranked score.",
+      "Existing noon seller account is OWNER_REPORTED_REGISTERED_LOGGED_IN. Actual Organization ID/UAE/KSA/LE/payment/NGS approvals remain UNOBSERVED because Ego official CLI bootstrap failed; do not infer account absent or attempt bypass.",
+      "Supplier original pages independently cross-checked 2026-10-30: brush 10pc with bag ¥7.80 MOQ1 and 95g advertised item weight; travel 11pc PE/60ml ¥3.80 MOQ2. Neither has verified Shenzhen-Baoan checkout shipping fee or final packed weight.",
+      "MOQ2 travel bottles conflicts with single-buyer single-unit no-inventory drop shipment unless supplier splitting and fulfillment are proven. Not a confirmed platform prohibition; operational hard gate for this sourcing model.",
+      "Noon NGS China official pathway and destination VAT handling remain confirmed; payout requires successful delivery, LE/payment approval and applicable weekly payout thresholds; China NGS USD-specific threshold unverified.",
+      "Amazon UAE/Saudi remains second. China seller registration does not waive nonresident VAT and IOR responsibilities for local FBA.",
+      "Competitor 'sold recently' and cached delivery estimates are not same-day purchase transactions; YONNNA/POP MART/WAKUKU IP signals remain WATCH without China-to-GCC first paid order pair and authorization. Hanlin NO LAUNCH."
+    ],
+    "sources": [
+      "https://en.yiwugo.com/product/detail/986877044.html",
+      "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://www.tax.gov.ae/en/content/registration.for.vat.aspx"
+    ],
+    "suppliers": {
+      "makeup-brushes-10pc": {
+        "originalSku": "https://en.yiwugo.com/product/detail/986877044.html",
+        "retailSupplyPriceCny": 7.8,
+        "minOrderUnits": 1,
+        "advertisedProductWeightG": 95,
+        "finalPackedWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneOrderOneUnitFulfillmentApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
+      },
+      "travel-bottles": {
+        "originalSku": "https://www.yiwugo.com/product/detail/979063831.html?loc=21",
+        "unitPriceCny": 3.8,
+        "minOrderUnits": 2,
+        "unitPackWeightG": null,
+        "shenzhenBaoanCheckoutShippingCny": null,
+        "oneBuyerSingleSetDirectShippingApproved": null,
+        "threeSameBomQuotes": 0,
+        "skuLocked": false,
+        "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
+        "operationalGate": "MOQ_2_CONFLICTS_WITH_NO_STOCK_ONE_SET_ORDER_UNLESS_SPLIT_FULFILLMENT_CONFIRMED",
+        "decision": "WATCH_OPERATIONAL_GATE"
+      }
+    },
+    "financialVerification": {
+      "grossTPRevenueOnlyOnSuccessfulDelivery": true,
+      "actualGccBuyerTotal": null,
+      "actualNgsTP": null,
+      "actualPayoutExchangeCost": null,
+      "actualPackedDomesticShipping": null,
+      "actualReturnLoss": null,
+      "actualContributionMargin": null,
+      "minimumPayoutThresholdForThisChinaNgsAccount": null,
+      "allSkuHundredUnitCertifiedWorstLoss": false,
+      "lossFormula": "100*(verified_unit_item+pack+domestic_Shenzhen)+fixed_setup+prepaid_marketing+return_disposal_and_related_costs; no TP proceeds for unsalable returns"
+    },
+    "nextActions": [
+      "Recover officially authorized Ego Lite/Work connection without changing security settings; read existing Noon Org, UAE/KSA Store, LE, approved payout and China NGS status only.",
+      "Read-only checkout-before-payment quote to Shenzhen Baoan for 1 brush kit and 2 travel-bottle sets; verify packed weight and supplier capacity for one paid buyer order/one labeled parcel; do not buy or contact supplier.",
+      "After actual legal/payout approval, confirm NGS category access and lawful real SKU buyer total/ETA plus TP/payout; then recalculate >=15% contribution and 100-unit stress before any sample or public listing."
+    ]
   }
 }
