@@ -1867,6 +1867,15 @@
         "sourceRestrictionPolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
         "ksaRainbowAndRestrictedMotifCheck": "SKU_SPECIFIC_PENDING",
         "currentNewOwnerTransactionsVerified": 0
+      },
+      "latestMarketAudit": {
+        "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+        "source": "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/",
+        "spec": "24 fake nails + jelly adhesive tabs + file + cuticle stick; reported weight 40g; indexed",
+        "verifiedPaidOrder": false,
+        "exactBomMatch": false,
+        "actualPrice": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -2425,7 +2434,17 @@
         "WAKUKU V2已出现在Noon Saudi，标价SAR201、低库存，但未看到强sold recently信号",
         "Labubu/POP MART在UAE/Saudi大量在售，证明收藏挂件购买力，不证明新Generic IP能成功"
       ],
-      "nextAction": "WAKUKU已到Saudi，不能当作‘尚未进入GCC’样本。下一轮寻找中国刚起量、Noon/Amazon GCC尚未明显铺货且能合法授权的更早期IP。"
+      "nextAction": "WAKUKU已到Saudi，不能当作‘尚未进入GCC’样本。下一轮寻找中国刚起量、Noon/Amazon GCC尚未明显铺货且能合法授权的更早期IP。",
+      "latestOriginAudit": {
+        "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+        "character": "CRYBABY",
+        "creator": "Thai artist Nisa Srikumdee",
+        "chinaOriginalIP": false,
+        "gccFirstPaidDate": null,
+        "chinaFirstPaidDate": null,
+        "lagDays": null,
+        "authorizedForResale": false
+      }
     },
     {
       "englishName": "",
@@ -3064,7 +3083,15 @@
     ],
     "skuScorePolicy": "KEEP_HISTORICAL_V2_NO_41_SUBITEM_RESCORING",
     "sampleReadyCount": 0,
-    "approvedPurchaseCount": 0
+    "approvedPurchaseCount": 0,
+    "latestSupplementAudit": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "ipOriginCorrection": "CRYBABY created by Thai artist Nisa Srikumdee; not Chinese-original IP",
+    "nailCompetitorEvidence": "UAE indexed Kanza 24-piece jelly tabs kit; actual sales unknown",
+    "verifiedNewPaidOrders": 0,
+    "verifiedNewRFQ": 0,
+    "verifiedNewRestock": 0,
+    "accessStillBlocked": true,
+    "priorityNoonNGS": true
   },
   "dailyReconciliation": {
     "auditDate": "2026-10-30",
@@ -3148,5 +3175,15 @@
     "riskEconomicStatus": "100 unit loss unbounded/UNKNOWN",
     "scoreCorrectionApproved": false,
     "modelPreference": "GPT-6 Extra High preferred not runtime verified"
+  },
+  "latestOriginalIPAndNailsAudit": {
+    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "sourcePath": "data/daily/2026-10-31.json",
+    "realBuyerMarkup": null,
+    "realShenzhenFreight": null,
+    "legalEntityVerified": false,
+    "ipOriginLagDays": null,
+    "verified100UnitWorstLoss": null,
+    "scoreChanged": false
   }
 }
