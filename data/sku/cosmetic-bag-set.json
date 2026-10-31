@@ -229,5 +229,51 @@
     "calculation": "100*(actual item procurement+packaging+domestic transfer to Shenzhen) + other sunk/return costs; no TP recovery for 100 unsaleable returns",
     "notACertifiedMaximum": true,
     "reason": "no binding same-BOM cost, real per-order hub freight and return liabilities"
+  },
+  "latestNGSReturnV2Audit": {
+    "auditId": "2026-10-31/NGS-RETURN-V2-CROSSCHECK",
+    "day": "2026-10-31",
+    "modelPreference": "GPT-6 Extra High preferred; runtime unverified",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "marketSignal": {
+      "marketSignal": "KHAJUL 3 piece clear bags SAR22.50, 310+ sales badge is adjacent NOT same 4-piece BOM",
+      "url": "https://www.noon.com/saudi-en/beauty/makeup-16142/makeup-brushes-and-tools/cosmetic-bags/noon-deals-sa/"
+    },
+    "scoreStatus": "HISTORICAL_NO_RESCORING",
+    "opportunityScore": 78,
+    "evidenceConfidence": 90,
+    "dataCompleteness": 73,
+    "actualBuyerPrice": null,
+    "actualNoonMarkup": null,
+    "realSameBOMQuote": null,
+    "actualDomesticHubFreight": null,
+    "skuApproval": "UNKNOWN",
+    "zeroTPProceedsFractionScenario": [
+      0,
+      0.1,
+      0.2
+    ],
+    "maxSellerTotalCostFor20PctContributionUsd": {
+      "0": [
+        3.6,
+        4.4,
+        5.2
+      ],
+      "0.1": [
+        3.24,
+        3.96,
+        4.68
+      ],
+      "0.2": [
+        2.88,
+        3.52,
+        4.16
+      ]
+    },
+    "returnScenario": "Non-saleable liquidation: no TP proceeds; Noon removal/disposal fees waived, other costs unknown",
+    "loss100UpperBoundUsd": null,
+    "ownerPaidOrdersNewlyVerified": 0,
+    "channelAccessGate": "NOT_PASSED",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE"
   }
 }
