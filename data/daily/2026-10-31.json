@@ -2300,5 +2300,28 @@
     "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
     "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
     "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_033_NOON_031_ACCEPTANCE_SHENZHEN_FREIGHT_TP_MARKUP_GATE.md"
-  ]
+  ],
+  "postRadarSupplyReadOnlyCheck": {
+    "date": "2026-10-31",
+    "product": "Yiwugo 986877044 10-pc brush + pouch",
+    "englishPage": "https://en.yiwugo.com/product/detail/986877044.html",
+    "chinesePage": "https://www.yiwugo.com/product/detail/986877044.html",
+    "publicChinesePageReadable": true,
+    "sourceLastUpdated": "2026-09-17 09:14 (supplier webpage)",
+    "observedUnitPriceCny": 7.8,
+    "moq": 1,
+    "claimedItemWeightG": 95,
+    "defaultDeliveryDestination": "Zhejiang",
+    "defaultShippingDisplay": "¥0起 / 免费运费 as page claims with Zhejiang default",
+    "actualShenzhenBaoanSingleShipmentFreightCny": null,
+    "realCheckoutCartTotalCny": null,
+    "finalPackedGrossWeightG": null,
+    "oneOrderBarcodeSLAVerified": false,
+    "sellerContacted": false,
+    "checkoutInitiated": false,
+    "orderPlaced": false,
+    "paymentMade": false,
+    "assessment": "Public read proved source page accessibility and price only. Page never switched its destination to Shenzhen Baoan; Zhejiang zero-shipping/default free shipping cannot be used as freight cost to noon consolidation hub.",
+    "source": "https://www.yiwugo.com/product/detail/986877044.html"
+  }
 }
