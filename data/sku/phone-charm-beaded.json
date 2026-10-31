@@ -326,5 +326,52 @@
     "calculation": "100*(actual item procurement+packaging+domestic transfer to Shenzhen) + other sunk/return costs; no TP recovery for 100 unsaleable returns",
     "notACertifiedMaximum": true,
     "reason": "no binding same-BOM cost, real per-order hub freight and return liabilities"
+  },
+  "latestNGSReturnV2Audit": {
+    "auditId": "2026-10-31/NGS-RETURN-V2-CROSSCHECK",
+    "day": "2026-10-31",
+    "modelPreference": "GPT-6 Extra High preferred; runtime unverified",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "marketSignal": {
+      "marketSignal": "KODAK CHARMERA AED190 170+ brand/electronic camera charms; not comparable with original unbranded bead charms",
+      "url": "https://supermall.noon.com/uae-en/ts-ae-en-kodak-charmera/",
+      "scoreConflict": "independent 41=69, independent dims=69, stored score=68, main table sum=68"
+    },
+    "scoreStatus": "HISTORICAL_NO_RESCORING",
+    "opportunityScore": 68,
+    "evidenceConfidence": 84,
+    "dataCompleteness": 76,
+    "actualBuyerPrice": null,
+    "actualNoonMarkup": null,
+    "realSameBOMQuote": null,
+    "actualDomesticHubFreight": null,
+    "skuApproval": "UNKNOWN",
+    "zeroTPProceedsFractionScenario": [
+      0,
+      0.1,
+      0.2
+    ],
+    "maxSellerTotalCostFor20PctContributionUsd": {
+      "0": [
+        1.36,
+        1.76,
+        2.16
+      ],
+      "0.1": [
+        1.224,
+        1.584,
+        1.944
+      ],
+      "0.2": [
+        1.088,
+        1.408,
+        1.728
+      ]
+    },
+    "returnScenario": "Non-saleable liquidation: no TP proceeds; Noon removal/disposal fees waived, other costs unknown",
+    "loss100UpperBoundUsd": null,
+    "ownerPaidOrdersNewlyVerified": 0,
+    "channelAccessGate": "NOT_PASSED",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE"
   }
 }
