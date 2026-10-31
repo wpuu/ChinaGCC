@@ -1,0 +1,226 @@
+{
+  "stage": "ChinaGCC-039",
+  "date_bj": "2026-10-31",
+  "objective": "First payout liquidity and Chinese legal entity hold decision, extending completed 035 and current 037B without overwriting either.",
+  "authoritative_repo_entrypoint": "research/2026-10-31/CHINAGCC_037B_NOON_CHANNEL_BUSINESS_GO_NOGO_RESUME_GATES.md",
+  "baseline": {
+    "035_already_completed": true,
+    "037B_current_channel_decision": "NOON_NGS_HOLD_CONDITIONAL_RESTART",
+    "owner_sales": 0,
+    "approved_LE": false,
+    "UAE_store_exists_current_project": false,
+    "KSA_store_exists_current_project": false,
+    "NGS_eligibility_verified": false,
+    "payout_method_verified": false
+  },
+  "sources": [
+    {
+      "type": "noon_first_party",
+      "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "confirmed": "China seller registered with valid Chinese Commercial Registration; USD TP on successful delivery; no extra fee deducted from successful NGS TP; new China store valid payment method required before live; exception eligibility for mainland individually registered sole proprietor not explicitly stated."
+    },
+    {
+      "type": "noon_first_party",
+      "url": "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "confirmed": "Generic marketplace weekly policy: payout min 100 AED/SAR for local currency accounts vs 1000 AED/SAR for bank account currency different from marketplace. Accumulates if below; actual China NGS payment provider plan may be an exception."
+    },
+    {
+      "type": "noon_first_party",
+      "url": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "confirmed": "LE payout method must be approved AND linked to appropriate origin."
+    },
+    {
+      "type": "government",
+      "url": "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202507/t20250722_7096106.html",
+      "confirmed": "Tianjin registered operating place must be valid; limited special rules for purely online sole proprietors."
+    },
+    {
+      "type": "government",
+      "url": "https://www.tj.gov.cn/zmhd/WDK/BSWD/202508/t20250808_7108376.html",
+      "confirmed": "First official seal free for eligible company or personally owned enterprise; not free for individually registered business."
+    },
+    {
+      "type": "government",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_0c753e108142465db664db16bc0e8b95.html",
+      "confirmed": "Individual business filing annual report required by June 30, free self-service."
+    },
+    {
+      "type": "tax_first_party",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247434/content.html",
+      "confirmed": "2026-2027 small-scale VAT taxable transaction threshold monthly 100k CNY / quarterly 300k CNY; does NOT imply all exports are VAT free automatically."
+    },
+    {
+      "type": "tax_first_party",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247437/content.html",
+      "confirmed": "2026 exporter VAT rules depend on exact export and qualification."
+    },
+    {
+      "type": "bank_first_party",
+      "url": "https://www.boc.cn/custserv/fd5/202409/t20240929_25163922.html",
+      "confirmed": "Eligible accounts receive specific maintenance waivers through 2027-09-30; all other costs not automatically zero."
+    },
+    {
+      "type": "fx_government",
+      "url": "https://u.ae/en/about-the-uae/fact-sheet",
+      "confirmed": "AED pegged to USD: 1 USD = 3.6725 AED."
+    },
+    {
+      "type": "fx_central_bank",
+      "url": "https://sama.gov.sa/en-US/MediaCenter/News/Pages/news-557.aspx",
+      "confirmed": "SAR pegged to USD: 1 USD = 3.75 SAR."
+    }
+  ],
+  "model_warning": "The following are illustrative mathematical conditions, NOT market prices, live seller payment thresholds, actual orders, actual Noon markup, business expense quotations, or tax advice.",
+  "model_parameters": {
+    "transfer_price_usd_sample": 4,
+    "net_cny_per_usd_scenario": 6.5,
+    "probability_successful_payout_scenario": 0.9,
+    "brush_public_list_cost_cny": 7.8,
+    "packaging_per_attempt_scenario_cny": 2.5,
+    "china_ship_per_attempt_scenario_cny": 8,
+    "upfront_unit_outlay_per_attempt_scenario_cny": 18.3,
+    "attempt_contribution_before_unmodelled_tax_labor_cny": 5.1,
+    "international_market_currency_payout_threshold_example": 1000,
+    "local_market_currency_payout_threshold_example": 100
+  },
+  "first_payout_if_general_international_threshold_applies": [
+    {
+      "market": "UAE",
+      "transfer_price_usd_assumed": 4,
+      "market_currency_per_usd_reference": 3.6725,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 69,
+      "expected_attempts_at_90pct_success_approx": 77,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": 1409.1,
+      "working_capital_note": "Uses ¥18.30 per attempted brush order; excludes company fees, taxes and advertising. Does not guarantee payout even after expected attempt count."
+    },
+    {
+      "market": "UAE",
+      "transfer_price_usd_assumed": 8,
+      "market_currency_per_usd_reference": 3.6725,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 35,
+      "expected_attempts_at_90pct_success_approx": 39,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": null,
+      "working_capital_note": "No appropriate product BOM/working-capital quote for this TP; deliberately not calculated."
+    },
+    {
+      "market": "UAE",
+      "transfer_price_usd_assumed": 17.1,
+      "market_currency_per_usd_reference": 3.6725,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 16,
+      "expected_attempts_at_90pct_success_approx": 18,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": null,
+      "working_capital_note": "No appropriate product BOM/working-capital quote for this TP; deliberately not calculated."
+    },
+    {
+      "market": "KSA",
+      "transfer_price_usd_assumed": 4,
+      "market_currency_per_usd_reference": 3.75,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 67,
+      "expected_attempts_at_90pct_success_approx": 75,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": 1372.5,
+      "working_capital_note": "Uses ¥18.30 per attempted brush order; excludes company fees, taxes and advertising. Does not guarantee payout even after expected attempt count."
+    },
+    {
+      "market": "KSA",
+      "transfer_price_usd_assumed": 8,
+      "market_currency_per_usd_reference": 3.75,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 34,
+      "expected_attempts_at_90pct_success_approx": 38,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": null,
+      "working_capital_note": "No appropriate product BOM/working-capital quote for this TP; deliberately not calculated."
+    },
+    {
+      "market": "KSA",
+      "transfer_price_usd_assumed": 17.1,
+      "market_currency_per_usd_reference": 3.75,
+      "reference_market_threshold": 1000,
+      "successful_deliveries_to_threshold_approx": 16,
+      "expected_attempts_at_90pct_success_approx": 18,
+      "bank_currency_rule": "If bank currency differs from UAE/KSA marketplace currency and general payment policy applies; account-specific exception unknown",
+      "illustrative_working_capital_brush_only_cny": null,
+      "working_capital_note": "No appropriate product BOM/working-capital quote for this TP; deliberately not calculated."
+    }
+  ],
+  "annual_break_even_scenarios": [
+    {
+      "annual_fixed_budget_cny": 2400,
+      "attempts_to_cover_fixed_by_contribution": {
+        "30": 80,
+        "50": 48,
+        "2.1": 1143,
+        "5.1": 471,
+        "7.5": 320
+      },
+      "caveat": "fixed annual cost and per attempt contribution are scenarios, not real quotes or verified profits."
+    },
+    {
+      "annual_fixed_budget_cny": 6000,
+      "attempts_to_cover_fixed_by_contribution": {
+        "30": 200,
+        "50": 120,
+        "2.1": 2858,
+        "5.1": 1177,
+        "7.5": 800
+      },
+      "caveat": "fixed annual cost and per attempt contribution are scenarios, not real quotes or verified profits."
+    },
+    {
+      "annual_fixed_budget_cny": 12000,
+      "attempts_to_cover_fixed_by_contribution": {
+        "30": 400,
+        "50": 240,
+        "2.1": 5715,
+        "5.1": 2353,
+        "7.5": 1600
+      },
+      "caveat": "fixed annual cost and per attempt contribution are scenarios, not real quotes or verified profits."
+    }
+  ],
+  "historic_policy_conflict": {
+    "new_helpcenter": "Balances below threshold roll until threshold reached.",
+    "old_supportagent": "Some legacy help pages describe monthly payout below threshold.",
+    "decision": "Follow currently indexed main Help Center for conservative scenario; explicit account-specific China NGS agreement and payment processor may vary."
+  },
+  "unknowns_blocking_business": [
+    "Noon explicit China NGS Mainland individual industrial/commercial household LE acceptance",
+    "Actual registration address and status of user’s permissible registered site",
+    "Actual permitted payout method / settlement currency and NGS threshold on this account",
+    "Applicable contract-specific weekly/monthly settlement schedule",
+    "Real NGS buyer all-in price and delivery ETA at TP chosen",
+    "Actual source SKU same-BOM Shenzhen fulfillment, labeling and packed weight",
+    "Tax/accounting and banking service vendor quotes for chosen entity",
+    "Product actual consumer orders, delivered and settled"
+  ],
+  "result": {
+    "new_fact": "Potential first-payout liquidity gap under general international bank-currency policy; distinct from fixed annual entity expenses.",
+    "actual_entity_created": false,
+    "actual_merchant_approved": false,
+    "actual_new_sku_listed": false,
+    "actual_orders": 0,
+    "actual_payout": 0,
+    "actual_outreach": 0,
+    "new_business_go": "NO_GO",
+    "next": "ChinaGCC-040 ONLY after new official LE eligibility or first-party payout agreement evidence; otherwise retain 037B HOLD and redirect labor to paid projects."
+  },
+  "annual_owner_surplus_target_example": {
+    "annual_fixed_budget_cny": 6000,
+    "annual_target_business_surplus_before_personal_tax_and_owner_labor_cny": 60000,
+    "order_counts": {
+      "30": 2200,
+      "50": 1320,
+      "2.1": 31429,
+      "5.1": 12942,
+      "7.5": 8800
+    }
+  }
+}
