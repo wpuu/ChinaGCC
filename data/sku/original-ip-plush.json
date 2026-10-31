@@ -71,7 +71,7 @@
     "WAKUKU V2已出现在Noon Saudi，标价SAR201、低库存，但未看到强sold recently信号",
     "Labubu/POP MART在UAE/Saudi大量在售，证明收藏挂件购买力，不证明新Generic IP能成功"
   ],
-  "nextAction": "WAKUKU已到Saudi，不能当作‘尚未进入GCC’样本。下一轮寻找中国刚起量、Noon/Amazon GCC尚未明显铺货且能合法授权的更早期IP。",
+  "nextAction": "仅观察官方新系列；先核中国原创归属及中国/GCC同系列首笔付款日期、正规销售授权和Noon类目；无授权禁止采购或上架。",
   "latestOriginAudit": {
     "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
     "character": "CRYBABY",
@@ -123,18 +123,29 @@
     "upperBoundCertified": false,
     "reason": "No verified same SKU purchase / authorization / hub freight / return loss"
   },
-  "latestResearchAudit": {
-    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
-    "originalCreator": "Thai artist Nisa Srikumdee (Molly)",
-    "commercialOperator": "POP MART (China)",
-    "chinaCreatedIP": false,
-    "chinaGCCFirstPaidOrderPairCount": 0,
-    "lagDays": null,
-    "authorizedDistributor": false,
-    "source": "https://www.nationthailand.com/business/trade/40065852",
-    "officialReleaseSource": "https://www.popmart.com/us/products/9299/crybaby-crying-round-n-round-series-vinyl-plush-pendant-blind-box",
-    "channelAccessGate": "NOT_PASSED",
-    "scoreChanged": false,
-    "sampleReady": false
-  }
+  "latestResearchAudit": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
+  "latestOfficialLaunchWatch": [
+    {
+      "series": "RiboDiary Forest Gathering Day Series Plush Doll Pendant",
+      "officialMarket": "US",
+      "officialOnlineRelease": "2026-10-29 17:00 PDT",
+      "source": "https://www.popmart.com/us/pop-now/set/1486",
+      "creatorOrigin": "UNKNOWN",
+      "chinaFirstPaidOrderDate": null,
+      "gccSameSeriesFirstPaidOrderDate": null,
+      "authorizedForResale": false,
+      "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+    },
+    {
+      "series": "1001MOONS The Moonlight Gathering Guide Series Plush Doll Pendant",
+      "officialMarket": "US",
+      "officialOnlineRelease": "2026-10-29 17:00 PDT",
+      "source": "https://www.popmart.com/us/pop-now/set/1476",
+      "creatorOrigin": "UNKNOWN",
+      "chinaFirstPaidOrderDate": null,
+      "gccSameSeriesFirstPaidOrderDate": null,
+      "authorizedForResale": false,
+      "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+    }
+  ]
 }
