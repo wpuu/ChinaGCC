@@ -368,5 +368,27 @@
     "ownerPaidOrdersNewlyVerified": 0,
     "channelAccessGate": "NOT_PASSED",
     "decision": "RESEARCH_ONLY_NO_PURCHASE"
+  },
+  "latestResearchSupplement": {
+    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "date": "2026-10-31",
+    "historicalV2ScoreUnchanged": true,
+    "ngsTPScenarioUsd": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "actualTP": null,
+    "actualConsumerCheckoutPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBOMSupplierCost": null,
+    "actualShenzhenFreight": null,
+    "actualReturnLoss": null,
+    "ngsSKUApproval": "UNKNOWN",
+    "channelAccessGate": "NOT_PASSED",
+    "newIndependentPaidOrderProof": 0,
+    "newRFQProof": 0,
+    "newRestockProof": 0,
+    "certifiedWorstLoss100": null
   }
 }
