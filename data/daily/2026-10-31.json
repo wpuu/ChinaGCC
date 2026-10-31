@@ -1369,6 +1369,21 @@
           "url": "https://www.noon.com/uae-en/false-nails/",
           "observation": "UAE独立胶贴AEENAA AED14.50、120+近期成交标识；不能等同含胶贴穿戴甲套装成交",
           "type": "adjacent_product_sales_badge"
+        },
+        {
+          "id": "Kanza-24-adhesive-tabs",
+          "market": "UAE",
+          "skuId": "press-on-nails",
+          "source": "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/",
+          "sourceType": "Noon product page indexed; direct opening timed out",
+          "observed": "Kanza 24-piece press-on nails; jelly glue stickers, file, cuticle stick, listed 0.04 kg",
+          "price": null,
+          "soldRecently": null,
+          "verifiedPaidOrders": 0,
+          "verifiedRFQ": 0,
+          "verifiedRestock": 0,
+          "exactBOMConfirmed": false,
+          "chinaSupplierSearchAllowed": false
         }
       ],
       "decision": "RESEARCH_ONLY_NO_PURCHASE",
@@ -1882,7 +1897,7 @@
       "giftability": null,
       "visualDemoStrength": null,
       "trendHalfLife": null,
-      "IPRisk": "UNKNOWN",
+      "IPRisk": "UNLICENSED_THIRD_PARTY_IP_HARD_STOP",
       "seasonalTrigger": null,
       "localPlatformFit": null,
       "opportunityScore": 69,
@@ -1952,7 +1967,23 @@
         },
         "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
       },
-      "newMarketEvidence": [],
+      "newMarketEvidence": [
+        {
+          "id": "CRYBABY-Thai-creator",
+          "market": "US launch reference; GCC timing unknown",
+          "skuId": "original-ip-plush",
+          "source": "https://www.popmart.com/us/products/9299/crybaby-crying-round-n-round-series-vinyl-plush-pendant-blind-box",
+          "secondarySource": "https://www.nationthailand.com/business/trade/40065852",
+          "observed": "2026-10-22 17:00 PST official USA release of Crying Round n Round series; Thai artist Nisa Srikumdee created CRYBABY",
+          "ipCountryOfCreation": "THAILAND",
+          "chinaOriginTrendGapCandidate": false,
+          "chinaFirstPaidOrder": null,
+          "gccFirstPaidOrder": null,
+          "lagDays": null,
+          "resaleRights": false,
+          "verifiedPaidOrders": 0
+        }
+      ],
       "decision": "HOLD_PREVIOUS_GATE",
       "date": "2026-10-31",
       "scoreAudit": {
@@ -2571,6 +2602,107 @@
         "get same BOM and Shenzhen per-shipment cost only after buyer transaction/RFQ/restock threshold",
         "pair same original-IP China and GCC earliest confirmed paid order dates"
       ]
+    },
+    {
+      "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+      "date": "2026-10-31",
+      "timePrecision": "DATE_ONLY",
+      "modelPreference": "GPT-6 Extra High",
+      "actualEffortVerified": false,
+      "studySequence": [
+        "Saudi women 18-45 / UAE women 18-39 / female Gen Z and students; families secondary 50+ WATCH",
+        "TikTok Snapchat Instagram candidate discovery; attribution unverified",
+        "Noon China NGS first; Amazon UAE/Saudi second",
+        "beauty/gifting triggers are hypotheses",
+        "beauty organizers, 8-clips, adhesive-tab nails, original charms",
+        "specific SKU and transaction/RFQ/restock gate before new China supplier search",
+        "TP/Noon markup/China-to-Shenzhen cost/returns/category/IP risk"
+      ],
+      "newEvidence": [
+        {
+          "id": "Kanza-24-adhesive-tabs",
+          "market": "UAE",
+          "skuId": "press-on-nails",
+          "source": "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/",
+          "sourceType": "Noon product page indexed; direct opening timed out",
+          "observed": "Kanza 24-piece press-on nails; jelly glue stickers, file, cuticle stick, listed 0.04 kg",
+          "price": null,
+          "soldRecently": null,
+          "verifiedPaidOrders": 0,
+          "verifiedRFQ": 0,
+          "verifiedRestock": 0,
+          "exactBOMConfirmed": false,
+          "chinaSupplierSearchAllowed": false
+        },
+        {
+          "id": "CRYBABY-Thai-creator",
+          "market": "US launch reference; GCC timing unknown",
+          "skuId": "original-ip-plush",
+          "source": "https://www.popmart.com/us/products/9299/crybaby-crying-round-n-round-series-vinyl-plush-pendant-blind-box",
+          "secondarySource": "https://www.nationthailand.com/business/trade/40065852",
+          "observed": "2026-10-22 17:00 PST official USA release of Crying Round n Round series; Thai artist Nisa Srikumdee created CRYBABY",
+          "ipCountryOfCreation": "THAILAND",
+          "chinaOriginTrendGapCandidate": false,
+          "chinaFirstPaidOrder": null,
+          "gccFirstPaidOrder": null,
+          "lagDays": null,
+          "resaleRights": false,
+          "verifiedPaidOrders": 0
+        }
+      ],
+      "independentlyVerifiedNewPaidOrders": 0,
+      "independentlyVerifiedNewRFQs": 0,
+      "independentlyVerifiedNewRestocks": 0,
+      "scorePolicy": "Issue #12 V2 historical scores unchanged; 41 subitems not independently rescored",
+      "fourSkuTPTestsUsd": {
+        "cosmetic-bag-set": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "hair-accessories": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "press-on-nails": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "phone-charm-beaded": [
+          1.7,
+          2.2,
+          2.7
+        ]
+      },
+      "actualTransferPrice": null,
+      "actualBuyerFinalPrice": null,
+      "actualNoonMarkup": null,
+      "actualChineseSameBOMCost": null,
+      "actualShenzhenHubFreight": null,
+      "actualReturnLoss": null,
+      "verified100UnitWorstLoss": null,
+      "skuRestrictionApproval": null,
+      "channelAccessGate": "NOT_PASSED: previous Work031 Org/Project exists, UAE/KSA stores none, valid LE none, payout unknown; no new login",
+      "chinaSoleProprietorEligible": "UNKNOWN",
+      "ngsCompleteOnboardingDays": "UNKNOWN",
+      "ipOriginCorrection": "CRYBABY is Thai-created, Chinese POP MART distributes; exclude from China-original-IP -> GCC time-lag sample",
+      "matchedChinaGccFirstPaidDates": 0,
+      "riskTopFive": "Existing per-SKU Top5 retained; do not fabricate new measured probabilities",
+      "hardStops": [
+        "No IP resale authorization",
+        "Actual restricted SKU",
+        "Missing legal entity/store/payment access"
+      ],
+      "decision": "HOLD: no sourcing, registration, listing, inventory, buying, ads or external outreach",
+      "sourceUrls": [
+        "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/",
+        "https://www.popmart.com/us/products/9299/crybaby-crying-round-n-round-series-vinyl-plush-pendant-blind-box",
+        "https://www.nationthailand.com/business/trade/40065852",
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
+      ]
     }
-  ]
+  ],
+  "latestOriginAndBOMAuditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN"
 }
