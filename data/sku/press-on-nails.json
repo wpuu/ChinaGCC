@@ -292,5 +292,29 @@
     "ownerPaidOrdersNewlyVerified": 0,
     "channelAccessGate": "NOT_PASSED",
     "decision": "RESEARCH_ONLY_NO_PURCHASE"
+  },
+  "latestResearchSupplement": {
+    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "date": "2026-10-31",
+    "historicalV2ScoreUnchanged": true,
+    "ngsTPScenarioUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "actualTP": null,
+    "actualConsumerCheckoutPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBOMSupplierCost": null,
+    "actualShenzhenFreight": null,
+    "actualReturnLoss": null,
+    "ngsSKUApproval": "UNKNOWN",
+    "channelAccessGate": "NOT_PASSED",
+    "newIndependentPaidOrderProof": 0,
+    "newRFQProof": 0,
+    "newRestockProof": 0,
+    "certifiedWorstLoss100": null,
+    "newProductEvidence": "UAE Kanza 24-piece jelly-tabs complete kit indexed; real current sale not independently proven",
+    "source": "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/"
   }
 }
