@@ -1,0 +1,2304 @@
+{
+  "schemaVersion": "ChinaGCC-Daily-2026-10-31-radar-v1",
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "observedAtPrecision": "DATE_ONLY",
+  "modelPreference": {
+    "preferred": "GPT-6",
+    "thinking": "Extra High",
+    "actualRunnerModel": "NOT_PROGRAMMATICALLY_VERIFIED",
+    "actualEffort": "NOT_PROGRAMMATICALLY_VERIFIED"
+  },
+  "sequence": [
+    "corePersona",
+    "discoveryChannel",
+    "checkoutChannel",
+    "purchaseTrigger",
+    "productFamily",
+    "specificSKU",
+    "chinaSupplyChain",
+    "NGSUnitEconomicsAndRisk"
+  ],
+  "prioritySegments": [
+    {
+      "market": "Saudi",
+      "ageBand": "18-45",
+      "gender": "female",
+      "priority": 1
+    },
+    {
+      "market": "UAE",
+      "ageBand": "18-39",
+      "gender": "female",
+      "priority": 1
+    },
+    {
+      "group": "female Gen Z/students",
+      "priority": 1
+    },
+    {
+      "group": "young families",
+      "priority": 2
+    },
+    {
+      "group": "50+",
+      "priority": "WATCH_ONLY"
+    }
+  ],
+  "discoveryChannels": [
+    "TikTok",
+    "Snapchat",
+    "Instagram"
+  ],
+  "discoveryAttributionVerified": false,
+  "checkoutChannels": [
+    {
+      "name": "Noon China NGS",
+      "rank": 1
+    },
+    {
+      "name": "Amazon UAE/Saudi",
+      "rank": 2
+    }
+  ],
+  "purchaseTriggers": [
+    "beauty quick-use",
+    "travel organization",
+    "gift-giving",
+    "back-to-school/seasonal; not evidence of paid demand"
+  ],
+  "researchBoundaries": [
+    "READ_ONLY",
+    "no external contact",
+    "no company registration",
+    "no store creation",
+    "no listing or fake inventory",
+    "no bank document submission",
+    "no supplier purchase",
+    "no advertising",
+    "no unlicensed IP"
+  ],
+  "newEvidence": {
+    "independentlyVerifiableOwnerPaidOrders": 0,
+    "independentlyVerifiableNewRFQ": 0,
+    "independentlyVerifiableRestockOrders": 0,
+    "meaning": "No independently verifiable fresh transactions found in this research; market sales cannot be inferred to be zero",
+    "storeAcceptanceEvidence": {
+      "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
+      "orgProject": "EXISTS_VERIFIED_READ_ONLY",
+      "uaeStore": "CURRENTLY_NONE",
+      "ksaStore": "CURRENTLY_NONE",
+      "legalEntity": "NO_VALID_LEGAL_ENTITIES_FOUND",
+      "paymentApproval": "UNKNOWN",
+      "originInvoicing": "UNKNOWN",
+      "ngsEligibility": "CURRENTLY_NOT_ELIGIBLE_FOR_PROGRAMS",
+      "priorEgoBootstrapError": "RESOLVED_FOR_031_RUN"
+    },
+    "officialNGS": {
+      "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "destinations": [
+        "UAE",
+        "KSA",
+        "Bahrain",
+        "Qatar",
+        "Kuwait",
+        "Oman"
+      ],
+      "storesRequired": [
+        "UAE",
+        "KSA"
+      ],
+      "validChinaCommercialRegistrationRequired": true,
+      "chinaIndividualBusinessAcceptance": "NOT_EXPLICITLY_CONFIRMED",
+      "payoutBeforeGoLive": "REQUIRED_FOR_NEW_CHINESE_SELLER",
+      "payoutCurrency": "USD transfer price",
+      "markupSetBy": "Noon",
+      "actualBuyerAllInPrice": "UNKNOWN",
+      "shenzhenHubSellerShipment": "SELLER_RESPONSIBILITY",
+      "successfulDeliveredPaysTP": true,
+      "nonSaleableReturns": "NO_ITEM_PROCEEDS",
+      "endToEndOnboardingDuration": "NOT_PUBLISHED_AS_VERIFIED_VALUE",
+      "validLEProcessingTime": "NOT_EQUIVALENT_TO_END_TO_END_LAUNCH_TIME",
+      "approvedPaymentMethod": "UNKNOWN"
+    },
+    "officialSellerDocuments": {
+      "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "requiredCore": [
+        "valid business registration authorizing sales or trading",
+        "commercial registration details and representative ID",
+        "company beneficiary-aligned payout method",
+        "T&C signatory/authorization where applicable"
+      ],
+      "intlSellerRule": "Commercial certificate and passport; Individual Seller general category limited to Egypt; China-registered sole proprietor interpretation unknown"
+    },
+    "officialForbiddenDesigns": {
+      "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "ksaRainbowColoredProducts": true,
+      "ksaCertainReligiousAndSeasonalMotifsOrWords": true,
+      "scope": "Exact item colors/photos/descriptions/country must be checked; not all multi-colored items assumed disallowed; NGS category-level approval not implied"
+    },
+    "officialPayments": {
+      "source": "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "generalThresholds": {
+        "sameCurrency": "100 AED/SAR",
+        "crossCurrency": "1000 AED/SAR"
+      },
+      "chinaNgsUsdApplication": "NOT_CONFIRMED"
+    },
+    "latestMarketListingSources": [
+      {
+        "skuId": "hair-accessories",
+        "url": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+        "tag": "KHAJUL matched 8 piece SAR25 and 210+ historical sold label",
+        "freshness": "old index; not today"
+      },
+      {
+        "skuId": "press-on-nails",
+        "url": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+        "tag": "Saudi historical press-on category with 420+ sold badge for a style not verified adhesive-tabs; cannot transfer demand proof",
+        "freshness": "old index"
+      },
+      {
+        "skuId": "phone-charm-beaded",
+        "url": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-metal-clasp/Z081FB92388BE6551AE09Z/p/",
+        "tag": "Jellycat branded plush historical 90+ tag; not transferable to original unbranded charm",
+        "freshness": "old index"
+      }
+    ],
+    "ipTrendGap": {
+      "chineseOriginalIPToGccFirstPaidOrderPairCount": 0,
+      "computedLagDays": null,
+      "watchOnly": true,
+      "examples": [
+        "Blokees 2026-10-04 Shanghai exhibition 90+ first exhibition items; large fraction externally licensed",
+        "POP MART THE MONSTERS US launch 2026-10-15"
+      ],
+      "rightsStatus": "NO_RESELLING_RIGHTS_VERIFIED"
+    }
+  },
+  "skus": [
+    {
+      "id": "cosmetic-bag-set",
+      "name": "轻量3/4件化妆/旅行收纳包",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "Saudi女性25–39；18–29趋势发现；UAE女性18–39交叉验证",
+      "ageBand": [
+        "Saudi 18–45",
+        "UAE 18–39"
+      ],
+      "genderFit": "female-primary",
+      "discoveryChannel": [
+        "Snapchat",
+        "TikTok",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": [
+        "旅行",
+        "返校",
+        "节庆",
+        "日常收纳"
+      ],
+      "productFamily": null,
+      "viralPotential": "medium",
+      "collectibility": "low",
+      "giftability": "medium",
+      "visualDemoStrength": "high",
+      "trendHalfLife": "medium-long",
+      "IPRisk": "low",
+      "seasonalTrigger": [
+        "旅行",
+        "返校",
+        "节庆",
+        "日常收纳"
+      ],
+      "localPlatformFit": "high",
+      "opportunityScore": 78,
+      "evidenceConfidence": 90,
+      "dataCompleteness": 73,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 78,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "强成交",
+          "evidence": "Saudi 460+近期成交",
+          "businessImpact": "需求先成立",
+          "impactLevel": 5,
+          "persistence": "medium-long",
+          "ownerUnique": false,
+          "verified": "yes"
+        },
+        {
+          "name": "低买错率",
+          "evidence": "无尺码/设备适配",
+          "businessImpact": "低售后",
+          "impactLevel": 4,
+          "persistence": "long",
+          "ownerUnique": false,
+          "verified": "yes"
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "整包重量/体积",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "mitigation": "3家整套毛重+压缩尺寸"
+        },
+        {
+          "name": "NGS最终零售价",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "mitigation": "TP三点Seller Lab实测"
+        },
+        {
+          "name": "中国到深圳成本",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false,
+          "mitigation": "拿真实国内运费/验证直发"
+        },
+        {
+          "name": "拉链缝线异味",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "mitigation": "样品QC"
+        },
+        {
+          "name": "SKU膨胀",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false,
+          "mitigation": "1色1套型"
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "totalSellerCostCapAt20PercentContributionUsd": [
+        3.6,
+        4.4,
+        5.2
+      ],
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [
+        {
+          "url": "https://supermall.noon.com/saudi-en/essen/f_a_m_s/khajul/yoawllty/",
+          "observation": "KHAJUL三件绗缝包SAR49、222评价；三件不等于目标四件，旧商品列表，不能推断当日订单",
+          "type": "third_party_competitor_listing"
+        }
+      ],
+      "decision": "RESEARCH_ONLY_NO_PURCHASE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 78,
+        "evidenceConfidence": 90,
+        "dataCompleteness": 73,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "scenarioOnly": true,
+      "latestPublicEvidence": {
+        "page": "https://supermall.noon.com/saudi-en/essen/f_a_m_s/khajul/yoawllty/",
+        "label": "Historic KHAJUL 3-piece quilted bag price SAR49; NOT a 4-piece identical BOM",
+        "sourceAge": "older competitor snapshot",
+        "compliance": "review textile labels/design, visual content and destination category rules before listing",
+        "verifiedFreshPaidOrders": 0
+      },
+      "complianceReview": {
+        "policy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "automaticCategoryApproval": false,
+        "hardStopIfBannedDesignOrUnlicensedIP": true,
+        "skuSpecificApproval": "UNKNOWN"
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "silicone-brush",
+      "name": "硅胶沐浴刷",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "beauty",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 78,
+      "evidenceConfidence": 82,
+      "dataCompleteness": 84,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 78,
+      "subitemTotal": 78,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "AED30以上成交能力已被部分证明",
+          "evidence": "UAE存在AED30.57且60+近期成交的样本",
+          "businessImpact": "让15%利润安全线不再只依赖理论高价",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/silicone-body-brush-gentle-exfoliating-body-scrubber-in-shower-silicone-loofah-with-easily-leather-bristles-long-lasting-and-more-hygienic-than-traditional-shower-loofah-1pack-black/Z09AF76947FAE98CD9ABAZ/p/"
+          ]
+        },
+        {
+          "name": "供应端深、试错门槛低",
+          "evidence": "中国公开供应存在低MOQ、多供应商",
+          "businessImpact": "可以用少量样品筛选硬度、异味与结构，不被单一工厂锁定",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.alibaba.com/wholesale/silicon-body-scrubber.html"
+          ]
+        },
+        {
+          "name": "重量和体积适合跨境小件",
+          "evidence": "公开样本约150g、13.3×7.8×3.6cm",
+          "businessImpact": "头程和平台履约成本相对友好",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": []
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "价格战",
+          "probability": 5,
+          "impact": 3,
+          "riskScore": 15,
+          "hardStop": false
+        },
+        {
+          "name": "肤感/软硬度主观评价",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "低复购导致LTV低",
+          "probability": 5,
+          "impact": 2,
+          "riskScore": 10,
+          "hardStop": false
+        },
+        {
+          "name": "低质硅胶异味",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "平台类目/费用误判",
+          "probability": 2,
+          "impact": 4,
+          "riskScore": 8,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 78,
+        "evidenceConfidence": 82,
+        "dataCompleteness": 84,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "makeup-brushes-10pc",
+      "name": "10件便携化妆刷+收纳袋",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "Saudi女性18–45；18–29趋势/25–39利润，UAE女性18–39交叉",
+      "ageBand": [
+        "Saudi18–45",
+        "UAE18–39"
+      ],
+      "genderFit": "female-primary",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS(未获准)",
+        "Amazon UAE/Saudi(备选)"
+      ],
+      "purchaseTrigger": [
+        "旅行",
+        "返校",
+        "Eid"
+      ],
+      "productFamily": null,
+      "viralPotential": "medium",
+      "collectibility": "low",
+      "giftability": "high",
+      "visualDemoStrength": "high",
+      "trendHalfLife": "medium",
+      "IPRisk": "generic only",
+      "seasonalTrigger": [
+        "旅行",
+        "返校",
+        "Eid"
+      ],
+      "localPlatformFit": "Saudi-high UAE-unverified",
+      "opportunityScore": 76,
+      "evidenceConfidence": 91,
+      "dataCompleteness": 82,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 76,
+      "subitemTotal": 76,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "Saudi350+成交",
+          "evidence": "公开平台页面",
+          "businessImpact": "证明品类需求",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "ownerUnique": false,
+          "verified": "partial"
+        },
+        {
+          "name": "MOQ1轻量供应",
+          "evidence": "义乌供应页面95g标重",
+          "businessImpact": "小批验证成本低",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "ownerUnique": false,
+          "verified": "partial"
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "Noon最终价与送仓费用",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "mitigation": "取得Seller Lab实价+快递合同价",
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
+        },
+        {
+          "name": "掉毛/扎脸",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false,
+          "mitigation": "3家样品刷毛与水洗测试",
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
+        },
+        {
+          "name": "价格战/本地快送",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false,
+          "mitigation": "验证最终价竞争安全边际",
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
+        },
+        {
+          "name": "胶水气味/卫生",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "mitigation": "固定QC留样",
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
+        },
+        {
+          "name": "换款SKU膨胀",
+          "evidence": "品类/公开竞品风险，未取得退货统计",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false,
+          "mitigation": "先选1色1版",
+          "mitigationCost": "low-medium",
+          "residualRisk": "unknown"
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 76,
+        "evidenceConfidence": 91,
+        "dataCompleteness": 82,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "travel-bottles",
+      "name": "旅行分装瓶套装",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "travel",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 75,
+      "evidenceConfidence": 76,
+      "dataCompleteness": 84,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 75,
+      "subitemTotal": 74,
+      "scoreConsistency": "SUBITEM_MISMATCH",
+      "advantages": [
+        {
+          "name": "潜在单位经济性较好",
+          "evidence": "UAE 8件套在AED45左右有在售，中国公开供应显示低MOQ套装",
+          "businessImpact": "若实际整套报价成立，售价与货值之间空间明显",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/8-pack-travel-bottles-set-for-toiletries-tsa-approved-toiletry-containers-50ml-2oz-leak-proof-travel-size-accessories-with-label-and-storage-box-perfect-for-business-or-personal-travel-use/Z191A5D02E64A12A276EAZ/p/",
+            "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+          ]
+        },
+        {
+          "name": "MOQ友好",
+          "evidence": "公开供应存在MOQ20的完整套装条目",
+          "businessImpact": "失败库存可以控制在较低规模",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.alibaba.com/countrysearch/CN/travel-bottle-set.html"
+          ]
+        },
+        {
+          "name": "通用性高",
+          "evidence": "不依赖车型、设备或复杂尺寸匹配",
+          "businessImpact": "GCC买家拿到即可使用，适配型退货低",
+          "impactLevel": 4,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": []
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "漏液",
+          "probability": 4,
+          "impact": 5,
+          "riskScore": 20,
+          "hardStop": false
+        },
+        {
+          "name": "公开报价BOM仍需实际确认",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "喷头/泵头耐久",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "Amazon类目费率未确认",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "TSA等宣称误用",
+          "probability": 2,
+          "impact": 4,
+          "riskScore": 8,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 75,
+        "evidenceConfidence": 76,
+        "dataCompleteness": 84,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": true
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "lint-roller",
+      "name": "粘毛滚+refill",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "cleaning",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 74,
+      "evidenceConfidence": 83,
+      "dataCompleteness": 80,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 74,
+      "subitemTotal": 74,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "跨UAE和Saudi成交证据扎实",
+          "evidence": "UAE与Saudi均有多补充卷和粘毛滚商品持续成交",
+          "businessImpact": "真实需求比纯搜索热度更可靠",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+          ]
+        },
+        {
+          "name": "补充卷具有复购结构",
+          "evidence": "市场同时存在手柄套装和单独补充卷",
+          "businessImpact": "理论上可提高生命周期价值",
+          "impactLevel": 5,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "partial",
+          "evidenceLinks": [
+            "https://www.noon.com/uae-en/home-and-kitchen/household-supplies/cleaning-supplies-16799/lint-brushes-rollers/"
+          ]
+        },
+        {
+          "name": "产品通用且低售后",
+          "evidence": "用于衣物、家具、汽车和宠物毛发，无复杂安装",
+          "businessImpact": "退货主要集中在粘性与纸张体验，而不是适配",
+          "impactLevel": 4,
+          "persistence": "long",
+          "isOwnerAdvantage": false,
+          "verificationStatus": "verified",
+          "evidenceLinks": []
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "市场可接受价低于跨境盈利需要价",
+          "probability": 4,
+          "impact": 5,
+          "riskScore": 20,
+          "hardStop": false
+        },
+        {
+          "name": "多refill包装偏厚",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "价格竞争",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "小批量MOQ偏高",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "粘性/撕线/refill兼容",
+          "probability": 2,
+          "impact": 3,
+          "riskScore": 6,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 74,
+        "evidenceConfidence": 83,
+        "dataCompleteness": 80,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "hair-accessories",
+      "name": "8件套强抓力抓夹",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "Saudi女性18–39，学生/Gen Z趋势发现；25–39日常实用与利润验证；UAE女性18–39交叉验证",
+      "ageBand": [
+        "Saudi 18–45",
+        "UAE 18–39"
+      ],
+      "genderFit": "female-primary",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": [
+        "返校",
+        "旅行",
+        "日常通勤",
+        "节庆送礼"
+      ],
+      "productFamily": null,
+      "viralPotential": "medium-high",
+      "collectibility": "low-medium",
+      "giftability": "medium",
+      "visualDemoStrength": "high",
+      "trendHalfLife": "medium",
+      "IPRisk": "low for generic shapes/colors; branded/logo copies prohibited",
+      "seasonalTrigger": [
+        "返校",
+        "旅行",
+        "日常通勤",
+        "节庆送礼"
+      ],
+      "localPlatformFit": "high in Saudi; medium in UAE",
+      "opportunityScore": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 70,
+      "subitemTotal": 70,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "Saudi成交强且连续",
+          "evidence": "8件套250+近期成交，多轮复核仍存在",
+          "businessImpact": "需求不是一次性搜索热度",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "ownerUnique": false,
+          "verified": "yes"
+        },
+        {
+          "name": "轻小耐运",
+          "evidence": "单只抓夹公开供应样本约20–30g，普通货无电池液体",
+          "businessImpact": "适合NGS中国直发",
+          "impactLevel": 5,
+          "persistence": "long",
+          "ownerUnique": false,
+          "verified": "partial"
+        },
+        {
+          "name": "河北供应信号",
+          "evidence": "8件套Alibaba样本来自河北供应商",
+          "businessImpact": "天津附近询样/QC/补货潜在更便利",
+          "impactLevel": 3,
+          "persistence": "medium-long",
+          "ownerUnique": true,
+          "verified": "partial"
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "SAR25低客单限制TP",
+          "evidence": "头部8件套成交价约SAR25",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "只接受TP映射后终价仍在SAR22–29",
+          "mitigationCost": "low",
+          "residualRisk": "medium-high"
+        },
+        {
+          "name": "NGS最终消费者售价未知",
+          "evidence": "Noon markup不公开",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "$2.4/$2.9/$3.4 TP实测",
+          "mitigationCost": "low",
+          "residualRisk": "medium"
+        },
+        {
+          "name": "弹簧/塑料齿断裂",
+          "evidence": "抓夹核心故障点直接导致差评",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "500次开合+跌落+夹持测试",
+          "mitigationCost": "low",
+          "residualRisk": "low-medium"
+        },
+        {
+          "name": "颜色组合造成库存分散",
+          "evidence": "消费者审美分化、套装配色多",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "首测固定中性色2风格8件套",
+          "mitigationCost": "low",
+          "residualRisk": "medium"
+        },
+        {
+          "name": "供应套装与Saudi畅销结构不完全同款",
+          "evidence": "河北样本为蝴蝶结/亚克力组合，Saudi畅销为4雾面+4亮面",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "按畅销结构定向找现货/组合，不拿仿品牌",
+          "mitigationCost": "low",
+          "residualRisk": "medium"
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": [
+        2.4,
+        2.9,
+        3.4
+      ],
+      "totalSellerCostCapAt20PercentContributionUsd": [
+        1.92,
+        2.32,
+        2.72
+      ],
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [
+        {
+          "url": "https://supermall.noon.com/saudi-en/beauty/hair-care/hair-accessories/beauty-under-99/?f%5BisCarousel%5D=true&isCarouselView=false&limit=50&pageCategory=beauty%2Fhair-care&sort%5Bby%5D=popularity&sort%5Bdir%5D=desc",
+          "observation": "Umiwin 8件抓夹SAR25、50+ sold recently（搜索索引上月；非本轮新增50单）",
+          "type": "third_party_sales_badge"
+        }
+      ],
+      "decision": "RESEARCH_ONLY_NO_PURCHASE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 70,
+        "evidenceConfidence": 92,
+        "dataCompleteness": 78,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "scenarioOnly": true,
+      "latestPublicEvidence": {
+        "page": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+        "label": "KHAJUL 8-piece, 4 matte + 4 acrylic, SAR25, 210+ sold recently in an older indexed page; not independently paid orders today",
+        "sourceAge": "about 3 months indexed; do not use as today's transactions",
+        "compliance": "Saudi official banned rainbow-colored products; must check exact SKU visuals and listing claims; ordinary multicolor is not automatically proven prohibited",
+        "verifiedFreshPaidOrders": 0
+      },
+      "complianceReview": {
+        "policy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "automaticCategoryApproval": false,
+        "hardStopIfBannedDesignOrUnlicensedIP": true,
+        "skuSpecificApproval": "UNKNOWN"
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "press-on-nails",
+      "name": "穿戴甲（胶贴优先）",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "Saudi女性18–29趋势发现；25–39利润验证；UAE女性18–39观察",
+      "ageBand": [
+        "Saudi 18–45",
+        "UAE 18–39"
+      ],
+      "genderFit": "female-primary",
+      "discoveryChannel": [
+        "Snapchat",
+        "TikTok",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": [
+        "聚会",
+        "婚礼",
+        "节庆",
+        "周末社交"
+      ],
+      "productFamily": null,
+      "viralPotential": "high",
+      "collectibility": "medium",
+      "giftability": "medium",
+      "visualDemoStrength": "very-high",
+      "trendHalfLife": "short-medium",
+      "IPRisk": "low for original/generic designs",
+      "seasonalTrigger": [
+        "聚会",
+        "婚礼",
+        "节庆",
+        "周末社交"
+      ],
+      "localPlatformFit": "Saudi demand very high but low-price concentrated",
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 67,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "需求极强",
+          "evidence": "多个SKU 460–1200+近期成交",
+          "businessImpact": "真实需求明确",
+          "impactLevel": 5,
+          "persistence": "medium",
+          "ownerUnique": false,
+          "verified": "yes"
+        },
+        {
+          "name": "轻小低库存风险",
+          "evidence": "低MOQ供应充足",
+          "businessImpact": "适合小批验证",
+          "impactLevel": 4,
+          "persistence": "long",
+          "ownerUnique": false,
+          "verified": "partial"
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "低价带锁死",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "mitigation": "只测基础低TP"
+        },
+        {
+          "name": "NGS最终零售价",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "mitigation": "TP三点实测"
+        },
+        {
+          "name": "款式生命周期",
+          "probability": 5,
+          "impact": 3,
+          "riskScore": 15,
+          "hardStop": false,
+          "mitigation": "1–2款滚动"
+        },
+        {
+          "name": "尺寸/弧度",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "mitigation": "多尺寸+尺码图"
+        },
+        {
+          "name": "胶贴牢固度",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "mitigation": "24h佩戴测试"
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "totalSellerCostCapAt20PercentContributionUsd": [
+        1.2,
+        1.52,
+        1.84
+      ],
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [
+        {
+          "url": "https://supermall.noon.com/saudi-en/essen/f_a_m_s/khajul/yoawllty/",
+          "observation": "KHAJUL 24片纤维胶贴穿戴甲SAR19.90，202条评价；无本轮新增交易证明",
+          "type": "third_party_competitor_listing"
+        },
+        {
+          "url": "https://www.noon.com/uae-en/false-nails/",
+          "observation": "UAE独立胶贴AEENAA AED14.50、120+近期成交标识；不能等同含胶贴穿戴甲套装成交",
+          "type": "adjacent_product_sales_badge"
+        }
+      ],
+      "decision": "RESEARCH_ONLY_NO_PURCHASE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 67,
+        "evidenceConfidence": 92,
+        "dataCompleteness": 80,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "scenarioOnly": true,
+      "latestPublicEvidence": {
+        "page": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+        "label": "Saudi category lists press-on nail sets including no-glue and adhesive-sticker variants; crawled months earlier; product variants not interchangeable",
+        "sourceAge": "about 3 months indexed",
+        "compliance": "prefer adhesive tabs; formula/liquid glue and local cosmetic/import requirements still require SKU-level review",
+        "verifiedFreshPaidOrders": 0
+      },
+      "complianceReview": {
+        "policy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "automaticCategoryApproval": false,
+        "hardStopIfBannedDesignOrUnlicensedIP": true,
+        "skuSpecificApproval": "UNKNOWN"
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "phone-charm-beaded",
+      "name": "无IP串珠手机/包挂",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "Saudi female Gen Z/学生18–29为主，UAE女性18–29观察",
+      "ageBand": [
+        "Saudi 18–29",
+        "UAE 18–29"
+      ],
+      "genderFit": "female-primary",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": [
+        "返校",
+        "Eid礼赠",
+        "生日",
+        "旅行",
+        "日常穿搭"
+      ],
+      "productFamily": null,
+      "viralPotential": "high",
+      "collectibility": "medium",
+      "giftability": "high",
+      "visualDemoStrength": "very-high",
+      "trendHalfLife": "short-medium",
+      "IPRisk": "low only for generic/original bead designs; any unlicensed character/logo is Hard Stop",
+      "seasonalTrigger": [
+        "返校",
+        "Eid礼赠",
+        "生日",
+        "旅行",
+        "日常穿搭"
+      ],
+      "localPlatformFit": "medium in Saudi; weak/unproven in UAE",
+      "opportunityScore": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 68,
+      "subitemTotal": 68,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [
+        {
+          "name": "极轻小、低MOQ",
+          "evidence": "30–46g且MOQ1–10可拿样",
+          "businessImpact": "NGS试错成本极低",
+          "impactLevel": 5,
+          "persistence": "long",
+          "ownerUnique": false,
+          "verified": "yes"
+        },
+        {
+          "name": "种草演示强",
+          "evidence": "挂手机/相机/包多用途且颜色视觉明显",
+          "businessImpact": "适合Saudi female Gen Z短视频发现",
+          "impactLevel": 4,
+          "persistence": "medium",
+          "ownerUnique": false,
+          "verified": "partial"
+        }
+      ],
+      "top5Risks": [
+        {
+          "name": "真实成交强度不足",
+          "evidence": "当前Saudi可复核多为10–50+近期成交，弱于化妆包/发饰",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "继续等到至少多个100+稳定成交再升P1",
+          "mitigationCost": "low",
+          "residualRisk": "medium-high"
+        },
+        {
+          "name": "趋势半衰期短",
+          "evidence": "配色/形状随季节和社媒风格变化快",
+          "probability": 5,
+          "impact": 3,
+          "riskScore": 15,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "极小批量、月度换款",
+          "mitigationCost": "low",
+          "residualRisk": "medium"
+        },
+        {
+          "name": "未经授权IP",
+          "evidence": "供应端常夹杂Hello Kitty等角色元素",
+          "probability": 4,
+          "impact": 5,
+          "riskScore": 20,
+          "hardStop": true,
+          "canMitigate": "yes",
+          "mitigation": "仅纯几何/珍珠/星星等原创或通用设计，角色/logo全部DROP",
+          "mitigationCost": "low",
+          "residualRisk": "low"
+        },
+        {
+          "name": "绳结/串珠断裂",
+          "evidence": "承重与日常拉扯可能造成断裂",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "5kg静载/反复拉扯/跌落测试",
+          "mitigationCost": "low",
+          "residualRisk": "low-medium"
+        },
+        {
+          "name": "UAE成交未验证",
+          "evidence": "本轮未找到UAE同等级强sold-recently",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false,
+          "canMitigate": "yes",
+          "mitigation": "Saudi先观察，不扩UAE库存",
+          "mitigationCost": "low",
+          "residualRisk": "medium"
+        }
+      ],
+      "hardStop": "UNLICENSED_IP_ONLY",
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "totalSellerCostCapAt20PercentContributionUsd": [
+        1.36,
+        1.76,
+        2.16
+      ],
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [
+        {
+          "url": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-metal-clasp/Z081FB92388BE6551AE09Z/p/",
+          "observation": "Jellycat品牌毛绒挂件在售，不能验证无IP原创串珠手机挂件成交；品牌不可挪用",
+          "type": "adjacent_authorized_branded_listing"
+        }
+      ],
+      "decision": "RESEARCH_ONLY_NO_PURCHASE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 68,
+        "evidenceConfidence": 84,
+        "dataCompleteness": 76,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": true
+      },
+      "scenarioOnly": true,
+      "latestPublicEvidence": {
+        "page": "https://www.noon.com/uae-en/amuseables-pair-of-marshmallows-bag-charm-cute-pink-white-plush-keychain-for-bags-backpacks-keys-soft-marshmallow-duo-accessory-with-satin-ribbon-metal-clasp/Z081FB92388BE6551AE09Z/p/",
+        "label": "Branded Jellycat plush charm had historical AED78.50 and 90+ sold recently; does not evidence sales for original unbranded beaded phone charm",
+        "sourceAge": "about 3 months indexed",
+        "compliance": "all third-party brand/IP, religious motifs, prohibited product depictions hard-stop without approval; verify toy age/material category",
+        "verifiedFreshPaidOrders": 0
+      },
+      "complianceReview": {
+        "policy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "automaticCategoryApproval": false,
+        "hardStopIfBannedDesignOrUnlicensedIP": true,
+        "skuSpecificApproval": "UNKNOWN"
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "cable-management",
+      "name": "线材整理/编织套管",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": null,
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 69,
+      "evidenceConfidence": 63,
+      "dataCompleteness": 58,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 69,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [],
+      "top5Risks": [
+        {
+          "name": "AED25-30低价带压缩Amazon利润",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "同质化价格战",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "粘胶或套管质量不稳",
+          "probability": 2,
+          "impact": 4,
+          "riskScore": 8,
+          "hardStop": false
+        },
+        {
+          "name": "跨市场证据不足",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "复购弱",
+          "probability": 4,
+          "impact": 2,
+          "riskScore": 8,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 69,
+        "evidenceConfidence": 63,
+        "dataCompleteness": 58,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "makeup-sponge",
+      "name": "化妆海绵/粉扑套装",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "beauty",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 67,
+      "evidenceConfidence": 78,
+      "dataCompleteness": 68,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 67,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [],
+      "top5Risks": [
+        {
+          "name": "低售价导致Amazon经济性差",
+          "probability": 5,
+          "impact": 3,
+          "riskScore": 15,
+          "hardStop": false
+        },
+        {
+          "name": "肤感/回弹主观性",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "皮肤接触品质风险",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "品牌心智",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        },
+        {
+          "name": "颜色/形状SKU膨胀",
+          "probability": 3,
+          "impact": 2,
+          "riskScore": 6,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 67,
+        "evidenceConfidence": 78,
+        "dataCompleteness": 68,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "original-ip-plush",
+      "name": "合法原创毛绒包挂/盲盒挂件",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": null,
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 69,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [],
+      "top5Risks": [
+        {
+          "name": "IP授权/正品链路不成立",
+          "probability": 5,
+          "impact": 5,
+          "riskScore": 25,
+          "hardStop": true
+        },
+        {
+          "name": "成熟IP需求不能外推Generic原创",
+          "probability": 5,
+          "impact": 4,
+          "riskScore": 20,
+          "hardStop": false
+        },
+        {
+          "name": "趋势半衰期短",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "仿品/信誉风险",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "NGS玩具/材料合规需单独确认",
+          "probability": 3,
+          "impact": 4,
+          "riskScore": 12,
+          "hardStop": false
+        }
+      ],
+      "hardStop": "NO_BRAND_AUTHORIZATION",
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 69,
+        "evidenceConfidence": 67,
+        "dataCompleteness": 58,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "car-sunshade",
+      "name": "汽车前挡遮阳",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "auto",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": 64,
+      "evidenceConfidence": 82,
+      "dataCompleteness": 72,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": 64,
+      "subitemTotal": null,
+      "scoreConsistency": "DIMENSIONS_MATCH_STORED_TOTAL",
+      "advantages": [],
+      "top5Risks": [
+        {
+          "name": "尺寸不适配",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "体积物流成本",
+          "probability": 4,
+          "impact": 4,
+          "riskScore": 16,
+          "hardStop": false
+        },
+        {
+          "name": "价格战",
+          "probability": 4,
+          "impact": 3,
+          "riskScore": 12,
+          "hardStop": false
+        },
+        {
+          "name": "无复购",
+          "probability": 5,
+          "impact": 2,
+          "riskScore": 10,
+          "hardStop": false
+        },
+        {
+          "name": "伞骨/面料耐久",
+          "probability": 3,
+          "impact": 3,
+          "riskScore": 9,
+          "hardStop": false
+        }
+      ],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": 64,
+        "evidenceConfidence": 82,
+        "dataCompleteness": 72,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "hanlin-mask",
+      "name": "翰林生物面膜",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "beauty",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": null,
+      "evidenceConfidence": null,
+      "dataCompleteness": null,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": null,
+      "subitemTotal": null,
+      "scoreConsistency": "NO_DIMENSIONS",
+      "advantages": [],
+      "top5Risks": [],
+      "hardStop": "FROZEN",
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": null,
+        "evidenceConfidence": null,
+        "dataCompleteness": null,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    },
+    {
+      "id": "microfiber-cloth",
+      "name": "微纤维清洁布",
+      "stepOrder": [
+        "corePersona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "sku",
+        "supplier",
+        "unitEconomicsAndRisks"
+      ],
+      "corePersona": "NOT_VERIFIED",
+      "ageBand": [
+        "Saudi女性18–45",
+        "UAE女性18–39"
+      ],
+      "genderFit": "NOT_VERIFIED",
+      "discoveryChannel": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "checkoutChannel": [
+        "Noon NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "purchaseTrigger": null,
+      "productFamily": "cleaning",
+      "viralPotential": null,
+      "collectibility": null,
+      "giftability": null,
+      "visualDemoStrength": null,
+      "trendHalfLife": null,
+      "IPRisk": "UNKNOWN",
+      "seasonalTrigger": null,
+      "localPlatformFit": null,
+      "opportunityScore": null,
+      "evidenceConfidence": null,
+      "dataCompleteness": null,
+      "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_EVIDENCE_NO_RECALC",
+      "dimensionTotal": null,
+      "subitemTotal": null,
+      "scoreConsistency": "NO_DIMENSIONS",
+      "advantages": [],
+      "top5Risks": [],
+      "hardStop": false,
+      "channelAccessGate": "OWNER_ORG_EXISTENCE_VERIFIED__CURRENT_STORES_NONE__LE_NONE__PAYMENT_UNKNOWN__NGS_NOT_ELIGIBLE_FOR_SALE",
+      "sampleReady": false,
+      "transferPriceTestGridUsd": null,
+      "totalSellerCostCapAt20PercentContributionUsd": null,
+      "actualTransferPrice": null,
+      "consumerFinalPrice": null,
+      "noonMarkup": null,
+      "chinaSameBomQuotation": null,
+      "chinaToShenzhenPerUnit": null,
+      "returnsExpectedLoss": null,
+      "ngsCategoryRestrictionApproval": null,
+      "hundredUnitWorstLoss": {
+        "fullyUnsoldUsd": null,
+        "hundredNonSaleableReturnsUsd": null,
+        "upperBoundCertified": false,
+        "formulas": {
+          "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
+          "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
+        },
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+      },
+      "newMarketEvidence": [],
+      "decision": "HOLD_PREVIOUS_GATE",
+      "date": "2026-10-31",
+      "scoreAudit": {
+        "model": "Issue #12 V2",
+        "subitemsExpected": 41,
+        "scoredThisRun": false,
+        "opportunityScore": null,
+        "evidenceConfidence": null,
+        "dataCompleteness": null,
+        "priorScoreRetained": true,
+        "legacyScoreConflictsUnresolved": false
+      },
+      "purchaseApproved": false,
+      "ownPaidOrderVerified": false
+    }
+  ],
+  "ngsConservativeEconomics": {
+    "currency": "USD",
+    "testGridType": "PLANNING_ASSUMPTION_ONLY",
+    "contributionCapWithNoLossAndNoAds": "0.8 * Transfer Price",
+    "returnsAdjustedModel": "expectedMargin = [(1-q)*TP*netFX - actualProcurement - packaging - actualChinaToShenzhen - otherSellerExpenses] / [(1-q)*TP*netFX] where q non-income fraction and no platform refund assumptions; use actual contract terms",
+    "buyerRetailPrice": "TP*actualCurrencyConversion + NoonCustomerMarkupAndTaxesAndDelivery; markup unknown, cannot backsolve from competitor listings",
+    "sku100UnitsScenarios": "Use actual goods, packaging, domestic handoff, sunk costs, disputes, and return liabilities. No reliable numeric maximum until contracts and seller payout policy tested"
+  },
+  "scorePolicy": "Historical V2 Opportunity, Evidence Confidence, Data Completeness retained, not independently rescored; do not falsely mark fresh orders or resolve missing 41 subitems",
+  "scoreConflicts": [
+    "phone-charm-beaded total 68 vs 41-item sum 69 per prior audit",
+    "travel-bottles dashboard 75 vs subitem 74 per prior audit",
+    "cosmetic-bag-set and press-on-nails missing complete 41-item audit"
+  ],
+  "topDecision": "NO_GO for registration, store setup, sample purchase, listing, ads; read-only sourcing and policy review only",
+  "nextExecution": [
+    "Only one consented payment-free cart shipping estimate for original Yiwugo SKU 986877044 to Shenzhen, never placing an order",
+    "do not re-run Ego account bootstrap; 031 succeeded and account state is now known",
+    "Noon China-registered sole-proprietor interpretation via written valid primary evidence, not assumed",
+    "if cannot obtain freight quote from public read-only path, mark UNPRICEABLE_WITH_CURRENT_AUTHORIZATION, stop repeat attempts"
+  ],
+  "blocked": [
+    "CURRENT_STORES_EMPTY",
+    "NO_VALID_LEGAL_ENTITY",
+    "PAYOUT_UNKNOWN",
+    "NGS_NOT_ENABLED",
+    "UNVERIFIED_MARKUP_AND_CONSUMER_FINAL_PRICE",
+    "NO_SAME_BOM_DELIVERED_COST",
+    "NO_NEW_FIRST_PARTY_TRANSACTION_EVIDENCE",
+    "NO_APPROVED_IP_RESALE_RIGHTS"
+  ],
+  "sampleReadyCount": 0,
+  "approvedPurchaseCount": 0,
+  "verifiedOwnerFirstSale": 0,
+  "verifiedOwnerPayout": 0,
+  "sources": [
+    "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+    "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+    "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+    "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
+    "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_033_NOON_031_ACCEPTANCE_SHENZHEN_FREIGHT_TP_MARKUP_GATE.md"
+  ]
+}
