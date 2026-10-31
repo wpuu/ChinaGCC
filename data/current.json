@@ -17,9 +17,10 @@
     "latestRadarDate": "2026-10-31",
     "latestRadarPath": "data/daily/2026-10-31.json",
     "latestRadarStatus": "OWNER_ORG_EXISTS__UAE_KSA_STORES_NONE__NO_VALID_LE__NGS_NOT_ACTIVE__READ_ONLY",
-    "latestRadarNote": "31轮031正式Ego Lite已成功只读核验Org/Project存在、当前Stores空、No Valid Legal Entities Found；旧bootstrap故障不再作为本轮障碍。Payment、Origin与China NGS具体审核依然UNKNOWN或未满足。Noon官方Saudi禁售彩虹配色及部分宗教节日图案/关键词，具体商品需逐项过闸。公开旧销量标签不能记为当日成交。14 SKU V2历史评分保留、商品采购0。",
+    "latestRadarNote": "031 verified Org/Project exists, current stores none, no valid LE; 049-050 later reached UAE Store creation form with UAE/China selected, but EN/AR public names and genuine phone missing, Continue not clicked; store not created. Org ID exact capture, payment/NGS approvals unknown. No fresh paid orders or SKU same-BOM 15% margin evidence.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
-    "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
+    "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+    "latestDailyAuditId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH"
   },
   "skus": [
     {
@@ -2444,7 +2445,31 @@
         "chinaFirstPaidDate": null,
         "lagDays": null,
         "authorizedForResale": false
-      }
+      },
+      "latestOfficialLaunchWatch": [
+        {
+          "series": "RiboDiary Forest Gathering Day Series Plush Doll Pendant",
+          "officialMarket": "US",
+          "officialOnlineRelease": "2026-10-29 17:00 PDT",
+          "source": "https://www.popmart.com/us/pop-now/set/1486",
+          "creatorOrigin": "UNKNOWN",
+          "chinaFirstPaidOrderDate": null,
+          "gccSameSeriesFirstPaidOrderDate": null,
+          "authorizedForResale": false,
+          "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+        },
+        {
+          "series": "1001MOONS The Moonlight Gathering Guide Series Plush Doll Pendant",
+          "officialMarket": "US",
+          "officialOnlineRelease": "2026-10-29 17:00 PDT",
+          "source": "https://www.popmart.com/us/pop-now/set/1476",
+          "creatorOrigin": "UNKNOWN",
+          "chinaFirstPaidOrderDate": null,
+          "gccSameSeriesFirstPaidOrderDate": null,
+          "authorizedForResale": false,
+          "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+        }
+      ]
     },
     {
       "englishName": "",
@@ -2939,7 +2964,7 @@
     "signal": "品类需求仍强，但没有翰林具体SKU、成本、合规与渠道利润闭环，未达到正式启动信号。"
   },
   "firstSaleReadiness": {
-    "authorityDate": "2026-10-30",
+    "authorityDate": "2026-10-31",
     "primaryChannel": "Noon NGS",
     "amazon": {
       "completed": 0,
@@ -2999,26 +3024,31 @@
         "firstPayout": false
       },
       "blockers": {
-        "organizationId": "Owner报告已有Noon注册并登录；尚缺获准只读后台中的Organization ID存在性凭证；Ego CLI bootstrap连接失败，不能推断账号不存在。",
-        "uaeStore": "Owner报告已有账号；未读到实际UAE Store创建或审批状态，不应要求重新注册。",
-        "ksaStore": "Owner报告已有账号；未读到实际KSA Store创建或审批状态，不应要求重新注册。",
-        "chinaLegalEntityApproved": "中国具体主体形式可否通过NGS审核未取得实际批准；个体工商户资格未被官方公开明确。",
-        "ngsWarehouse": "未建NGS对应深圳集货/中国本地仓和国际物流仓模式。",
-        "payoutApproved": "收款资料尚未核验并由平台批准。",
-        "firstSkuQcApproved": "首个具体SKU的上架/产品QC未通过。",
-        "transferPriceLive": "上架与TP未上线；最终消费者价缺Seller Lab实测。",
-        "firstOrder": "没有真实支付订单。",
-        "shenzhenHandoff": "未有实际出单后的深圳交仓凭证。",
-        "delivered": "尚无国际段成功妥投。",
-        "firstPayout": "没有Noon首次结算到账证据。"
+        "organizationId": "031已只读验证原Organization/Project存在且Owner可见，但本仓库脱敏证据未取得可作为Organization ID项完成的唯一标识/凭证；部分完成，未计1/12；不要求重注册。",
+        "uaeStore": "049/050进入真实UAE Store创建表单并选择UAE销售国/China注册国；仍缺Owner确认的公开英阿店名和真实电话，Continue未点击，UAE Store未创建，不是平台拒绝。",
+        "ksaStore": "031同项目Stores为空；049只触及UAE Store表单，无KSA Store创建凭证。",
+        "chinaLegalEntityApproved": "031显示No Valid Legal Entities Found；049仅打开China LE真实字段，未上传执照/提交/获批准；个体工商户资格仍UNKNOWN。",
+        "ngsWarehouse": "031/043未取得获准China NGS专用仓配置；Stores/LE未满足；Directship空仓不等于NGS仓不存在。",
+        "payoutApproved": "031/049未取得批准收款方法及Origin关联状态；一般收款门槛不等于中国USD NGS专项已批准门槛。",
+        "firstSkuQcApproved": "049只有真实商品Identity表单可见，未提供有权商品图片和真实字段，未创建/提交/通过SKU QC；Health & Beauty类目可能需购买凭证/授权函。",
+        "transferPriceLive": "NGS尚未获准；未取得Global项目专用USD Transfer Price、买家实际总价和ETA；不可拿普通本地Price冒充。",
+        "firstOrder": "未取得本账号真实买家已支付订单；竞品sold recently只是公开标签。",
+        "shenzhenHandoff": "无本账号Noon订单及正式AWB/深圳集货交接凭证；供应商自报发货不等于平台入仓。",
+        "delivered": "没有可核验本账号全球订单成功妥投。",
+        "firstPayout": "没有本账号实际收到首笔Noon结算的凭证；中国NGS专项最低打款门槛未获确认。"
       }
     },
     "biggestBlockers": [
-      "Owner现有Noon账号的UAE/KSA店铺、Legal Entity、Payout与NGS真实审批状态未读到；Ego CLI bootstrap阻塞",
-      "首SKU供应商深圳宝安结账前准确运费/整包毛重/逐单代发能力及三家同BOM报价/QC未核实（分装瓶MOQ2）",
-      "Noon USD Transfer Price对应自有SKU最终买家含税价格/ETA、退损与结算门槛尚未实测"
+      "UAE Store创建卡于Owner确认英/阿公开店名和实际电话；现有Org可见但China LE与KSA Store不存在，NGS与Payout未获准；旧Ego bootstrap故障已不是当前阻碍。",
+      "首SKU无同BOM三家可执行报价、最终整包毛重尺寸、深圳宝安单票运费、供应商按真实Noon标签及时交仓及Health & Beauty所需购买凭证/合法授权核实。",
+      "无本账号China NGS USD Transfer Price→消费者最终含运费价/ETA、退货损失与结算门槛实测；不能宣称15%利润或100件最坏损失已封顶。"
     ],
-    "lastAuditDate": "2026-10-30"
+    "lastAuditDate": "2026-10-31",
+    "auditNotes": [
+      "Noon Org存在属于部分进展，Organization ID清单项严格待唯一标识完成凭证",
+      "Workbench Work-049 Store表单不等于Store创建",
+      "Amazon中国卖家方案未启动，所有15项仍缺完成证据"
+    ]
   },
   "channelAccess": {
     "noonNgs": {
@@ -3185,5 +3215,40 @@
     "ipOriginLagDays": null,
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
+  },
+  "latestDailyAuditId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
+  "latestDailyAudit": {
+    "date": "2026-10-31",
+    "source": "data/daily/2026-10-31.json",
+    "sourceIssue": "https://github.com/wpuu/ChinaGCC/issues/27",
+    "workStatus": {
+      "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "subsequentEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md",
+      "originalOrgProject": "VERIFIED_EXISTS",
+      "organizationIdExactValue": "NOT_IN_PUBLIC_AUDIT",
+      "uaeStore": "NOT_CREATED_VERIFIED_AS_OF_WORK049_050",
+      "ksaStore": "NONE_AS_OF_PRIOR_ACCOUNT_CHECK",
+      "storeCreationForm": "UAE_SELECTED_CHINA_SELECTED_EN_AR_STORE_NAMES_AND_REAL_PHONE_MISSING_CONTINUE_NOT_CLICKED",
+      "legalEntity": "NO_VALID_LE_SUBMITTED_OR_APPROVED",
+      "payment": "UNKNOWN",
+      "ngs": "NOT_READY",
+      "genericProductDraft": "NOT_CREATED",
+      "publicOffer": "NOT_LIVE",
+      "sellerFirstOrder": "NOT_VERIFIED"
+    },
+    "sourceUrls": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/product-listing/listing-products-on-noon-faq",
+      "https://helpcenter.noon.partners/en/category/price-and-inventory/how-do-i-manage-my-stock-and-prices",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "https://tax.gov.ae/en/taxes/Vat/vat.topics/registration.for.vat.aspx",
+      "https://www.popmart.com/us/pop-now/set/1486",
+      "https://www.popmart.com/us/pop-now/set/1476",
+      "https://gs.amazon.cn/news/news-brand-260926"
+    ]
   }
 }
