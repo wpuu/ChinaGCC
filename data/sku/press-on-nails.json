@@ -1,7 +1,7 @@
 {
   "id": "press-on-nails",
   "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-31",
   "rank": 7,
   "status": "P2",
   "opportunityScore": 67,
@@ -48,7 +48,7 @@
     "J": 3,
     "K": 1
   },
-  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__LE_NONE__PAYOUT_UNKNOWN__NGS_NOT_READY",
   "transferPriceTestGridUsd": {
     "basic": [
       1.5,
@@ -147,10 +147,10 @@
     "fullWorstLoss100": null
   },
   "latestRadar": {
-    "date": "2026-10-30",
-    "observedAt": "2026-10-30T20:11:41+08:00",
-    "dailyPath": "data/daily/2026-10-30.json",
-    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "date": "2026-10-31",
+    "observedAt": "2026-10-31 (Asia/Shanghai, time not certified)",
+    "dailyPath": "data/daily/2026-10-31.json",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
     "personas": [
       "Saudi女性18-45",
       "UAE女性18-39",
@@ -188,7 +188,7 @@
     "actualChinaToShenzhenCost": null,
     "actualReturnLoss": null,
     "ngsRestrictedCategoryDecision": null,
-    "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+    "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_BASED_RESCORING",
     "evidenceConfidenceStatus": "HISTORICAL_UNCHANGED",
     "dataCompletenessStatus": "HISTORICAL_UNCHANGED",
     "channelAccessGate": "OWNER_REPORTED_LOGGED_IN__LE_PAYMENT_NGS_NOT_OBSERVED__EGO_BOOTSTRAP_BLOCKED",
@@ -205,6 +205,46 @@
         "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
       ]
     },
-    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+    "accountEvidence": "WORK_031_ORIGINAL_NOON_OWNER_ORG_EXISTS_STORES_EMPTY_NO_VALID_LE",
+    "oldBootstrapError": "RESOLVED_FOR_WORK_031",
+    "paymentApproval": "UNKNOWN",
+    "ngsQualification": "CURRENTLY_NOT_READY",
+    "currentNewOwnerPaidOrders": 0,
+    "currentNewRFQ": 0,
+    "currentRestockOrderEvidence": 0,
+    "latestListingEvidence": {
+      "src": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+      "finding": "Saudi historical press-on category sold tags, not reliable adhesive-tab exact SKU conversion; do not assume full kit demand from adhesive tabs alone"
+    },
+    "sellerCostCapWithZeroLossAnd20PercentContributionUsd": [
+      1.2,
+      1.52,
+      1.84
+    ],
+    "actualSameBomChineseSupplierQuote": null,
+    "actualShenzhenPerUnitFreight": null,
+    "requiredCategoryAndDesignReview": "SKU_SPECIFIC_PENDING",
+    "ksaDesignRestriction": "Rainbow-colored products and specified religious/festival themes/terms prohibited under noon official policy; verify exact SKU not a blanket multicolor ban",
+    "confidenceStatus": "HISTORICAL_VALUE_UNCHANGED",
+    "completenessStatus": "HISTORICAL_VALUE_UNCHANGED",
+    "worstLoss100CertifiedUsd": null,
+    "workStatus": "RESEARCH_ONLY_NO_PURCHASE"
+  },
+  "newComplianceGate": {
+    "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "status": "NOT_APPROVED",
+    "ksaRainbowProhibition": "EXACT_PRODUCT_VISUAL_CHECK",
+    "ksaReligiousSeasonalSymbolsAndPhrases": "EXACT_LISTING_CHECK",
+    "noonNGSProductCategoryEligibility": "UNKNOWN",
+    "ipOrTrademarkLicensing": "ORIGINAL_ONLY_OR_EXPLICIT_AUTHORIZATION",
+    "hardStopIfBannedOrUnlicensed": true
+  },
+  "worstLoss100Latest": {
+    "fullyUnsoldUpperBoundUsd": null,
+    "fullyNonSaleableReturnsUpperBoundUsd": null,
+    "calculation": "100*(actual item procurement+packaging+domestic transfer to Shenzhen) + other sunk/return costs; no TP recovery for 100 unsaleable returns",
+    "notACertifiedMaximum": true,
+    "reason": "no binding same-BOM cost, real per-order hub freight and return liabilities"
   }
 }
