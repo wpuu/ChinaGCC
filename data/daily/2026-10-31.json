@@ -174,7 +174,10 @@
         "POP MART THE MONSTERS US launch 2026-10-15"
       ],
       "rightsStatus": "NO_RESELLING_RIGHTS_VERIFIED"
-    }
+    },
+    "confirmedNewPaidOrdersThisAudit": 0,
+    "confirmedNewRFQsThisAudit": 0,
+    "confirmedNewRestocksThisAudit": 0
   },
   "skus": [
     {
@@ -2323,5 +2326,251 @@
     "paymentMade": false,
     "assessment": "Public read proved source page accessibility and price only. Page never switched its destination to Shenzhen Baoan; Zhejiang zero-shipping/default free shipping cannot be used as freight cost to noon consolidation hub.",
     "source": "https://www.yiwugo.com/product/detail/986877044.html"
-  }
+  },
+  "radarAudits": [
+    {
+      "auditId": "2026-10-31/NGS-RETURN-V2-CROSSCHECK",
+      "observedDate": "2026-10-31",
+      "observedAtPrecision": "DATE_ONLY",
+      "basis": "public documents + indexed Noon market listings + repository snapshot; NOT first-party transaction records",
+      "preferredModel": "GPT-6",
+      "preferredThinking": "Extra High",
+      "actualModelSelection": "NOT_VERIFIABLE_IN_THIS_RUN",
+      "sequence": [
+        "Saudi女性18-45/UAE女性18-39/female Gen Z学生",
+        "TikTok/Snapchat/Instagram: attribution unverified",
+        "Noon NGS first, Amazon UAE/Saudi second",
+        "travel/beauty/collectible/gifting triggers as hypotheses",
+        "beauty organizers, hair clips, adhesive-tab nails, original charms",
+        "specific comparable BOM required",
+        "China supply only after verified transaction/RFQ/restock",
+        "TP/markup/domestic hub shipment/returns/IP compliance"
+      ],
+      "marketSignals": [
+        {
+          "market": "KSA",
+          "family": "cosmetic bags",
+          "listing": "KHAJUL 3-piece clear makeup bags",
+          "displayedPrice": 22.5,
+          "currency": "SAR",
+          "displayedSalesBadge": "310+ sold recently",
+          "retrievalRecency": "indexed page crawled within a week",
+          "source": "https://www.noon.com/saudi-en/beauty/makeup-16142/makeup-brushes-and-tools/cosmetic-bags/noon-deals-sa/",
+          "proof": "platform-displayed badge only",
+          "sameBOMAsTarget": false,
+          "independentNewOrderCount": 0,
+          "decision": "ADJACENT_COMPETITOR_ONLY"
+        },
+        {
+          "market": "UAE",
+          "family": "collectible bag/phone charms",
+          "listing": "KODAK CHARMERA keychain camera blind box",
+          "displayedPrice": 190,
+          "currency": "AED",
+          "displayedSalesBadge": "170+ sold recently",
+          "retrievalRecency": "indexed page crawled within five days",
+          "source": "https://supermall.noon.com/uae-en/ts-ae-en-kodak-charmera/",
+          "proof": "platform-displayed badge only; direct live page re-open timed out",
+          "sameBOMAsTarget": false,
+          "rightsVerified": false,
+          "electronicsCategoryApproval": "UNKNOWN",
+          "independentNewOrderCount": 0,
+          "decision": "BRANDED_ELECTRONIC_WATCH_ONLY"
+        },
+        {
+          "market": "UAE",
+          "family": "plush bag charms",
+          "listing": "Jellycat branded bag charm offers",
+          "displayedPrice": null,
+          "currency": "AED",
+          "displayedSalesBadge": null,
+          "retrievalRecency": "indexed page crawled within four days",
+          "source": "https://supermall.noon.com/uae-en/toys-and-games/stuffed-animals-and-plush/jellycat/oludeniz/",
+          "proof": "branded assortment and listing; no verified recent payment for target",
+          "sameBOMAsTarget": false,
+          "rightsVerified": false,
+          "decision": "BRANDED_REFERENCE_ONLY"
+        }
+      ],
+      "confirmedNewPaidOrders": 0,
+      "confirmedNewRFQs": 0,
+      "confirmedNewRestocks": 0,
+      "firstPartyBuyerConversion": false,
+      "socialDiscoveryAttribution": "UNVERIFIED; TikTok direct robots restricted in this check; no social-to-checkout match",
+      "officialPolicy": {
+        "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "validChineseCommercialRegistrationRequired": true,
+        "twoStoresForSixMarkets": "UAE and KSA stores",
+        "sellerUSDTransferPriceNoAdditionalNoonDeductionOnDeliveredUnit": true,
+        "consumerMarkupAndAllInPrice": "NOON_SET_UNOBSERVED",
+        "sellerPaysDomesticToShenzhen": true,
+        "nonSaleableReturnNoProceeds": true,
+        "nonSaleableLiquidationNoNoonRemovalOrDisposalFee": true,
+        "optionalReturnToWarehouse": "RTV costs/feasibility not independently priced",
+        "salableReturnMovesToLocalFBN": true,
+        "salableReturnFBNStorageWaived": "up to 60 days",
+        "salableReturnFBNRateCard": "APPLIES; unknown SKU-specific charges",
+        "approvedPayoutRequiredBeforeNewChinaSellerGoesLive": true,
+        "chineseIndividualBusinessAcceptance": "UNKNOWN",
+        "endToEndLaunchTime": "UNKNOWN",
+        "sourceDocs": [
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon"
+        ],
+        "exactSKURestrictionApproval": "UNKNOWN",
+        "sourceRestrictions": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+      },
+      "scoreAudit": {
+        "scoringRule": "Issue #12, 41 subitems A1-K2; historical scores retained, not re-scored without validated new data",
+        "totalSKUs": 14,
+        "skusWithStoredScore": 12,
+        "skusWithoutScore": 2,
+        "skusWith41SubitemsInMainTable": 6,
+        "scoredSKUsMissing41Subitems": 6,
+        "mainTableMismatch": [
+          {
+            "id": "travel-bottles",
+            "storedScore": 75,
+            "subitemsSum": 74,
+            "dimensionsSum": 75
+          }
+        ],
+        "independentFileMismatch": [
+          {
+            "id": "phone-charm-beaded",
+            "storedScore": 68,
+            "independentFile41Sum": 69,
+            "independentFileDimensionsSum": 69,
+            "mainTable41Sum": 68
+          }
+        ],
+        "interpretation": "main-table and independent-file divergences require separate adjudication; no silent score correction; historical EC/DC not boosted",
+        "profileAudit": "all SKU image/discovery/persona fields may be populated with null or hypotheses; populated does NOT imply validated",
+        "priorityAction": "verify 41 scored subitems, cross-file consistency, 19 data completeness fields, and freshness before promotion"
+      },
+      "ngsEconomics": {
+        "tpGridUsd": {
+          "cosmetic-bag-set": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "hair-accessories": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "press-on-nails": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "phone-charm-beaded": [
+            1.7,
+            2.2,
+            2.7
+          ]
+        },
+        "targetContributionMargin": 0.2,
+        "noProceedsScenarioFraction": [
+          0,
+          0.1,
+          0.2
+        ],
+        "costCapsUsd": {
+          "cosmetic-bag-set": {
+            "0": [
+              3.6,
+              4.4,
+              5.2
+            ],
+            "0.1": [
+              3.24,
+              3.96,
+              4.68
+            ],
+            "0.2": [
+              2.88,
+              3.52,
+              4.16
+            ]
+          },
+          "hair-accessories": {
+            "0": [
+              1.92,
+              2.32,
+              2.72
+            ],
+            "0.1": [
+              1.728,
+              2.088,
+              2.448
+            ],
+            "0.2": [
+              1.536,
+              1.856,
+              2.176
+            ]
+          },
+          "press-on-nails": {
+            "0": [
+              1.2,
+              1.52,
+              1.84
+            ],
+            "0.1": [
+              1.08,
+              1.368,
+              1.656
+            ],
+            "0.2": [
+              0.96,
+              1.216,
+              1.472
+            ]
+          },
+          "phone-charm-beaded": {
+            "0": [
+              1.36,
+              1.76,
+              2.16
+            ],
+            "0.1": [
+              1.224,
+              1.584,
+              1.944
+            ],
+            "0.2": [
+              1.088,
+              1.408,
+              1.728
+            ]
+          }
+        },
+        "equation": "per-unit all-in seller cost <= (1-fraction_of_items_with_zero_TP_proceeds)*TP*(1-0.20), before marketing/FX/other seller charges; hypothetical not forecast",
+        "excluded": "seller-specific ads, real returns, promotion, FX, quality, inventory, NGS actual consumer all-in price/markup, actual China supplier quote and hub freight",
+        "verified100UnitWorstLossUsd": null,
+        "unsold100Formula": "100*(goods+packaging+prepaid_domestic_freight_if_any)+fixed_spend+paid_ads+seller_charges",
+        "nonSaleableReturned100Formula": "100*(goods+packaging+domestic_freight)+prepaid_ads+seller_charges; TP=0 if all non-saleable; Noon liquidation removal/disposal fee=0 per program policy, alternative RTV cost unknown",
+        "upperBoundCertified": false,
+        "priceFeasibilityStatus": "TP GRID IS SCENARIO ONLY; no confirmed buyer all-in price"
+      },
+      "channelAccessGate": "NOT_PASSED; prior 031 read-only: org/project exists, both stores absent, no valid LE, payout unverified; no new authenticated inspection this run",
+      "countrySpecificReview": "Saudi product design/colors/keywords; licensed IP and electronics require exact SKU-level policy gate",
+      "originalIPTrendDays": null,
+      "pairedChinaVsGccFirstPaidOrderDates": 0,
+      "skuHardStops": [
+        "unlicensed third-party branded/IP product",
+        "actual prohibition of SKU/color/claims in destination",
+        "seller legal entity/payment/NGS not approved"
+      ],
+      "decision": "HOLD; NO supplier RFQ/purchase, no registration/store changes, no payment docs, no advertising",
+      "nextEvidencePriority": [
+        "resolve China commercial entity and approved payout based on real legal profile",
+        "obtain buyer all-in price/ETA once NGS price visible via legitimate store approval",
+        "get same BOM and Shenzhen per-shipment cost only after buyer transaction/RFQ/restock threshold",
+        "pair same original-IP China and GCC earliest confirmed paid order dates"
+      ]
+    }
+  ]
 }
