@@ -1,5 +1,20 @@
 # ChinaGCC-041｜NGS订单后采购、供应商直发深圳：实际规则及条件操作说明
 
+## 2026-10-31｜043补验新增：四项相关页面已真实读取，NGS专项仍未验证
+
+**最新后台补验见[043独立验收报告](https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_043_NGS_BACKEND_FOUR_REMAINING_EVIDENCE_ACCEPTANCE.md)，提交[b70009c](https://github.com/wpuu/ChinaGCC/commit/b70009c861dc0ecbf9c49ceb9d6890ecbd263003)。** 043是用户新授权的独立任务，新建正式Ego空间14，不是恢复本041空间13；041原始失误和当时未完成状态保留，不倒改历史。
+
+- A｜14:00:07北京时间实际打开Global Selling Programs：页面明确说当前店铺不符合任何跨境项目资格，但没有具体原因；PT选项/天数不可见，不能自动归因为Store/LE。
+- B｜14:00:34实际读取My Catalog/Stock：当前No data；未说明供应商可采购但卖家未购数量如何申报，**UNKNOWN**，不是禁止或允许的证明。
+- C｜14:01:01实际读取Directship Orders：No Orders Available to View；NGS专项取消入口、费用、绩效/PT规则**UNKNOWN**，不套普通FBP。
+- D｜14:01:14实际读取Directship Shipments：No shipments available to view；NGS正式AWB/QR、国内单号关联、深圳接收、供应商代贴直邮许可仍**UNKNOWN**。
+- 只有A有实际资格限制提示；B/C/D是已读空页与专项未说明，不能写成四项均被Store/LE拒绝。四页读取/分类验收完成不等于四项NGS业务功能通过。
+- 043本轮未发生工具错误、未写业务数据、未创建货件或外联；四项记录与GitHub回读确认前保持浏览器空间。完成后结束本轮，不继续重复首页/空态；只有新的NGS入口/资格说明、专项规则或未来另获批准的真实交易证据才补验相应缺口。
+
+下文为041原始记录，保留其当时结果：
+
+---
+
 **核验日：2026-10-31，北京时间。** main基线 `7c58a76a87ac679465ebd51dd53aa6f1f87ee136`；先读040报告、Issue #24及031原账号验收。新增本文件，不覆盖任何已有报告。关联：[Issue #24](https://github.com/wpuu/ChinaGCC/issues/24)。
 
 **商业判断：客户下单后备货、邮寄深圳、由Noon履约的链路有中国NGS官方依据；“完全未采购库存如何申报”“供应商获准代贴正式面单”“NGS专项取消费用”尚未核实，不能宣布整条模式已经获准开卖。没有必要把“供应商持续库存保证书”恢复成硬门槛。** 本轮只完成官方规则核对和条件SOP；四项账号深层配置未完成读取，具体原因见第2节。
