@@ -1,7 +1,7 @@
 {
   "id": "hair-accessories",
   "name": "8件套强抓力抓夹",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-31",
   "rank": 6,
   "status": "P1_CONDITIONAL",
   "opportunityScore": 70,
@@ -35,7 +35,7 @@
     "节庆送礼"
   ],
   "localPlatformFit": "high in Saudi; medium in UAE",
-  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_UNTIL_CHINESE_COMMERCIAL_REGISTRATION_APPROVED",
+  "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__LE_NONE__PAYOUT_UNKNOWN__NGS_NOT_READY",
   "opportunityBreakdown": {
     "A1": 4,
     "A2": 3,
@@ -223,10 +223,10 @@
   "verifiedPackageWeight": null,
   "logisticsRiskCorrection": "整套真实包装仍待核；单只抓夹重不能代表8件套；E降3分、B降1分",
   "latestRadar": {
-    "date": "2026-10-30",
-    "observedAt": "2026-10-30T20:11:41+08:00",
-    "dailyPath": "data/daily/2026-10-30.json",
-    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "date": "2026-10-31",
+    "observedAt": "2026-10-31 (Asia/Shanghai, time not certified)",
+    "dailyPath": "data/daily/2026-10-31.json",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
     "personas": [
       "Saudi女性18-45",
       "UAE女性18-39",
@@ -264,7 +264,7 @@
     "actualChinaToShenzhenCost": null,
     "actualReturnLoss": null,
     "ngsRestrictedCategoryDecision": null,
-    "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+    "scoreStatus": "HISTORICAL_V2_NO_NEW_TRANSACTION_BASED_RESCORING",
     "evidenceConfidenceStatus": "HISTORICAL_UNCHANGED",
     "dataCompletenessStatus": "HISTORICAL_UNCHANGED",
     "channelAccessGate": "OWNER_REPORTED_LOGGED_IN__LE_PAYMENT_NGS_NOT_OBSERVED__EGO_BOOTSTRAP_BLOCKED",
@@ -281,6 +281,46 @@
         "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
       ]
     },
-    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+    "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+    "accountEvidence": "WORK_031_ORIGINAL_NOON_OWNER_ORG_EXISTS_STORES_EMPTY_NO_VALID_LE",
+    "oldBootstrapError": "RESOLVED_FOR_WORK_031",
+    "paymentApproval": "UNKNOWN",
+    "ngsQualification": "CURRENTLY_NOT_READY",
+    "currentNewOwnerPaidOrders": 0,
+    "currentNewRFQ": 0,
+    "currentRestockOrderEvidence": 0,
+    "latestListingEvidence": {
+      "src": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+      "finding": "Saudi KHAJUL 8-piece 4 matte+4 acrylic SAR25 210+ recently-sold historical indexed tag; not a 2026-10-31 new transaction"
+    },
+    "sellerCostCapWithZeroLossAnd20PercentContributionUsd": [
+      1.92,
+      2.32,
+      2.72
+    ],
+    "actualSameBomChineseSupplierQuote": null,
+    "actualShenzhenPerUnitFreight": null,
+    "requiredCategoryAndDesignReview": "SKU_SPECIFIC_PENDING",
+    "ksaDesignRestriction": "Rainbow-colored products and specified religious/festival themes/terms prohibited under noon official policy; verify exact SKU not a blanket multicolor ban",
+    "confidenceStatus": "HISTORICAL_VALUE_UNCHANGED",
+    "completenessStatus": "HISTORICAL_VALUE_UNCHANGED",
+    "worstLoss100CertifiedUsd": null,
+    "workStatus": "RESEARCH_ONLY_NO_PURCHASE"
+  },
+  "newComplianceGate": {
+    "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "status": "NOT_APPROVED",
+    "ksaRainbowProhibition": "EXACT_PRODUCT_VISUAL_CHECK",
+    "ksaReligiousSeasonalSymbolsAndPhrases": "EXACT_LISTING_CHECK",
+    "noonNGSProductCategoryEligibility": "UNKNOWN",
+    "ipOrTrademarkLicensing": "ORIGINAL_ONLY_OR_EXPLICIT_AUTHORIZATION",
+    "hardStopIfBannedOrUnlicensed": true
+  },
+  "worstLoss100Latest": {
+    "fullyUnsoldUpperBoundUsd": null,
+    "fullyNonSaleableReturnsUpperBoundUsd": null,
+    "calculation": "100*(actual item procurement+packaging+domestic transfer to Shenzhen) + other sunk/return costs; no TP recovery for 100 unsaleable returns",
+    "notACertifiedMaximum": true,
+    "reason": "no binding same-BOM cost, real per-order hub freight and return liabilities"
   }
 }
