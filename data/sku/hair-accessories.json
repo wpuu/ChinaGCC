@@ -322,5 +322,51 @@
     "calculation": "100*(actual item procurement+packaging+domestic transfer to Shenzhen) + other sunk/return costs; no TP recovery for 100 unsaleable returns",
     "notACertifiedMaximum": true,
     "reason": "no binding same-BOM cost, real per-order hub freight and return liabilities"
+  },
+  "latestNGSReturnV2Audit": {
+    "auditId": "2026-10-31/NGS-RETURN-V2-CROSSCHECK",
+    "day": "2026-10-31",
+    "modelPreference": "GPT-6 Extra High preferred; runtime unverified",
+    "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "marketSignal": {
+      "marketSignal": "No new independently verified 8-piece clip payments or same-BOM transaction; historical evidence only",
+      "url": null
+    },
+    "scoreStatus": "HISTORICAL_NO_RESCORING",
+    "opportunityScore": 70,
+    "evidenceConfidence": 92,
+    "dataCompleteness": 78,
+    "actualBuyerPrice": null,
+    "actualNoonMarkup": null,
+    "realSameBOMQuote": null,
+    "actualDomesticHubFreight": null,
+    "skuApproval": "UNKNOWN",
+    "zeroTPProceedsFractionScenario": [
+      0,
+      0.1,
+      0.2
+    ],
+    "maxSellerTotalCostFor20PctContributionUsd": {
+      "0": [
+        1.92,
+        2.32,
+        2.72
+      ],
+      "0.1": [
+        1.728,
+        2.088,
+        2.448
+      ],
+      "0.2": [
+        1.536,
+        1.856,
+        2.176
+      ]
+    },
+    "returnScenario": "Non-saleable liquidation: no TP proceeds; Noon removal/disposal fees waived, other costs unknown",
+    "loss100UpperBoundUsd": null,
+    "ownerPaidOrdersNewlyVerified": 0,
+    "channelAccessGate": "NOT_PASSED",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE"
   }
 }
