@@ -3133,5 +3133,20 @@
       "Read-only checkout-before-payment quote to Shenzhen Baoan for 1 brush kit and 2 travel-bottle sets; verify packed weight and supplier capacity for one paid buyer order/one labeled parcel; do not buy or contact supplier.",
       "After actual legal/payout approval, confirm NGS category access and lawful real SKU buyer total/ETA plus TP/payout; then recalculate >=15% contribution and 100-unit stress before any sample or public listing."
     ]
+  },
+  "latestNGSReturnV2Audit": {
+    "auditId": "2026-10-31/NGS-RETURN-V2-CROSSCHECK",
+    "day": "2026-10-31",
+    "dailyPath": "data/daily/2026-10-31.json",
+    "summary": "new adjacent listing badges, no first-party orders; 6/12 scored SKUs missing 41 full subitems; travel 75 vs74 and phone main 68 vs independent 69; buyer total/NGS gate still unknown",
+    "result": "HOLD",
+    "sourceUrls": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://www.noon.com/saudi-en/beauty/makeup-16142/makeup-brushes-and-tools/cosmetic-bags/noon-deals-sa/",
+      "https://supermall.noon.com/uae-en/ts-ae-en-kodak-charmera/"
+    ],
+    "riskEconomicStatus": "100 unit loss unbounded/UNKNOWN",
+    "scoreCorrectionApproved": false,
+    "modelPreference": "GPT-6 Extra High preferred not runtime verified"
   }
 }
