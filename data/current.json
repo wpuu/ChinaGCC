@@ -5,7 +5,7 @@
     "status": "继续研究，不采购；当日Noon NGS 0/12、Amazon 0/15、Sample Ready 0",
     "thirtyDayJudgment": "CONTINUE（74/100）：低成本验证优先，未闭环中国经营主体、Noon消费者终价、同款3家完整报价/整包重量/QC；不投入主要库存资金。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-10-30T20:11:41+08:00",
+    "lastUpdated": "2026-10-31",
     "lastSynced": null,
     "currentChannelPriority": [
       "Noon NGS（自营首单验证第一；账号资格未核实）",
@@ -14,10 +14,10 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
-    "latestRadarDate": "2026-10-30",
-    "latestRadarPath": "data/daily/2026-10-30.json",
-    "latestRadarStatus": "READ_ONLY_RESEARCH__NGS_OWNER_ACCOUNT_UNVERIFIED__NO_SAMPLE_OR_PURCHASE",
-    "latestRadarNote": "2026-10-30: 公开Noon竞品销售标签不是本项目新订单；美国POP MART 10-15发布不是中国→GCC趋势时差证据；Noon Ego CLI bootstrap仍阻塞，不要重新注册/绕过授权。V2历史分数不重算。 22:34复盘：Issue #24第029轮确认义乌购化妆刷¥7.80 MOQ1 / 标称95g、11件分装瓶¥3.80 MOQ2，均无深圳宝安准确运费及包裹毛重；分装瓶MOQ2与单件逐单零库存履约冲突待验证。未形成价格/回款/利润成交证据。",
+    "latestRadarDate": "2026-10-31",
+    "latestRadarPath": "data/daily/2026-10-31.json",
+    "latestRadarStatus": "OWNER_ORG_EXISTS__UAE_KSA_STORES_NONE__NO_VALID_LE__NGS_NOT_ACTIVE__READ_ONLY",
+    "latestRadarNote": "31轮031正式Ego Lite已成功只读核验Org/Project存在、当前Stores空、No Valid Legal Entities Found；旧bootstrap故障不再作为本轮障碍。Payment、Origin与China NGS具体审核依然UNKNOWN或未满足。Noon官方Saudi禁售彩虹配色及部分宗教节日图案/关键词，具体商品需逐项过闸。公开旧销量标签不能记为当日成交。14 SKU V2历史评分保留、商品采购0。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
   },
@@ -44,7 +44,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
       "sampleReady": false,
@@ -161,9 +161,9 @@
       ],
       "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
       "latestRadar": {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "observedAt": "2026-10-30T20:11:41+08:00",
-        "dailyPath": "data/daily/2026-10-30.json",
+        "dailyPath": "data/daily/2026-10-31.json",
         "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
         "personas": [
           "Saudi女性18-45",
@@ -219,7 +219,14 @@
             "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
           ]
         },
-        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+        "accountCheck": "WORK031_ORG_VERIFIED_STORES_NONE_LE_NONE",
+        "oldBootstrapError": "NOT_CURRENT",
+        "payoutApproval": "UNKNOWN",
+        "ngsStatus": "CURRENTLY_NOT_READY",
+        "sourceRestrictionPolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "ksaRainbowAndRestrictedMotifCheck": "SKU_SPECIFIC_PENDING",
+        "currentNewOwnerTransactionsVerified": 0
       }
     },
     {
@@ -465,7 +472,7 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
       "sampleReady": false,
@@ -550,7 +557,7 @@
         "Eid"
       ],
       "localPlatformFit": "Saudi-high UAE-unverified",
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "opportunityBreakdown": {
         "A1": 4,
         "A2": 3,
@@ -994,7 +1001,7 @@
         "J": 3,
         "K": 2
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
       "sampleReady": false,
@@ -1297,7 +1304,7 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
       "sampleReady": false,
@@ -1367,7 +1374,7 @@
         "J": 4,
         "K": 2
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
       "sampleReady": false,
@@ -1570,9 +1577,9 @@
       ],
       "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
       "latestRadar": {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "observedAt": "2026-10-30T20:11:41+08:00",
-        "dailyPath": "data/daily/2026-10-30.json",
+        "dailyPath": "data/daily/2026-10-31.json",
         "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
         "personas": [
           "Saudi女性18-45",
@@ -1628,7 +1635,14 @@
             "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
           ]
         },
-        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+        "accountCheck": "WORK031_ORG_VERIFIED_STORES_NONE_LE_NONE",
+        "oldBootstrapError": "NOT_CURRENT",
+        "payoutApproval": "UNKNOWN",
+        "ngsStatus": "CURRENTLY_NOT_READY",
+        "sourceRestrictionPolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "ksaRainbowAndRestrictedMotifCheck": "SKU_SPECIFIC_PENDING",
+        "currentNewOwnerTransactionsVerified": 0
       }
     },
     {
@@ -1653,7 +1667,7 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
       "sampleReady": false,
@@ -1787,9 +1801,9 @@
       },
       "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
       "latestRadar": {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "observedAt": "2026-10-30T20:11:41+08:00",
-        "dailyPath": "data/daily/2026-10-30.json",
+        "dailyPath": "data/daily/2026-10-31.json",
         "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
         "personas": [
           "Saudi女性18-45",
@@ -1845,7 +1859,14 @@
             "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
           ]
         },
-        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+        "accountCheck": "WORK031_ORG_VERIFIED_STORES_NONE_LE_NONE",
+        "oldBootstrapError": "NOT_CURRENT",
+        "payoutApproval": "UNKNOWN",
+        "ngsStatus": "CURRENTLY_NOT_READY",
+        "sourceRestrictionPolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "ksaRainbowAndRestrictedMotifCheck": "SKU_SPECIFIC_PENDING",
+        "currentNewOwnerTransactionsVerified": 0
       }
     },
     {
@@ -1886,7 +1907,7 @@
         "日常穿搭"
       ],
       "localPlatformFit": "medium in Saudi; weak/unproven in UAE",
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "opportunityBreakdown": {
         "A1": 3,
         "A2": 1,
@@ -2070,9 +2091,9 @@
       "rankChange": "→",
       "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
       "latestRadar": {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "observedAt": "2026-10-30T20:11:41+08:00",
-        "dailyPath": "data/daily/2026-10-30.json",
+        "dailyPath": "data/daily/2026-10-31.json",
         "sourcePolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
         "personas": [
           "Saudi女性18-45",
@@ -2128,7 +2149,14 @@
             "100*(item+packing+domesticHub)+returnsCharges+sunkMarketing+otherCosts; no TP proceeds on non-saleable returns"
           ]
         },
-        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase"
+        "nextGate": "Read authorized existing Noon Seller Lab and get LE/payment/NGS approval status plus buyer total/ETA before contacting suppliers or proposing purchase",
+        "accountCheck": "WORK031_ORG_VERIFIED_STORES_NONE_LE_NONE",
+        "oldBootstrapError": "NOT_CURRENT",
+        "payoutApproval": "UNKNOWN",
+        "ngsStatus": "CURRENTLY_NOT_READY",
+        "sourceRestrictionPolicy": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "ksaRainbowAndRestrictedMotifCheck": "SKU_SPECIFIC_PENDING",
+        "currentNewOwnerTransactionsVerified": 0
       }
     },
     {
@@ -2153,7 +2181,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
       "sampleReady": false,
@@ -2276,7 +2304,7 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_NOON_NGS",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
       "sampleReady": false,
@@ -2346,7 +2374,7 @@
         "J": 2,
         "K": 1
       },
-      "channelAccessGate": "CONDITIONAL_NOON_NGS_IP_AND_TOY_RULES",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": true,
       "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
       "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
@@ -2472,7 +2500,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "PASS_CONDITIONAL_BUT_BULKY",
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
       "hardStop": false,
       "worstLoss100": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
       "sampleReady": false,
@@ -2581,7 +2609,8 @@
       "confirmedFields": [
         "gccSalesEvidence",
         "nextAction"
-      ]
+      ],
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY"
     },
     {
       "englishName": "",
@@ -2643,7 +2672,8 @@
       "confirmedFields": [
         "gccSalesEvidence",
         "nextAction"
-      ]
+      ],
+      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY"
     }
   ],
   "dailyRadar": [
@@ -2997,17 +3027,44 @@
       "accessIssue": "BLOCKED_EGO_BOOTSTRAP_CONNECTION",
       "source": "README 2026-10-30; Issue #24",
       "noNewAccountRegistration": true
-    }
+    },
+    "verifiedAccountStateAsOf": "2026-10-31",
+    "orgProject": "EXISTS",
+    "uaeStore": "NONE_OBSERVED",
+    "ksaStore": "NONE_OBSERVED",
+    "legalEntity": "NO_VALID_ENTITIES",
+    "payment": "UNKNOWN",
+    "ngs": "CURRENTLY_NOT_ELIGIBLE",
+    "source": "research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md"
   },
   "latestRadar": {
-    "date": "2026-10-30",
-    "path": "data/daily/2026-10-30.json",
-    "skuCount": 14,
+    "date": "2026-10-31",
+    "dailyPath": "data/daily/2026-10-31.json",
+    "modelPreference": "GPT-6 Extra High (requested; runtime not verifiable)",
+    "status": "READ_ONLY__NO_PURCHASE",
+    "channelPriority": [
+      "Noon China NGS first",
+      "Amazon UAE/Saudi second"
+    ],
+    "firstSaleAccess": "NOT_READY",
+    "ownerOrgProject": "VERIFIED_EXISTING",
+    "uaeStore": "CURRENTLY_NONE",
+    "ksaStore": "CURRENTLY_NONE",
+    "legalEntity": "NO_VALID_LE_FOUND",
+    "payoutApproval": "UNKNOWN",
+    "ngsQualification": "CURRENTLY_NOT_ELIGIBLE",
+    "oldBootstrapIssue": "NOT_CURRENT_AFTER_WORK_031_SUCCESS",
+    "newPaidOrdersVerified": 0,
+    "newRFQVerified": 0,
+    "newRestockEvidenceVerified": 0,
+    "policyUpdate": "Saudi rainbow-colored products and selected religious/seasonal motifs or keywords prohibited; individual item visual/content checks required",
+    "source": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    ],
+    "skuScorePolicy": "KEEP_HISTORICAL_V2_NO_41_SUBITEM_RESCORING",
     "sampleReadyCount": 0,
-    "approvedPurchaseCount": 0,
-    "verifiedOwnerOrders": 0,
-    "verifiedOwnerPayouts": 0,
-    "sourceType": "PUBLIC_COMPETITOR_MARKERS_NOT_NEW_PAYMENT_PROOF"
+    "approvedPurchaseCount": 0
   },
   "dailyReconciliation": {
     "auditDate": "2026-10-30",
