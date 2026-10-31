@@ -1,0 +1,140 @@
+{
+  "id": "original-ip-plush",
+  "name": "合法原创毛绒包挂/盲盒挂件",
+  "rank": null,
+  "rankChange": "NEW",
+  "status": "WATCH_STRATEGIC_AUTH_ONLY",
+  "opportunityScore": 69,
+  "evidenceConfidence": 67,
+  "dataCompleteness": 58,
+  "dimensionScores": {
+    "A": 10,
+    "B": 9,
+    "C": 10,
+    "D": 10,
+    "E": 9,
+    "F": 6,
+    "G": 2,
+    "H": 5,
+    "I": 5,
+    "J": 2,
+    "K": 1
+  },
+  "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+  "hardStop": true,
+  "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
+  "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+  "sampleReady": false,
+  "sampleBlockers": [
+    "IP授权/正品渠道Hard Stop",
+    "Generic可爱挂件不能继承成熟IP需求",
+    "趋势半衰期未测"
+  ],
+  "topRisks": [
+    {
+      "name": "IP授权/正品链路不成立",
+      "probability": 5,
+      "impact": 5,
+      "riskScore": 25,
+      "hardStop": true
+    },
+    {
+      "name": "成熟IP需求不能外推Generic原创",
+      "probability": 5,
+      "impact": 4,
+      "riskScore": 20,
+      "hardStop": false
+    },
+    {
+      "name": "趋势半衰期短",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false
+    },
+    {
+      "name": "仿品/信誉风险",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false
+    },
+    {
+      "name": "NGS玩具/材料合规需单独确认",
+      "probability": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "hardStop": false
+    }
+  ],
+  "keyEvidence": [
+    "WAKUKU V2已出现在Noon Saudi，标价SAR201、低库存，但未看到强sold recently信号",
+    "Labubu/POP MART在UAE/Saudi大量在售，证明收藏挂件购买力，不证明新Generic IP能成功"
+  ],
+  "nextAction": "WAKUKU已到Saudi，不能当作‘尚未进入GCC’样本。下一轮寻找中国刚起量、Noon/Amazon GCC尚未明显铺货且能合法授权的更早期IP。",
+  "latestOriginAudit": {
+    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "character": "CRYBABY",
+    "creator": "Thai artist Nisa Srikumdee",
+    "chinaOriginalIP": false,
+    "gccFirstPaidDate": null,
+    "chinaFirstPaidDate": null,
+    "lagDays": null,
+    "authorizedForResale": false
+  },
+  "asOf": "2026-10-31",
+  "corePersona": "NOT_VERIFIED",
+  "ageBand": [
+    "Saudi女性18–45",
+    "UAE女性18–39"
+  ],
+  "genderFit": "NOT_VERIFIED",
+  "discoveryChannel": [
+    "TikTok",
+    "Snapchat",
+    "Instagram"
+  ],
+  "checkoutChannel": [
+    "Noon NGS",
+    "Amazon UAE/Saudi"
+  ],
+  "purchaseTrigger": null,
+  "productFamily": null,
+  "viralPotential": null,
+  "collectibility": null,
+  "giftability": null,
+  "visualDemoStrength": null,
+  "trendHalfLife": null,
+  "IPRisk": "UNLICENSED_THIRD_PARTY_IP__HARD_STOP",
+  "seasonalTrigger": null,
+  "localPlatformFit": null,
+  "transferPriceTestGridUsd": null,
+  "actualTransferPrice": null,
+  "consumerFinalPrice": null,
+  "noonMarkup": null,
+  "chinaSameBomQuotation": null,
+  "chinaToShenzhenPerUnit": null,
+  "returnsExpectedLoss": null,
+  "ngsCategoryRestrictionApproval": null,
+  "worstLoss100CertifiedUsd": null,
+  "verified100UnitWorstLoss": {
+    "fullyUnsoldUsd": null,
+    "nonSaleableReturnsUsd": null,
+    "upperBoundCertified": false,
+    "reason": "No verified same SKU purchase / authorization / hub freight / return loss"
+  },
+  "latestResearchAudit": {
+    "auditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+    "originalCreator": "Thai artist Nisa Srikumdee (Molly)",
+    "commercialOperator": "POP MART (China)",
+    "chinaCreatedIP": false,
+    "chinaGCCFirstPaidOrderPairCount": 0,
+    "lagDays": null,
+    "authorizedDistributor": false,
+    "source": "https://www.nationthailand.com/business/trade/40065852",
+    "officialReleaseSource": "https://www.popmart.com/us/products/9299/crybaby-crying-round-n-round-series-vinyl-plush-pendant-blind-box",
+    "channelAccessGate": "NOT_PASSED",
+    "scoreChanged": false,
+    "sampleReady": false
+  }
+}
