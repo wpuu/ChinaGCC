@@ -1997,7 +1997,31 @@
         "legacyScoreConflictsUnresolved": false
       },
       "purchaseApproved": false,
-      "ownPaidOrderVerified": false
+      "ownPaidOrderVerified": false,
+      "latestOfficialLaunchWatch": [
+        {
+          "series": "RiboDiary Forest Gathering Day Series Plush Doll Pendant",
+          "officialMarket": "US",
+          "officialOnlineRelease": "2026-10-29 17:00 PDT",
+          "source": "https://www.popmart.com/us/pop-now/set/1486",
+          "creatorOrigin": "UNKNOWN",
+          "chinaFirstPaidOrderDate": null,
+          "gccSameSeriesFirstPaidOrderDate": null,
+          "authorizedForResale": false,
+          "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+        },
+        {
+          "series": "1001MOONS The Moonlight Gathering Guide Series Plush Doll Pendant",
+          "officialMarket": "US",
+          "officialOnlineRelease": "2026-10-29 17:00 PDT",
+          "source": "https://www.popmart.com/us/pop-now/set/1476",
+          "creatorOrigin": "UNKNOWN",
+          "chinaFirstPaidOrderDate": null,
+          "gccSameSeriesFirstPaidOrderDate": null,
+          "authorizedForResale": false,
+          "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+        }
+      ]
     },
     {
       "id": "car-sunshade",
@@ -2702,7 +2726,172 @@
         "https://www.nationthailand.com/business/trade/40065852",
         "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
       ]
+    },
+    {
+      "auditId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
+      "date": "2026-10-31",
+      "timePrecision": "DATE_ONLY",
+      "modelPreference": "GPT-6 / Extra High",
+      "actualRunnerModel": "NOT_VERIFIABLE",
+      "actualEffort": "NOT_VERIFIABLE",
+      "workState": {
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+        "subsequentEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md",
+        "originalOrgProject": "VERIFIED_EXISTS",
+        "organizationIdExactValue": "NOT_IN_PUBLIC_AUDIT",
+        "uaeStore": "NOT_CREATED_VERIFIED_AS_OF_WORK049_050",
+        "ksaStore": "NONE_AS_OF_PRIOR_ACCOUNT_CHECK",
+        "storeCreationForm": "UAE_SELECTED_CHINA_SELECTED_EN_AR_STORE_NAMES_AND_REAL_PHONE_MISSING_CONTINUE_NOT_CLICKED",
+        "legalEntity": "NO_VALID_LE_SUBMITTED_OR_APPROVED",
+        "payment": "UNKNOWN",
+        "ngs": "NOT_READY",
+        "genericProductDraft": "NOT_CREATED",
+        "publicOffer": "NOT_LIVE",
+        "sellerFirstOrder": "NOT_VERIFIED"
+      },
+      "firstSaleReadiness": {
+        "noon": {
+          "completed": 0,
+          "total": 12,
+          "percent": 0,
+          "orgExistsPartiallyVerified": true,
+          "orgIdExactValueNotCaptured": true
+        },
+        "amazon": {
+          "completed": 0,
+          "total": 15,
+          "percent": 0
+        },
+        "countDefinition": "Only items with specific completion evidence count; org/project existence is partial progress, not necessarily captured Organization ID"
+      },
+      "priorityPeople": [
+        "Saudi female 18–45 primary",
+        "UAE female 18–39 second",
+        "female Gen Z/students trend discovery not assumed profitable"
+      ],
+      "discovery": [
+        "TikTok",
+        "Snapchat",
+        "Instagram"
+      ],
+      "discoveryToPaidAttribution": "UNVERIFIED",
+      "channelOrder": [
+        "Noon China NGS first contingent on legal access",
+        "Amazon UAE/Saudi second"
+      ],
+      "skuScorePolicy": "HISTORICAL_V2_RETAINED_NO_NEW_COMPLETED_ORDER_NO_SCORE_CHANGE",
+      "skuTop10RankChange": "NO_CHANGE_VS_2026-10-30_DAILY",
+      "confirmedNewPaidOrders": 0,
+      "confirmedNewRfqs": 0,
+      "confirmedNewRestockOrders": 0,
+      "demandStrongMarginUnproven": [
+        "press-on-nails",
+        "lint-roller",
+        "makeup-sponge"
+      ],
+      "structurallyStableCandidate": "silicone-brush_UNVERIFIED_ACTUAL_NGS_MARGIN",
+      "premiumPressOnNailsSar35to49": {
+        "verifiableCompletedOrders": false,
+        "sourceType": "historical low-price listings; exact high-priced completed orders not obtained"
+      },
+      "cosmeticBagFourPiece": {
+        "sameBomThreeQuotes": false,
+        "finalRetailPackedWeightG": null,
+        "dimensionsCm": null,
+        "actualShenzhenFreight": null,
+        "verified15PercentContribution": false,
+        "noAssumedLightness": true
+      },
+      "originalIp": {
+        "newOfficialForeignMarketLaunchWatch": [
+          {
+            "series": "RiboDiary Forest Gathering Day Series Plush Doll Pendant",
+            "officialMarket": "US",
+            "officialOnlineRelease": "2026-10-29 17:00 PDT",
+            "source": "https://www.popmart.com/us/pop-now/set/1486",
+            "creatorOrigin": "UNKNOWN",
+            "chinaFirstPaidOrderDate": null,
+            "gccSameSeriesFirstPaidOrderDate": null,
+            "authorizedForResale": false,
+            "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+          },
+          {
+            "series": "1001MOONS The Moonlight Gathering Guide Series Plush Doll Pendant",
+            "officialMarket": "US",
+            "officialOnlineRelease": "2026-10-29 17:00 PDT",
+            "source": "https://www.popmart.com/us/pop-now/set/1476",
+            "creatorOrigin": "UNKNOWN",
+            "chinaFirstPaidOrderDate": null,
+            "gccSameSeriesFirstPaidOrderDate": null,
+            "authorizedForResale": false,
+            "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
+          }
+        ],
+        "matchedChinaGccFirstPaidOrderDates": 0,
+        "authorizationForResale": false,
+        "chinaOriginalIpAttribution": "NOT_PROVEN_BY_US_LAUNCH",
+        "decision": "WATCH_ONLY_UNLICENSED_HARD_STOP"
+      },
+      "channel": {
+        "noonNgS": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "payouts": "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+        "amazonCurrentIncentives": "https://gs.amazon.cn/news/news-brand-260926",
+        "uaeVat": "https://tax.gov.ae/en/taxes/Vat/vat.topics/registration.for.vat.aspx",
+        "policyChanged": "NO_VERIFIED_CHANGE_TO_NOON_FIRST_AMAZON_SECOND"
+      },
+      "newFirstSaleRisks": [
+        "Noon regular SKU local customer Price is not China NGS USD Transfer Price; must verify NGS Global program-specific view",
+        "Noon Health & Beauty general listing policy requires proof of purchase or authorization letter; actual exact SKU category and NGS applicability unverified",
+        "Noon product create-and-continue is not proven risk-free draft; active/live/stock/TP may make item buyable after approvals",
+        "Amazon FBA UAE non-resident VAT obligations and importer of record cannot be treated as solved by Noon NGS terms",
+        "Unlicensed IP and country prohibited motifs are SKU-specific hard stops"
+      ],
+      "economicSafety": {
+        "actualConsumerCheckoutPrice": null,
+        "actualUSDTransferPrice": null,
+        "verified100UnitsWorstLoss": null,
+        "fullyUnsoldLossUpperBound": null,
+        "nonSaleableReturnsLossUpperBound": null,
+        "reason": "No same BOM three executable supplier quotes, actual package gross weight, Shenzhen shipment price, seller return liability or worst-case budget ceiling"
+      },
+      "hanlin": "FROZEN_NO_LAUNCH",
+      "threeHighestValueNextTasks": [
+        "For owner-authorized Work-049, resume UAE Store creation only after Owner confirms genuine EN/AR public names and real contact number; distinguish form progress from submitted/approved Store",
+        "Verify Chinese business registration eligibility, valid payout approval and NGS Global SKU/category proof-of-purchase restrictions through official case-specific evidence before making legal commitments",
+        "Only after store/NGS permissions become verifiable, obtain one locked SKU same-BOM shipment quote/final packed weight, actual NGS buyer final price and delivery ETA and test >=15% contribution with return loss; no fake listings, stock, IP or purchases"
+      ],
+      "writesBoundary": "Research and GitHub record updates only; no account/customer/supplier writes, purchases, uploads or emails",
+      "sourceUrls": [
+        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md",
+        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md",
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+        "https://helpcenter.noon.partners/en/category/product-listing/listing-products-on-noon-faq",
+        "https://helpcenter.noon.partners/en/category/price-and-inventory/how-do-i-manage-my-stock-and-prices",
+        "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "https://tax.gov.ae/en/taxes/Vat/vat.topics/registration.for.vat.aspx",
+        "https://www.popmart.com/us/pop-now/set/1486",
+        "https://www.popmart.com/us/pop-now/set/1476",
+        "https://gs.amazon.cn/news/news-brand-260926"
+      ]
     }
   ],
-  "latestOriginAndBOMAuditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN"
+  "latestOriginAndBOMAuditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
+  "latestDailyReconciliationId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
+  "firstSaleReadinessAudit": {
+    "noon": {
+      "completed": 0,
+      "total": 12,
+      "percent": 0,
+      "orgExistsPartiallyVerified": true,
+      "orgIdExactValueNotCaptured": true
+    },
+    "amazon": {
+      "completed": 0,
+      "total": 15,
+      "percent": 0
+    },
+    "countDefinition": "Only items with specific completion evidence count; org/project existence is partial progress, not necessarily captured Organization ID"
+  }
 }
