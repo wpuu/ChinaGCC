@@ -20,7 +20,7 @@
     "J": 2,
     "K": 1
   },
-  "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
   "hardStop": true,
   "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
   "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
@@ -296,5 +296,78 @@
     "approvedPurchase": false,
     "originalIpFirstSaleLagDays": null,
     "originalIpRightsVerified": false
+  },
+  "latestGateReconciliation": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "previous": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+    "current": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+    "basis": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+    "uaeStoreVerified": true,
+    "chinaLEApproved": false,
+    "ngsCurrentlyQualified": false,
+    "reasonForNgsNonqualification": "UNKNOWN",
+    "payoutApproved": "UNKNOWN"
+  },
+  "latestRadar20261101C03": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "date": "2026-11-01",
+    "corePersonas": [
+      "Saudi女性18-45",
+      "UAE女性18-39",
+      "female Gen Z/学生"
+    ],
+    "discoveryChannels": [
+      "TikTok",
+      "Snapchat",
+      "Instagram",
+      "Noon Finds"
+    ],
+    "discoveryAttributionVerified": false,
+    "checkoutPriority": [
+      "Noon China NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "purchaseTrigger": "Beauty quick-use / travel organization / gifting hypotheses only",
+    "productFamily": "original-ip-plush",
+    "specificSKU": "original-ip-plush",
+    "chinaSupplyChain": "NO_NEW_REVERSE_SOURCE_WITHOUT_VERIFIED_NEW_SALE_RFQ_RESTOCK",
+    "newMarketEvidence": {
+      "source": "https://github.com/wpuu/ChinaGCC/issues/28",
+      "chinaFirstPaidOrderDate": null,
+      "gccSameSeriesFirstPaidOrderDate": null,
+      "trendLagDays": null,
+      "verifiedDistributionAuthorization": false
+    },
+    "verifiedNewPaidOrders": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "ngsTPGrid": "HISTORICAL_PLANNING_ONLY",
+    "buyerActualCheckoutPriceUsd": null,
+    "noonActualMarkup": null,
+    "sameBomChinaPurchaseUsd": null,
+    "shenzhenHubFreightUsd": null,
+    "actualReturnLossUsd": null,
+    "ngsCategoryApproval": "UNKNOWN",
+    "certified100UnitWorstLossUsd": null,
+    "v2Historical": {
+      "opportunityScore": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58,
+      "realRecalculation": false
+    },
+    "top5RiskThemes": [
+      "China LE Required/not approved; China NGS currently not eligible (reason unknown)",
+      "Noon final consumer price and internal markup",
+      "Exact BOM Chinese purchase, weight, and Shenzhen dispatch costs",
+      "Return loss and 100-unit worst-case upper bound unknown",
+      "Category/country restrictions, seller image rights and (if relevant) IP authorization"
+    ],
+    "ipHardStop": true,
+    "decision": "RESEARCH_ONLY_NO_PURCHASE_NO_LISTING",
+    "sources": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://github.com/wpuu/ChinaGCC/issues/28"
+    ]
   }
 }
