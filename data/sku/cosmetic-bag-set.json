@@ -48,7 +48,7 @@
     "J": 4,
     "K": 1
   },
-  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
   "transferPriceTestGridUsd": [
     4.5,
     5.5,
@@ -515,5 +515,44 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
     ]
+  },
+  "latestAudit20261101C04": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "date": "2026-11-01",
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
+    "platformAccess": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
+    "payout": "China NGS USD payout minimum and first actual remittance remain UNKNOWN; normal policy 100/1000 AED/SAR cannot be unconditionally assigned",
+    "returns": "Saleable returns may become local FBN stock with a default resale price; non-salable returns generate no proceeds. Actual contract/application and costs unverified.",
+    "actualBuyerPrice": null,
+    "actualReturnLoss": null,
+    "certifiedLoss100": null,
+    "scoreChanged": false,
+    "marginTarget": 0.15,
+    "costCapFormula": "0.85*(1-q)*TransferPriceUsd",
+    "TPScenarioUsd": [
+      4.5,
+      5.5,
+      6.5
+    ],
+    "costCapsAtQ0": [
+      3.825,
+      4.675,
+      5.525
+    ],
+    "costCapsAtQ10pct": [
+      3.4425,
+      4.2075,
+      4.9725
+    ],
+    "costCapsAtQ20pct": [
+      3.06,
+      3.74,
+      4.42
+    ],
+    "qActual": null,
+    "actualSameBOMPrice": null,
+    "actualFinalPackedDimensions": null,
+    "actualChinaToShenzhenFreight": null,
+    "safeMargin15Proven": false
   }
 }
