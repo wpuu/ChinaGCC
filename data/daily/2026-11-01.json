@@ -504,7 +504,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本"
       },
       "newMarketEvidence": [
         {
@@ -594,6 +596,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 14,
+        "B": 11,
+        "C": 10,
+        "D": 10,
+        "E": 7,
+        "F": 8,
+        "G": 2,
+        "H": 6,
+        "I": 5,
+        "J": 4,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -734,7 +755,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装"
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -763,6 +786,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 13,
+        "B": 12,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 8,
+        "G": 1,
+        "H": 4,
+        "I": 4,
+        "J": 5,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -915,7 +957,15 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": {
+          "currency": "CNY",
+          "type": "ESTIMATE_NOT_QUOTE",
+          "lossIfZeroReceipts": 2480,
+          "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
+          "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
+        }
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -944,6 +994,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 13,
+        "B": 10,
+        "C": 11,
+        "D": 10,
+        "E": 10,
+        "F": 6,
+        "G": 1,
+        "H": 4,
+        "I": 4,
+        "J": 5,
+        "K": 2
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -1085,7 +1154,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数"
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -1114,6 +1185,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 11,
+        "B": 14,
+        "C": 11,
+        "D": 11,
+        "E": 7,
+        "F": 8,
+        "G": 1,
+        "H": 3,
+        "I": 4,
+        "J": 3,
+        "K": 2
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -1254,7 +1344,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价"
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -1283,6 +1375,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 14,
+        "B": 5,
+        "C": 10,
+        "D": 9,
+        "E": 7,
+        "F": 6,
+        "G": 6,
+        "H": 6,
+        "I": 5,
+        "J": 5,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -1459,7 +1570,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210"
       },
       "newMarketEvidence": [
         {
@@ -1549,6 +1662,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 13,
+        "B": 8,
+        "C": 10,
+        "D": 11,
+        "E": 7,
+        "F": 6,
+        "G": 1,
+        "H": 3,
+        "I": 5,
+        "J": 4,
+        "K": 2
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -1696,7 +1828,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货"
       },
       "newMarketEvidence": [
         {
@@ -1806,6 +1940,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 14,
+        "B": 7,
+        "C": 9,
+        "D": 10,
+        "E": 10,
+        "F": 4,
+        "G": 2,
+        "H": 3,
+        "I": 4,
+        "J": 3,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -1975,7 +2128,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150"
       },
       "newMarketEvidence": [
         {
@@ -2065,6 +2220,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 8,
+        "B": 11,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 7,
+        "G": 1,
+        "H": 2,
+        "I": 5,
+        "J": 4,
+        "K": 0
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2170,7 +2344,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本"
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -2199,6 +2375,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 10,
+        "B": 6,
+        "C": 11,
+        "D": 10,
+        "E": 10,
+        "F": 5,
+        "G": 1,
+        "H": 6,
+        "I": 5,
+        "J": 4,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2304,7 +2499,9 @@
           "unsold": "100*(actual_goods+packing+china_to_shenzhen_if_prepaid)+prepaid_ads+setup+storage_disposal+other_sunk_costs",
           "nonSaleableReturns": "100*(actual_goods+packing+china_to_shenzhen)+seller_borne_exception_handling+ads+other_sunk_costs, TP income=0 for such returned units"
         },
-        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits"
+        "reason": "lack real same-BOM quote, domestic per-shipment freight, package weight, reverse-return terms, fixed campaign cost limits",
+        "actualCertifiedMaximum": null,
+        "historicPlanningFigureNotCertified": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环"
       },
       "newMarketEvidence": [],
       "decision": "HOLD_PREVIOUS_GATE",
@@ -2333,6 +2530,25 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "dimensionScores": {
+        "A": 12,
+        "B": 7,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 6,
+        "G": 2,
+        "H": 2,
+        "I": 4,
+        "J": 3,
+        "K": 1
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2537,6 +2753,12 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2671,6 +2893,12 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2769,6 +2997,12 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     },
     {
@@ -2867,6 +3101,12 @@
         "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
         "hardStopOnLive": true
+      },
+      "c04ChannelReview": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "actualNoonApproval": false,
+        "scoreUnchanged": true,
+        "anySaledOrdersProved": false
       }
     }
   ],
@@ -4215,7 +4455,7 @@
     "previous": "data/daily/2026-10-31.json",
     "historicalPriceAndScoresNotNewEvidence": true
   },
-  "latestRadarAuditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+  "latestRadarAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
   "v2Consistency": {
     "total": 14,
     "scored": 12,
@@ -4535,5 +4775,103 @@
       "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
       "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
     ]
-  }
+  },
+  "c04Audit": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "date": "2026-11-01",
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
+    "officialReadBack": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "https://sell.amazon.ae/content/listing-guide"
+    ],
+    "ownerAccount": {
+      "uaeStore": "GCC Picks CREATED_VERIFIED by Work049 as of 2026-11-01 10:39 Beijing",
+      "org": "EXISTS_ID_EVIDENCE_NOT_CAPTURED",
+      "ksa": "NOT_VERIFIED",
+      "LE": "REQUIRED_NOT_SUBMITTED",
+      "NGS": "CURRENTLY_NOT_ELIGIBLE_REASON_UNKNOWN",
+      "payout": "UNKNOWN"
+    },
+    "firstSaleReadiness": {
+      "noon": {
+        "completed": 1,
+        "total": 12,
+        "percent": 8
+      },
+      "amazon": {
+        "completed": 0,
+        "total": 15,
+        "percent": 0
+      }
+    },
+    "keyNewPolicyRisk": "NGS salable returns may enter local FBN stock with automatically defaulted resale price; unsalable returns may generate zero seller proceeds; actual seller-side charges and re-sale cash-flow unverified",
+    "policyDistinctions": {
+      "ngsNoonLocalVATExemption": true,
+      "amazonNonResidentUAEFbaVatRequired": true,
+      "ordinaryPayoutThresholdSameCurrency": "100 AED/SAR",
+      "ordinaryPayoutThresholdCrossCurrency": "1000 AED/SAR",
+      "specificChineseNGSUSDThreshold": "UNKNOWN",
+      "businessRegistrationDaysConflict": "15 vs 30",
+      "chineseSoleProprietorAcceptance": "UNKNOWN"
+    },
+    "margin15ScenarioOnly": {
+      "tpUsd": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "qNonRevenue": [
+        0,
+        0.1,
+        0.2
+      ],
+      "costCapByQUsd": {
+        "0": [
+          3.825,
+          4.675,
+          5.525
+        ],
+        "0.1": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "0.2": [
+          3.06,
+          3.74,
+          4.42
+        ]
+      },
+      "formula": "costCap=0.85*(1-q)*TP, scenarios only",
+      "actualTP": null,
+      "actualBuyerAllInPrice": null,
+      "actualSameBomSupplierQuotes": null,
+      "actualShenzhenFreight": null,
+      "actualReturnLoss": null,
+      "certified15PctProfit": false
+    },
+    "imageRights": "Hongliang Yiwugo 986877044 image commercial reuse on Noon not licensed/verified; public image CDN not rights proof",
+    "userOwnedVerifiedNewPaidOrders": 0,
+    "userOwnedVerifiedPayouts": 0,
+    "verifiedNewIndependentRFQ": 0,
+    "scoreChanges": 0,
+    "sampleReady": 0,
+    "approvedStock": 0,
+    "decision": "NO_GO_LE_NGS_LIVE_OR_PURCHASE",
+    "nextDayMax3Tasks": [
+      "核真实LE适用主体与后台具体审核缺口，保持UAE Store已完成，不重复创建、不上传未授权证件或签署合同",
+      "仅就单一旧SKU合法核实同BOM报价/最终整包毛重/深圳逐单交仓和商品图/销售凭证的法律使用权",
+      "仅当NGS、Payout和商品QC真实批准后，再实测本店Transfer Price→买家总价/ETA/退损和15%利润与真实回款周期"
+    ]
+  },
+  "latestDailyMarginAndReturnsAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+  "nextDayTasks": [
+    "核真实LE适用主体与后台具体审核缺口，保持UAE Store已完成，不重复创建、不上传未授权证件或签署合同",
+    "仅就单一旧SKU合法核实同BOM报价/最终整包毛重/深圳逐单交仓和商品图/销售凭证的法律使用权",
+    "仅当NGS、Payout和商品QC真实批准后，再实测本店Transfer Price→买家总价/ETA/退损和15%利润与真实回款周期"
+  ]
 }
