@@ -35,7 +35,7 @@
     "Eid"
   ],
   "localPlatformFit": "Saudi-high UAE-unverified",
-  "channelAccessGate": "PLATFORM_PASS_OWNER_BLOCKED_LEGAL_ENTITY_AND_PAYOUT",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
   "opportunityBreakdown": {
     "A1": 4,
     "A2": 3,
@@ -234,5 +234,23 @@
     "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
   },
   "latestSupplierVerificationAsOf": "2026-10-30T22:34:58+08:00",
-  "latestSupplierVerificationReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
+  "latestSupplierVerificationReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+  "latestAudit20261101C04": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "date": "2026-11-01",
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
+    "platformAccess": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
+    "payout": "China NGS USD payout minimum and first actual remittance remain UNKNOWN; normal policy 100/1000 AED/SAR cannot be unconditionally assigned",
+    "returns": "Saleable returns may become local FBN stock with a default resale price; non-salable returns generate no proceeds. Actual contract/application and costs unverified.",
+    "actualBuyerPrice": null,
+    "actualReturnLoss": null,
+    "certifiedLoss100": null,
+    "scoreChanged": false,
+    "imageRights": "Yiwugo Hongliang 986877044 pictures not verified for Noon commercial use; 1688 platform-level Yanxuan program does not grant this SKU rights",
+    "actualShenzhenSingleParcelCostCny": null,
+    "finalPackedGrossWeightG": null,
+    "approvedImageAsset": false,
+    "publicListingStatus": "NOT_CREATED",
+    "noonSellerReady": false
+  }
 }
