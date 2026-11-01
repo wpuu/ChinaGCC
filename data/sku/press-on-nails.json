@@ -48,7 +48,7 @@
     "J": 3,
     "K": 1
   },
-  "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__LE_NONE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
   "transferPriceTestGridUsd": {
     "basic": [
       1.5,
@@ -471,5 +471,80 @@
     },
     "sampleReady": false,
     "approvedPurchase": false
+  },
+  "latestGateReconciliation": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "previous": "OWNER_ORG_VERIFIED__STORES_NONE__LE_NONE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+    "current": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+    "basis": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+    "uaeStoreVerified": true,
+    "chinaLEApproved": false,
+    "ngsCurrentlyQualified": false,
+    "reasonForNgsNonqualification": "UNKNOWN",
+    "payoutApproved": "UNKNOWN"
+  },
+  "latestRadar20261101C03": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "date": "2026-11-01",
+    "corePersonas": [
+      "Saudi女性18-45",
+      "UAE女性18-39",
+      "female Gen Z/学生"
+    ],
+    "discoveryChannels": [
+      "TikTok",
+      "Snapchat",
+      "Instagram",
+      "Noon Finds"
+    ],
+    "discoveryAttributionVerified": false,
+    "checkoutPriority": [
+      "Noon China NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "purchaseTrigger": "Beauty quick-use / travel organization / gifting hypotheses only",
+    "productFamily": "press-on-nails",
+    "specificSKU": "press-on-nails",
+    "chinaSupplyChain": "NO_NEW_REVERSE_SOURCE_WITHOUT_VERIFIED_NEW_SALE_RFQ_RESTOCK",
+    "newMarketEvidence": {
+      "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/",
+      "displayedPriceSar": 18.9,
+      "ratingCount": 236,
+      "adhesiveTabsIncluded": true,
+      "smallGlueStickAlsoIncluded": true,
+      "glueFreeTargetBOMMatch": false,
+      "paidOrdersNewlyVerified": 0
+    },
+    "verifiedNewPaidOrders": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "ngsTPGrid": "HISTORICAL_PLANNING_ONLY",
+    "buyerActualCheckoutPriceUsd": null,
+    "noonActualMarkup": null,
+    "sameBomChinaPurchaseUsd": null,
+    "shenzhenHubFreightUsd": null,
+    "actualReturnLossUsd": null,
+    "ngsCategoryApproval": "UNKNOWN",
+    "certified100UnitWorstLossUsd": null,
+    "v2Historical": {
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "realRecalculation": false
+    },
+    "top5RiskThemes": [
+      "China LE Required/not approved; China NGS currently not eligible (reason unknown)",
+      "Noon final consumer price and internal markup",
+      "Exact BOM Chinese purchase, weight, and Shenzhen dispatch costs",
+      "Return loss and 100-unit worst-case upper bound unknown",
+      "Category/country restrictions, seller image rights and (if relevant) IP authorization"
+    ],
+    "ipHardStop": false,
+    "decision": "RESEARCH_ONLY_NO_PURCHASE_NO_LISTING",
+    "sources": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
+    ]
   }
 }
