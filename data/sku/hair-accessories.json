@@ -390,5 +390,80 @@
     "newRFQProof": 0,
     "newRestockProof": 0,
     "certifiedWorstLoss100": null
+  },
+  "latestRadar20261101": {
+    "auditId": "2026-11-01/C01",
+    "date": "2026-11-01",
+    "modelPreferred": "GPT-6 Extra High; actual runner unverified",
+    "scoreHistorical": {
+      "opportunity": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78
+    },
+    "v2MainAudit": {
+      "id": "hair-accessories",
+      "opportunityScore": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78,
+      "subitems": 41,
+      "subTotal": 70,
+      "dimensionTotal": 70,
+      "discrepancy": false,
+      "recomputed": false
+    },
+    "channelAccessGate": "NOT_PASSED",
+    "verifiedNewIndependentSales": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "economics": {
+      "tpScenarioUsd": [
+        2.4,
+        2.9,
+        3.4
+      ],
+      "realTP": null,
+      "actualNoonBuyerPrice": null,
+      "actualMarkup": null,
+      "actualSameBomProcurement": null,
+      "actualChinaToShenzhen": null,
+      "returnLossActual": null,
+      "complianceApproval": null,
+      "zeroIncomeFractionScenarios": [
+        0,
+        0.1,
+        0.2
+      ],
+      "sellerTotalCostCapAt20PctExpectedContribution": {
+        "0": [
+          1.92,
+          2.32,
+          2.72
+        ],
+        "0.1": [
+          1.728,
+          2.088,
+          2.448
+        ],
+        "0.2": [
+          1.536,
+          1.856,
+          2.176
+        ]
+      },
+      "costCapIsRealQuote": false,
+      "certifiedHundredUnitWorstLoss": null,
+      "unsoldFormula": "100*(real procurement+packing+prepaid domestic freight)+fixed sunk costs+advertising+other charges",
+      "nonSaleableReturnFormula": "100*(real procurement+packing+China hub freight)+return liabilities+advertising+other sunk costs, TP income=0",
+      "decision": "RESEARCH_ONLY"
+    },
+    "ownerFirstOrder": false,
+    "worst100LossCertified": null,
+    "ngsSkuApproval": "UNKNOWN",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
+    ]
   }
 }
