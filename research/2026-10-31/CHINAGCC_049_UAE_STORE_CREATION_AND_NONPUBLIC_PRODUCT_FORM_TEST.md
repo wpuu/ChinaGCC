@@ -1,3 +1,66 @@
+# ChinaGCC-049｜原账号UAE Store实际创建结果与后续资格验收
+
+## 当前结果｜2026-11-01新增实录
+
+**UAE Store `GCC Picks`已实际存在。商业注册向导真实出现Skip for now，本轮已点击跳过并进入Dashboard；Legal Entity仍为Required，China NGS仍显示不符合任何跨境计划且未解释原因。未创建商品草稿、仓库、库存或真实订单。**
+
+此节更新当前状态；下方“等待店名/电话、Store未创建”等早先原文只代表其各自历史观察时间，不再作为当前店铺存在性的结论。本轮先读取main `16f4f87c60ff0bd8390a2dfc3c3ac417b9458c62`、049与Issue #24，并补读050及054的真实资料/图片权限卡；不改其他报告。
+
+### 1. 原空间与控制权核对
+
+- 2026-11-01 **10:36:54北京时间**，正式Ego只读清单显示旧空间18不存在；当前空间5存在，ownership=agent，最近标签为Stores - noon。未把旧18当成可接续。
+- 由于清单未给出active/控制权字段，先核对正式帮助，再以普通`taskSpace(5)`恢复自有任务并做页面观察；任务名、p1 URL及活动标签与此前授权重开现场匹配。
+- **未调用takeOverTaskSpace、claimTaskSpace，未新建空间，未绕过用户控制停止。** 普通观察正常成功，未出现当前用户控制/来源拒绝提示。本轮没有抢占用户当前控制权。
+- 原交还期间，Store步骤已由用户推进完成。本轮没有替用户编英文/阿语名、输入电话、点击Store首步Continue，也没有再创建第二个Store。
+
+### 2. 本次逐页实际证据
+
+下列时间为脚本UTC转换北京时间。Store内部路径去除具体店铺ID；`{store_id}`为公开脱敏占位，不能直接作为可访问链接。页面URL不含真实项目参数、邮箱或电话。
+
+| 时间（北京时间） | 实际页面/原文 | 动作与结果 |
+|---|---|---|
+| 10:37:51.996 | https://noon-store.noon.partners/en/create?step=business ；左栏“Store - Completed”，当前Commercial Registration；真实按钮Back、Skip for now | 未选择文件，未填执照。国家控件显示Select country，同时提示Pre-selected based on your store details；未擅自改国家 |
+| 10:39:02.881—10:39:06.972 | 同一Commercial Registration页→“Tell us a bit about yourself” | 正常滚动后点击Skip for now成功，进入可选定制问卷；没有上传/提交LE材料 |
+| 10:39:14.982 | 可选问卷“Skip customized onboarding” | 按已授权的跳过可选流程继续，没有虚填经营信息 |
+| 10:39:20.052 | `https://noon-store.noon.partners/en/{store_id}/home`，Store Dashboard显示UAE标识及GCC Picks，并有noon UAE seller链接 | **实际店铺记录已观察到**；同轮My Stores菜单也列GCC Picks。不是只凭Store Completed就宣布创建成功 |
+| 10:39:31.538 | `https://noon-store.noon.partners/en/{store_id}/guide`；“Submit your legal entity”标Required | 原文提示“Once you have all the required documents, you can create your legal entity here.”；Add a product和Set up a fulfillment method亦标Required；另有Add your bank account入口 |
+| 10:39:58.634 | https://xborder.noon.partners/en-ae/programs ；“Programs are coming soon!” / “Your store doesn’t qualify for any cross-border programs at the moment.” | 仅在店铺状态确实改变后核查一次；仍无跨境资格，未给原因，不能归因于LE或中国主体类型 |
+
+商业注册页面要求商业注册文件PDF/JPEG/PNG≤10MB，并有注册国家、发证机构、执照号、公司名/地址、签发日期等字段；未填写或提交。侧栏泛称UAE执照，不足以推翻此前Store选China，也不能当作中国主体被拒的结论。
+
+**工具错误区分：** 初次点Skip for now因控件不在视口而超时；正常滚动后同一按钮点击成功。这不是Noon拒绝或资格限制。没有借新空间/浏览器绕过。
+
+### 3. 名称、联系方式及权限边界
+
+- 公开英文名**GCC Picks**已在Dashboard及My Stores记录核实，说明用户确实选用了这一公开店名。
+- 本轮未找到可读取的Store详情入口，因此**阿语名称的准确文本、联系电话是否有值及其真实性均未重新核实**。没有把选择器在后续页面不存在的false误判为“名称/电话空白”；也未把Store步骤完成替代成三项字段已逐字验真。
+- 未读取、复制或保存完整手机号/邮箱。未将用户联系方式写GitHub。
+- 本轮代理的写入仅为官方明确Skip for now与跳过可选定制问卷；**Store基本信息的提交由用户在交还期间完成**，代理没有重复点击Create Store。
+- Skip只是本轮允许越过资料上传步骤，**不等于LE已创建、审核通过、合同已接受或可以合法开卖**。
+
+### 4. 049六项验收的最新结果
+
+| 验收项 | 当前结果与限制 |
+|---|---|
+| UAE Store是否真实创建 | **已确认存在：GCC Picks，UAE Dashboard和My Stores可见**；不等于开售批准 |
+| LE能否Skip for now | **本账号Store向导已实证可跳过商业注册，且已跳过**；独立LE Details先前无Skip的历史观察仍成立，不能混为同一页 |
+| 没有LE能否保存非公开SKU草稿 | 先前可进入Product Identity；本轮未创建/保存SKU，非公开保存机制仍未验证 |
+| QC、价格、库存在哪一步停止 | 仍未进入这些阶段。054提供了原候选的文字准备，但合法照片使用权仍未获得，不能用无权图片或URL权利声明推进创建；不是已证实因LE导致QC/价格/库存拒绝 |
+| China NGS是否出现新提示 | 新店后实际核查仍不符合任何跨境计划；**原因未明**，不能把Store创建视为NGS开通 |
+| 最少下一真实资料/批准 | 若要完成经营准入，需要真实中国商业注册/LE材料及对应实际审核；本轮不注册经营主体、不上传证件、不签条款或绑收款。商品内容测试另需合法图片及真实同款资料 |
+
+**下一步不再重复目录/旧空页。** 当前最早明确的未完成配置为Setup guide的Required Legal Entity；应由用户提供/本人处理真实商业资料，并在具体证件/法律接受动作前明确授权。不能仅靠再次Skip消除经营准入要求。中国大陆个体工商户是否正式受理仍未取得专项/实际审核结果，不擅自要求办有限公司。
+
+### 5. 结束现场与交付
+
+脱敏原始证据为`C:/Users/Admin/ego/chinagcc-049-20261031/evidence-049-20261101.json`；本节包含其新增页面、时间、原文、实际动作和限制。未保存包含联系方式的截图。
+
+本轮完成普通接续、官方跳过及新增资格核查，空间5暂保留；报告与Issue全部回读后交还GCC Picks店铺页面，不finish，交还回执另补。除上述Skip外未接受任何合同、上传证件、创建LE、绑定银行、创建SKU/仓/库存、采购付款、发货、联系平台/供应商或提交工单。**无新增真实订单、妥投、到账、利润。**
+
+---
+
+## 早先阶段原文（完整保留，仅代表各自历史观察）
+
 # ChinaGCC-049｜原账号UAE开店及商品创建实际尝试（等待真实店名与电话）
 
 **观察日期：2026-10-31；北京时间19:11:01—19:12:40。**  
