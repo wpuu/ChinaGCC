@@ -8,7 +8,7 @@
     "lastUpdated": "2026-11-01",
     "lastSynced": null,
     "currentChannelPriority": [
-      "Noon NGS（自营首单验证第一；账号资格未核实）",
+      "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
       "Amazon UAE/Saudi（第二；未启动）",
       "其它渠道仅观察"
     ],
@@ -16,15 +16,38 @@
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
     "latestRadarDate": "2026-11-01",
     "latestRadarPath": "data/daily/2026-11-01.json",
-    "latestRadarStatus": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_APPROVED__NGS_NOT_QUALIFIED__PAYOUT_UNVERIFIED",
-    "latestRadarNote": "2026-11-01 C02: Work049 UAE GCC Picks store verified, LE still Required and not submitted/approved; China NGS Programs shows not eligible, reason unknown. Historical listing pages do not establish new paid orders/RFQ. Official LE requirements have 15 vs 30 day validity inconsistency and ID type inconsistency; consult actual approvals. No purchasing or onboarding submissions.",
+    "latestRadarStatus": "UAE_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__CHINA_NGS_CURRENTLY_INELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN",
+    "latestRadarNote": "C03: Reconciled stale STORES_NONE across 14 current SKU gate fields against actual Work049 UAE GCC Picks store verification. China LE Required/not submitted; NGS currently not qualified with no reason provided; payout not verified. Exact KHAJUL nails 24pcs + adhesive tabs competitor listing also includes a glue stick, not a verified glue-free BOM. No verified new paid order/RFQ/restock. All V2 scores historical unchanged.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
+    "latestDailyAuditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
       "independentAudit": "research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+    },
+    "latestChannelGateAudit": {
+      "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+      "checkedDate": "2026-11-01",
+      "accountEvidenceObservedAt": "2026-11-01 10:39 Asia/Shanghai",
+      "uaeStore": "GCC Picks - CREATED_VERIFIED",
+      "ksaStore": "NOT_VERIFIED",
+      "legalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
+      "ngsProgram": "CURRENTLY_NOT_ELIGIBLE_REASON_UNSPECIFIED",
+      "payout": "UNKNOWN",
+      "meaning": "NO-GO (store existence is not China NGS approval)",
+      "sources": [
+        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+      ]
+    },
+    "previousRadarMetaSnapshot": {
+      "latestRadarNote": "2026-11-01 C02: Work049 UAE GCC Picks store verified, LE still Required and not submitted/approved; China NGS Programs shows not eligible, reason unknown. Historical listing pages do not establish new paid orders/RFQ. Official LE requirements have 15 vs 30 day validity inconsistency and ID type inconsistency; consult actual approvals. No purchasing or onboarding submissions.",
+      "currentChannelPriority": [
+        "Noon NGS（自营首单验证第一；账号资格未核实）",
+        "Amazon UAE/Saudi（第二；未启动）",
+        "其它渠道仅观察"
+      ]
     }
   },
   "skus": [
@@ -50,7 +73,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
       "sampleReady": false,
@@ -240,6 +263,12 @@
         "actualPrice": "UNKNOWN",
         "maxWorstLoss": "UNKNOWN",
         "channelAccess": "NO_GO"
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
       }
     },
     {
@@ -485,7 +514,7 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
       "sampleReady": false,
@@ -531,7 +560,13 @@
           "hardStop": false
         }
       ],
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "id": "makeup-brushes-10pc",
@@ -570,7 +605,7 @@
         "Eid"
       ],
       "localPlatformFit": "Saudi-high UAE-unverified",
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "opportunityBreakdown": {
         "A1": 4,
         "A2": 3,
@@ -770,7 +805,13 @@
         "sourceStrength": "DIRECT_PRODUCT_PAGE_NOT_ORDER_QUOTE",
         "decision": "INVESTIGATE_FIRST_NOT_SAMPLE_READY"
       },
-      "supplierEvidenceSource": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md"
+      "supplierEvidenceSource": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "englishName": "",
@@ -1014,7 +1055,7 @@
         "J": 3,
         "K": 2
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
       "sampleReady": false,
@@ -1074,7 +1115,13 @@
         "operationalGate": "MOQ_2_CONFLICTS_WITH_NO_STOCK_ONE_SET_ORDER_UNLESS_SPLIT_FULFILLMENT_CONFIRMED",
         "decision": "WATCH_OPERATIONAL_GATE"
       },
-      "scoreIntegrityNote": "历史current 75 vs 41项/独立sku 74冲突；本轮不重算，不能作为审核通过的精确分。"
+      "scoreIntegrityNote": "历史current 75 vs 41项/独立sku 74冲突；本轮不重算，不能作为审核通过的精确分。",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "englishName": "",
@@ -1317,7 +1364,7 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
       "sampleReady": false,
@@ -1363,7 +1410,13 @@
           "hardStop": false
         }
       ],
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "id": "hair-accessories",
@@ -1387,7 +1440,7 @@
         "J": 4,
         "K": 2
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
       "sampleReady": false,
@@ -1663,6 +1716,12 @@
         "actualPrice": "UNKNOWN",
         "maxWorstLoss": "UNKNOWN",
         "channelAccess": "NO_GO"
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
       }
     },
     {
@@ -1687,7 +1746,7 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
       "sampleReady": false,
@@ -1903,6 +1962,12 @@
         "actualPrice": "UNKNOWN",
         "maxWorstLoss": "UNKNOWN",
         "channelAccess": "NO_GO"
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
       }
     },
     {
@@ -1943,7 +2008,7 @@
         "日常穿搭"
       ],
       "localPlatformFit": "medium in Saudi; weak/unproven in UAE",
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "opportunityBreakdown": {
         "A1": 3,
         "A2": 1,
@@ -2200,6 +2265,12 @@
         "actualPrice": "UNKNOWN",
         "maxWorstLoss": "UNKNOWN",
         "channelAccess": "NO_GO"
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
       }
     },
     {
@@ -2224,7 +2295,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
       "sampleReady": false,
@@ -2272,7 +2343,13 @@
         }
       ],
       "nextAction": "女性主线优先后降研究位；除非NGS经济性明显优于女性候选，否则不占用下一轮人工任务。",
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "englishName": "",
@@ -2347,7 +2424,7 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
       "sampleReady": false,
@@ -2393,7 +2470,13 @@
           "hardStop": false
         }
       ],
-      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润"
+      "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "id": "original-ip-plush",
@@ -2417,7 +2500,7 @@
         "J": 2,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": true,
       "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
       "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
@@ -2556,6 +2639,12 @@
             "status": "WATCH_ONLY"
           }
         ]
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
       }
     },
     {
@@ -2631,7 +2720,7 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "hardStop": false,
       "worstLoss100": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
       "sampleReady": false,
@@ -2677,7 +2766,13 @@
           "riskScore": 9,
           "hardStop": false
         }
-      ]
+      ],
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "englishName": "",
@@ -2741,7 +2836,13 @@
         "gccSalesEvidence",
         "nextAction"
       ],
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY"
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     },
     {
       "englishName": "",
@@ -2804,7 +2905,13 @@
         "gccSalesEvidence",
         "nextAction"
       ],
-      "channelAccessGate": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY"
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+        "verification": "UAE store is verified, not NGS approval",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      }
     }
   ],
   "dailyRadar": [
