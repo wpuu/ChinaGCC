@@ -316,5 +316,87 @@
     "certifiedWorstLoss100": null,
     "newProductEvidence": "UAE Kanza 24-piece jelly-tabs complete kit indexed; real current sale not independently proven",
     "source": "https://supermall.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z66695BA18D5BB77E7E25Z/p/"
+  },
+  "latestRadar20261101": {
+    "auditId": "2026-11-01/C01",
+    "date": "2026-11-01",
+    "modelPreferred": "GPT-6 Extra High; actual runner unverified",
+    "scoreHistorical": {
+      "opportunity": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80
+    },
+    "v2MainAudit": {
+      "id": "press-on-nails",
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "subitems": 0,
+      "subTotal": null,
+      "dimensionTotal": 67,
+      "discrepancy": false,
+      "recomputed": false
+    },
+    "channelAccessGate": "NOT_PASSED",
+    "verifiedNewIndependentSales": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "economics": {
+      "tpScenarioUsd": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "realTP": null,
+      "actualNoonBuyerPrice": null,
+      "actualMarkup": null,
+      "actualSameBomProcurement": null,
+      "actualChinaToShenzhen": null,
+      "returnLossActual": null,
+      "complianceApproval": null,
+      "zeroIncomeFractionScenarios": [
+        0,
+        0.1,
+        0.2
+      ],
+      "sellerTotalCostCapAt20PctExpectedContribution": {
+        "0": [
+          1.2,
+          1.52,
+          1.84
+        ],
+        "0.1": [
+          1.08,
+          1.368,
+          1.656
+        ],
+        "0.2": [
+          0.96,
+          1.216,
+          1.472
+        ]
+      },
+      "costCapIsRealQuote": false,
+      "certifiedHundredUnitWorstLoss": null,
+      "unsoldFormula": "100*(real procurement+packing+prepaid domestic freight)+fixed sunk costs+advertising+other charges",
+      "nonSaleableReturnFormula": "100*(real procurement+packing+China hub freight)+return liabilities+advertising+other sunk costs, TP income=0",
+      "decision": "RESEARCH_ONLY"
+    },
+    "ownerFirstOrder": false,
+    "worst100LossCertified": null,
+    "ngsSkuApproval": "UNKNOWN",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
+    ],
+    "healthBeautyDocumentationGate": {
+      "url": "https://helpcenter.noon.partners/en/category/price-and-inventory/how-do-i-manage-my-stock-and-prices",
+      "generalLiveRequirement": "Proof of Purchase OR Authorization Letter",
+      "actualNGSSpecificCategoryApproval": "UNKNOWN",
+      "conflictWithZeroPrepurchase": "POTENTIAL_CONDITIONAL_HARD_STOP",
+      "noFakeInvoices": true
+    }
   }
 }
