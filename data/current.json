@@ -17,10 +17,10 @@
     "latestRadarDate": "2026-11-01",
     "latestRadarPath": "data/daily/2026-11-01.json",
     "latestRadarStatus": "UAE_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__CHINA_NGS_CURRENTLY_INELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN",
-    "latestRadarNote": "C03: Reconciled stale STORES_NONE across 14 current SKU gate fields against actual Work049 UAE GCC Picks store verification. China LE Required/not submitted; NGS currently not qualified with no reason provided; payout not verified. Exact KHAJUL nails 24pcs + adhesive tabs competitor listing also includes a glue stick, not a verified glue-free BOM. No verified new paid order/RFQ/restock. All V2 scores historical unchanged.",
+    "latestRadarNote": "C04 official NGS payouts/returns/margin audit added. UAE GCC Picks store VERIFIED, China LE Required/unsubmitted, China NGS currently not qualified with unspecified reason, payout unverified. Salable returns may become local FBN and auto-default priced; no certified SKU100 loss; SKU V2 historical unchanged.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "latestDailyAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -269,6 +269,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -566,6 +574,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -811,6 +827,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -1121,6 +1145,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -1416,6 +1448,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -1722,6 +1762,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -1968,6 +2016,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -2271,6 +2327,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -2349,6 +2413,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -2476,6 +2548,14 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "latestAudit20261101C04": {
+        "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+        "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+        "hundredUnitCertifiedWorstLoss": null,
+        "returnResaleFbnCost": "UNKNOWN",
+        "skuOpportunityRescored": false,
+        "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
       }
     },
     {
@@ -3247,8 +3327,10 @@
       "Noon Org存在属于部分进展，Organization ID清单项严格待唯一标识完成凭证",
       "Amazon中国卖家方案未启动，所有15项仍缺完成证据",
       "2026-11-01 10:39 Work049在真实UAE Dashboard/My Stores验收GCC Picks，已跳过商业注册填写但LE仍Required、NGS仍未合格；来源research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
-      "C02 2026-11-01: reviewed latest 049/056 sources, store verified 1/12 remains; LE unsubmitted, NGS ineligible unknown reason; seller payout and approved TP are NOT validated."
-    ]
+      "C02 2026-11-01: reviewed latest 049/056 sources, store verified 1/12 remains; LE unsubmitted, NGS ineligible unknown reason; seller payout and approved TP are NOT validated.",
+      "C04: NGS salable returns can enter local FBN with default price, unsalable returns no proceeds; general 100/1000 currency payout thresholds not verified for this China USD account; preserve 1/12."
+    ],
+    "latestAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15"
   },
   "channelAccess": {
     "noonNgs": {
@@ -3434,198 +3516,32 @@
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
   },
-  "latestDailyAuditId": "2026-11-01/C01",
+  "latestDailyAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
   "latestDailyAudit": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "date": "2026-11-01",
-    "source": "data/daily/2026-11-01.json",
-    "account": {
-      "orgProject": "EXISTS_VERIFIED_031",
-      "observedAt": "2026-10-31 19:26 Asia/Shanghai",
-      "uaeStore": "UAE_CHINA_FORM_SELECTED_NOT_SUBMITTED",
-      "englishName": "OWNER_PUBLIC_FIELD_MISSING",
-      "arabicName": "OWNER_PUBLIC_FIELD_MISSING",
-      "realPhone": "OWNER_REAL_FIELD_MISSING",
-      "continueClicked": false,
-      "ksaStore": "NOT_VERIFIED_CREATED",
-      "legalEntity": "NO_VALID_APPROVAL",
-      "payout": "UNKNOWN",
-      "ngsReady": false,
-      "ownerPaidOrderVerified": false,
-      "nonPublicSkuSaved": false,
-      "source": [
-        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
-        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
-      ]
-    },
-    "v2Consistency": {
-      "total": 14,
-      "scored": 12,
-      "full41": 6,
-      "allSkuResults": [
-        {
-          "id": "cosmetic-bag-set",
-          "opportunityScore": 78,
-          "evidenceConfidence": 90,
-          "dataCompleteness": 73,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 78,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "silicone-brush",
-          "opportunityScore": 78,
-          "evidenceConfidence": 82,
-          "dataCompleteness": 84,
-          "subitems": 41,
-          "subTotal": 78,
-          "dimensionTotal": 78,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "makeup-brushes-10pc",
-          "opportunityScore": 76,
-          "evidenceConfidence": 91,
-          "dataCompleteness": 82,
-          "subitems": 41,
-          "subTotal": 76,
-          "dimensionTotal": 76,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "travel-bottles",
-          "opportunityScore": 75,
-          "evidenceConfidence": 76,
-          "dataCompleteness": 84,
-          "subitems": 41,
-          "subTotal": 74,
-          "dimensionTotal": 75,
-          "discrepancy": true,
-          "recomputed": false
-        },
-        {
-          "id": "lint-roller",
-          "opportunityScore": 74,
-          "evidenceConfidence": 83,
-          "dataCompleteness": 80,
-          "subitems": 41,
-          "subTotal": 74,
-          "dimensionTotal": 74,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "hair-accessories",
-          "opportunityScore": 70,
-          "evidenceConfidence": 92,
-          "dataCompleteness": 78,
-          "subitems": 41,
-          "subTotal": 70,
-          "dimensionTotal": 70,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "press-on-nails",
-          "opportunityScore": 67,
-          "evidenceConfidence": 92,
-          "dataCompleteness": 80,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 67,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "phone-charm-beaded",
-          "opportunityScore": 68,
-          "evidenceConfidence": 84,
-          "dataCompleteness": 76,
-          "subitems": 41,
-          "subTotal": 68,
-          "dimensionTotal": 68,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "cable-management",
-          "opportunityScore": 69,
-          "evidenceConfidence": 63,
-          "dataCompleteness": 58,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 69,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "makeup-sponge",
-          "opportunityScore": 67,
-          "evidenceConfidence": 78,
-          "dataCompleteness": 68,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 67,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "original-ip-plush",
-          "opportunityScore": 69,
-          "evidenceConfidence": 67,
-          "dataCompleteness": 58,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 69,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "car-sunshade",
-          "opportunityScore": 64,
-          "evidenceConfidence": 82,
-          "dataCompleteness": 72,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": 64,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "hanlin-mask",
-          "opportunityScore": null,
-          "evidenceConfidence": null,
-          "dataCompleteness": null,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": null,
-          "discrepancy": false,
-          "recomputed": false
-        },
-        {
-          "id": "microfiber-cloth",
-          "opportunityScore": null,
-          "evidenceConfidence": null,
-          "dataCompleteness": null,
-          "subitems": 0,
-          "subTotal": null,
-          "dimensionTotal": null,
-          "discrepancy": false,
-          "recomputed": false
-        }
-      ],
-      "knownConflictNotes": [
-        "travel-bottles main score 75 vs subitem total 74",
-        "phone-charm-beaded main score 68 vs independent 41-item total 69 (historical)"
-      ],
-      "opportunityScoresChanged": 0,
-      "confidenceChanged": 0,
-      "completenessChanged": 0
-    },
-    "ipLagDays": null
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
+    "companionDaily": "data/daily/2026-11-01.json",
+    "modelPreference": "GPT-6 Extra High; actual effort unverifiable",
+    "noonReadiness": "1/12 (8%): UAE Store completed only; Organization ID proof not captured",
+    "amazonReadiness": "0/15",
+    "noGoReasons": [
+      "REAL_CHINA_LE_REQUIRED_NOT_SUBMITTED",
+      "NGS_NOT_ELIGIBLE_REASON_UNKNOWN",
+      "PAYOUT_UNKNOWN",
+      "NO_SAME_BOM_FULL_COST_OR_PACK_WEIGHT",
+      "NO_VERIFIED_LIVE_BUYER_PRICE_ETA_RETURN_LOSS"
+    ],
+    "primaryEconomicsRisk": "Noon NGS salable returns may transfer to FBN for resale at automatically default price if not set; nonsalable returns may generate zero proceeds; general payout threshold is 100 AED/SAR local or 1000 AED/SAR cross-currency but China NGS USD special application remains unknown",
+    "margin15Formula": "C <= 0.85*(1-q)*TP, q hypothetical non-revenue attempts; no profit claim",
+    "historicScoresUnchanged": true,
+    "scoreConflictsNotFixed": [
+      "travel-bottles 75 vs subitems 74",
+      "phone-charm-beaded 68 vs subitems 69"
+    ],
+    "approvedInventory": false,
+    "firstPaidOrderVerified": false,
+    "firstPayoutVerified": false
   },
   "latest20261101Radar": {
     "auditId": "2026-11-01/C01",
