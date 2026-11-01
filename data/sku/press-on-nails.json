@@ -48,7 +48,7 @@
     "J": 3,
     "K": 1
   },
-  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
   "transferPriceTestGridUsd": {
     "basic": [
       1.5,
@@ -546,5 +546,21 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
     ]
+  },
+  "latestAudit20261101C04": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "date": "2026-11-01",
+    "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+    "platformAccess": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
+    "payout": "China NGS USD payout minimum and first actual remittance remain UNKNOWN; normal policy 100/1000 AED/SAR cannot be unconditionally assigned",
+    "returns": "Saleable returns may become local FBN stock with a default resale price; non-salable returns generate no proceeds. Actual contract/application and costs unverified.",
+    "actualBuyerPrice": null,
+    "actualReturnLoss": null,
+    "certifiedLoss100": null,
+    "scoreChanged": false,
+    "premiumSar35to49VerifiedPaidOrder": false,
+    "publicListingDoesNotProvePaidOrder": true,
+    "glueFreeExactBOMVerified": false,
+    "note": "Indexed BTFMEI offer SAR42.90 is offer evidence only; no SKU-matched fresh paid order; KHAJUL fibrous sticker competitor may contain glue stick; not a verified glue-free BOM."
   }
 }
