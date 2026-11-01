@@ -2,10 +2,10 @@
   "version": "2026-10-08-v2",
   "meta": {
     "name": "ChinaGCC",
-    "status": "继续研究，不采购；当日Noon NGS 0/12、Amazon 0/15、Sample Ready 0",
+    "status": "继续研究，不采购；Noon NGS 1/12（UAE Store已验收，Legal Entity和NGS未获批准）、Amazon 0/15、Sample Ready 0",
     "thirtyDayJudgment": "CONTINUE（74/100）：低成本验证优先，未闭环中国经营主体、Noon消费者终价、同款3家完整报价/整包重量/QC；不投入主要库存资金。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-10-31",
+    "lastUpdated": "2026-11-01",
     "lastSynced": null,
     "currentChannelPriority": [
       "Noon NGS（自营首单验证第一；账号资格未核实）",
@@ -16,11 +16,16 @@
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
     "latestRadarDate": "2026-10-31",
     "latestRadarPath": "data/daily/2026-10-31.json",
-    "latestRadarStatus": "OWNER_ORG_EXISTS__UAE_KSA_STORES_NONE__NO_VALID_LE__NGS_NOT_ACTIVE__READ_ONLY",
-    "latestRadarNote": "031 verified Org/Project exists, current stores none, no valid LE; 049-050 later reached UAE Store creation form with UAE/China selected, but EN/AR public names and genuine phone missing, Continue not clicked; store not created. Org ID exact capture, payment/NGS approvals unknown. No fresh paid orders or SKU same-BOM 15% margin evidence.",
+    "latestRadarStatus": "OWNER_ORG_EXISTS__UAE_STORE_CREATED__KSA_STORE_NOT_VERIFIED__NO_VALID_LE__NGS_NOT_ACTIVE",
+    "latestRadarNote": "2026-11-01 Work049在实际UAE Dashboard和My Stores看到GCC Picks店铺，Commercial Registration向导Skip for now已实操；LE仍Required，NGS实际仍不符合跨境计划（原因未说明），Payout/Origin未核获批。此前049旧段落的‘Store未创建’只属历史。无人购买/交仓/到账，合法图片授权仍未知。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH"
+    "latestDailyAuditId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
+    "latestWorkOnboardingAudit": {
+      "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
+      "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "independentAudit": "research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+    }
   },
   "skus": [
     {
@@ -3051,7 +3056,7 @@
     "signal": "品类需求仍强，但没有翰林具体SKU、成本、合规与渠道利润闭环，未达到正式启动信号。"
   },
   "firstSaleReadiness": {
-    "authorityDate": "2026-10-31",
+    "authorityDate": "2026-11-01",
     "primaryChannel": "Noon NGS",
     "amazon": {
       "completed": 0,
@@ -3093,12 +3098,12 @@
       }
     },
     "noonNgs": {
-      "completed": 0,
+      "completed": 1,
       "total": 12,
-      "percent": 0,
+      "percent": 8,
       "items": {
         "organizationId": false,
-        "uaeStore": false,
+        "uaeStore": true,
         "ksaStore": false,
         "chinaLegalEntityApproved": false,
         "ngsWarehouse": false,
@@ -3112,10 +3117,10 @@
       },
       "blockers": {
         "organizationId": "031已只读验证原Organization/Project存在且Owner可见，但本仓库脱敏证据未取得可作为Organization ID项完成的唯一标识/凭证；部分完成，未计1/12；不要求重注册。",
-        "uaeStore": "049/050进入真实UAE Store创建表单并选择UAE销售国/China注册国；仍缺Owner确认的公开英阿店名和真实电话，Continue未点击，UAE Store未创建，不是平台拒绝。",
+        "uaeStore": "已完成：Work049于2026-11-01 10:39在UAE Store Dashboard及My Stores实际看到GCC Picks；该项已不再阻塞。阿语店名及电话未再次逐字段核实。",
         "ksaStore": "031同项目Stores为空；049只触及UAE Store表单，无KSA Store创建凭证。",
-        "chinaLegalEntityApproved": "031显示No Valid Legal Entities Found；049仅打开China LE真实字段，未上传执照/提交/获批准；个体工商户资格仍UNKNOWN。",
-        "ngsWarehouse": "031/043未取得获准China NGS专用仓配置；Stores/LE未满足；Directship空仓不等于NGS仓不存在。",
+        "chinaLegalEntityApproved": "Work049在新店Setup Guide真实看到Submit your legal entity=Required；曾Skip商业注册材料填写但没有建立/批准合法LE。中国个体工商户能否被NGS专项接受仍UNKNOWN。",
+        "ngsWarehouse": "2026-11-01新店已建，但Cross-border Programs仍提示当前不符合任何跨境计划、无具体原因，NGS配置/实际中国仓/processing time尚未验证；不能直接归因于LE。",
         "payoutApproved": "031/049未取得批准收款方法及Origin关联状态；一般收款门槛不等于中国USD NGS专项已批准门槛。",
         "firstSkuQcApproved": "049只有真实商品Identity表单可见，未提供有权商品图片和真实字段，未创建/提交/通过SKU QC；Health & Beauty类目可能需购买凭证/授权函。",
         "transferPriceLive": "NGS尚未获准；未取得Global项目专用USD Transfer Price、买家实际总价和ETA；不可拿普通本地Price冒充。",
@@ -3126,15 +3131,15 @@
       }
     },
     "biggestBlockers": [
-      "UAE Store创建卡于Owner确认英/阿公开店名和实际电话；现有Org可见但China LE与KSA Store不存在，NGS与Payout未获准；旧Ego bootstrap故障已不是当前阻碍。",
+      "UAE Store GCC Picks已实际创建；新店Setup Guide仍要求合法LE、NGS实际资格未通过且原因未说明、Payout/Origin未核获准。不能重复报‘缺店名电话/未创建Store’为当前第一阻塞。",
       "首SKU无同BOM三家可执行报价、最终整包毛重尺寸、深圳宝安单票运费、供应商按真实Noon标签及时交仓及Health & Beauty所需购买凭证/合法授权核实。",
       "无本账号China NGS USD Transfer Price→消费者最终含运费价/ETA、退货损失与结算门槛实测；不能宣称15%利润或100件最坏损失已封顶。"
     ],
-    "lastAuditDate": "2026-10-31",
+    "lastAuditDate": "2026-11-01",
     "auditNotes": [
       "Noon Org存在属于部分进展，Organization ID清单项严格待唯一标识完成凭证",
-      "Workbench Work-049 Store表单不等于Store创建",
-      "Amazon中国卖家方案未启动，所有15项仍缺完成证据"
+      "Amazon中国卖家方案未启动，所有15项仍缺完成证据",
+      "2026-11-01 10:39 Work049在真实UAE Dashboard/My Stores验收GCC Picks，已跳过商业注册填写但LE仍Required、NGS仍未合格；来源research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md"
     ]
   },
   "channelAccess": {
@@ -3164,14 +3169,26 @@
       "source": "README 2026-10-30; Issue #24",
       "noNewAccountRegistration": true
     },
-    "verifiedAccountStateAsOf": "2026-10-31",
+    "verifiedAccountStateAsOf": "2026-11-01",
     "orgProject": "EXISTS",
-    "uaeStore": "NONE_OBSERVED",
+    "uaeStore": "CREATED_VERIFIED_GCC_PICKS_2026_11_01",
     "ksaStore": "NONE_OBSERVED",
     "legalEntity": "NO_VALID_ENTITIES",
     "payment": "UNKNOWN",
     "ngs": "CURRENTLY_NOT_ELIGIBLE",
-    "source": "research/2026-10-31/CHINAGCC_031_NOON_ORIGINAL_ACCOUNT_EGO_READONLY_ACCEPTANCE.md"
+    "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+    "latestWork049Verified": {
+      "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
+      "uaeStore": "GCC Picks",
+      "uaeStoreCreated": true,
+      "businessRegistrationSkippedInWizard": true,
+      "legalEntity": "REQUIRED_NOT_APPROVED",
+      "chinaNGS": "NOT_QUALIFIED_REASON_UNKNOWN",
+      "skuCreated": false,
+      "payoutApproved": "UNKNOWN",
+      "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "independentAudit": "research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+    }
   },
   "latestRadar": {
     "date": "2026-11-01",
