@@ -3828,31 +3828,264 @@
         }
       ],
       "sourceHistoryNote": "Earlier entries belong to 2026-10-31 and are preserved as historical"
+    },
+    {
+      "id": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
+      "date": "2026-11-01",
+      "timezone": "Asia/Shanghai",
+      "observationPrecision": "DATE_ONLY_FOR_MARKET_INDEX",
+      "independentMarketOrderProofCount": 0,
+      "independentNewRFQCount": 0,
+      "independentRestockProofCount": 0,
+      "marketEvidenceCaveat": "No evidence found in this audit does not assert zero market sales",
+      "modelPreference": {
+        "model": "GPT-6",
+        "thinking": "Extra High",
+        "actualEffort": "UNVERIFIED"
+      },
+      "sequence": [
+        "persona",
+        "discoveryChannel",
+        "checkoutChannel",
+        "purchaseTrigger",
+        "productFamily",
+        "specificSKU",
+        "chinaSupplierOnlyAfterRealOrdersOrRFQ",
+        "NGSEconomicsAndRisk"
+      ],
+      "personaPriority": [
+        "Saudi female 18-45",
+        "UAE female 18-39",
+        "female Gen Z/students",
+        "young families secondary",
+        "50+ WATCH ONLY"
+      ],
+      "discoveryChannels": [
+        "TikTok",
+        "Snapchat",
+        "Instagram",
+        "Noon Finds"
+      ],
+      "attribution": "UNVERIFIED",
+      "checkoutPriority": [
+        "Noon China NGS",
+        "Amazon UAE/KSA"
+      ],
+      "purchaseTriggers": [
+        "quick beauty",
+        "travel organization",
+        "giftability",
+        "bag personalization"
+      ],
+      "marketExamples": [
+        {
+          "sku": "cosmetic-bag-set",
+          "market": "Saudi",
+          "observed": "historical/indexed months ago",
+          "competitor": "Generic Floral Quilted 3-size cosmetic bags",
+          "price": "SAR53",
+          "ratingEvidence": "16 ratings",
+          "isExactBom": false,
+          "source": "https://www.noon.com/saudi-en/floral-quilted-cosmetic-bag-set-vintage-pink-bow-makeup-travel-pouches-3-sizes/Z5441BC3AAF2700FD9E7FZ/p/",
+          "evidenceClass": "HISTORICAL_LISTING_NOT_NEW_ORDER"
+        },
+        {
+          "sku": "hair-accessories",
+          "market": "Saudi",
+          "observed": "historical/indexed months ago",
+          "competitor": "8 small faux-pearl claw clips",
+          "price": "SAR39.12",
+          "isExactBom": false,
+          "source": "https://www.noon.com/saudi-en/8-pieces-small-pearl-hair-claw-clips-handmade-decorative-hair-accessories-for-women-girls-perfect-for-everyday-use-special-occasions/Z5629C89C59BDEE2E6BC9Z/p/",
+          "evidenceClass": "HISTORICAL_LISTING_NOT_NEW_ORDER"
+        },
+        {
+          "sku": "press-on-nails",
+          "market": "UAE",
+          "observed": "historical/indexed months ago",
+          "competitor": "Teenitor standalone 600 adhesive nail tabs",
+          "price": "AED66.58",
+          "isExactBom": false,
+          "source": "https://www.noon.com/uae-en/teenitor-600pcs-press-on-nail-adhesive-tabs-15-sizes-of-nail-stickers-for-press-on-press-on-nails-stickers-press-on-nail-sticky-tabs-for-nails-nail-glue-stickers-nail-glue-tabs-40-sheets/Z402CEC1D93F5A9F30F0FZ/p/",
+          "evidenceClass": "HISTORICAL_STANDALONE_ACCESSORY_NOT_NAIL_SET_SALES"
+        },
+        {
+          "sku": "phone-charm-beaded",
+          "market": "UAE",
+          "observed": "historical/indexed months ago",
+          "competitor": "Generic Panda plush bag charm",
+          "price": "AED71.80",
+          "isExactBom": false,
+          "source": "https://www.noon.com/uae-en/original-panda-bag-charm-plush-toy-keychain/ZB53FB2712677F99D4742Z/p/",
+          "evidenceClass": "HISTORICAL_PLUSH_NOT_BEAD_CHARM_SALES"
+        }
+      ],
+      "store": {
+        "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
+        "latestFollowUp": "2026-11-01 11:13-11:15 Asia/Shanghai; China LE conditional fields read without submission",
+        "organization": "EXISTS_PRIOR_VERIFIED",
+        "uaeStore": "CREATED_VERIFIED_GCC_PICKS",
+        "ksaStore": "NOT_VERIFIED",
+        "legalEntity": "REQUIRED_NOT_SUBMITTED_OR_APPROVED",
+        "chinaNGS": "NOT_QUALIFIED_REASON_NOT_GIVEN",
+        "payout": "UNKNOWN",
+        "origin": "UNKNOWN",
+        "skuQc": "NOT_SUBMITTED",
+        "shenzhenHandoff": "NONE_VERIFIED",
+        "ownerOrder": "NONE_VERIFIED",
+        "basis": [
+          "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+          "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+        ]
+      },
+      "officialRules": {
+        "ngs": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "validChinaCommercialRegistration": true,
+        "leDocuments": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+        "approvalTimeDays": "UNKNOWN_NOT_VALIDATED_FOR_CHINA_NGS",
+        "chineseSoleProprietorAcceptance": "UNKNOWN",
+        "sellerAccounts": [
+          "UAE",
+          "KSA"
+        ],
+        "sellerPayout": "USD_TRANSFER_PRICE_ONLY_AFTER_DELIVERY",
+        "markup": "NOON_CONTROLLED_UNKNOWN_CONSUMER_PRICE",
+        "sellerToHub": "SELLER_BORNE",
+        "returnNonSaleable": "NO_TP_PROCEEDS",
+        "documentConflicts": [
+          "public 15 vs 30 days remaining validity; do not claim resolved",
+          "international-seller passport vs rejection-guide Chinese resident ID accepted; actual China NGS screen and approval unknown"
+        ],
+        "documentConflictSource": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+        "prohibitedSource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "ksaSpecificPolicy": "Check actual design/colors/photos/country; official restrictions include rainbow-colored items and named religious/seasonal symbols; no blanket claim for all multicolored items"
+      },
+      "ngsEconomics": {
+        "meaning": "TP is a planning hypothesis; not an approved offer, actual buyer all-in price or quoted procurement cost",
+        "targetContributionMargin": 0.2,
+        "nonRevenueOrdersHypothesis": 0.1,
+        "perAttemptMaxSellerCostFormula": "(1-0.10)*(1-0.20)*TP = 0.72*TP, ignoring unmeasured ad/FX/returns fees",
+        "tpGridsUsd": {
+          "cosmetic-bag-set": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "hair-accessories": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "press-on-nails": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "phone-charm-beaded": [
+            1.7,
+            2.2,
+            2.7
+          ]
+        },
+        "costCapsUsd": {
+          "cosmetic-bag-set": [
+            3.24,
+            3.96,
+            4.68
+          ],
+          "hair-accessories": [
+            1.728,
+            2.088,
+            2.448
+          ],
+          "press-on-nails": [
+            1.08,
+            1.368,
+            1.656
+          ],
+          "phone-charm-beaded": [
+            1.224,
+            1.584,
+            1.944
+          ]
+        },
+        "hundredUnitLoss": {
+          "status": "UNKNOWN_UNBOUNDED_BY_CONFIRMED_COST",
+          "noPurchaseNoDemand": "0 seller inventory cost only if genuinely zero procured, excludes sunk research/overhead; not a 100-item downside",
+          "procured100Unsold": "100*(real landed seller purchase + packing + China-to-Shenzhen + nonrecoverable costs) minus confirmed recoverable value",
+          "deliveredThen100NonSaleableReturns": "100*(same at-risk cost+real irrecoverable post-return charges) - any actual proceeds; NGS non-saleable TP proceeds 0",
+          "missing": [
+            "real same-BOM unit purchase price",
+            "package weight/size",
+            "real Shenzhen freight",
+            "product regulatory/class eligibility",
+            "order handling/returns/FX/ads",
+            "actual consumer all-in price/Noon markup"
+          ]
+        }
+      },
+      "originalIp": {
+        "firstChinaAndGCCPaidSalePairs": 0,
+        "lagDays": null,
+        "authorizationUnverified": true,
+        "watchOnly": true
+      },
+      "v2": {
+        "issue12": "https://github.com/wpuu/ChinaGCC/issues/12",
+        "scoresRecomputed": 0,
+        "why": "No fresh independent transaction and no new complete same-BOM costs; retain 41-subitem scores and V2 gaps as historical",
+        "historicalScoreConflict": [
+          "travel-bottles 75 vs 41 sum 74",
+          "phone-charm-beaded main 68 vs independent 41 sum 69"
+        ],
+        "top5RiskThemes": [
+          "China LE/NGS/payout gate",
+          "buyer price/markup unknown",
+          "same-BOM China supplier+Shenzhen freight unknown",
+          "returns and 100-unit loss unbounded",
+          "per-SKU category/IP/license and local prohibition"
+        ]
+      },
+      "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_NOT_ACTIVE",
+      "sampleReady": 0,
+      "approvedPurchases": 0,
+      "ownerFirstSaleVerified": false,
+      "payoutVerified": false,
+      "actionsExcluded": [
+        "no supplier contact",
+        "no procurement",
+        "no listing",
+        "no store/LE/warehouse creation",
+        "no identity/bank uploads",
+        "no advertising"
+      ]
     }
   ],
   "latestOriginAndBOMAuditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
   "latestDailyReconciliationId": "2026-10-31/DAILY_RECON_WORK049_050_IP_LAUNCH",
   "firstSaleReadinessAudit": {
     "date": "2026-11-01",
-    "auditId": "2026-11-01/C01",
+    "auditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
     "account": {
-      "orgProject": "EXISTS_VERIFIED_031",
-      "observedAt": "2026-10-31 19:26 Asia/Shanghai",
-      "uaeStore": "UAE_CHINA_FORM_SELECTED_NOT_SUBMITTED",
-      "englishName": "OWNER_PUBLIC_FIELD_MISSING",
-      "arabicName": "OWNER_PUBLIC_FIELD_MISSING",
-      "realPhone": "OWNER_REAL_FIELD_MISSING",
-      "continueClicked": false,
-      "ksaStore": "NOT_VERIFIED_CREATED",
-      "legalEntity": "NO_VALID_APPROVAL",
+      "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
+      "latestFollowUp": "2026-11-01 11:13-11:15 Asia/Shanghai; China LE conditional fields read without submission",
+      "organization": "EXISTS_PRIOR_VERIFIED",
+      "uaeStore": "CREATED_VERIFIED_GCC_PICKS",
+      "ksaStore": "NOT_VERIFIED",
+      "legalEntity": "REQUIRED_NOT_SUBMITTED_OR_APPROVED",
+      "chinaNGS": "NOT_QUALIFIED_REASON_NOT_GIVEN",
       "payout": "UNKNOWN",
+      "origin": "UNKNOWN",
+      "skuQc": "NOT_SUBMITTED",
+      "shenzhenHandoff": "NONE_VERIFIED",
+      "ownerOrder": "NONE_VERIFIED",
+      "basis": [
+        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+        "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+      ],
       "ngsReady": false,
       "ownerPaidOrderVerified": false,
-      "nonPublicSkuSaved": false,
-      "source": [
-        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
-        "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
-      ]
+      "nonPublicSkuSaved": false
     },
     "channelAccessGate": "NO_GO",
     "sampleReady": 0,
@@ -3864,7 +4097,7 @@
     "previous": "data/daily/2026-10-31.json",
     "historicalPriceAndScoresNotNewEvidence": true
   },
-  "latestRadarAuditId": "2026-11-01/C01",
+  "latestRadarAuditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
   "v2Consistency": {
     "total": 14,
     "scored": 12,
@@ -4032,5 +4265,99 @@
     "opportunityScoresChanged": 0,
     "confidenceChanged": 0,
     "completenessChanged": 0
+  },
+  "latestStoreVerification": {
+    "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
+    "latestFollowUp": "2026-11-01 11:13-11:15 Asia/Shanghai; China LE conditional fields read without submission",
+    "organization": "EXISTS_PRIOR_VERIFIED",
+    "uaeStore": "CREATED_VERIFIED_GCC_PICKS",
+    "ksaStore": "NOT_VERIFIED",
+    "legalEntity": "REQUIRED_NOT_SUBMITTED_OR_APPROVED",
+    "chinaNGS": "NOT_QUALIFIED_REASON_NOT_GIVEN",
+    "payout": "UNKNOWN",
+    "origin": "UNKNOWN",
+    "skuQc": "NOT_SUBMITTED",
+    "shenzhenHandoff": "NONE_VERIFIED",
+    "ownerOrder": "NONE_VERIFIED",
+    "basis": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+    ]
+  },
+  "ngsReconciliationC02": {
+    "official": {
+      "store": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "legal": "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md",
+      "ngs": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "registration": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "rejection": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "prohibited": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    },
+    "accessGate": "NO_GO",
+    "costModel": {
+      "meaning": "TP is a planning hypothesis; not an approved offer, actual buyer all-in price or quoted procurement cost",
+      "targetContributionMargin": 0.2,
+      "nonRevenueOrdersHypothesis": 0.1,
+      "perAttemptMaxSellerCostFormula": "(1-0.10)*(1-0.20)*TP = 0.72*TP, ignoring unmeasured ad/FX/returns fees",
+      "tpGridsUsd": {
+        "cosmetic-bag-set": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "hair-accessories": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "press-on-nails": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "phone-charm-beaded": [
+          1.7,
+          2.2,
+          2.7
+        ]
+      },
+      "costCapsUsd": {
+        "cosmetic-bag-set": [
+          3.24,
+          3.96,
+          4.68
+        ],
+        "hair-accessories": [
+          1.728,
+          2.088,
+          2.448
+        ],
+        "press-on-nails": [
+          1.08,
+          1.368,
+          1.656
+        ],
+        "phone-charm-beaded": [
+          1.224,
+          1.584,
+          1.944
+        ]
+      },
+      "hundredUnitLoss": {
+        "status": "UNKNOWN_UNBOUNDED_BY_CONFIRMED_COST",
+        "noPurchaseNoDemand": "0 seller inventory cost only if genuinely zero procured, excludes sunk research/overhead; not a 100-item downside",
+        "procured100Unsold": "100*(real landed seller purchase + packing + China-to-Shenzhen + nonrecoverable costs) minus confirmed recoverable value",
+        "deliveredThen100NonSaleableReturns": "100*(same at-risk cost+real irrecoverable post-return charges) - any actual proceeds; NGS non-saleable TP proceeds 0",
+        "missing": [
+          "real same-BOM unit purchase price",
+          "package weight/size",
+          "real Shenzhen freight",
+          "product regulatory/class eligibility",
+          "order handling/returns/FX/ads",
+          "actual consumer all-in price/Noon markup"
+        ]
+      }
+    },
+    "correctsStaleClaim": "Previous C01 stated UAE store form not submitted. Store GCC Picks now verified created. Other statuses remain blocked."
   }
 }
