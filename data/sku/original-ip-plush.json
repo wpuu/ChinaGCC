@@ -229,5 +229,72 @@
         "status": "WATCH_ONLY"
       }
     ]
+  },
+  "latestRadar20261101C02": {
+    "auditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
+    "date": "2026-11-01",
+    "personas": [
+      "Saudi female 18–45",
+      "UAE female 18–39",
+      "female Gen Z/students"
+    ],
+    "discoveryCandidate": [
+      "TikTok",
+      "Snapchat",
+      "Instagram",
+      "Noon Finds"
+    ],
+    "discoveryToSaleAttributionVerified": false,
+    "checkoutPriority": [
+      "Noon China NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "purchaseTrigger": "beauty / travel / gifting / bag personalization (hypothesis only)",
+    "productFamily": "original-ip-plush",
+    "marketFinding": "WAKUKU/NOMMI prior GCC listings show historic availability only; China/GCC first confirmed paid sale pairs zero; brand distribution rights unverified; WATCH not procurement",
+    "source": "https://www.noon.com/uae-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/Z5D4711AEA21856321684Z/p/",
+    "sourceType": "HISTORICAL_COMPETITOR_LISTING_MONTHS_OLD_NOT_NEW_TRANSACTION",
+    "verifiedNewPaidOrders": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "chinaSupplyChainAction": "NO_NEW_REVERSE_SOURCING_BECAUSE_NO_FRESH_REAL_PAID_ORDER_RFQ_RESTOCK_PROOF",
+    "ngsChannelAccess": "NO_GO_LE_REQUIRED_NOT_APPROVED__CHINA_NGS_NOT_ELIGIBLE",
+    "realBuyerAllInPriceUsd": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaPurchaseUsd": null,
+    "actualSellerToShenzhenHubUsd": null,
+    "actualReturnsLossUsd": null,
+    "legalClassificationPerActualBOM": "NOT_APPROVED",
+    "officialNGSPolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "officialProhibitedItems": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "historicalV2ScoresNotRescored": {
+      "opportunityScore": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58
+    },
+    "advantagesPreserved": "Existing verified/partially verified advantages left unchanged; historical competitor listing cannot validate superior product advantage",
+    "top5RiskThemes": [
+      "Legal entity, NGS seller access, payout",
+      "Noon final customer price and price competitiveness",
+      "Actual exact BOM supplier, MOQ and Shenzhen freight",
+      "Return loss and 100-unit failure loss not bounded",
+      "Country restriction, product category approval, trademark and media usage rights"
+    ],
+    "hardStops": [
+      "Do not list/pay/advertise without China NGS approval and compliant SKU",
+      "Do not sell unlicensed IP or use supplier images without legal permission"
+    ],
+    "tpPlanUsd": null,
+    "scenario10pctNoIncomeCostCapsUsd": [],
+    "scenarioExplanation": "10% failed/no TP income is a hypothesis, 20% target contribution yields seller total cost <=0.72*TP; no validated margin",
+    "worstLoss100": {
+      "valueUsd": null,
+      "status": "UNKNOWN",
+      "formula": "100*(actual purchased+packing+seller-paid Shenzhen transport+irrecoverable fees) minus real recoverable proceeds; returned non-saleable units have zero TP proceeds"
+    },
+    "sampleReady": false,
+    "approvedPurchase": false,
+    "originalIpFirstSaleLagDays": null,
+    "originalIpRightsVerified": false
   }
 }
