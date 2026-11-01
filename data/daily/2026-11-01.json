@@ -477,7 +477,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": [
         4.5,
@@ -588,6 +588,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 0
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -709,7 +715,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -751,6 +757,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -884,7 +896,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -926,6 +938,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 0
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -1048,7 +1066,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -1090,6 +1108,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -1211,7 +1235,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -1253,6 +1277,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -1402,7 +1432,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": [
         2.4,
@@ -1513,6 +1543,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 0
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -1633,7 +1669,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": [
         1.5,
@@ -1764,6 +1800,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 0
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -1906,7 +1948,7 @@
         }
       ],
       "hardStop": "UNLICENSED_IP_ONLY",
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": [
         1.7,
@@ -2017,6 +2059,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 0
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2103,7 +2151,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2145,6 +2193,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2231,7 +2285,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2273,6 +2327,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2359,7 +2419,7 @@
         }
       ],
       "hardStop": "NO_BRAND_AUTHORIZATION",
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2471,6 +2531,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 9
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2557,7 +2623,7 @@
         }
       ],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2599,6 +2665,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2649,7 +2721,7 @@
       "advantages": [],
       "top5Risks": [],
       "hardStop": "FROZEN",
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2691,6 +2763,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     },
     {
@@ -2741,7 +2819,7 @@
       "advantages": [],
       "top5Risks": [],
       "hardStop": false,
-      "channelAccessGate": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
       "sampleReady": false,
       "transferPriceTestGridUsd": null,
       "totalSellerCostCapAt20PercentContributionUsd": null,
@@ -2783,6 +2861,12 @@
       "profileFieldAudit": {
         "all13Present": true,
         "unknownCount": 10
+      },
+      "latestGateReconciliation": {
+        "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+        "priorValue": "NOT_PASSED_UAE_STORE_FORM_NOT_SUBMITTED_LE_PAYMENT_NGS",
+        "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+        "hardStopOnLive": true
       }
     }
   ],
@@ -2971,30 +3055,32 @@
   ],
   "topDecision": "HOLD__NOON_CHINA_NGS_FIRST__AMAZON_SECOND__NO_PURCHASE",
   "nextExecution": {
-    "ownerFieldsAlreadyRequested": [
-      "real English store name",
-      "real Arabic store name",
-      "real phone and country code"
-    ],
-    "ownerHandOff": "Work049 Ego space 18 retained with owner; radar may not touch",
-    "afterStore": "Only after authorized valid fields and actual store creation, inspect LE, NGS/payment approval and real product category",
-    "then": "Real paid transaction or RFQ evidence before reverse supply sourcing",
+    "ownerFieldsAlreadyRequested": [],
+    "ownerHandOff": "UAE GCC Picks store is confirmed created; preserve existing original workspace and do not recreate it",
+    "afterStore": "Only after authorized genuine Chinese LE documentation and platform review: read actual LE approval, NGS eligibility, origin/payout, then SKU QC and final consumer price; no unapproved submission",
+    "then": "Fresh verified market paid order/RFQ/restock or channel buyer procurement before new supplier reverse sourcing; SKU economics only with exact BOM, Shenzhen freight, return loss",
     "prohibited": [
       "do not invent personal details or IP license",
       "do not create store or LE",
       "do not send email",
       "do not buy or list or enter fake stock"
-    ]
+    ],
+    "legacyStoreFieldsRequestSuperseded": [
+      "real English store name",
+      "real Arabic store name",
+      "real phone and country code"
+    ],
+    "blocker": "LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_ELIGIBLE_REASON_UNKNOWN"
   },
   "blocked": [
-    "CURRENT_STORES_EMPTY",
-    "NO_VALID_LEGAL_ENTITY",
     "PAYOUT_UNKNOWN",
-    "NGS_NOT_ENABLED",
     "UNVERIFIED_MARKUP_AND_CONSUMER_FINAL_PRICE",
     "NO_SAME_BOM_DELIVERED_COST",
     "NO_NEW_FIRST_PARTY_TRANSACTION_EVIDENCE",
-    "NO_APPROVED_IP_RESALE_RIGHTS"
+    "NO_APPROVED_IP_RESALE_RIGHTS",
+    "CHINA_LE_REQUIRED_NOT_SUBMITTED",
+    "CHINA_NGS_NOT_ELIGIBLE_REASON_UNKNOWN",
+    "KSA_STORE_NOT_VERIFIED"
   ],
   "sampleReadyCount": 0,
   "approvedPurchaseCount": 0,
@@ -3014,7 +3100,11 @@
     "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md",
     "https://www.noon.com/uae-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/Z5D4711AEA21856321684Z/p/",
     "https://www.noon.com/uae-en/loveliness-never-end-nommi-series-blind-box-cute-plush-kawaii-anime-action-figure-plush-keychain-pendant-random-1-pc-only/Z1539E99730D6C1A678F6Z/p/",
-    "https://www.noon.com/saudi-en/nommi-blind-box-cute-vinyl-face-plush-blind-box-figures-nommi-loveliness-never-ends-series-plush-doll-kawaii-collectible-toys-figure-mystery-box-for-gifts-single-box-1-of-7-possible-styles/Z9442F2609367FA5CE987Z/p/"
+    "https://www.noon.com/saudi-en/nommi-blind-box-cute-vinyl-face-plush-blind-box-figures-nommi-loveliness-never-ends-series-plush-doll-kawaii-collectible-toys-figure-mystery-box-for-gifts-single-box-1-of-7-possible-styles/Z9442F2609367FA5CE987Z/p/",
+    "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+    "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md",
+    "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/",
+    "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy"
   ],
   "postRadarSupplyReadOnlyCheck": {
     "date": "2026-10-31",
@@ -4059,6 +4149,34 @@
         "no identity/bank uploads",
         "no advertising"
       ]
+    },
+    {
+      "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+      "date": "2026-11-01",
+      "strictSequence": [
+        "Saudi women 18-45 / UAE women 18-39 / female Gen Z-students, young families secondary, 50+ WATCH",
+        "TikTok/Snapchat/Instagram/Noon Finds - attribution not verified",
+        "Noon China NGS primary, Amazon UAE/Saudi secondary",
+        "Quick-use beauty, organization, gifting triggers are hypotheses",
+        "Nails, 4pc cosmetic bags, 8pc hair clips, legally original charms/plush",
+        "Exact SKU comparator - nail listing includes small glue stick despite tabs",
+        "Do not reverse source new Chinese suppliers without new verified sales/RFQ/restock",
+        "NGS TP planning only; buyer markup, same-BOM China cost, Shenzhen shipment, returns, prohibitions, 100-unit certified worst loss UNKNOWN"
+      ],
+      "newIndependentPaidOrdersFound": 0,
+      "newRFQsFound": 0,
+      "newRestocksFound": 0,
+      "sitePageDisplayNotNewSales": true,
+      "historyScoreUnchanged": true,
+      "hardStopUnresolved": true,
+      "skuGateCorrectionCount": 14,
+      "storeEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+      "listingEvidence": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/",
+      "ngsOfficial": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "approvalDuration": "UNKNOWN",
+      "ipTimeLagDays": null,
+      "sampleReady": 0,
+      "approvedPurchase": 0
     }
   ],
   "latestOriginAndBOMAuditId": "2026-10-31/NAIL-TABS-CRYBABY-ORIGIN",
@@ -4097,7 +4215,7 @@
     "previous": "data/daily/2026-10-31.json",
     "historicalPriceAndScoresNotNewEvidence": true
   },
-  "latestRadarAuditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
+  "latestRadarAuditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
   "v2Consistency": {
     "total": 14,
     "scored": 12,
@@ -4359,5 +4477,63 @@
       }
     },
     "correctsStaleClaim": "Previous C01 stated UAE store form not submitted. Store GCC Picks now verified created. Other statuses remain blocked."
+  },
+  "latestChannelGateAudit": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "checkedDate": "2026-11-01",
+    "accountEvidenceObservedAt": "2026-11-01 10:39 Asia/Shanghai",
+    "uaeStore": "GCC Picks - CREATED_VERIFIED",
+    "ksaStore": "NOT_VERIFIED",
+    "legalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
+    "ngsProgram": "CURRENTLY_NOT_ELIGIBLE_REASON_UNSPECIFIED",
+    "payout": "UNKNOWN",
+    "meaning": "NO-GO (store existence is not China NGS approval)",
+    "sources": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+    ]
+  },
+  "latestBOMEvidenceC03": {
+    "product": "KHAJUL 24pc press-on nails, Saudi Noon",
+    "market": "KSA",
+    "buyerDisplayedPriceSar": 18.9,
+    "ratingsOnCrawledPage": 236,
+    "pageCrawledAsOfSearch": "2026-10-30 approximately (search result: crawled 2 days ago)",
+    "containsAdhesiveTabs": true,
+    "containsSmallGlueStick": true,
+    "claimStatus": "PAGE_CONTENT_ONLY_NOT_PAID_ORDER_OR_CONFIRMED_NGS_ELIGIBILITY",
+    "exclusion": "NOT_A_GLUE_FREE_EXACT_BOM; do not transfer price or return assumptions",
+    "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
+  },
+  "latestOfficialApprovalPolicyC03": {
+    "requiredChinaCommercialRegistration": true,
+    "legalEntityApprovalNotObtained": true,
+    "actualOnboardingDurationDays": null,
+    "chinaIndividualBusinessAcceptance": "UNKNOWN",
+    "newChineseSellerPaymentNeededBeforeGoLive": true,
+    "ngsTPPaidOnlyAfterSuccessfulDelivery": true,
+    "refundLossAndBuyerMarkup": "UNKNOWN",
+    "categoryBrandQC": "REQUIRES_ACTUAL_SKU_CHECK",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    ]
+  },
+  "storeAcceptanceCurrentC03": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "checkedDate": "2026-11-01",
+    "accountEvidenceObservedAt": "2026-11-01 10:39 Asia/Shanghai",
+    "uaeStore": "GCC Picks - CREATED_VERIFIED",
+    "ksaStore": "NOT_VERIFIED",
+    "legalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
+    "ngsProgram": "CURRENTLY_NOT_ELIGIBLE_REASON_UNSPECIFIED",
+    "payout": "UNKNOWN",
+    "meaning": "NO-GO (store existence is not China NGS approval)",
+    "sources": [
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md"
+    ]
   }
 }
