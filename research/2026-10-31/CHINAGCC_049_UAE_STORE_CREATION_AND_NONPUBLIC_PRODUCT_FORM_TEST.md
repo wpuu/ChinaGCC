@@ -183,3 +183,34 @@ Store这一步**无需先假设必须办照才能查看后续**；但也不能�
 UAE/China已选，账号预填邮箱保留；英文/阿语店名、电话仍空白，电话区号默认+971。未点击Continue、未提交或创建Store。通过本轮真实targetId对应的窗口执行正常化和标签激活，getWindowBounds实际返回normal、1208×651，p1为活动标签；这证明窗口正常状态，不等于已观察到用户本人看见屏幕。于**2026-11-01 10:33:32北京时间**（02:33:32.519Z）成功handOff，未finish，未操作其他空间。后续经用户确认应接续当前空间5，不能再按失效18接管。
 
 店名分析暂推荐 **GCC Picks / مختارات الخليج（海湾精选）**，用于泛生活用品零售的命名建议；原先Everyday Picks的建议经公开同名初查后降为备选（已有 https://everydaypicks.org/ 等同名使用）。名称没有被填入或提交，未声称Noon已接受名称或完成商标可用性审查。用户确认公开名称、补足真实电话后才继续Store步骤。无注册账号、法律/银行/商品/库存、订单交易或外联动作。
+
+
+## 11. 2026-11-01 11:13｜GCC Picks店铺关联LE流程新增字段实查
+
+**控制权：** 上一轮只读清单明确为agentDelegatedToUser，故未抢占。本次用户明确回复“交回代理，继续检查LE”后，才按正式工具正规接回同一空间5；未新建空间、未创建第二店。
+
+**观察时间：** 2026-11-01 **11:13:08.873北京时间**（03:13:08.873Z）。  
+**实际页面（脱敏）：** `https://noon-store.noon.partners/en/create?storecode={store_id}&flow=document&project={project_id}&step=business`。占位符为原参数脱敏，不是可直接访问的完整链接。  
+**真实路径：** GCC Picks Setup guide → Submit your legal entity → Get started → Legal documents面板 → Get started。该入口为店铺关联文档流程，打开p3，不是最终提交审核按钮。
+
+### 初始与选择China后的区别
+
+| 核对项 | 当前页真实观察 |
+|---|---|
+| 初始商业注册国家 | Select country；同时提示Pre-selected based on your store details |
+| 初始文件/按钮 | 未选文件；Skip for now可见 |
+| 本轮动作 | 仅在未提交的表单选择China，查看条件字段 |
+| License Issuing Authority | 自动显示China；控件disabled，未提供可展开的发行机构选项 |
+| 当前按钮 | 选择China后变为Continue；**未点击** |
+| 主体类型 | 本步骤未见entity type或中国个体工商户选项 |
+| 明确必填标记 | Commercial registration country、License Issuing Authority、License number、Company name、Company address、Issue date |
+| 注册文件上传 | 接受PDF、JPEG、PNG，最大10MB；本轮未上传 |
+| Expiry date / List of business activities | 未见必填星号 |
+
+**与既有表单不同的新增事实：** 此入口带店铺关联，新增License Issuing Authority字段；初始Skip for now及选择China后的Continue变化已真实观察。此前独立Finance Add LE只提供已记录的基本字段，两者不混作同一页。发行机构显示China只是当前字段值，不推断为某个具体中国发证机关或某种主体已经获准。
+
+尝试展开发行机构控件时，工具返回element is disabled；它对应真实不可编辑控件，**不是Noon拒绝中国主体**，没有尝试强制启用或隐藏接口。未看到主体类型选项也**不能推断个体工商户被拒绝**；是否正式接受仍UNKNOWN。后续步骤、法律声明与实际审核未到达，不按一般政策补写其结果。
+
+没有填写执照号、公司名称/地址、日期、证照或个人信息，未点击Continue/Create Legal Entity/Submit，未接受条款或绑定银行。当前仍停在真实商业登记资料之前；不把“继续”解释为注册主体、上传资料或签约许可。未重复NGS Programs或商品首屏，未创建SKU/仓/库存或交易。
+
+原始脱敏证据：`C:/Users/Admin/ego/chinagcc-049-20261031/evidence-049-store-le-20261101.json`。本次仅因上述店铺关联流程与条件字段有新增，追加049及Issue #24；不新建同义报告，不改055、README、商业数据或自动化。完成回读后交还当前页面，交还回执另补。
