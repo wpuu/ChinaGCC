@@ -396,5 +396,80 @@
     "newRestockProof": 0,
     "certifiedWorstLoss100": null,
     "ipOriginWarning": "POP MART distributes Thai-created CRYBABY; exclude from China-origin gap analysis"
+  },
+  "latestRadar20261101": {
+    "auditId": "2026-11-01/C01",
+    "date": "2026-11-01",
+    "modelPreferred": "GPT-6 Extra High; actual runner unverified",
+    "scoreHistorical": {
+      "opportunity": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76
+    },
+    "v2MainAudit": {
+      "id": "phone-charm-beaded",
+      "opportunityScore": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "subitems": 41,
+      "subTotal": 68,
+      "dimensionTotal": 68,
+      "discrepancy": false,
+      "recomputed": false
+    },
+    "channelAccessGate": "NOT_PASSED",
+    "verifiedNewIndependentSales": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "economics": {
+      "tpScenarioUsd": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "realTP": null,
+      "actualNoonBuyerPrice": null,
+      "actualMarkup": null,
+      "actualSameBomProcurement": null,
+      "actualChinaToShenzhen": null,
+      "returnLossActual": null,
+      "complianceApproval": null,
+      "zeroIncomeFractionScenarios": [
+        0,
+        0.1,
+        0.2
+      ],
+      "sellerTotalCostCapAt20PctExpectedContribution": {
+        "0": [
+          1.36,
+          1.76,
+          2.16
+        ],
+        "0.1": [
+          1.224,
+          1.584,
+          1.944
+        ],
+        "0.2": [
+          1.088,
+          1.408,
+          1.728
+        ]
+      },
+      "costCapIsRealQuote": false,
+      "certifiedHundredUnitWorstLoss": null,
+      "unsoldFormula": "100*(real procurement+packing+prepaid domestic freight)+fixed sunk costs+advertising+other charges",
+      "nonSaleableReturnFormula": "100*(real procurement+packing+China hub freight)+return liabilities+advertising+other sunk costs, TP income=0",
+      "decision": "RESEARCH_ONLY"
+    },
+    "ownerFirstOrder": false,
+    "worst100LossCertified": null,
+    "ngsSkuApproval": "UNKNOWN",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
+    ]
   }
 }
