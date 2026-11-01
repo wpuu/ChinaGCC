@@ -398,5 +398,78 @@
       "conflictWithZeroPrepurchase": "POTENTIAL_CONDITIONAL_HARD_STOP",
       "noFakeInvoices": true
     }
+  },
+  "latestRadar20261101C02": {
+    "auditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET",
+    "date": "2026-11-01",
+    "personas": [
+      "Saudi female 18–45",
+      "UAE female 18–39",
+      "female Gen Z/students"
+    ],
+    "discoveryCandidate": [
+      "TikTok",
+      "Snapchat",
+      "Instagram",
+      "Noon Finds"
+    ],
+    "discoveryToSaleAttributionVerified": false,
+    "checkoutPriority": [
+      "Noon China NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "purchaseTrigger": "beauty / travel / gifting / bag personalization (hypothesis only)",
+    "productFamily": "press-on-nails",
+    "marketFinding": "UAE Noon Teenitor 600PCS nail adhesive tabs AED66.58 historical listing; standalone tabs not 24-piece press-on nail kit, no fresh matched kit sales",
+    "source": "https://www.noon.com/uae-en/teenitor-600pcs-press-on-nail-adhesive-tabs-15-sizes-of-nail-stickers-for-press-on-press-on-nails-stickers-press-on-nail-sticky-tabs-for-nails-nail-glue-stickers-nail-glue-tabs-40-sheets/Z402CEC1D93F5A9F30F0FZ/p/",
+    "sourceType": "HISTORICAL_COMPETITOR_LISTING_MONTHS_OLD_NOT_NEW_TRANSACTION",
+    "verifiedNewPaidOrders": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "chinaSupplyChainAction": "NO_NEW_REVERSE_SOURCING_BECAUSE_NO_FRESH_REAL_PAID_ORDER_RFQ_RESTOCK_PROOF",
+    "ngsChannelAccess": "NO_GO_LE_REQUIRED_NOT_APPROVED__CHINA_NGS_NOT_ELIGIBLE",
+    "realBuyerAllInPriceUsd": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaPurchaseUsd": null,
+    "actualSellerToShenzhenHubUsd": null,
+    "actualReturnsLossUsd": null,
+    "legalClassificationPerActualBOM": "NOT_APPROVED",
+    "officialNGSPolicy": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "officialProhibitedItems": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "historicalV2ScoresNotRescored": {
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80
+    },
+    "advantagesPreserved": "Existing verified/partially verified advantages left unchanged; historical competitor listing cannot validate superior product advantage",
+    "top5RiskThemes": [
+      "Legal entity, NGS seller access, payout",
+      "Noon final customer price and price competitiveness",
+      "Actual exact BOM supplier, MOQ and Shenzhen freight",
+      "Return loss and 100-unit failure loss not bounded",
+      "Country restriction, product category approval, trademark and media usage rights"
+    ],
+    "hardStops": [
+      "Do not list/pay/advertise without China NGS approval and compliant SKU",
+      "Do not sell unlicensed IP or use supplier images without legal permission"
+    ],
+    "tpPlanUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "scenario10pctNoIncomeCostCapsUsd": [
+      1.08,
+      1.368,
+      1.656
+    ],
+    "scenarioExplanation": "10% failed/no TP income is a hypothesis, 20% target contribution yields seller total cost <=0.72*TP; no validated margin",
+    "worstLoss100": {
+      "valueUsd": null,
+      "status": "UNKNOWN",
+      "formula": "100*(actual purchased+packing+seller-paid Shenzhen transport+irrecoverable fees) minus real recoverable proceeds; returned non-saleable units have zero TP proceeds"
+    },
+    "sampleReady": false,
+    "approvedPurchase": false
   }
 }
