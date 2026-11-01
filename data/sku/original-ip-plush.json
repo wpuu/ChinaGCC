@@ -147,5 +147,87 @@
       "authorizedForResale": false,
       "decision": "WATCH_ONLY_NO_IP_LICENSE_NO_MATCHED_CHINA_GCC_PAID_ORDERS"
     }
-  ]
+  ],
+  "latestRadar20261101": {
+    "auditId": "2026-11-01/C01",
+    "date": "2026-11-01",
+    "modelPreferred": "GPT-6 Extra High; actual runner unverified",
+    "scoreHistorical": {
+      "opportunity": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58
+    },
+    "v2MainAudit": {
+      "id": "original-ip-plush",
+      "opportunityScore": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58,
+      "subitems": 0,
+      "subTotal": null,
+      "dimensionTotal": 69,
+      "discrepancy": false,
+      "recomputed": false
+    },
+    "channelAccessGate": "NOT_PASSED",
+    "verifiedNewIndependentSales": 0,
+    "verifiedNewRFQs": 0,
+    "verifiedNewRestocks": 0,
+    "economics": null,
+    "ownerFirstOrder": false,
+    "worst100LossCertified": null,
+    "ngsSkuApproval": "UNKNOWN",
+    "decision": "RESEARCH_ONLY_NO_PURCHASE",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
+      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_050_WORK049_STATUS_AND_FIRST_LIVE_LISTING_GATES.md"
+    ],
+    "ipHistoricalGccListingWatch": [
+      {
+        "name": "WAKUKU Fuzzy Trendy Fun Party",
+        "market": "UAE",
+        "historicalPrice": "AED79.90",
+        "url": "https://www.noon.com/uae-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/Z5D4711AEA21856321684Z/p/",
+        "indexAge": "approx 4-5 months, not current real-time data",
+        "evidenceClass": "OLD_THIRD_PARTY_PRODUCT_PAGE_ONLY",
+        "firstChinaPaidSale": null,
+        "firstGccPaidSale": null,
+        "verifiedPaidTransactions": 0,
+        "distributionRightsVerified": false,
+        "authenticityVerified": false,
+        "trendLagDays": null,
+        "status": "WATCH_ONLY"
+      },
+      {
+        "name": "NOMMI Loveliness Never End",
+        "market": "UAE",
+        "historicalPrice": "AED83",
+        "url": "https://www.noon.com/uae-en/loveliness-never-end-nommi-series-blind-box-cute-plush-kawaii-anime-action-figure-plush-keychain-pendant-random-1-pc-only/Z1539E99730D6C1A678F6Z/p/",
+        "indexAge": "approx 4-5 months, not current real-time data",
+        "evidenceClass": "OLD_THIRD_PARTY_PRODUCT_PAGE_ONLY",
+        "firstChinaPaidSale": null,
+        "firstGccPaidSale": null,
+        "verifiedPaidTransactions": 0,
+        "distributionRightsVerified": false,
+        "authenticityVerified": false,
+        "trendLagDays": null,
+        "status": "WATCH_ONLY"
+      },
+      {
+        "name": "NOMMI Loveliness Never Ends",
+        "market": "Saudi",
+        "historicalPrice": "SAR121.12",
+        "url": "https://www.noon.com/saudi-en/nommi-blind-box-cute-vinyl-face-plush-blind-box-figures-nommi-loveliness-never-ends-series-plush-doll-kawaii-collectible-toys-figure-mystery-box-for-gifts-single-box-1-of-7-possible-styles/Z9442F2609367FA5CE987Z/p/",
+        "indexAge": "approx 4-5 months, not current real-time data",
+        "evidenceClass": "OLD_THIRD_PARTY_PRODUCT_PAGE_ONLY",
+        "firstChinaPaidSale": null,
+        "firstGccPaidSale": null,
+        "verifiedPaidTransactions": 0,
+        "distributionRightsVerified": false,
+        "authenticityVerified": false,
+        "trendLagDays": null,
+        "status": "WATCH_ONLY"
+      }
+    ]
+  }
 }
