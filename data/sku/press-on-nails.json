@@ -626,5 +626,86 @@
     "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
     "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
     "blocked": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "date": "2026-11-02",
+    "persona": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students"
+    ],
+    "discovery": "TikTok/Snapchat/Instagram/Noon Finds; attribution not verified",
+    "checkout": "Noon China NGS first; Amazon AE/SA second",
+    "purchaseTrigger": "quick appearance refresh",
+    "marketEvidence": {
+      "scope": "Saudi",
+      "fact": "KHAJUL 24-piece natural-look kit with fibrous adhesive stickers and nail file SAR18.90 with about 218 reviews on store index crawled about 2 weeks ago; exact absence of liquid glue not independently verified. RESONIX 24pcs SAR19.95 300+ sold label last-week crawl has adhesive BOM unknown",
+      "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+      "additionalSource": "https://supermall.noon.com/saudi-en/product/ZE14177014AFFC8B7099BZ/p/?o=db2cd379ca42de3b",
+      "quality": "HISTORICAL_LISTINGS_ONLY_EXACT_TABS_ONLY_BOM_UNCONFIRMED"
+    },
+    "historicalV2": {
+      "opportunity": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "notRescored": true
+    },
+    "ngs": {
+      "gate": "NO_GO",
+      "tpScenarioUsd": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "scenarioCostCapsUsd": {
+        "q0": [
+          1.275,
+          1.615,
+          1.955
+        ],
+        "q10": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "q25": [
+          0.9562,
+          1.2112,
+          1.4662
+        ]
+      },
+      "actualTpUsd": null,
+      "actualCheckoutPrice": null,
+      "actualNoonMarkup": null,
+      "actualSameBomPurchase": null,
+      "actualHubFreight": null,
+      "returnRate": null,
+      "countryCategoryApproval": null
+    },
+    "ipLicense": "NO_THIRD_PARTY_UNLICENSED_IP",
+    "top5RiskThemes": [
+      "Seller channel access",
+      "Noon buyer markup and final checkout price",
+      "Exact BOM + PRC procurement + Shenzhen hub freight",
+      "Return/non-saleable inventory exposure",
+      "Product restrictions, trademark/media and original-IP rights"
+    ],
+    "hardStops": [
+      "NGS channel not approved",
+      "Unlicensed IP or unapproved product/country restrictions"
+    ],
+    "worst100CertifiedUsd": null,
+    "unsoldAndReturnFormulas": {
+      "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+      "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+    },
+    "noNewIndependentPaidOrderRFQRestock": true,
+    "sourceList": [
+      "https://supermall.noon.com/saudi-en/kayan/khajul/",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+    ],
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }
