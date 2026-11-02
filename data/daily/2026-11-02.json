@@ -411,6 +411,19 @@
         "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
         "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
         "blocked": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 3-piece quilted cosmetic bag SAR49 with 227 reviews in index crawled about 2 weeks before this run; not target 4-piece BOM, not verified independent new order",
+          "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+          "quality": "HISTORICAL_PLATFORM_LISTING_BOM_MISMATCH"
+        },
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -756,6 +769,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -1009,6 +1030,14 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -1367,6 +1396,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -1710,6 +1747,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -2088,6 +2133,19 @@
         "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
         "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
         "blocked": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 8-piece hair claw clips with stated 4 square matte and 4 bright acrylic clips SAR25 and 210+ sold recently label; page crawled about 3 months ago, not new November orders",
+          "source": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+          "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_CLOSE_BOM_NOT_NEW_ORDER"
+        },
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -2406,6 +2464,20 @@
         "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
         "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
         "blocked": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 24-piece natural-look kit with fibrous adhesive stickers and nail file SAR18.90 with about 218 reviews on store index crawled about 2 weeks ago; exact absence of liquid glue not independently verified. RESONIX 24pcs SAR19.95 300+ sold label last-week crawl has adhesive BOM unknown",
+          "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+          "additionalSource": "https://supermall.noon.com/saudi-en/product/ZE14177014AFFC8B7099BZ/p/?o=db2cd379ca42de3b",
+          "quality": "HISTORICAL_LISTINGS_ONLY_EXACT_TABS_ONLY_BOM_UNCONFIRMED"
+        },
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -2781,6 +2853,19 @@
         "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
         "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
         "blocked": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": {
+          "scope": "UAE",
+          "fact": "BLLE ROWN cherry-shaped bag charm AED49.90 with 20+ sold recently tag on storefront crawled last week; non-beaded design, not original beaded phone charm same BOM",
+          "source": "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/",
+          "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_DIFFERENT_PRODUCT"
+        },
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -2907,6 +2992,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -3082,6 +3175,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -3310,6 +3411,19 @@
         "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
         "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
         "blocked": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": {
+          "scope": "Company FY2026, not GCC-specific",
+          "fact": "HERE Group Form 20-F year ended 2026-06-30: WAKUKU RMB369.291m (61.9% of continuing revenue), SIINONO RMB92.667m (15.5%), ZIYULI RMB57.404m (9.6%); as of June 30 company claims 13 proprietary IPs and 9 exclusive licenses; subsequently introduced YONNNA by Sep 30, 2026. Disclosure says substantial group revenue originated PRC but no IP-specific China/GCC paid-order date series",
+          "source": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+          "quality": "PRIMARY_FILED_COMPANY_REVENUE_NOT_GCC_FIRST_SALE_NOT_DISTRIBUTION_LICENSE"
+        },
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -3477,6 +3591,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -3587,6 +3709,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     },
     {
@@ -3696,6 +3826,14 @@
         ],
         "notAnEvidenceBasedPersonaAssessment": true,
         "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102C02": {
+        "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+        "evidence": null,
+        "channelAccessGate": "NO_GO",
+        "newPaidOrdersVerified": 0,
+        "worst100CertifiedUsd": null,
+        "scoreUnchanged": true
       }
     }
   ],
@@ -4323,5 +4461,407 @@
     "https://github.com/wpuu/ChinaGCC/issues/12",
     "https://github.com/wpuu/ChinaGCC/issues/24"
   ],
-  "latestRadarAuditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK"
+  "latestRadarAuditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+  "incrementalAudits": [
+    {
+      "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+      "date": "2026-11-02",
+      "timeZone": "Asia/Shanghai",
+      "modelPreference": "GPT-6 Extra High preferred; actual runtime thinking effort not independently verified",
+      "sequence": [
+        "personas",
+        "discovery channels",
+        "real checkout channels",
+        "buying trigger",
+        "product family",
+        "exact SKU",
+        "China supply (gated by verified demand)",
+        "unit economics and risks"
+      ],
+      "personas": [
+        "Saudi women 18-45",
+        "UAE women 18-39",
+        "female Gen Z/students",
+        "young families secondary",
+        "50+ WATCH"
+      ],
+      "discovery": [
+        "TikTok",
+        "Snapchat",
+        "Instagram",
+        "Noon Finds (conversion attribution not proven)"
+      ],
+      "checkoutPriority": [
+        "Noon China NGS first",
+        "Amazon UAE/Saudi second"
+      ],
+      "triggers": [
+        "daily styling",
+        "quick beauty",
+        "travel organization",
+        "personalized gifting/collecting (hypotheses)"
+      ],
+      "platformSignals": {
+        "cosmetic-bag-set": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 3-piece quilted cosmetic bag SAR49 with 227 reviews in index crawled about 2 weeks before this run; not target 4-piece BOM, not verified independent new order",
+          "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+          "quality": "HISTORICAL_PLATFORM_LISTING_BOM_MISMATCH"
+        },
+        "hair-accessories": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 8-piece hair claw clips with stated 4 square matte and 4 bright acrylic clips SAR25 and 210+ sold recently label; page crawled about 3 months ago, not new November orders",
+          "source": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+          "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_CLOSE_BOM_NOT_NEW_ORDER"
+        },
+        "press-on-nails": {
+          "scope": "Saudi",
+          "fact": "KHAJUL 24-piece natural-look kit with fibrous adhesive stickers and nail file SAR18.90 with about 218 reviews on store index crawled about 2 weeks ago; exact absence of liquid glue not independently verified. RESONIX 24pcs SAR19.95 300+ sold label last-week crawl has adhesive BOM unknown",
+          "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+          "additionalSource": "https://supermall.noon.com/saudi-en/product/ZE14177014AFFC8B7099BZ/p/?o=db2cd379ca42de3b",
+          "quality": "HISTORICAL_LISTINGS_ONLY_EXACT_TABS_ONLY_BOM_UNCONFIRMED"
+        },
+        "phone-charm-beaded": {
+          "scope": "UAE",
+          "fact": "BLLE ROWN cherry-shaped bag charm AED49.90 with 20+ sold recently tag on storefront crawled last week; non-beaded design, not original beaded phone charm same BOM",
+          "source": "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/",
+          "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_DIFFERENT_PRODUCT"
+        },
+        "original-ip-plush": {
+          "scope": "Company FY2026, not GCC-specific",
+          "fact": "HERE Group Form 20-F year ended 2026-06-30: WAKUKU RMB369.291m (61.9% of continuing revenue), SIINONO RMB92.667m (15.5%), ZIYULI RMB57.404m (9.6%); as of June 30 company claims 13 proprietary IPs and 9 exclusive licenses; subsequently introduced YONNNA by Sep 30, 2026. Disclosure says substantial group revenue originated PRC but no IP-specific China/GCC paid-order date series",
+          "source": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+          "quality": "PRIMARY_FILED_COMPANY_REVENUE_NOT_GCC_FIRST_SALE_NOT_DISTRIBUTION_LICENSE"
+        }
+      },
+      "firstPartyOriginalIp": {
+        "source": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+        "reportingPeriodEnd": "2026-06-30",
+        "figuresInMillionCny": {
+          "WAKUKU": 369.291,
+          "SIINONO": 92.667,
+          "ZIYULI": 57.404
+        },
+        "revenueShares": {
+          "WAKUKU": 61.9,
+          "SIINONO": 15.5,
+          "ZIYULI": 9.6
+        },
+        "portfolioAtJune30": {
+          "proprietary": 13,
+          "exclusivelyLicensed": 9
+        },
+        "newObservedNameAsOfSept30": "YONNNA",
+        "geography": "Substantial group revenue PRC, but IP-specific China and GCC numbers not disclosed",
+        "isVerifiedGccPaidOrders": false,
+        "chinaFirstPaidOrder": null,
+        "gccFirstPaidOrder": null,
+        "lagDays": null,
+        "authorizedThirdPartyDistributor": false,
+        "decision": "WATCH_ONLY_UNLICENSED_IP_HARD_STOP"
+      },
+      "ngsPolicy": {
+        "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "registrationSource": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+        "approvalWorkflowSource": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+        "chinaCommercialRegistrationRequired": true,
+        "chinaIndividualSoleProprietorEligible": "UNKNOWN_REQUIRES_ACTUAL_PLATFORM_DECISION",
+        "localUaeKsaTradeLicenseRequiredForNgs": false,
+        "localDestinationVATRegistrationRequiredForNgs": false,
+        "sellerSets": "USD Transfer Price",
+        "platformSets": "buyer markup / final price",
+        "sellerPays": "China domestic transport to Shenzhen consolidation hub; packaging/product expenses",
+        "payout": "TP on delivered eligible orders, approved payout required to receive",
+        "returns": "Resaleable returns to local FBN rate card, non-saleable no TP",
+        "sellerReviewTimelineDays": null,
+        "warehouseProcessingTimeIsRegistrationApprovalTime": false,
+        "sourceConflictNote": "Other general international non-VAT FAQ may conflict with NGS-specific policy; apply NGS-specific until live portal confirms",
+        "currentChannelAccess": "NO_GO_UAE_STORE_EXISTS_CHINA_LE_NOT_APPROVED_NGS_NOT_ELIGIBLE_REASON_UNKNOWN_PAYOUT_UNKNOWN"
+      },
+      "economics": {
+        "marginTarget": 0.15,
+        "zeroTransferPriceIncomeScenarios": [
+          0,
+          0.1,
+          0.25
+        ],
+        "formula": "seller cost cap per order=TP*(1-q)*(1-0.15); scenario only, not actual profitability; real buyer price and markup unknown",
+        "testTransferPricesUsd": {
+          "cosmetic-bag-set": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "hair-accessories": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "press-on-nails": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "phone-charm-beaded": [
+            1.7,
+            2.2,
+            2.7
+          ]
+        },
+        "illustrativeCostCeilingsUsd": {
+          "cosmetic-bag-set": {
+            "q0": [
+              3.825,
+              4.675,
+              5.525
+            ],
+            "q10": [
+              3.4425,
+              4.2075,
+              4.9725
+            ],
+            "q25": [
+              2.8687,
+              3.5062,
+              4.1437
+            ]
+          },
+          "hair-accessories": {
+            "q0": [
+              2.04,
+              2.465,
+              2.89
+            ],
+            "q10": [
+              1.836,
+              2.2185,
+              2.601
+            ],
+            "q25": [
+              1.53,
+              1.8487,
+              2.1675
+            ]
+          },
+          "press-on-nails": {
+            "q0": [
+              1.275,
+              1.615,
+              1.955
+            ],
+            "q10": [
+              1.1475,
+              1.4535,
+              1.7595
+            ],
+            "q25": [
+              0.9562,
+              1.2112,
+              1.4662
+            ]
+          },
+          "phone-charm-beaded": {
+            "q0": [
+              1.445,
+              1.87,
+              2.295
+            ],
+            "q10": [
+              1.3005,
+              1.683,
+              2.0655
+            ],
+            "q25": [
+              1.0837,
+              1.4025,
+              1.7212
+            ]
+          }
+        },
+        "actualCheckoutPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBOMPurchase": null,
+        "actualChinaToShenzhen": null,
+        "actualReturnLoss": null,
+        "categoryApproval": null,
+        "worst100CertifiedUsd": null,
+        "worst100Formulas": {
+          "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+          "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+        },
+        "uncertainty": "Unknown costs and possible liabilities prevent credible upper bound"
+      },
+      "v2": {
+        "issue": "https://github.com/wpuu/ChinaGCC/issues/12",
+        "historicalScoresRetained": true,
+        "noNewEvidenceEnoughForRealRescore": true,
+        "unscoredIds": [
+          "hanlin-mask",
+          "microfiber-cloth"
+        ],
+        "scoreConflictsPreserved": [
+          "travel-bottles main 75 vs independent 74",
+          "phone-charm-beaded main 68 vs independent subscores 69"
+        ],
+        "riskThemes": [
+          {
+            "risk": "Seller channel access",
+            "evidence": "UAE store exists but China Legal Entity unsubmitted and NGS eligible status not proven",
+            "hardStop": true,
+            "mitigation": "Read-only verify real China trade registration and account approval before listings/purchases",
+            "verification": "PENDING"
+          },
+          {
+            "risk": "Noon buyer markup and final checkout price",
+            "evidence": "Seller TP is not buyer total; platform adds markup and logistics",
+            "hardStop": false,
+            "mitigation": "Observe same-BOM UAE/KSA actual delivered checkout total",
+            "verification": "PENDING"
+          },
+          {
+            "risk": "Exact BOM + PRC procurement + Shenzhen hub freight",
+            "evidence": "No paid same-BOM procurement or actual per-order courier evidence",
+            "hardStop": false,
+            "mitigation": "Only after qualified demand proof, get binding like-for-like quotes plus dispatch cost",
+            "verification": "PENDING"
+          },
+          {
+            "risk": "Return/non-saleable inventory exposure",
+            "evidence": "Noon may convert saleable returns into local FBN with separate fee structure; non-saleable returns lack TP proceeds",
+            "hardStop": false,
+            "mitigation": "Build 100-unsold / 100-unsaleable-return cases from binding invoices and actual fees",
+            "verification": "PENDING"
+          },
+          {
+            "risk": "Product restrictions, trademark/media and original-IP rights",
+            "evidence": "Noon category/country rules and authorization chain not verified",
+            "hardStop": true,
+            "mitigation": "Check restrictions for each SKU and obtain license or use genuinely own unencumbered designs",
+            "verification": "PENDING"
+          }
+        ],
+        "scoreChanges": 0,
+        "allSkuScores": {
+          "cosmetic-bag-set": {
+            "opportunityScore": 78,
+            "evidenceConfidence": 90,
+            "dataCompleteness": 73,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "silicone-brush": {
+            "opportunityScore": 78,
+            "evidenceConfidence": 82,
+            "dataCompleteness": 84,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "makeup-brushes-10pc": {
+            "opportunityScore": 76,
+            "evidenceConfidence": 91,
+            "dataCompleteness": 82,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "travel-bottles": {
+            "opportunityScore": 75,
+            "evidenceConfidence": 76,
+            "dataCompleteness": 84,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "lint-roller": {
+            "opportunityScore": 74,
+            "evidenceConfidence": 83,
+            "dataCompleteness": 80,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "hair-accessories": {
+            "opportunityScore": 70,
+            "evidenceConfidence": 92,
+            "dataCompleteness": 78,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "press-on-nails": {
+            "opportunityScore": 67,
+            "evidenceConfidence": 92,
+            "dataCompleteness": 80,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "phone-charm-beaded": {
+            "opportunityScore": 68,
+            "evidenceConfidence": 84,
+            "dataCompleteness": 76,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "cable-management": {
+            "opportunityScore": 69,
+            "evidenceConfidence": 63,
+            "dataCompleteness": 58,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "makeup-sponge": {
+            "opportunityScore": 67,
+            "evidenceConfidence": 78,
+            "dataCompleteness": 68,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "original-ip-plush": {
+            "opportunityScore": 69,
+            "evidenceConfidence": 67,
+            "dataCompleteness": 58,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "car-sunshade": {
+            "opportunityScore": 64,
+            "evidenceConfidence": 82,
+            "dataCompleteness": 72,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "hanlin-mask": {
+            "opportunityScore": null,
+            "evidenceConfidence": null,
+            "dataCompleteness": null,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          },
+          "microfiber-cloth": {
+            "opportunityScore": null,
+            "evidenceConfidence": null,
+            "dataCompleteness": null,
+            "channelAccessGate": "NO_GO",
+            "rescored": false
+          }
+        }
+      },
+      "evidenceGate": {
+        "newIndependentlyVerifiedPaidOrders": 0,
+        "newVerifiedRFQ": 0,
+        "newVerifiedRestocks": 0,
+        "newVerifiedStockoutProcurement": 0,
+        "scope": "This run only, platform sold-recently labels not independent paid-order records",
+        "newChinaSupplierDeepDive": false
+      },
+      "decision": "NO_PURCHASE_NO_LISTING_NO_ADS_NO_ACCOUNT_CHANGES",
+      "sampleReady": 0,
+      "purchasesApproved": 0,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+        "https://supermall.noon.com/saudi-en/kayan/khajul/",
+        "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+        "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/"
+      ]
+    }
+  ]
 }
