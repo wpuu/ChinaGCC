@@ -678,5 +678,85 @@
     "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
     "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
     "blocked": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "date": "2026-11-02",
+    "persona": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students"
+    ],
+    "discovery": "TikTok/Snapchat/Instagram/Noon Finds; attribution not verified",
+    "checkout": "Noon China NGS first; Amazon AE/SA second",
+    "purchaseTrigger": "gifting/personalization",
+    "marketEvidence": {
+      "scope": "UAE",
+      "fact": "BLLE ROWN cherry-shaped bag charm AED49.90 with 20+ sold recently tag on storefront crawled last week; non-beaded design, not original beaded phone charm same BOM",
+      "source": "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/",
+      "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_DIFFERENT_PRODUCT"
+    },
+    "historicalV2": {
+      "opportunity": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "notRescored": true
+    },
+    "ngs": {
+      "gate": "NO_GO",
+      "tpScenarioUsd": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "scenarioCostCapsUsd": {
+        "q0": [
+          1.445,
+          1.87,
+          2.295
+        ],
+        "q10": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "q25": [
+          1.0837,
+          1.4025,
+          1.7212
+        ]
+      },
+      "actualTpUsd": null,
+      "actualCheckoutPrice": null,
+      "actualNoonMarkup": null,
+      "actualSameBomPurchase": null,
+      "actualHubFreight": null,
+      "returnRate": null,
+      "countryCategoryApproval": null
+    },
+    "ipLicense": "NO_THIRD_PARTY_UNLICENSED_IP",
+    "top5RiskThemes": [
+      "Seller channel access",
+      "Noon buyer markup and final checkout price",
+      "Exact BOM + PRC procurement + Shenzhen hub freight",
+      "Return/non-saleable inventory exposure",
+      "Product restrictions, trademark/media and original-IP rights"
+    ],
+    "hardStops": [
+      "NGS channel not approved",
+      "Unlicensed IP or unapproved product/country restrictions"
+    ],
+    "worst100CertifiedUsd": null,
+    "unsoldAndReturnFormulas": {
+      "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+      "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+    },
+    "noNewIndependentPaidOrderRFQRestock": true,
+    "sourceList": [
+      "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+    ],
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }
