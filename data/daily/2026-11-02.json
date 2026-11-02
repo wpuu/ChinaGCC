@@ -3909,9 +3909,9 @@
         "dataCompleteness": 73,
         "dimensionSum": 78,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "silicone-brush",
@@ -3920,9 +3920,9 @@
         "dataCompleteness": 84,
         "dimensionSum": 78,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "makeup-brushes-10pc",
@@ -3931,9 +3931,9 @@
         "dataCompleteness": 82,
         "dimensionSum": 76,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "travel-bottles",
@@ -3942,9 +3942,9 @@
         "dataCompleteness": 84,
         "dimensionSum": 75,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "lint-roller",
@@ -3953,9 +3953,9 @@
         "dataCompleteness": 80,
         "dimensionSum": 74,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "hair-accessories",
@@ -3964,9 +3964,9 @@
         "dataCompleteness": 78,
         "dimensionSum": 70,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "press-on-nails",
@@ -3975,9 +3975,9 @@
         "dataCompleteness": 80,
         "dimensionSum": 67,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "phone-charm-beaded",
@@ -3986,9 +3986,9 @@
         "dataCompleteness": 76,
         "dimensionSum": 68,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "cable-management",
@@ -3997,9 +3997,9 @@
         "dataCompleteness": 58,
         "dimensionSum": 69,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "makeup-sponge",
@@ -4008,9 +4008,9 @@
         "dataCompleteness": 68,
         "dimensionSum": 67,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "original-ip-plush",
@@ -4019,9 +4019,9 @@
         "dataCompleteness": 58,
         "dimensionSum": 69,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "car-sunshade",
@@ -4030,9 +4030,9 @@
         "dataCompleteness": 72,
         "dimensionSum": 64,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 5,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "hanlin-mask",
@@ -4041,9 +4041,9 @@
         "dataCompleteness": null,
         "dimensionSum": null,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 0,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       },
       {
         "id": "microfiber-cloth",
@@ -4052,9 +4052,9 @@
         "dataCompleteness": null,
         "dimensionSum": null,
         "dimensionSumMismatch": false,
-        "has41Subitems": false,
         "top5RiskCount": 0,
-        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE",
+        "subitem41AuditStatus": "NOT_INDEPENDENTLY_REAUDITED_ON_2026-11-02"
       }
     ],
     "dimensionSumMismatches": [],
@@ -4233,7 +4233,24 @@
       }
     ],
     "all14Have13ProfileKeys": true,
-    "placeholderDoesNotEstablishEvidence": true
+    "placeholderDoesNotEstablishEvidence": true,
+    "historicalSubitemCoverageNote": "2026-11-01 C04 reported 41-subitem coverage for a subset; this run does not assert all 14 lack subitems.",
+    "knownCrossFileScoreConflicts": [
+      {
+        "id": "travel-bottles",
+        "mainReportedOpportunityScore": 75,
+        "standaloneReportedOpportunityScore": 74,
+        "standaloneDimensionAnd41SubitemSum": 74,
+        "status": "UNRESOLVED__DO_NOT_INVENT_OR_AUTOCORRECT"
+      },
+      {
+        "id": "phone-charm-beaded",
+        "mainReportedOpportunityScore": 68,
+        "standaloneReportedOpportunityScore": 68,
+        "standaloneDimensionAnd41SubitemSum": 69,
+        "status": "UNRESOLVED__DO_NOT_INVENT_OR_AUTOCORRECT"
+      }
+    ]
   },
   "channelAccess": {
     "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055",
