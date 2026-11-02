@@ -673,5 +673,85 @@
     "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
     "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
     "blocked": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "date": "2026-11-02",
+    "persona": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students"
+    ],
+    "discovery": "TikTok/Snapchat/Instagram/Noon Finds; attribution not verified",
+    "checkout": "Noon China NGS first; Amazon AE/SA second",
+    "purchaseTrigger": "daily styling",
+    "marketEvidence": {
+      "scope": "Saudi",
+      "fact": "KHAJUL 8-piece hair claw clips with stated 4 square matte and 4 bright acrylic clips SAR25 and 210+ sold recently label; page crawled about 3 months ago, not new November orders",
+      "source": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+      "quality": "HISTORICAL_PLATFORM_SOLD_LABEL_CLOSE_BOM_NOT_NEW_ORDER"
+    },
+    "historicalV2": {
+      "opportunity": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78,
+      "notRescored": true
+    },
+    "ngs": {
+      "gate": "NO_GO",
+      "tpScenarioUsd": [
+        2.4,
+        2.9,
+        3.4
+      ],
+      "scenarioCostCapsUsd": {
+        "q0": [
+          2.04,
+          2.465,
+          2.89
+        ],
+        "q10": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "q25": [
+          1.53,
+          1.8487,
+          2.1675
+        ]
+      },
+      "actualTpUsd": null,
+      "actualCheckoutPrice": null,
+      "actualNoonMarkup": null,
+      "actualSameBomPurchase": null,
+      "actualHubFreight": null,
+      "returnRate": null,
+      "countryCategoryApproval": null
+    },
+    "ipLicense": "NO_THIRD_PARTY_UNLICENSED_IP",
+    "top5RiskThemes": [
+      "Seller channel access",
+      "Noon buyer markup and final checkout price",
+      "Exact BOM + PRC procurement + Shenzhen hub freight",
+      "Return/non-saleable inventory exposure",
+      "Product restrictions, trademark/media and original-IP rights"
+    ],
+    "hardStops": [
+      "NGS channel not approved",
+      "Unlicensed IP or unapproved product/country restrictions"
+    ],
+    "worst100CertifiedUsd": null,
+    "unsoldAndReturnFormulas": {
+      "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+      "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+    },
+    "noNewIndependentPaidOrderRFQRestock": true,
+    "sourceList": [
+      "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+    ],
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }
