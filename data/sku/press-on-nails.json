@@ -562,5 +562,69 @@
     "publicListingDoesNotProvePaidOrder": true,
     "glueFreeExactBOMVerified": false,
     "note": "Indexed BTFMEI offer SAR42.90 is offer evidence only; no SKU-matched fresh paid order; KHAJUL fibrous sticker competitor may contain glue stick; not a verified glue-free BOM."
+  },
+  "latestRadar20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "dated": "2026-11-02",
+    "marketEvidence": {
+      "market": "Saudi",
+      "product": "kaixin 24-piece French gradient wearable nails",
+      "observation": "SAR18.95; 420+ sold recently label in older indexed bestseller page",
+      "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+      "bomComparable": false,
+      "quality": "HISTORICAL_CATEGORY_LIST_ONLY_ADHESIVE_TABS_BOM_UNKNOWN",
+      "purchaseTrigger": "quick appearance refresh hypothesis"
+    },
+    "ngsTest": {
+      "transferPriceUsdTestOnly": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "contributionMarginTarget": 0.15,
+      "nonRevenueRateScenarios": [
+        {
+          "qHypothetical": 0,
+          "maxFullSellerUnitCostUsd": [
+            1.275,
+            1.615,
+            1.955
+          ]
+        },
+        {
+          "qHypothetical": 0.1,
+          "maxFullSellerUnitCostUsd": [
+            1.1475,
+            1.4535,
+            1.7595
+          ]
+        },
+        {
+          "qHypothetical": 0.25,
+          "maxFullSellerUnitCostUsd": [
+            0.9562,
+            1.2112,
+            1.4662
+          ]
+        }
+      ],
+      "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+      "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+      "actualTPApproved": "UNKNOWN",
+      "sameBomChinaUnitCost": "UNKNOWN",
+      "chinaToShenzhenPerOrderCost": "UNKNOWN",
+      "actualReturnRate": "UNKNOWN",
+      "skuPolicyQC": "UNKNOWN",
+      "first100OrdersNonSalableLossUpperBoundUsd": null,
+      "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+      "hundredUnsoldInventoryUpperBoundUsd": null,
+      "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+      "noProcurementApproval": true
+    },
+    "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+    "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+    "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+    "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+    "blocked": true
   }
 }
