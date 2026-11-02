@@ -261,5 +261,50 @@
   },
   "latestSupplierVerificationAsOf": "2026-10-30T22:34:58+08:00",
   "latestSupplierVerificationReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-  "scoreIntegrityNote": "Current 75 vs V2 item sum 74 and independent SKU 74; unresolved cross-file discrepancy, no silent score adjustment."
+  "scoreIntegrityNote": "Current 75 vs V2 item sum 74 and independent SKU 74; unresolved cross-file discrepancy, no silent score adjustment.",
+  "corePersona": "NOT_EVALUATED",
+  "ageBand": [
+    "NOT_EVALUATED"
+  ],
+  "genderFit": "NOT_EVALUATED",
+  "discoveryChannel": [
+    "NOT_EVALUATED"
+  ],
+  "checkoutChannel": [
+    "NOT_EVALUATED"
+  ],
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
+  "IPRisk": "NOT_EVALUATED",
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "corePersona",
+      "ageBand",
+      "genderFit",
+      "discoveryChannel",
+      "checkoutChannel",
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "IPRisk",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notEvidenceBased": true
+  },
+  "latestDataIntegrityAudit20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "profileFieldsComplete": true,
+    "newDemandVerified": false,
+    "historicalScoresUnchanged": true
+  }
 }
