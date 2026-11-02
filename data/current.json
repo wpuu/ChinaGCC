@@ -5,7 +5,7 @@
     "status": "继续研究，不采购；Noon NGS 1/12（UAE Store已验收，Legal Entity和NGS未获批准）、Amazon 0/15、Sample Ready 0",
     "thirtyDayJudgment": "CONTINUE（74/100）：低成本验证优先，未闭环中国经营主体、Noon消费者终价、同款3家完整报价/整包重量/QC；不投入主要库存资金。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-11-01",
+    "lastUpdated": "2026-11-02",
     "lastSynced": null,
     "currentChannelPriority": [
       "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
@@ -14,13 +14,13 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
-    "latestRadarDate": "2026-11-01",
-    "latestRadarPath": "data/daily/2026-11-01.json",
-    "latestRadarStatus": "UAE_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__CHINA_NGS_CURRENTLY_INELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN",
-    "latestRadarNote": "C04 official NGS payouts/returns/margin audit added. UAE GCC Picks store VERIFIED, China LE Required/unsubmitted, China NGS currently not qualified with unspecified reason, payout unverified. Salable returns may become local FBN and auto-default priced; no certified SKU100 loss; SKU V2 historical unchanged.",
+    "latestRadarDate": "2026-11-02",
+    "latestRadarPath": "data/daily/2026-11-02.json",
+    "latestRadarStatus": "UAE_STORE_VERIFIED__LE_UNSUBMITTED__NGS_INELIGIBLE_UNEXPLAINED__PAYOUT_UNKNOWN__NO_GO",
+    "latestRadarNote": "2026-11-02 C01: official NGS and prohibited-products cross-check, old seller-listing labels kept historical, WAKUKU global-launch disqualifies naive China-to-GCC exclusive lag inference, explicit unknown persona fields repaired. V2 scores unchanged.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "latestDailyAuditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -48,7 +48,8 @@
         "Amazon UAE/Saudi（第二；未启动）",
         "其它渠道仅观察"
       ]
-    }
+    },
+    "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15"
   },
   "skus": [
     {
@@ -277,6 +278,70 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "latestRadar20261102": {
+        "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+        "dated": "2026-11-02",
+        "marketEvidence": {
+          "market": "UAE",
+          "product": "KHAJUL single double-layer mesh cosmetic bag",
+          "observation": "AED24.90; 60+ sold recently label on older indexed page",
+          "source": "https://www.noon.com/uae-en/double-layer-travel-makeup-bag-mesh-cosmetic-bag-large-toiletry-bag-for-women-makeup-bag-organizer-with-handle-black/Z81F87272CAE74AAE3B07Z/p/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_LISTING_ONLY_NOT_4PC_NOT_NEW_ORDER",
+          "purchaseTrigger": "travel/compact sorting hypothesis"
+        },
+        "ngsTest": {
+          "transferPriceUsdTestOnly": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                3.825,
+                4.675,
+                5.525
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                3.4425,
+                4.2075,
+                4.9725
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                2.8687,
+                3.5062,
+                4.1437
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+        "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+        "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+        "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+        "blocked": true
       }
     },
     {
@@ -582,6 +647,46 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -1153,6 +1258,46 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -1456,6 +1601,46 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -1770,6 +1955,70 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "latestRadar20261102": {
+        "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+        "dated": "2026-11-02",
+        "marketEvidence": {
+          "market": "UAE",
+          "product": "ORiTi Ceetug 8PCS hair claw clips",
+          "observation": "AED29.26; 20+ sold recently label on older indexed category page",
+          "source": "https://www.noon.com/uae-en/beauty/hair-care/hair-accessories/tabby-noon/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_LISTING_ONLY_NOT_4MATTE_4GLOSSY",
+          "purchaseTrigger": "daily hair styling hypothesis"
+        },
+        "ngsTest": {
+          "transferPriceUsdTestOnly": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                2.04,
+                2.465,
+                2.89
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.836,
+                2.2185,
+                2.601
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                1.53,
+                1.8487,
+                2.1675
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+        "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+        "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+        "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+        "blocked": true
       }
     },
     {
@@ -2024,6 +2273,70 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "latestRadar20261102": {
+        "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+        "dated": "2026-11-02",
+        "marketEvidence": {
+          "market": "Saudi",
+          "product": "kaixin 24-piece French gradient wearable nails",
+          "observation": "SAR18.95; 420+ sold recently label in older indexed bestseller page",
+          "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_CATEGORY_LIST_ONLY_ADHESIVE_TABS_BOM_UNKNOWN",
+          "purchaseTrigger": "quick appearance refresh hypothesis"
+        },
+        "ngsTest": {
+          "transferPriceUsdTestOnly": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                1.275,
+                1.615,
+                1.955
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.1475,
+                1.4535,
+                1.7595
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                0.9562,
+                1.2112,
+                1.4662
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+        "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+        "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+        "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+        "blocked": true
       }
     },
     {
@@ -2335,6 +2648,70 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "latestRadar20261102": {
+        "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+        "dated": "2026-11-02",
+        "marketEvidence": {
+          "market": "UAE/Saudi",
+          "product": "Original unbranded beaded phone/bag charm",
+          "observation": "No newly verified same-BOM paid order, RFQ or restock evidence this run",
+          "source": null,
+          "bomComparable": null,
+          "quality": "NO_NEW_DIRECT_TRANSACTION_EVIDENCE",
+          "purchaseTrigger": "personalization/gifting hypothesis"
+        },
+        "ngsTest": {
+          "transferPriceUsdTestOnly": [
+            1.7,
+            2.2,
+            2.7
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                1.445,
+                1.87,
+                2.295
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.3005,
+                1.683,
+                2.0655
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                1.0837,
+                1.4025,
+                1.7212
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+        "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+        "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+        "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+        "blocked": true
       }
     },
     {
@@ -2421,6 +2798,46 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -2556,6 +2973,46 @@
         "returnResaleFbnCost": "UNKNOWN",
         "skuOpportunityRescored": false,
         "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -2725,6 +3182,65 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
+      },
+      "latestRadar20261102": {
+        "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+        "dated": "2026-11-02",
+        "marketEvidence": {
+          "market": "China/global -> GCC watch",
+          "product": "HERE WAKUKU fourth generation The Handicraft World of WAKUKU",
+          "observation": "Brand press release June 9, 2026 says global launch, not China/GCC first paid orders or authorized reseller proof",
+          "source": "https://www.globenewswire.com/news-release/2026/06/09/3309001/0/en/here-launches-fourth-generation-wakuku-series-globally-expanding-its-imaginative-ip-universe.html",
+          "bomComparable": false,
+          "quality": "OFFICIAL_GLOBAL_RELEASE_NOT_REGION_LAG_PROOF",
+          "purchaseTrigger": "collectibility, emotional gifting hypothesis"
+        },
+        "ngsTest": null,
+        "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+        "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+        "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+        "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+        "blocked": true
       }
     },
     {
@@ -2852,6 +3368,46 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -2922,6 +3478,46 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     },
     {
@@ -2991,6 +3587,46 @@
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
         "verification": "UAE store is verified, not NGS approval",
         "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+      },
+      "corePersona": "NOT_EVALUATED",
+      "ageBand": [
+        "NOT_EVALUATED"
+      ],
+      "genderFit": "NOT_EVALUATED",
+      "discoveryChannel": [
+        "NOT_EVALUATED"
+      ],
+      "checkoutChannel": [
+        "NOT_EVALUATED"
+      ],
+      "viralPotential": "NOT_EVALUATED",
+      "collectibility": "NOT_EVALUATED",
+      "giftability": "NOT_EVALUATED",
+      "visualDemoStrength": "NOT_EVALUATED",
+      "trendHalfLife": "NOT_EVALUATED",
+      "IPRisk": "NOT_EVALUATED",
+      "seasonalTrigger": [
+        "NOT_EVALUATED"
+      ],
+      "localPlatformFit": "NOT_EVALUATED",
+      "profileCoverage20261102": {
+        "missingFieldsReplacedByExplicitUnknown": [
+          "corePersona",
+          "ageBand",
+          "genderFit",
+          "discoveryChannel",
+          "checkoutChannel",
+          "viralPotential",
+          "collectibility",
+          "giftability",
+          "visualDemoStrength",
+          "trendHalfLife",
+          "IPRisk",
+          "seasonalTrigger",
+          "localPlatformFit"
+        ],
+        "notAnEvidenceBasedPersonaAssessment": true,
+        "noChangeToHistoricalScores": true
       }
     }
   ],
@@ -3395,33 +4031,24 @@
     }
   },
   "latestRadar": {
-    "date": "2026-11-01",
-    "dailyPath": "data/daily/2026-11-01.json",
-    "modelPreference": "GPT-6 Extra High preferred; actual effort unverified",
+    "date": "2026-11-02",
+    "dailyPath": "data/daily/2026-11-02.json",
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "modelPreference": "GPT-6 Extra High preferred; this run cannot verify actual extra-high effort selection",
     "channelPriority": [
       "Noon China NGS first",
       "Amazon UAE/Saudi second"
     ],
     "firstSaleAccess": "NOT_READY",
-    "originalOrgProject": "VERIFIED",
-    "uaeStore": "CREATED_VERIFIED_GCC_PICKS",
-    "ksaStore": "NOT_VERIFIED_CREATED",
-    "legalEntity": "REQUIRED_NOT_APPROVED",
-    "payout": "UNKNOWN",
-    "ngs": "NOT_ELIGIBLE_REASON_UNKNOWN",
+    "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055",
+    "chinaLegalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
+    "ngs": "CURRENTLY_NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
+    "payout": "UNKNOWN_NO_VERIFIED_APPROVAL",
     "newPaidOrdersVerified": 0,
     "newRFQVerified": 0,
     "newRestockEvidenceVerified": 0,
     "sampleReadyCount": 0,
-    "approvedPurchaseCount": 0,
-    "source": [
-      "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
-      "https://github.com/wpuu/ChinaGCC/blob/main/ops/CHINAGCC_056_CHINA_NGS_LE_REVIEW_PREFLIGHT_AND_STOP_GATES.md",
-      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
-    ],
-    "newPolicy": "Noon Finds available in UAE/KSA; Health Beauty purchase proof/authorization may gate Live",
-    "scorePolicy": "Historical scores held; 41-item audit gaps not cured",
-    "auditId": "2026-11-01/C02-STOREFIX-POLICY-MARKET"
+    "approvedPurchaseCount": 0
   },
   "dailyReconciliation": {
     "auditDate": "2026-10-30",
@@ -3848,5 +4475,707 @@
     },
     "actualFreshOrders": 0,
     "channelAccessGate": "NO_GO"
+  },
+  "latestRadar20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "date": "2026-11-02",
+    "timeZone": "Asia/Shanghai",
+    "modelPreference": "GPT-6 Extra High preferred; this run cannot verify actual extra-high effort selection",
+    "sequence": [
+      "人群",
+      "种草/发现渠道",
+      "现实成交渠道",
+      "购买触发",
+      "产品族",
+      "具体SKU",
+      "中国供应链（仅有独立真实成交/RFQ/补货等证据才继续深追）",
+      "单位经济性及风险"
+    ],
+    "prioritySegments": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "Female Gen Z / students",
+      "young families secondary",
+      "50+ WATCH only"
+    ],
+    "discoveryChannels": [
+      "TikTok",
+      "Snapchat",
+      "Instagram",
+      "Noon Finds (attribution not verified)"
+    ],
+    "checkoutChannels": [
+      "Noon China NGS first",
+      "Amazon UAE/Saudi second"
+    ],
+    "purchaseTriggers": [
+      "daily styling",
+      "quick beauty",
+      "travel organization",
+      "gifts/collecting (unvalidated hypotheses)"
+    ],
+    "newEvidence": {
+      "independentNewPaidOrdersVerified": 0,
+      "independentNewRFQsVerified": 0,
+      "independentNewRestocksVerified": 0,
+      "scope": "Only documents and pages checked in this run; not a claim of zero overall market sales",
+      "listings": {
+        "cosmetic-bag-set": {
+          "market": "UAE",
+          "product": "KHAJUL single double-layer mesh cosmetic bag",
+          "observation": "AED24.90; 60+ sold recently label on older indexed page",
+          "source": "https://www.noon.com/uae-en/double-layer-travel-makeup-bag-mesh-cosmetic-bag-large-toiletry-bag-for-women-makeup-bag-organizer-with-handle-black/Z81F87272CAE74AAE3B07Z/p/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_LISTING_ONLY_NOT_4PC_NOT_NEW_ORDER",
+          "purchaseTrigger": "travel/compact sorting hypothesis"
+        },
+        "hair-accessories": {
+          "market": "UAE",
+          "product": "ORiTi Ceetug 8PCS hair claw clips",
+          "observation": "AED29.26; 20+ sold recently label on older indexed category page",
+          "source": "https://www.noon.com/uae-en/beauty/hair-care/hair-accessories/tabby-noon/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_LISTING_ONLY_NOT_4MATTE_4GLOSSY",
+          "purchaseTrigger": "daily hair styling hypothesis"
+        },
+        "press-on-nails": {
+          "market": "Saudi",
+          "product": "kaixin 24-piece French gradient wearable nails",
+          "observation": "SAR18.95; 420+ sold recently label in older indexed bestseller page",
+          "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+          "bomComparable": false,
+          "quality": "HISTORICAL_CATEGORY_LIST_ONLY_ADHESIVE_TABS_BOM_UNKNOWN",
+          "purchaseTrigger": "quick appearance refresh hypothesis"
+        },
+        "phone-charm-beaded": {
+          "market": "UAE/Saudi",
+          "product": "Original unbranded beaded phone/bag charm",
+          "observation": "No newly verified same-BOM paid order, RFQ or restock evidence this run",
+          "source": null,
+          "bomComparable": null,
+          "quality": "NO_NEW_DIRECT_TRANSACTION_EVIDENCE",
+          "purchaseTrigger": "personalization/gifting hypothesis"
+        },
+        "original-ip-plush": {
+          "market": "China/global -> GCC watch",
+          "product": "HERE WAKUKU fourth generation The Handicraft World of WAKUKU",
+          "observation": "Brand press release June 9, 2026 says global launch, not China/GCC first paid orders or authorized reseller proof",
+          "source": "https://www.globenewswire.com/news-release/2026/06/09/3309001/0/en/here-launches-fourth-generation-wakuku-series-globally-expanding-its-imaginative-ip-universe.html",
+          "bomComparable": false,
+          "quality": "OFFICIAL_GLOBAL_RELEASE_NOT_REGION_LAG_PROOF",
+          "purchaseTrigger": "collectibility, emotional gifting hypothesis"
+        }
+      },
+      "globalOriginalIpLaunch": {
+        "brand": "HERE",
+        "series": "WAKUKU fourth-generation The Handicraft World of WAKUKU",
+        "releaseDate": "2026-06-09",
+        "announcementType": "OFFICIAL_GLOBAL_LAUNCH",
+        "firstChinaPaidOrderDate": null,
+        "firstGccPaidOrderDate": null,
+        "lagDays": null,
+        "rightsVerified": false,
+        "decision": "WATCH_NO_IP_PURCHASE",
+        "url": "https://www.globenewswire.com/news-release/2026/06/09/3309001/0/en/here-launches-fourth-generation-wakuku-series-globally-expanding-its-imaginative-ip-universe.html"
+      },
+      "policy": {
+        "saudiColorAndSymbols": "Official banned list explicitly says rainbow-colored products and some religious/holiday symbols. Whether a particular SKU is banned requires country/listing-specific policy assessment, not blanket interpretation.",
+        "ngsSellerEligibility": "Valid Chinese Commercial Registration required; actual Chinese individual-business acceptance unverified",
+        "sellerProof": "International seller passport and trade registration/payment documentation generally described, but exact NGS China case unverified",
+        "approvalDays": "UNKNOWN",
+        "registeredDocsMinValidity": "Noon documentation says >=15 days, previous other guidance conflicted with >=30; verify in actual legal-entity workflow",
+        "prohibitedProductsSource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "listingPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy"
+      }
+    },
+    "channelAccess": {
+      "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055",
+      "ksaStore": "NOT_VERIFIED",
+      "chinaLegalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
+      "ngsProgram": "CURRENTLY_NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
+      "payout": "UNKNOWN_NO_VERIFIED_APPROVAL",
+      "storeNotEqualToNGSEligible": true,
+      "channelAccessGate": "NO_GO",
+      "onboardingReviewDays": "UNKNOWN_OFFICIAL_SLA_NOT_PUBLISHED",
+      "soleProprietorAcceptance": "UNKNOWN_NOT_EQUAL_TO_EGYPT_INDIVIDUAL_SELLER_CATEGORY",
+      "newChinaSellerValidPayoutBeforeLive": true,
+      "sources": [
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+        "https://github.com/wpuu/ChinaGCC/issues/24"
+      ]
+    },
+    "ngsEconomics": {
+      "targetMargin": 0.15,
+      "pricingModel": "seller USD Transfer Price, noon determines buyer markup, successful delivery to payout",
+      "dataBySku": {
+        "cosmetic-bag-set": {
+          "transferPriceUsdTestOnly": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                3.825,
+                4.675,
+                5.525
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                3.4425,
+                4.2075,
+                4.9725
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                2.8687,
+                3.5062,
+                4.1437
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "hair-accessories": {
+          "transferPriceUsdTestOnly": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                2.04,
+                2.465,
+                2.89
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.836,
+                2.2185,
+                2.601
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                1.53,
+                1.8487,
+                2.1675
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "press-on-nails": {
+          "transferPriceUsdTestOnly": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                1.275,
+                1.615,
+                1.955
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.1475,
+                1.4535,
+                1.7595
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                0.9562,
+                1.2112,
+                1.4662
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        },
+        "phone-charm-beaded": {
+          "transferPriceUsdTestOnly": [
+            1.7,
+            2.2,
+            2.7
+          ],
+          "contributionMarginTarget": 0.15,
+          "nonRevenueRateScenarios": [
+            {
+              "qHypothetical": 0,
+              "maxFullSellerUnitCostUsd": [
+                1.445,
+                1.87,
+                2.295
+              ]
+            },
+            {
+              "qHypothetical": 0.1,
+              "maxFullSellerUnitCostUsd": [
+                1.3005,
+                1.683,
+                2.0655
+              ]
+            },
+            {
+              "qHypothetical": 0.25,
+              "maxFullSellerUnitCostUsd": [
+                1.0837,
+                1.4025,
+                1.7212
+              ]
+            }
+          ],
+          "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+          "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+          "actualTPApproved": "UNKNOWN",
+          "sameBomChinaUnitCost": "UNKNOWN",
+          "chinaToShenzhenPerOrderCost": "UNKNOWN",
+          "actualReturnRate": "UNKNOWN",
+          "skuPolicyQC": "UNKNOWN",
+          "first100OrdersNonSalableLossUpperBoundUsd": null,
+          "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+          "hundredUnsoldInventoryUpperBoundUsd": null,
+          "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+          "noProcurementApproval": true
+        }
+      },
+      "consumerActualFinalPrice": "UNKNOWN",
+      "returns": "Salable -> local FBN with separate fees and possible automatic default price; non-salable -> no proceeds; USD TP refund/reversal needs actual statement",
+      "hundredUnitWorstLossUsd": null,
+      "policySource": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
+    },
+    "scorePolicy": {
+      "source": "https://github.com/wpuu/ChinaGCC/issues/12",
+      "opportunityScore": "Historical, unchanged",
+      "evidenceConfidence": "Historical, unchanged",
+      "dataCompleteness": "Historical, unchanged",
+      "new41ItemRescore": "NOT_PERFORMED_LACK_OF_INDEPENDENT_TRANSACTION_AND_PRICE_EVIDENCE"
+    },
+    "scoreIntegrity": {
+      "records": [
+        {
+          "id": "cosmetic-bag-set",
+          "opportunityScore": 78,
+          "evidenceConfidence": 90,
+          "dataCompleteness": 73,
+          "dimensionSum": 78,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "silicone-brush",
+          "opportunityScore": 78,
+          "evidenceConfidence": 82,
+          "dataCompleteness": 84,
+          "dimensionSum": 78,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "makeup-brushes-10pc",
+          "opportunityScore": 76,
+          "evidenceConfidence": 91,
+          "dataCompleteness": 82,
+          "dimensionSum": 76,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "travel-bottles",
+          "opportunityScore": 75,
+          "evidenceConfidence": 76,
+          "dataCompleteness": 84,
+          "dimensionSum": 75,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "lint-roller",
+          "opportunityScore": 74,
+          "evidenceConfidence": 83,
+          "dataCompleteness": 80,
+          "dimensionSum": 74,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "hair-accessories",
+          "opportunityScore": 70,
+          "evidenceConfidence": 92,
+          "dataCompleteness": 78,
+          "dimensionSum": 70,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "press-on-nails",
+          "opportunityScore": 67,
+          "evidenceConfidence": 92,
+          "dataCompleteness": 80,
+          "dimensionSum": 67,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "phone-charm-beaded",
+          "opportunityScore": 68,
+          "evidenceConfidence": 84,
+          "dataCompleteness": 76,
+          "dimensionSum": 68,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "cable-management",
+          "opportunityScore": 69,
+          "evidenceConfidence": 63,
+          "dataCompleteness": 58,
+          "dimensionSum": 69,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "makeup-sponge",
+          "opportunityScore": 67,
+          "evidenceConfidence": 78,
+          "dataCompleteness": 68,
+          "dimensionSum": 67,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "original-ip-plush",
+          "opportunityScore": 69,
+          "evidenceConfidence": 67,
+          "dataCompleteness": 58,
+          "dimensionSum": 69,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "car-sunshade",
+          "opportunityScore": 64,
+          "evidenceConfidence": 82,
+          "dataCompleteness": 72,
+          "dimensionSum": 64,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 5,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "hanlin-mask",
+          "opportunityScore": null,
+          "evidenceConfidence": null,
+          "dataCompleteness": null,
+          "dimensionSum": null,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 0,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        },
+        {
+          "id": "microfiber-cloth",
+          "opportunityScore": null,
+          "evidenceConfidence": null,
+          "dataCompleteness": null,
+          "dimensionSum": null,
+          "dimensionSumMismatch": false,
+          "has41Subitems": false,
+          "top5RiskCount": 0,
+          "scoreReview": "HISTORICAL_NO_VERIFIED_NEW_ORDER_RFQ_RESTOCK_NO_RESCORE"
+        }
+      ],
+      "dimensionSumMismatches": [],
+      "lessThanFiveRisks": [
+        {
+          "id": "hanlin-mask",
+          "has": 0
+        },
+        {
+          "id": "microfiber-cloth",
+          "has": 0
+        }
+      ],
+      "previousMissingProfileFieldsExplicitlyMarkedUnknown": [
+        {
+          "id": "silicone-brush",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "travel-bottles",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "lint-roller",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "cable-management",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "makeup-sponge",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "original-ip-plush",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "car-sunshade",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "hanlin-mask",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        },
+        {
+          "id": "microfiber-cloth",
+          "fields": [
+            "corePersona",
+            "ageBand",
+            "genderFit",
+            "discoveryChannel",
+            "checkoutChannel",
+            "viralPotential",
+            "collectibility",
+            "giftability",
+            "visualDemoStrength",
+            "trendHalfLife",
+            "IPRisk",
+            "seasonalTrigger",
+            "localPlatformFit"
+          ]
+        }
+      ],
+      "all14Have13ProfileKeys": true,
+      "placeholderDoesNotEstablishEvidence": true
+    },
+    "trendLag": {
+      "status": "UNKNOWN",
+      "lagDays": null,
+      "firstChinaVerifiedPaidOrderDate": null,
+      "firstGccVerifiedPaidOrderDate": null,
+      "globalLaunchNotAProxy": true
+    },
+    "limits": {
+      "verifiedFirstSale": false,
+      "verifiedPayout": false,
+      "sampleReadyCount": 0,
+      "approvedPurchaseCount": 0,
+      "noProcurementNoListingNoExternalContact": true
+    },
+    "nextExecution": [
+      "Continue original Work049/LE gate with real Chinese CR and legitimate authorized documentation, no fabricated fields or duplicate store",
+      "Verify NGS-specific approval and USD payout first; obtain reason for ineligible state without guessing",
+      "Obtain exact buyer final price/ETA and true 4BOM costs+domestic Shenzhen per-order freight before changing opportunity score",
+      "Seek independent GCC paid transactions/RFQ/restock and pair China/GCC first-paid dates for an authorized original IP",
+      "Run SKU-level color/IP/cosmetics policy review before any live listing"
+    ],
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+      "https://www.noon.com/uae-en/beauty/hair-care/hair-accessories/tabby-noon/",
+      "https://www.noon.com/uae-en/double-layer-travel-makeup-bag-mesh-cosmetic-bag-large-toiletry-bag-for-women-makeup-bag-organizer-with-handle-black/Z81F87272CAE74AAE3B07Z/p/",
+      "https://www.globenewswire.com/news-release/2026/06/09/3309001/0/en/here-launches-fourth-generation-wakuku-series-globally-expanding-its-imaginative-ip-universe.html",
+      "https://github.com/wpuu/ChinaGCC/issues/12",
+      "https://github.com/wpuu/ChinaGCC/issues/24"
+    ]
   }
 }
