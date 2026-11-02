@@ -554,5 +554,69 @@
     "actualFinalPackedDimensions": null,
     "actualChinaToShenzhenFreight": null,
     "safeMargin15Proven": false
+  },
+  "latestRadar20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "dated": "2026-11-02",
+    "marketEvidence": {
+      "market": "UAE",
+      "product": "KHAJUL single double-layer mesh cosmetic bag",
+      "observation": "AED24.90; 60+ sold recently label on older indexed page",
+      "source": "https://www.noon.com/uae-en/double-layer-travel-makeup-bag-mesh-cosmetic-bag-large-toiletry-bag-for-women-makeup-bag-organizer-with-handle-black/Z81F87272CAE74AAE3B07Z/p/",
+      "bomComparable": false,
+      "quality": "HISTORICAL_LISTING_ONLY_NOT_4PC_NOT_NEW_ORDER",
+      "purchaseTrigger": "travel/compact sorting hypothesis"
+    },
+    "ngsTest": {
+      "transferPriceUsdTestOnly": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "contributionMarginTarget": 0.15,
+      "nonRevenueRateScenarios": [
+        {
+          "qHypothetical": 0,
+          "maxFullSellerUnitCostUsd": [
+            3.825,
+            4.675,
+            5.525
+          ]
+        },
+        {
+          "qHypothetical": 0.1,
+          "maxFullSellerUnitCostUsd": [
+            3.4425,
+            4.2075,
+            4.9725
+          ]
+        },
+        {
+          "qHypothetical": 0.25,
+          "maxFullSellerUnitCostUsd": [
+            2.8687,
+            3.5062,
+            4.1437
+          ]
+        }
+      ],
+      "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+      "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+      "actualTPApproved": "UNKNOWN",
+      "sameBomChinaUnitCost": "UNKNOWN",
+      "chinaToShenzhenPerOrderCost": "UNKNOWN",
+      "actualReturnRate": "UNKNOWN",
+      "skuPolicyQC": "UNKNOWN",
+      "first100OrdersNonSalableLossUpperBoundUsd": null,
+      "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+      "hundredUnsoldInventoryUpperBoundUsd": null,
+      "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+      "noProcurementApproval": true
+    },
+    "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+    "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+    "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+    "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+    "blocked": true
   }
 }
