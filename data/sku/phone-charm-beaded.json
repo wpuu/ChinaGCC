@@ -614,5 +614,69 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
     ]
+  },
+  "latestRadar20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "dated": "2026-11-02",
+    "marketEvidence": {
+      "market": "UAE/Saudi",
+      "product": "Original unbranded beaded phone/bag charm",
+      "observation": "No newly verified same-BOM paid order, RFQ or restock evidence this run",
+      "source": null,
+      "bomComparable": null,
+      "quality": "NO_NEW_DIRECT_TRANSACTION_EVIDENCE",
+      "purchaseTrigger": "personalization/gifting hypothesis"
+    },
+    "ngsTest": {
+      "transferPriceUsdTestOnly": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "contributionMarginTarget": 0.15,
+      "nonRevenueRateScenarios": [
+        {
+          "qHypothetical": 0,
+          "maxFullSellerUnitCostUsd": [
+            1.445,
+            1.87,
+            2.295
+          ]
+        },
+        {
+          "qHypothetical": 0.1,
+          "maxFullSellerUnitCostUsd": [
+            1.3005,
+            1.683,
+            2.0655
+          ]
+        },
+        {
+          "qHypothetical": 0.25,
+          "maxFullSellerUnitCostUsd": [
+            1.0837,
+            1.4025,
+            1.7212
+          ]
+        }
+      ],
+      "definition": "C=采购+包装+国内到深圳集货仓运输+可归属的收款/汇兑/损耗等每出单成本; 15% margin on effective expected TP, not observed gross margin",
+      "buyerFinalPrice": "UNKNOWN_NOON_SETS_MARKUP",
+      "actualTPApproved": "UNKNOWN",
+      "sameBomChinaUnitCost": "UNKNOWN",
+      "chinaToShenzhenPerOrderCost": "UNKNOWN",
+      "actualReturnRate": "UNKNOWN",
+      "skuPolicyQC": "UNKNOWN",
+      "first100OrdersNonSalableLossUpperBoundUsd": null,
+      "first100OrdersNonSalableLossExplanation": "100*(C + additional return/handling cost - residual proceeds) + setup; assuming no net TP proceeds. True bound unknown because C, fees, FX and returns unverified.",
+      "hundredUnsoldInventoryUpperBoundUsd": null,
+      "hundredUnsoldInventoryExplanation": "Inventory bought but not sold: 100*(purchase+packaging+nonrecoverable domestic storage/shipping)+fixed costs - resale recovery. No verified quotes; if zero stock bought this differs.",
+      "noProcurementApproval": true
+    },
+    "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+    "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+    "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+    "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+    "blocked": true
   }
 }
