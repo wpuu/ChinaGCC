@@ -49,7 +49,8 @@
         "其它渠道仅观察"
       ]
     },
-    "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15"
+    "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION"
   },
   "skus": [
     {
@@ -4233,7 +4234,10 @@
       "C02 2026-11-01: reviewed latest 049/056 sources, store verified 1/12 remains; LE unsubmitted, NGS ineligible unknown reason; seller payout and approved TP are NOT validated.",
       "C04: NGS salable returns can enter local FBN with default price, unsalable returns no proceeds; general 100/1000 currency payout thresholds not verified for this China USD account; preserve 1/12."
     ],
-    "latestAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15"
+    "latestAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "lastDocumentReviewDate": "2026-11-02",
+    "accountSnapshotCarriedForwardFrom": "2026-11-01 10:39 Asia/Shanghai; no live account recheck in this audit",
+    "technicalRiskGuard": "Noon payout approved plus Origin linked required to receive funds; NGS note before live differs from later before listing optional. No live listing until both approved and eligible."
   },
   "channelAccess": {
     "noonNgs": {
@@ -6017,5 +6021,63 @@
     "firstSaleReady": false,
     "purchaseAuthorized": false,
     "modelPreference": "GPT-6 Extra High preferred; actual runtime effort cannot be verified"
+  },
+  "latestRiskCertificationAudit": {
+    "auditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
+    "date": "2026-11-02",
+    "timeZone": "Asia/Shanghai",
+    "source": "ops/CHINAGCC_058_NGS_PRELIVE_PAYOUT_AND_100UNIT_LOSS_AUDIT_2026-11-02.md",
+    "accountEvidenceAsOf": "2026-11-01 10:39 Asia/Shanghai; C04 did not re-login",
+    "modelPreference": "GPT-6 Extra High preferred, actual effort unverified",
+    "currentChannelPriority": [
+      "Noon China NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "noonNgsReadiness": {
+      "completed": 1,
+      "total": 12,
+      "percentageExact": 8.333333333333334,
+      "verifiedAccountSnapshotDate": "2026-11-01"
+    },
+    "amazonReadiness": {
+      "completed": 0,
+      "total": 15,
+      "percentageExact": 0
+    },
+    "prelivePayoutPolicyConflict": {
+      "beforeLive": "Official NGS note requires valid payment method for new Chinese seller before store goes live",
+      "beforeListing": "Same official NGS page says entering payout before listing is optional; must be approved before receiving money",
+      "decision": "INTERNAL_STRICT_NO_LIVE_BEFORE_PAYOUT_APPROVED_ORIGIN_LINKED_AND_NGS_ELIGIBLE",
+      "ownerPayoutApproved": "UNKNOWN",
+      "originMapped": "UNKNOWN",
+      "sources": [
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      ]
+    },
+    "certifiedWorstLoss100": {
+      "allTop10": null,
+      "certifiedUpperBound": false,
+      "historicalScenarioAmountsNotCertified": true,
+      "unsold100": "UNKNOWN",
+      "nonSalableReturns100": "UNKNOWN",
+      "orderAfterPurchaseFulfilmentPenalty": "UNKNOWN",
+      "basis": "No certified BOM packed dimensions, unit cost/fee/returns upper bound",
+      "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
+    },
+    "scoreConflicts": [
+      "travel-bottles historical total 75 vs standalone 41 subitems 74",
+      "phone-charm-beaded total 68 vs 41 subitems 69"
+    ],
+    "riskDecision": "HOLD_NO_PURCHASE_NO_LIVE_LISTING",
+    "newIndependentlyVerifiedPaidOrders": 0,
+    "newVerifiedSupplierQuotes": 0,
+    "newApprovedAccounts": 0,
+    "hanlin": "FROZEN",
+    "nextTasks": [
+      "verify actual LE/NGS/payout origin eligibility without submitting credentials",
+      "complete one same-BOM quote + final packed metrics + Shenzhen hub cost only when allowed",
+      "only after NGS and payout approval test buyer total/ETA and 15% safety margin"
+    ]
   }
 }
