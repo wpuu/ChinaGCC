@@ -5032,6 +5032,203 @@
       "firstSaleReady": false,
       "purchaseAuthorized": false,
       "modelPreference": "GPT-6 Extra High preferred; actual runtime effort cannot be verified"
+    },
+    {
+      "auditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
+      "date": "2026-11-02",
+      "timeZone": "Asia/Shanghai",
+      "source": "ops/CHINAGCC_058_NGS_PRELIVE_PAYOUT_AND_100UNIT_LOSS_AUDIT_2026-11-02.md",
+      "accountEvidenceAsOf": "2026-11-01 10:39 Asia/Shanghai; C04 did not re-login",
+      "modelPreference": "GPT-6 Extra High preferred, actual effort unverified",
+      "currentChannelPriority": [
+        "Noon China NGS",
+        "Amazon UAE/Saudi"
+      ],
+      "noonNgsReadiness": {
+        "completed": 1,
+        "total": 12,
+        "percentageExact": 8.333333333333334,
+        "verifiedAccountSnapshotDate": "2026-11-01"
+      },
+      "amazonReadiness": {
+        "completed": 0,
+        "total": 15,
+        "percentageExact": 0
+      },
+      "prelivePayoutPolicyConflict": {
+        "beforeLive": "Official NGS note requires valid payment method for new Chinese seller before store goes live",
+        "beforeListing": "Same official NGS page says entering payout before listing is optional; must be approved before receiving money",
+        "decision": "INTERNAL_STRICT_NO_LIVE_BEFORE_PAYOUT_APPROVED_ORIGIN_LINKED_AND_NGS_ELIGIBLE",
+        "ownerPayoutApproved": "UNKNOWN",
+        "originMapped": "UNKNOWN",
+        "sources": [
+          "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+        ]
+      },
+      "certifiedWorstLoss100": {
+        "allTop10": null,
+        "certifiedUpperBound": false,
+        "historicalScenarioAmountsNotCertified": true,
+        "unsold100": "UNKNOWN",
+        "nonSalableReturns100": "UNKNOWN",
+        "orderAfterPurchaseFulfilmentPenalty": "UNKNOWN",
+        "basis": "No certified BOM packed dimensions, unit cost/fee/returns upper bound",
+        "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
+      },
+      "scoreConflicts": [
+        "travel-bottles historical total 75 vs standalone 41 subitems 74",
+        "phone-charm-beaded total 68 vs 41 subitems 69"
+      ],
+      "riskDecision": "HOLD_NO_PURCHASE_NO_LIVE_LISTING",
+      "newIndependentlyVerifiedPaidOrders": 0,
+      "newVerifiedSupplierQuotes": 0,
+      "newApprovedAccounts": 0,
+      "hanlin": "FROZEN",
+      "nextTasks": [
+        "verify actual LE/NGS/payout origin eligibility without submitting credentials",
+        "complete one same-BOM quote + final packed metrics + Shenzhen hub cost only when allowed",
+        "only after NGS and payout approval test buyer total/ETA and 15% safety margin"
+      ]
     }
-  ]
+  ],
+  "lossCertificationBySku": {
+    "cosmetic-bag-set": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "silicone-brush": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "makeup-brushes-10pc": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": {
+        "currency": "CNY",
+        "type": "ESTIMATE_NOT_QUOTE",
+        "lossIfZeroReceipts": 2480,
+        "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
+        "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
+      },
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "travel-bottles": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "lint-roller": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "hair-accessories": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "press-on-nails": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "phone-charm-beaded": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "cable-management": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    },
+    "makeup-sponge": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOMUnitCost",
+        "finalPackedWeightDimensions",
+        "singleOrderShenzhenCost",
+        "returnsAndFees",
+        "verifiedLiquidationRecovery"
+      ]
+    }
+  },
+  "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION"
 }
