@@ -753,5 +753,49 @@
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
     ],
     "decision": "NO_PURCHASE_NO_LISTING"
+  },
+  "latestRadar20261102C03": {
+    "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+    "asOfDate": "2026-11-02",
+    "channelAccessGate": "NO_GO",
+    "accountLevelReasons": [
+      "China legal entity not approved/submitted as last verified",
+      "NGS ineligible reason not yet observed",
+      "payout method approval AND seller-origin linkage not verified"
+    ],
+    "newDocumentaryFinding": "Official China NGS VAT exemption differs from generic cross-border VAT-mandatory guide; intl seller docs say 15d registration remaining while rejection guide says 30d; intl passport list differs from Chinese resident ID in rejection guide",
+    "verifiedSaleRfqRestockThisRun": false,
+    "supplierSearchAuthorizedFromThisRun": false,
+    "targetBOM": "8 hair claws, precisely 4 matte and 4 glossy unconfirmed new paid order",
+    "transferPriceTestUsd": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "transferPriceActuallyApproved": false,
+    "expectedFinalBuyerPrice": "UNKNOWN",
+    "sellerCostActualUsd": "UNKNOWN",
+    "chinaToShenzhenCostUsd": "UNKNOWN",
+    "actualReturnRate": "UNKNOWN",
+    "policyListingPermission": "UNKNOWN",
+    "hypotheticalCostCeilingAtQ10PctMargin15PctUsd": [
+      1.836,
+      2.2185,
+      2.601
+    ],
+    "certifiedWorstLoss100Usd": null,
+    "scoreChange": false,
+    "previousV2IfAvailable": [
+      70,
+      92,
+      78
+    ],
+    "decision": "NO_PURCHASE_AND_NO_SAMPLE_READY",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+    ]
   }
 }
