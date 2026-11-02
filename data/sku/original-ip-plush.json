@@ -402,5 +402,91 @@
     "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
     "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
     "blocked": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "date": "2026-11-02",
+    "persona": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students"
+    ],
+    "discovery": "TikTok/Snapchat/Instagram/Noon Finds; attribution not verified",
+    "checkout": "Noon China NGS first; Amazon AE/SA second",
+    "purchaseTrigger": "collectible gifting hypothesis",
+    "marketEvidence": {
+      "scope": "Company FY2026, not GCC-specific",
+      "fact": "HERE Group Form 20-F year ended 2026-06-30: WAKUKU RMB369.291m (61.9% of continuing revenue), SIINONO RMB92.667m (15.5%), ZIYULI RMB57.404m (9.6%); as of June 30 company claims 13 proprietary IPs and 9 exclusive licenses; subsequently introduced YONNNA by Sep 30, 2026. Disclosure says substantial group revenue originated PRC but no IP-specific China/GCC paid-order date series",
+      "source": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "quality": "PRIMARY_FILED_COMPANY_REVENUE_NOT_GCC_FIRST_SALE_NOT_DISTRIBUTION_LICENSE"
+    },
+    "historicalV2": {
+      "opportunity": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58,
+      "notRescored": true
+    },
+    "ngs": {
+      "gate": "NO_GO",
+      "tpScenarioUsd": null,
+      "scenarioCostCapsUsd": null,
+      "actualTpUsd": null,
+      "actualCheckoutPrice": null,
+      "actualNoonMarkup": null,
+      "actualSameBomPurchase": null,
+      "actualHubFreight": null,
+      "returnRate": null,
+      "countryCategoryApproval": null
+    },
+    "ipLicense": "NO_THIRD_PARTY_RIGHTS_UNLICENSED_HARD_STOP",
+    "top5RiskThemes": [
+      "Seller channel access",
+      "Noon buyer markup and final checkout price",
+      "Exact BOM + PRC procurement + Shenzhen hub freight",
+      "Return/non-saleable inventory exposure",
+      "Product restrictions, trademark/media and original-IP rights"
+    ],
+    "hardStops": [
+      "NGS channel not approved",
+      "Unlicensed IP or unapproved product/country restrictions"
+    ],
+    "worst100CertifiedUsd": null,
+    "unsoldAndReturnFormulas": {
+      "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+      "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+    },
+    "noNewIndependentPaidOrderRFQRestock": true,
+    "sourceList": [
+      "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+    ],
+    "decision": "NO_PURCHASE_NO_LISTING",
+    "sec2026": {
+      "source": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "reportingPeriodEnd": "2026-06-30",
+      "figuresInMillionCny": {
+        "WAKUKU": 369.291,
+        "SIINONO": 92.667,
+        "ZIYULI": 57.404
+      },
+      "revenueShares": {
+        "WAKUKU": 61.9,
+        "SIINONO": 15.5,
+        "ZIYULI": 9.6
+      },
+      "portfolioAtJune30": {
+        "proprietary": 13,
+        "exclusivelyLicensed": 9
+      },
+      "newObservedNameAsOfSept30": "YONNNA",
+      "geography": "Substantial group revenue PRC, but IP-specific China and GCC numbers not disclosed",
+      "isVerifiedGccPaidOrders": false,
+      "chinaFirstPaidOrder": null,
+      "gccFirstPaidOrder": null,
+      "lagDays": null,
+      "authorizedThirdPartyDistributor": false,
+      "decision": "WATCH_ONLY_UNLICENSED_IP_HARD_STOP"
+    }
   }
 }
