@@ -424,6 +424,12 @@
         "newPaidOrdersVerified": 0,
         "worst100CertifiedUsd": null,
         "scoreUnchanged": true
+      },
+      "latestRadar20261102C03": {
+        "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorstLoss100Usd": null
       }
     },
     {
@@ -2146,6 +2152,12 @@
         "newPaidOrdersVerified": 0,
         "worst100CertifiedUsd": null,
         "scoreUnchanged": true
+      },
+      "latestRadar20261102C03": {
+        "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorstLoss100Usd": null
       }
     },
     {
@@ -2478,6 +2490,12 @@
         "newPaidOrdersVerified": 0,
         "worst100CertifiedUsd": null,
         "scoreUnchanged": true
+      },
+      "latestRadar20261102C03": {
+        "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorstLoss100Usd": null
       }
     },
     {
@@ -2866,6 +2884,12 @@
         "newPaidOrdersVerified": 0,
         "worst100CertifiedUsd": null,
         "scoreUnchanged": true
+      },
+      "latestRadar20261102C03": {
+        "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorstLoss100Usd": null
       }
     },
     {
@@ -3424,6 +3448,12 @@
         "newPaidOrdersVerified": 0,
         "worst100CertifiedUsd": null,
         "scoreUnchanged": true
+      },
+      "latestRadar20261102C03": {
+        "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorstLoss100Usd": null
       }
     },
     {
@@ -4406,7 +4436,63 @@
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
       "https://github.com/wpuu/ChinaGCC/issues/24"
-    ]
+    ],
+    "latestC03DocumentationGate": {
+      "accountState": "UAE GCC Picks store verified from prior Work; China Legal Entity unsubmitted, NGS not eligible reason unknown, payout origin not verified. No new account login during C03.",
+      "decision": "NO_GO",
+      "policyConflicts": [
+        {
+          "topic": "VAT_REGISTRATION",
+          "specificNGS": "NGS China program explicitly does not require destination UAE/KSA VAT and instructs Non VAT Registered",
+          "generalCrossBorder": "Generic cross-border guide and VAT FAQ say destination VAT is mandatory",
+          "assessment": "Program-specific NGS documented exception should not be silently replaced with generic cross-border rules; actual LE workflow approval unverified",
+          "urls": [
+            "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+            "https://helpcenter.noon.partners/en/category/global-selling/how-can-you-register-for-cross-border-business",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/vat-frequently-asked-questions",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+          ]
+        },
+        {
+          "topic": "REGISTRATION_VALIDITY",
+          "generalSellerDocsDays": 15,
+          "rejectionRemediationDays": 30,
+          "assessment": "Conflicting published minima; >=30 days is conservative preparation buffer, not certified NGS legal minimum",
+          "urls": [
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+          ]
+        },
+        {
+          "topic": "REPRESENTATIVE_ID",
+          "internationalOnboarding": "Passport is expressly listed",
+          "rejectionGuide": "Chinese resident ID is listed among accepted types",
+          "assessment": "Do not assume the Chinese ID will pass the specific China NGS workflow until actual approved evidence",
+          "urls": [
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+          ]
+        }
+      ],
+      "payoutNewGate": {
+        "need": "Approved payment method must be linked to the appropriate seller origin; approval alone does not ensure disbursement",
+        "current": "UNKNOWN_NOT_VERIFIED",
+        "block": "PAYOUT_ORIGIN_MAPPING_NOT_VERIFIED",
+        "sources": [
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+        ]
+      },
+      "rejectionStatusSemantics": {
+        "rejected": "LE unapproved; cannot sell",
+        "needsAttention": "May sell, but payout may be blocked",
+        "presentAccount": "NOT YET SUBMITTED LE; do not falsely label it rejected",
+        "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+      },
+      "timeToLiveDays": "UNKNOWN_NO_OFFICIAL_SLA_OR_ACTUAL_CHINA_CASE",
+      "chineseIndividualBusinessEligibility": "UNKNOWN_NO_APPROVAL_RECORD"
+    }
   },
   "trendLag": {
     "status": "UNKNOWN",
@@ -4461,7 +4547,7 @@
     "https://github.com/wpuu/ChinaGCC/issues/12",
     "https://github.com/wpuu/ChinaGCC/issues/24"
   ],
-  "latestRadarAuditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+  "latestRadarAuditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
   "incrementalAudits": [
     {
       "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
@@ -4862,6 +4948,90 @@
         "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/",
         "https://supermall.noon.com/uae-en/automotive/interior-accessories/key-chains/blle_rown/"
       ]
+    },
+    {
+      "auditId": "2026-11-02/C03-NGS-DOC-CONFLICT-PAYOUT-ORIGIN",
+      "date": "2026-11-02",
+      "timezone": "Asia/Shanghai",
+      "researchSequence": [
+        "Saudi female 18-45/UAE female 18-39/female Gen Z-students; young family secondary; 50+ WATCH",
+        "TikTok/Snapchat/Instagram/Noon Finds (purchase attribution not verified)",
+        "NGS China first; Amazon AE/SA second",
+        "daily styling/quick beauty/travel organization/gifting hypotheses",
+        "cosmetic-bag-set/hair-accessories/press-on-nails/phone-charm-beaded; original IP watch",
+        "No new independent payment/RFQ/restock/shortage/channel PO proof; no supplier deep search",
+        "NGS Transfer Price, buyer markup, China-to-Shenzhen, returns, compliance and 100-unit risk"
+      ],
+      "newIndependentPaidOrders": 0,
+      "newVerifiedRFQ": 0,
+      "newRestocks": 0,
+      "newPurchaseOrders": 0,
+      "demandScope": "NO_NEW_DIRECT_TRANSACTION_PROOF_IN_THIS_RUN_NOT_MARKET_ZERO",
+      "policyGate": {
+        "accountState": "UAE GCC Picks store verified from prior Work; China Legal Entity unsubmitted, NGS not eligible reason unknown, payout origin not verified. No new account login during C03.",
+        "decision": "NO_GO",
+        "policyConflicts": [
+          {
+            "topic": "VAT_REGISTRATION",
+            "specificNGS": "NGS China program explicitly does not require destination UAE/KSA VAT and instructs Non VAT Registered",
+            "generalCrossBorder": "Generic cross-border guide and VAT FAQ say destination VAT is mandatory",
+            "assessment": "Program-specific NGS documented exception should not be silently replaced with generic cross-border rules; actual LE workflow approval unverified",
+            "urls": [
+              "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+              "https://helpcenter.noon.partners/en/category/global-selling/how-can-you-register-for-cross-border-business",
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/vat-frequently-asked-questions",
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+            ]
+          },
+          {
+            "topic": "REGISTRATION_VALIDITY",
+            "generalSellerDocsDays": 15,
+            "rejectionRemediationDays": 30,
+            "assessment": "Conflicting published minima; >=30 days is conservative preparation buffer, not certified NGS legal minimum",
+            "urls": [
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/who-can-sell-on-noon",
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+            ]
+          },
+          {
+            "topic": "REPRESENTATIVE_ID",
+            "internationalOnboarding": "Passport is expressly listed",
+            "rejectionGuide": "Chinese resident ID is listed among accepted types",
+            "assessment": "Do not assume the Chinese ID will pass the specific China NGS workflow until actual approved evidence",
+            "urls": [
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+              "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+            ]
+          }
+        ],
+        "payoutNewGate": {
+          "need": "Approved payment method must be linked to the appropriate seller origin; approval alone does not ensure disbursement",
+          "current": "UNKNOWN_NOT_VERIFIED",
+          "block": "PAYOUT_ORIGIN_MAPPING_NOT_VERIFIED",
+          "sources": [
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+            "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+          ]
+        },
+        "rejectionStatusSemantics": {
+          "rejected": "LE unapproved; cannot sell",
+          "needsAttention": "May sell, but payout may be blocked",
+          "presentAccount": "NOT YET SUBMITTED LE; do not falsely label it rejected",
+          "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them"
+        },
+        "timeToLiveDays": "UNKNOWN_NO_OFFICIAL_SLA_OR_ACTUAL_CHINA_CASE",
+        "chineseIndividualBusinessEligibility": "UNKNOWN_NO_APPROVAL_RECORD"
+      },
+      "scoreChange": false,
+      "certifiedWorstLoss100Usd": null,
+      "whyWorstLossUnknown": "Actual same-BOM China cost, Shenzhen domestic delivery, buyer final price/markup, return charge/salvage, FX and policy QC still unknown; model C <= 0.85*(1-q)*TP omits any incremental costs from salable FBN returns unless explicitly included",
+      "noNewSupplierLookup": true,
+      "ipLagDays": null,
+      "ipRightsVerified": false,
+      "firstSaleReady": false,
+      "purchaseAuthorized": false,
+      "modelPreference": "GPT-6 Extra High preferred; actual runtime effort cannot be verified"
     }
   ]
 }
