@@ -618,5 +618,85 @@
     "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
     "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
     "blocked": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "date": "2026-11-02",
+    "persona": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students"
+    ],
+    "discovery": "TikTok/Snapchat/Instagram/Noon Finds; attribution not verified",
+    "checkout": "Noon China NGS first; Amazon AE/SA second",
+    "purchaseTrigger": "travel organization",
+    "marketEvidence": {
+      "scope": "Saudi",
+      "fact": "KHAJUL 3-piece quilted cosmetic bag SAR49 with 227 reviews in index crawled about 2 weeks before this run; not target 4-piece BOM, not verified independent new order",
+      "source": "https://supermall.noon.com/saudi-en/kayan/khajul/",
+      "quality": "HISTORICAL_PLATFORM_LISTING_BOM_MISMATCH"
+    },
+    "historicalV2": {
+      "opportunity": 78,
+      "evidenceConfidence": 90,
+      "dataCompleteness": 73,
+      "notRescored": true
+    },
+    "ngs": {
+      "gate": "NO_GO",
+      "tpScenarioUsd": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "scenarioCostCapsUsd": {
+        "q0": [
+          3.825,
+          4.675,
+          5.525
+        ],
+        "q10": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "q25": [
+          2.8687,
+          3.5062,
+          4.1437
+        ]
+      },
+      "actualTpUsd": null,
+      "actualCheckoutPrice": null,
+      "actualNoonMarkup": null,
+      "actualSameBomPurchase": null,
+      "actualHubFreight": null,
+      "returnRate": null,
+      "countryCategoryApproval": null
+    },
+    "ipLicense": "NO_THIRD_PARTY_UNLICENSED_IP",
+    "top5RiskThemes": [
+      "Seller channel access",
+      "Noon buyer markup and final checkout price",
+      "Exact BOM + PRC procurement + Shenzhen hub freight",
+      "Return/non-saleable inventory exposure",
+      "Product restrictions, trademark/media and original-IP rights"
+    ],
+    "hardStops": [
+      "NGS channel not approved",
+      "Unlicensed IP or unapproved product/country restrictions"
+    ],
+    "worst100CertifiedUsd": null,
+    "unsoldAndReturnFormulas": {
+      "allUnsold": "100*(actual procurement+packaging+prepaid China domestic freight)+fixed cost+ads+other irreversible charges−verifiable recovery",
+      "allNonSaleableReturns": "100*(actual procurement+packaging+China-to-Shenzhen costs)+return/other irreversible charges−verifiable proceeds (non-saleable NGS TP=0)"
+    },
+    "noNewIndependentPaidOrderRFQRestock": true,
+    "sourceList": [
+      "https://supermall.noon.com/saudi-en/kayan/khajul/",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon"
+    ],
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }
