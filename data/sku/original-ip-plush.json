@@ -100,14 +100,16 @@
   ],
   "purchaseTrigger": null,
   "productFamily": null,
-  "viralPotential": null,
-  "collectibility": null,
-  "giftability": null,
-  "visualDemoStrength": null,
-  "trendHalfLife": null,
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
   "IPRisk": "UNLICENSED_THIRD_PARTY_IP__HARD_STOP",
-  "seasonalTrigger": null,
-  "localPlatformFit": null,
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
   "transferPriceTestGridUsd": null,
   "actualTransferPrice": null,
   "consumerFinalPrice": null,
@@ -369,5 +371,36 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://github.com/wpuu/ChinaGCC/issues/28"
     ]
+  },
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notEvidenceBased": true
+  },
+  "latestRadar20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "dated": "2026-11-02",
+    "marketEvidence": {
+      "market": "China/global -> GCC watch",
+      "product": "HERE WAKUKU fourth generation The Handicraft World of WAKUKU",
+      "observation": "Brand press release June 9, 2026 says global launch, not China/GCC first paid orders or authorized reseller proof",
+      "source": "https://www.globenewswire.com/news-release/2026/06/09/3309001/0/en/here-launches-fourth-generation-wakuku-series-globally-expanding-its-imaginative-ip-universe.html",
+      "bomComparable": false,
+      "quality": "OFFICIAL_GLOBAL_RELEASE_NOT_REGION_LAG_PROOF",
+      "purchaseTrigger": "collectibility, emotional gifting hypothesis"
+    },
+    "ngsTest": null,
+    "productPolicyRisk": "SAUDI_RAINBOW_COLORED_PRODUCTS_OR_RESTRICTED_ELEMENTS_MUST_BE_REVIEWED_AT_SPECIFIC_SKU_LEVEL_NOT_ALL_MULTICOLOR_AUTOMATICALLY_BANNED",
+    "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_CAUSE_UNKNOWN_PAYOUT_UNVERIFIED",
+    "sourceQuality": "Historical pages / press release; no new paid order, RFQ or restock; scores unchanged",
+    "ipRights": "UNLICENSED_IP_HARD_STOP_WHERE_APPLICABLE",
+    "blocked": true
   }
 }
