@@ -742,5 +742,19 @@
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
     ]
+  },
+  "latestAudit20261102C04": {
+    "auditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
+    "source": "ops/CHINAGCC_058_NGS_PRELIVE_PAYOUT_AND_100UNIT_LOSS_AUDIT_2026-11-02.md",
+    "certifiedWorstLoss100": null,
+    "historicalStopLossNotCertified": true,
+    "sampleReady": false,
+    "margin15Proven": false,
+    "actualFinalPackedWeight": "UNKNOWN",
+    "sameBOMThreeQuotes": "NOT_VERIFIED",
+    "chinaToShenzhenSingleOrderFee": "UNKNOWN",
+    "ngsLiveBuyerTotal": "UNKNOWN",
+    "channelGate": "NO_GO",
+    "riskNote": "Official NGS page payout prelive wording differs from end-of-page optional before listing; use stricter internal approval gate."
   }
 }
