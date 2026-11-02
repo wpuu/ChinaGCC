@@ -227,5 +227,50 @@
     "supplierCount",
     "nextAction",
     "compliance"
-  ]
+  ],
+  "corePersona": "NOT_EVALUATED",
+  "ageBand": [
+    "NOT_EVALUATED"
+  ],
+  "genderFit": "NOT_EVALUATED",
+  "discoveryChannel": [
+    "NOT_EVALUATED"
+  ],
+  "checkoutChannel": [
+    "NOT_EVALUATED"
+  ],
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
+  "IPRisk": "NOT_EVALUATED",
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "corePersona",
+      "ageBand",
+      "genderFit",
+      "discoveryChannel",
+      "checkoutChannel",
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "IPRisk",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notEvidenceBased": true
+  },
+  "latestDataIntegrityAudit20261102": {
+    "auditId": "2026-11-02/C01-NGS-DEMAND-RIGHTS-RISK",
+    "profileFieldsComplete": true,
+    "newDemandVerified": false,
+    "historicalScoresUnchanged": true
+  }
 }
