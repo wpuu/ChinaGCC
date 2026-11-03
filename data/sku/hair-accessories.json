@@ -933,7 +933,7 @@
     "newSameBomRestocks": 0,
     "nextGate": "Confirm exact 8-piece clip structure/material and KSA-safe non-rainbow colorway; obtain fresh same-BOM sales evidence before supplier deep search."
   },
-  "historicalWorstLossBudget": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+  "historicalWorstLossBudget": null,
   "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
   "worstLoss100CertifiedUpperBound": false,
   "worstLoss100Formula": {
@@ -943,7 +943,7 @@
   "worstLoss100MissingInputs": [
     "sameBOM supplier unit cost and MOQ",
     "final packed weight and dimensions",
-    "per-order China domestic delivery cost to Shenzhen NGS hub or Amazon import consolidation",
+    "per-order China domestic delivery cost",
     "actual platform price/fees/returns and non-saleable handling",
     "verified liquidation/residual recovery and fixed setup costs"
   ],
@@ -951,9 +951,8 @@
   "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
   "latestRadar20261103C04": {
     "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
-    "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
-    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__NGS_ACCOUNT_NOT_VERIFIED",
-    "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
     "certifiedWorstLoss100": null,
     "certifiedUpperBound": false,
     "scoreChanged": false,
