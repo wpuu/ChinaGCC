@@ -5,7 +5,7 @@
     "status": "继续研究，不采购；Noon NGS 1/12（UAE Store已验收，Legal Entity和NGS未获批准）、Amazon 0/15、Sample Ready 0",
     "thirtyDayJudgment": "CONTINUE（74/100）：低成本验证优先，未闭环中国经营主体、Noon消费者终价、同款3家完整报价/整包重量/QC；不投入主要库存资金。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-11-02",
+    "lastUpdated": "2026-11-03",
     "lastSynced": null,
     "currentChannelPriority": [
       "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
@@ -14,13 +14,13 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
-    "latestRadarDate": "2026-11-02",
-    "latestRadarPath": "data/daily/2026-11-02.json",
-    "latestRadarStatus": "UAE_STORE_VERIFIED__LE_UNSUBMITTED__NGS_INELIGIBLE_UNEXPLAINED__PAYOUT_UNKNOWN__NO_GO",
-    "latestRadarNote": "2026-11-02 C02: SEC 20-F first-party FY2026 IP revenue is proven company-wide, not GCC sales or timing; Noon KSA/UAE historical sold labels not new payments; NGS requirements cross-check; V2 unchanged, Channel Gate remains NO-GO.",
+    "latestRadarDate": "2026-11-03",
+    "latestRadarPath": "data/daily/2026-11-03.json",
+    "latestRadarStatus": "UAE_STORE_VERIFIED_20261101__LE_UNAPPROVED__NGS_INELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_UNKNOWN__NO_GO",
+    "latestRadarNote": "2026-11-03 C01: A22 Dubai-born original DABUBU (AED220, 2000 first edition) first-party sellout/restock claim and official subsequent China launch show reverse GCC→China direction; NOT independent payment and NOT China→GCC timing. HERE SEC says distribution partners include Middle East but without per-IP country dates. NGS still NO-GO; old V2 scores retained.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "latestDailyAuditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -371,6 +371,48 @@
         "latestPolicyGateRef": "latestRadar20261102C03.policyGate",
         "certifiedWorstLoss100Usd": null,
         "reason": "Account-level NGS legal entity + payment-origin gates remain unverified; no new same-BOM sales evidence"
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          78,
+          90,
+          73
+        ],
+        "v2Subitems": {
+          "id": "cosmetic-bag-set",
+          "stored": 78,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "qAssumption": 0.1,
+        "targetContributionMargin": 0.15,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -730,6 +772,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          78,
+          82,
+          84
+        ],
+        "v2Subitems": {
+          "id": "silicone-brush",
+          "stored": 78,
+          "items": 41,
+          "subitemSum": 78,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -997,6 +1077,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          76,
+          91,
+          82
+        ],
+        "v2Subitems": {
+          "id": "makeup-brushes-10pc",
+          "stored": 76,
+          "items": 41,
+          "subitemSum": 76,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -1369,6 +1487,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          75,
+          76,
+          84
+        ],
+        "v2Subitems": {
+          "id": "travel-bottles",
+          "stored": 75,
+          "items": 41,
+          "subitemSum": 74,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -1726,6 +1882,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          74,
+          83,
+          80
+        ],
+        "v2Subitems": {
+          "id": "lint-roller",
+          "stored": 74,
+          "items": 41,
+          "subitemSum": 74,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -2132,6 +2326,48 @@
         "latestPolicyGateRef": "latestRadar20261102C03.policyGate",
         "certifiedWorstLoss100Usd": null,
         "reason": "Account-level NGS legal entity + payment-origin gates remain unverified; no new same-BOM sales evidence"
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          70,
+          92,
+          78
+        ],
+        "v2Subitems": {
+          "id": "hair-accessories",
+          "stored": 70,
+          "items": 41,
+          "subitemSum": 70,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "qAssumption": 0.1,
+        "targetContributionMargin": 0.15,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -2479,6 +2715,48 @@
         "latestPolicyGateRef": "latestRadar20261102C03.policyGate",
         "certifiedWorstLoss100Usd": null,
         "reason": "Account-level NGS legal entity + payment-origin gates remain unverified; no new same-BOM sales evidence"
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          67,
+          92,
+          80
+        ],
+        "v2Subitems": {
+          "id": "press-on-nails",
+          "stored": 67,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "qAssumption": 0.1,
+        "targetContributionMargin": 0.15,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -2882,6 +3160,48 @@
         "latestPolicyGateRef": "latestRadar20261102C03.policyGate",
         "certifiedWorstLoss100Usd": null,
         "reason": "Account-level NGS legal entity + payment-origin gates remain unverified; no new same-BOM sales evidence"
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          68,
+          84,
+          76
+        ],
+        "v2Subitems": {
+          "id": "phone-charm-beaded",
+          "stored": 68,
+          "items": 41,
+          "subitemSum": 68,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "qAssumption": 0.1,
+        "targetContributionMargin": 0.15,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3022,6 +3342,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          69,
+          63,
+          58
+        ],
+        "v2Subitems": {
+          "id": "cable-management",
+          "stored": 69,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3211,6 +3569,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          67,
+          78,
+          68
+        ],
+        "v2Subitems": {
+          "id": "makeup-sponge",
+          "stored": 67,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3467,6 +3863,44 @@
         "latestPolicyGateRef": "latestRadar20261102C03.policyGate",
         "certifiedWorstLoss100Usd": null,
         "reason": "Account-level NGS legal entity + payment-origin gates remain unverified; no new same-BOM sales evidence"
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          69,
+          67,
+          58
+        ],
+        "v2Subitems": {
+          "id": "original-ip-plush",
+          "stored": 69,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": true,
+        "brandA22UnauthorizedToResell": true,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3648,6 +4082,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          64,
+          82,
+          72
+        ],
+        "v2Subitems": {
+          "id": "car-sunshade",
+          "stored": 64,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3772,6 +4244,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          null,
+          null,
+          null
+        ],
+        "v2Subitems": {
+          "id": "hanlin-mask",
+          "stored": null,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     },
     {
@@ -3895,6 +4405,44 @@
         "channelAccessGate": "NO_GO",
         "certifiedWorstLoss100Usd": null,
         "purchaseAuthorized": false
+      },
+      "latestRadar20261103C01": {
+        "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+        "date": "2026-11-03",
+        "scoreRecalculated": false,
+        "historicalScores": [
+          null,
+          null,
+          null
+        ],
+        "v2Subitems": {
+          "id": "microfiber-cloth",
+          "stored": null,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+        "newSameBomPaidOrdersVerified": 0,
+        "newSameBomRfqsVerified": 0,
+        "newSameBomRestocksVerified": 0,
+        "brandA22FirstPartySellOutRestockStatementObserved": false,
+        "brandA22UnauthorizedToResell": false,
+        "transferPriceUsdScenario": null,
+        "qAssumption": null,
+        "targetContributionMargin": null,
+        "actualApprovedTpUsd": null,
+        "noonBuyerPrice": null,
+        "noonMarkup": null,
+        "actualChinaSupplierQuote": null,
+        "actualDomesticShenzhenCost": null,
+        "returnAndFbnFeeActual": null,
+        "skuPolicyQcStatus": "NOT_VERIFIED",
+        "certifiedWorstLoss100Usd": null,
+        "scoreChange": false,
+        "sampleReady": false,
+        "purchaseApproved": false,
+        "sourceDaily": "data/daily/2026-11-03.json"
       }
     }
   ],
@@ -6078,6 +6626,150 @@
       "verify actual LE/NGS/payout origin eligibility without submitting credentials",
       "complete one same-BOM quote + final packed metrics + Shenzhen hub cost only when allowed",
       "only after NGS and payout approval test buyer total/ETA and 15% safety margin"
+    ]
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "sourceReport": "research/2026-11-03/CHINAGCC_C01_GCC_LOCAL_IP_REVERSE_FLOW_NGS_GATES.md",
+    "dailyPath": "data/daily/2026-11-03.json",
+    "independentPaidOrdersVerified": 0,
+    "independentSameBomRfqsVerified": 0,
+    "independentSameBomRestocksVerified": 0,
+    "brandOwnSelloutRestockClaimObserved": 1,
+    "brandClaimNotIndependentPayments": true,
+    "chinaToGccTrendLagDays": null,
+    "reverseFlowA22DubaiThenChinaOfficial": true,
+    "hereMiddleEastDistributionPrimaryDisclosure": true,
+    "hereIpSpecificGccFirstPaidOrderDates": false,
+    "channelGate": "NO_GO",
+    "ngsIneligibleReason": "UNKNOWN_AS_LAST_VERIFIED_2026-11-01",
+    "newSellerAccountLogin": false,
+    "soleProprietorApprovedCase": false,
+    "ngsApprovalDays": null,
+    "payoutSellingOriginMapped": null,
+    "invoicingProfile": null,
+    "approvedPurchases": 0,
+    "sampleReadyCount": 0,
+    "certifiedWorstLoss100Usd": null,
+    "v2Audit": {
+      "full41SubitemCount": 6,
+      "scoreSumConflicts": [
+        {
+          "id": "travel-bottles",
+          "stored": 75,
+          "items": 41,
+          "subitemSum": 74,
+          "portraitFieldsPresent": 13
+        }
+      ],
+      "data": [
+        {
+          "id": "cosmetic-bag-set",
+          "stored": 78,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "silicone-brush",
+          "stored": 78,
+          "items": 41,
+          "subitemSum": 78,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "makeup-brushes-10pc",
+          "stored": 76,
+          "items": 41,
+          "subitemSum": 76,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "travel-bottles",
+          "stored": 75,
+          "items": 41,
+          "subitemSum": 74,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "lint-roller",
+          "stored": 74,
+          "items": 41,
+          "subitemSum": 74,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "hair-accessories",
+          "stored": 70,
+          "items": 41,
+          "subitemSum": 70,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "press-on-nails",
+          "stored": 67,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "phone-charm-beaded",
+          "stored": 68,
+          "items": 41,
+          "subitemSum": 68,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "cable-management",
+          "stored": 69,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "makeup-sponge",
+          "stored": 67,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "original-ip-plush",
+          "stored": 69,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "car-sunshade",
+          "stored": 64,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "hanlin-mask",
+          "stored": null,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        },
+        {
+          "id": "microfiber-cloth",
+          "stored": null,
+          "items": 0,
+          "subitemSum": null,
+          "portraitFieldsPresent": 13
+        }
+      ]
+    },
+    "sources": [
+      "https://a22.ae/",
+      "https://www.dabubu.ae/",
+      "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
     ]
   }
 }
