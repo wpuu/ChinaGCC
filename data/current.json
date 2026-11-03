@@ -17,10 +17,10 @@
     "latestRadarDate": "2026-11-03",
     "latestRadarPath": "data/daily/2026-11-03.json",
     "latestRadarStatus": "UAE_STORE_VERIFIED_20261101__LE_UNAPPROVED__NGS_INELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_UNKNOWN__NO_GO",
-    "latestRadarNote": "2026-11-03 C01: A22 Dubai-born original DABUBU (AED220, 2000 first edition) first-party sellout/restock claim and official subsequent China launch show reverse GCC→China direction; NOT independent payment and NOT China→GCC timing. HERE SEC says distribution partners include Middle East but without per-IP country dates. NGS still NO-GO; old V2 scores retained.",
+    "latestRadarNote": "2026-11-03 C02: official Noon brand verification mandatory before go-live; NGS bank payout threshold policy may delay first cash receipt (100/1000 AED/SAR by account currency under general policy, NGS-specific application unverified). Historical UAE tabs-only nails listing AED28, 2 reviews/one left not current sale; Saudi 4-mesh bags not same quilted BOM. Channel remains NO_GO; scores unchanged.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "latestDailyAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -413,6 +413,51 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": "HISTORICAL_SAUDI_4_MESH_SAR97_7_DIFFERENT_BOM",
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpHypothesesUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "costCeilingsUsd": {
+          "q0": [
+            3.825,
+            4.675,
+            5.525
+          ],
+          "q10": [
+            3.4425,
+            4.2075,
+            4.9725
+          ],
+          "q25": [
+            2.8687,
+            3.5063,
+            4.1437
+          ]
+        },
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -810,6 +855,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -1115,6 +1184,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -1525,6 +1618,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": true,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -1920,6 +2037,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -2368,6 +2509,51 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpHypothesesUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "costCeilingsUsd": {
+          "q0": [
+            2.04,
+            2.465,
+            2.89
+          ],
+          "q10": [
+            1.836,
+            2.2185,
+            2.601
+          ],
+          "q25": [
+            1.53,
+            1.8487,
+            2.1675
+          ]
+        },
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -2757,6 +2943,51 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": "HISTORICAL_UAE_24_TABS_AED28_TWO_RATINGS_ONLY_ONE_LEFT_NO_NEW_SALE",
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpHypothesesUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "costCeilingsUsd": {
+          "q0": [
+            1.275,
+            1.615,
+            1.955
+          ],
+          "q10": [
+            1.1475,
+            1.4535,
+            1.7595
+          ],
+          "q25": [
+            0.9562,
+            1.2112,
+            1.4662
+          ]
+        },
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -3202,6 +3433,51 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpHypothesesUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "costCeilingsUsd": {
+          "q0": [
+            1.445,
+            1.87,
+            2.295
+          ],
+          "q10": [
+            1.3005,
+            1.683,
+            2.0655
+          ],
+          "q25": [
+            1.0837,
+            1.4025,
+            1.7213
+          ]
+        },
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": true,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -3380,6 +3656,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -3607,6 +3907,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -3901,6 +4225,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -4120,6 +4468,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -4282,6 +4654,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     },
     {
@@ -4443,6 +4839,30 @@
         "sampleReady": false,
         "purchaseApproved": false,
         "sourceDaily": "data/daily/2026-11-03.json"
+      },
+      "latestRadar20261103C02": {
+        "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+        "date": "2026-11-03",
+        "channelAccessGate": "NO_GO",
+        "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+        "brandOrGenericRoute": "NOT_VERIFIED",
+        "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+        "payoutOriginLinked": null,
+        "newIndependentPaidOrderVerified": false,
+        "newSameBomRfqVerified": false,
+        "newSameBomRestockVerified": false,
+        "newListingSignal": null,
+        "actualTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualSameBomChinaQuote": null,
+        "actualChinaShenzhenCost": null,
+        "actualReturnsFBNLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "tpScenarioStatus": "NOT_ESTIMATED",
+        "v2ScoresRetainedNoRescore": true,
+        "scoreConflictUntouched": false,
+        "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       }
     }
   ],
@@ -5020,7 +5440,7 @@
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
   },
-  "latestDailyAuditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+  "latestDailyAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
   "latestDailyAudit": {
     "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "date": "2026-11-01",
@@ -6770,6 +7190,45 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
       "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    ]
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md",
+    "brandGate": {
+      "source": "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
+      "officialRule": "Only verified brands can go live. Seller SKUs may be precreated during brand Pending; new brand submission needs EN+AR name, logo, website or authenticating social pages.",
+      "actualAccountBrandStatus": "UNKNOWN_NOT_CHECKED",
+      "genericRoute": "NOT_VERIFIED",
+      "rightToSellThirdPartyIP": "NOT_VERIFIED_NO_GO"
+    },
+    "payoutGate": {
+      "source": "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "generalMarketplaceRule": {
+        "sameCurrencyBankThresholdAedSar": 100,
+        "foreignCurrencyBankThresholdAedSar": 1000,
+        "statementWeekday": "Wednesday",
+        "uaeKsaPaymentProcessing": "following Thursday if eligible"
+      },
+      "ngsSpecificApplicability": "CONDITIONAL_UNVERIFIED_ACTUAL_ACCOUNT_CURRENCY_AND_PSP",
+      "notANewFee": true,
+      "rollingBalanceIfBelowThreshold": true
+    },
+    "liveAccountChecked": false,
+    "channelGate": "NO_GO",
+    "verifiedNewPaidOrders": 0,
+    "verifiedSameBomRfq": 0,
+    "verifiedSameBomRestock": 0,
+    "supplierDeepSearchPerformed": false,
+    "scoreRescorePerformed": false,
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z81BA855B31B50C205F7CZ/p/",
+      "https://www.noon.com/saudi-en/housoutil-4pcs-mesh-cosmetic-travel-bag-set-nylon-toiletry-organizer-mini-makeup-holder/ZEDBC0AA1A9C145B64EDEZ/p/"
     ]
   }
 }
