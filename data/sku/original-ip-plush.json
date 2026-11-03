@@ -23,7 +23,7 @@
   "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
   "hardStop": true,
   "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
-  "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+  "worstLoss100": null,
   "sampleReady": false,
   "sampleBlockers": [
     "IP授权/正品渠道Hard Stop",
@@ -616,5 +616,31 @@
     "newRFQs": 0,
     "newRestocks": 0,
     "nextGate": "Do not source or resell DABUBU. Only investigate a separate original IP after written ownership/licensing proof and independent GCC demand evidence."
-  }
+  },
+  "historicalWorstLossBudget": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
 }
