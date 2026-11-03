@@ -211,7 +211,7 @@
     }
   ],
   "hardStop": false,
-  "worstLoss100": "按义乌CN¥7.8/套裸货约CN¥780；加入包装、国内交仓、QC和退货压力储备后首测100件止损上限暂定USD180，正式值以深圳交仓报价替换",
+  "worstLoss100": null,
   "sampleReady": false,
   "sampleBlockers": [
     "Opportunity<80",
@@ -219,5 +219,15 @@
     "NGS最终消费者价未实测",
     "刷毛QC未完成"
   ],
-  "nextAction": "Noon主体通过后优先做TP三点映射；同时只拿2–3个95–150g低MOQ样品做掉毛/异味/洗刷测试"
+  "nextAction": "Noon主体通过后优先做TP三点映射；同时只拿2–3个95–150g低MOQ样品做掉毛/异味/洗刷测试",
+  "legacyAliasOf": "makeup-brushes-10pc",
+  "legacyStatus": "LEGACY_ALIAS_DO_NOT_SCORE_OR_COUNT_AS_CURRENT_SKU",
+  "historicalWorstLossBudget": "按义乌CN¥7.8/套裸货约CN¥780；加入包装、国内交仓、QC和退货压力储备后首测100件止损上限暂定USD180，正式值以深圳交仓报价替换",
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "legacyAliasOf": "makeup-brushes-10pc",
+    "notCountedAsSeparateCurrentSku": true
+  }
 }
