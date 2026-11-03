@@ -2,7 +2,7 @@
   "schemaVersion": "2026-10-08-v2",
   "date": "2026-11-03",
   "timezone": "Asia/Shanghai",
-  "observedAtPrecision": "DATE_ONLY_NO_LIVE_ACCOUNT_SESSION",
+  "observedAtPrecision": "PUBLIC_SOURCES_WITH_INDEX_AGE_CAVEATS_NO_LIVE_SELLER_LAB",
   "modelPreference": "GPT-6 Extra High preferred; actual thinking effort unavailable for verification",
   "sequence": [
     "人群",
@@ -22,10 +22,9 @@
     "50+ WATCH only"
   ],
   "discoveryChannels": [
-    "TikTok",
-    "Snapchat",
-    "Instagram",
-    "Noon Finds (attribution not verified)"
+    "Saudi: Snapchat (25.3m ad audience; 43.5% female share) + TikTok (38.6m ad audience; 39.1% female) + Instagram (18.2m; 41.1% female)",
+    "UAE: TikTok (12.5m ad audience) + Instagram (8.05m; 34.0% female) + Snapchat (5.13m; 38.0% female)",
+    "Noon Finds (possible on-platform discovery; attribution not verified)"
   ],
   "discoveryAttributionVerified": false,
   "checkoutChannels": [
@@ -33,10 +32,10 @@
     "Amazon UAE/Saudi second"
   ],
   "purchaseTriggers": [
-    "daily styling",
-    "quick beauty",
-    "travel organization",
-    "gifts/collecting (unvalidated hypotheses)"
+    "fast nail look / event-ready styling (listing use-case, conversion unmeasured)",
+    "quick daily hair styling and hold (listing use-case, conversion unmeasured)",
+    "travel and beauty organization (listing use-case, conversion unmeasured)",
+    "collectible identity, local storytelling and gifting (A22-specific; not transferable to generic charms)"
   ],
   "researchBoundaries": {
     "noPurchase": true,
@@ -108,6 +107,66 @@
           "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
         ],
         "skuSpecificApproval": null
+      },
+      {
+        "subject": "DataReportal Digital 2026 Saudi/UAE audience baseline",
+        "type": "LATE_2025_PLATFORM_AD_REACH_DEMOGRAPHICS",
+        "details": "Saudi: Snapchat 25.3m adult ad audience/89% adult reach/43.5% female share; TikTok 38.6m/154.3%/39.1%; Instagram 18.2m/71%/41.1%. UAE: TikTok 12.5m/134.6%/32.9%; Instagram 8.05m/85.5%/34%; Snapchat 5.13m/49.4%/38%. Ad-planning estimates are not unique users or buyers; >100% reach must not be interpreted literally.",
+        "source": [
+          "https://datareportal.com/reports/digital-2026-saudi-arabia",
+          "https://datareportal.com/reports/digital-2026-united-arab-emirates"
+        ],
+        "conversionAttributionVerified": false,
+        "sourceDataPeriod": "mostly late-2025"
+      },
+      {
+        "subject": "Saudi TRENZ four-piece padded/lightweight cosmetic bag",
+        "type": "HISTORICAL_4PC_LISTING_LOW_STOCK_SIGNAL",
+        "details": "SAR59.90; seller rating 4.5/87% positive; low stock 4 shown; four sizes, padded/lightweight copy and travel/cosmetic use. Search index ~3 months old; not a new order, exact target material/weight/BOM unverified.",
+        "source": [
+          "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/"
+        ],
+        "exactPieceCountMatch": true,
+        "sameBomVerified": false
+      },
+      {
+        "subject": "UAE ORiTi Ceetug 8-piece hair claw clips",
+        "type": "HISTORICAL_BESTSELLER_10_PLUS_SOLD_RECENTLY_LABEL",
+        "details": "AED39; 4.4/49 ratings; bestseller page shows Selling out fast and 10+ sold recently. Page index ~3 months old; not a live 2026 order count or owner sale.",
+        "source": [
+          "https://www.noon.com/uae-en/best-sellers/clips-24997/"
+        ],
+        "sameBomVerified": false
+      },
+      {
+        "subject": "Saudi 24-piece press-on nails price cluster",
+        "type": "HISTORICAL_BESTSELLER_PAGE",
+        "details": "KHAJUL 24pc SAR19.20, 4.6/125, selling-out-fast; 24pc fibrous adhesive-sticker variant SAR24.30, 4.3/31. Page index ~3 months old. Exact adhesive-only BOM and absence of liquid glue unverified.",
+        "source": [
+          "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/"
+        ],
+        "exactAdhesiveBOMVerified": false
+      },
+      {
+        "subject": "A22 DABUBU GCC-origin plush blind box",
+        "type": "FIRST_PARTY_RESTOCK_CLAIM_PLUS_HISTORICAL_NOON_LISTING",
+        "details": "A22 official page claims 2,000-piece AED220 first drop sold out in 3 hours and restocked; Noon page shows 13cm listing AED181.50 sold by noon, indexed ~3 months ago. Brand-level signal only, no independent payment ledger; A22 owns the IP and ChinaGCC has no resale rights.",
+        "source": [
+          "https://a22.ae/",
+          "https://www.dabubu.ae/",
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+        ],
+        "firstPartyClaim": true,
+        "independentPaidOrder": false,
+        "rights": "OWNED_BY_A22_NOT_AUTHORIZED_FOR_CHINAGCC"
+      },
+      {
+        "subject": "Noon Saudi color policy",
+        "type": "OFFICIAL_RESTRICTED_PRODUCT_POLICY",
+        "details": "Noon prohibited-products policy lists rainbow-colored products for Saudi; avoid rainbow palettes and restricted religious/holiday motifs in KSA-facing product design, title, tags and imagery; review each SKU/colorway.",
+        "source": [
+          "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+        ]
       }
     ],
     "policy": {
@@ -513,6 +572,45 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "Saudi TRENZ four-piece multi-sized padded/lightweight makeup bag, SAR59.90, seller 4.5/87% positive, low stock 4; indexed ~3 months ago. Piece count/use-case match only; exact fabric, packed dimensions/weight and target BOM unverified.",
+        "consumerRetailReference": {
+          "currency": "SAR",
+          "value": 59.9,
+          "lowStockUnitsShown": 4,
+          "sellerRating": 4.5,
+          "sellerPositivePct": 87
+        },
+        "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+        "freshness": "HISTORICAL_INDEX_3_MONTHS_NOT_NEW_ORDER",
+        "transferPriceScenarioUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "q10CostCapUsd": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 620,
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Obtain exact four-piece BOM, dimensions/packed weight and independent same-BOM paid-order/RFQ/restock proof before supplier deep search."
       }
     },
     {
@@ -2525,6 +2623,48 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "UAE Noon bestseller page: ORiTi Ceetug 8 PCS large claw clips AED39, 4.4/49 ratings, 'Selling out fast' and '10+ sold recently'; page index ~3 months old, not live transaction evidence.",
+        "consumerRetailReference": {
+          "currency": "AED",
+          "value": 39,
+          "rating": 4.4,
+          "ratingsCount": 49,
+          "soldRecentlyLabel": "10+ sold recently",
+          "sellingOutFast": true
+        },
+        "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+        "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+        "transferPriceScenarioUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "q10CostCapUsd": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 210,
+        "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+        "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Confirm exact 8-piece clip structure/material and KSA-safe non-rainbow colorway; obtain fresh same-BOM sales evidence before supplier deep search."
       }
     },
     {
@@ -2943,6 +3083,49 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "Saudi bestseller page: KHAJUL 24pc SAR19.20, 4.6/125, selling-out-fast; 24pc natural-look fibrous adhesive sticker variant SAR24.30, 4.3/31. Page index ~3 months old; adhesive-only BOM not confirmed.",
+        "consumerRetailReference": {
+          "currency": "SAR",
+          "range": [
+            19.2,
+            24.3
+          ],
+          "closestAdhesiveTabReference": 24.3
+        },
+        "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+        "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+        "transferPriceScenarioUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "q10CostCapUsd": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 180,
+        "bomGate": "Verify 24 tips, size count, adhesive tabs/fibrous stickers, file, cuticle stick and confirm no liquid glue; claims such as non-toxic need substantiation.",
+        "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+        "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
       }
     },
     {
@@ -3417,6 +3600,47 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "No new comparable generic beaded phone-charm evidence. A22 DABUBU 13cm branded plush blind-box listing at AED181.50, sold by noon, indexed ~3 months ago is non-comparable.",
+        "nonComparableReference": {
+          "brand": "A22 DABUBU",
+          "currency": "AED",
+          "price": 181.5,
+          "seller": "noon",
+          "type": "branded 13cm plush blind-box charm"
+        },
+        "source": [
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/",
+          "https://a22.ae/"
+        ],
+        "transferPriceScenarioUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "q10CostCapUsd": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 150,
+        "top5RisksRetained": true,
+        "hardStop": "UNLICENSED_IP_ONLY",
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Keep generic/original bead designs separate from branded plush IP; require new comparable generic charm sales evidence before supply search."
       }
     },
     {
@@ -4134,6 +4358,37 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "A22 official DABUBU page claims first 2,000-piece drop at AED220 sold out in 3 hours and restocked; official page names Noon and Virgin Megastore Dubai Mall as retail touchpoints. Noon page shows AED181.50 and seller noon, historical index ~3 months. First-party claim/platform listing only; no independent order ledger.",
+        "source": [
+          "https://a22.ae/",
+          "https://www.dabubu.ae/",
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+        ],
+        "rights": "DABUBU is owned by A22; no ChinaGCC resale/license evidence; hard stop for sourcing/resale.",
+        "trendLag": {
+          "chinaFirstPaidDate": null,
+          "gccFirstPaidDate": null,
+          "lagDays": null,
+          "reverseFlow": "Dubai/GCC -> China launch/200-unit allocation; not China -> GCC."
+        },
+        "actualApprovedTPUsd": null,
+        "consumerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomQuotation": null,
+        "chinaToShenzhenPerUnit": null,
+        "returnsExpectedLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "top5RisksRetained": true,
+        "hardStop": true,
+        "newIndependentPaidOrders": 0,
+        "newRFQs": 0,
+        "newRestocks": 0,
+        "nextGate": "Do not source or resell DABUBU. Only investigate a separate original IP after written ownership/licensing proof and independent GCC demand evidence."
       }
     },
     {
@@ -5016,6 +5271,80 @@
       },
       "lossMethod": "100 unsold: inventory+packing+hub+sunk costs minus certified salvage; 100 wholly unsaleable returns: add any return/chargeback fees and no TP proceeds. No certified bounds.",
       "certifiedHundredUnitWorstLossUsd": null
+    },
+    "latestC03MarketBenchmarks": {
+      "cosmetic-bag-set": {
+        "retailReference": {
+          "currency": "SAR",
+          "value": 59.9
+        },
+        "tpScenarioUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "costCapQ10Usd": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "sameBomVerified": false
+      },
+      "hair-accessories": {
+        "retailReference": {
+          "currency": "AED",
+          "value": 39
+        },
+        "tpScenarioUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "costCapQ10Usd": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "sameBomVerified": false
+      },
+      "press-on-nails": {
+        "retailReference": {
+          "currency": "SAR",
+          "range": [
+            19.2,
+            24.3
+          ]
+        },
+        "tpScenarioUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "costCapQ10Usd": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "exactAdhesiveBomVerified": false
+      },
+      "phone-charm-beaded": {
+        "retailReference": null,
+        "nonComparableA22PlushCharm": {
+          "currency": "AED",
+          "value": 181.5
+        },
+        "tpScenarioUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "costCapQ10Usd": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "genericComparableVerified": false
+      }
     }
   },
   "scorePolicy": {
@@ -5024,8 +5353,9 @@
     "evidenceConfidence": "Historical, unchanged",
     "dataCompleteness": "Historical, unchanged",
     "new41ItemRescore": "NOT_PERFORMED_LACK_OF_INDEPENDENT_TRANSACTION_AND_PRICE_EVIDENCE",
-    "latestAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
-    "v2RecomputedThisRun": false
+    "latestAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "v2RecomputedThisRun": false,
+    "reason": "No independently verified new same-BOM paid orders, RFQs, supplier quotes, approved NGS TP or return data; historical V2 scores retained."
   },
   "scoreIntegrity": {
     "records": [
@@ -5486,6 +5816,45 @@
         "transferPriceInUsd": true,
         "internationalShippingFeesInSellerTP": false
       }
+    },
+    "latestC03DocumentationAudit": {
+      "officialFlow": [
+        "Create Organization ID and verify email/phone",
+        "Create UAE and/or KSA store; public EN/AR store name and contact",
+        "Create China Legal Entity: registration/license number, registered name/address, issue/expiry dates, upload Commercial Registration; select Non-VAT Registered under NGS; add authorized signatory and sign program T&Cs",
+        "Create China warehouse address for inventory control; it is not the shipping hub",
+        "Select noon International Logistics (UAE/KSA) delivery model and set seller processing time",
+        "Create Seller SKUs and pass content/category/brand QC",
+        "Upload USD Transfer Price and inventory; approved items may automatically go live",
+        "Complete invoicing profile",
+        "Add payout method, obtain approval, then map it to the correct selling origin"
+      ],
+      "acceptedPayoutOptionsListed": [
+        "Bank Account",
+        "Payoneer",
+        "LianLian",
+        "WorldFirst",
+        "PingPong"
+      ],
+      "processingTimeMeaning": "Seller time to fulfil order and drop it at nearest China consolidation hub; it is not Legal Entity review time or end-to-end onboarding SLA.",
+      "officialSlaDays": null,
+      "chineseSoleProprietorApprovalCase": null,
+      "accountSpecificNgsIneligibilityReason": null,
+      "conflictsPreserved": [
+        "Commercial Registration remaining validity: 15-day general document page vs 30-day rejection-remediation guidance; >=30 days is only a conservative preparation buffer, not a confirmed NGS minimum.",
+        "Representative identity: passport listed in international seller requirements while Chinese resident ID appears in a rejection guide; actual China NGS acceptance remains unverified."
+      ],
+      "actualAccountCheck": "No live Seller Lab session in this run. Last verified historical snapshot remains UAE GCC Picks store created; China LE not approved/submitted; NGS not eligible with unspecified reason; payout and selling-origin mapping unknown.",
+      "sources": [
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      ]
+    },
+    "latestC03SaudiDesignPolicy": {
+      "officialRule": "Noon prohibited-products page lists rainbow-colored products as prohibited in Saudi Arabia; also restricts certain religious symbols and Christmas/Halloween/Easter terms or imagery.",
+      "action": "Do not assume every multicolor item is prohibited, but avoid rainbow palettes and prohibited motifs in KSA-facing SKU/colorways, titles, tags and imagery; obtain SKU-specific QC.",
+      "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
     }
   },
   "trendLag": {
@@ -5495,13 +5864,22 @@
     "firstGccVerifiedPaidOrderDate": null,
     "globalLaunchNotAProxy": true,
     "reverseFlowA22DubaiToChinaObserved": true,
-    "reverseFirstPaymentTimingUnknown": true
+    "reverseFirstPaymentTimingUnknown": true,
+    "latestC03Audit": {
+      "chinaToGccFirstPaidDatePairs": 0,
+      "chinaFirstPaidDate": null,
+      "gccFirstPaidDate": null,
+      "lagDays": null,
+      "reverseFlow": "A22 Dubai-born DABUBU -> China launch/200-unit allocation; first paid dates in either market not independently verified; reverse flow only.",
+      "ipRights": "Third-party IP hard stop without written authorization; DABUBU belongs to A22."
+    }
   },
-  "topDecision": "NO_GO; incremental C02 official brand/Generic gate and general payout currency threshold noted. No fresh independent same-BOM sale; no purchase.",
+  "topDecision": "NO_GO: discovery channel ranking refined from late-2025 DataReportal estimates; Noon/Amazon checkout order unchanged. Historical SKU pages and A22 first-party restock claim do not constitute new owner paid orders or generic-SKU demand proof. No supplier deep search; NGS LE/payout-origin/brand/QC/invoicing remain unverified.",
   "nextExecution": [
-    "Read only existing authorized Noon NGS eligibility reason/China Legal Entity eligibility and payout-origin approval; no submission or purchase",
-    "Find independently evidenced exact-BOM clean non-IP SKU with consumer price and packaging weight; only then crosscheck China suppliers",
-    "Obtain actual approval of specific NGS category and TP-to-buyer-price/return mechanism before 100-unit go/no-go"
+    "Read only the existing authorized Noon Seller Lab to identify the exact NGS ineligibility reason and China Legal Entity state; verify approved payout and selling-origin mapping. No submissions or account changes.",
+    "For four-piece bags, 8-piece hair clips and adhesive-only nails, obtain fresh independent same-BOM paid-order/RFQ/restock evidence and exact buyer final-price references before any supplier deep search.",
+    "Verify SKU-specific KSA rainbow-color/motif policy and product QC; avoid rainbow colorways and unauthorized IP.",
+    "Keep China-to-GCC original-IP first-paid-date pair collection separate from GCC-to-China reverse-flow cases."
   ],
   "blocked": true,
   "SampleReadyCount": 0,
@@ -5530,9 +5908,15 @@
     "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
     "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
     "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z81BA855B31B50C205F7CZ/p/",
-    "https://www.noon.com/saudi-en/housoutil-4pcs-mesh-cosmetic-travel-bag-set-nylon-toiletry-organizer-mini-makeup-holder/ZEDBC0AA1A9C145B64EDEZ/p/"
+    "https://www.noon.com/saudi-en/housoutil-4pcs-mesh-cosmetic-travel-bag-set-nylon-toiletry-organizer-mini-makeup-holder/ZEDBC0AA1A9C145B64EDEZ/p/",
+    "https://datareportal.com/reports/digital-2026-saudi-arabia",
+    "https://datareportal.com/reports/digital-2026-united-arab-emirates",
+    "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+    "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+    "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+    "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
   ],
-  "latestRadarAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+  "latestRadarAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
   "incrementalAudits": [
     {
       "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
@@ -5988,6 +6372,275 @@
         "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z81BA855B31B50C205F7CZ/p/",
         "https://www.noon.com/saudi-en/housoutil-4pcs-mesh-cosmetic-travel-bag-set-nylon-toiletry-organizer-mini-makeup-holder/ZEDBC0AA1A9C145B64EDEZ/p/"
       ]
+    },
+    {
+      "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+      "date": "2026-11-03",
+      "observedAt": "2026-11-03T20:07:15+08:00",
+      "observedAtPrecision": "DATE_ONLY_PUBLIC_SOURCES_NO_LIVE_SELLER_LAB",
+      "modelPreference": "GPT-6 Extra High preferred; actual thinking effort unavailable for verification",
+      "researchSequence": [
+        "人群",
+        "种草/发现渠道",
+        "现实成交渠道",
+        "购买触发",
+        "产品族",
+        "具体SKU",
+        "中国供应链（仅新独立成交/RFQ/补货证据后深查）",
+        "单位经济性/风险"
+      ],
+      "discoveryChannelAudit": {
+        "dataBasis": "DataReportal Digital 2026 reports; platform advertising-planning reach and demographic estimates, primarily late-2025 data, not unique monthly active users or buyers.",
+        "saudi": {
+          "snapchat": {
+            "adAudienceMillions": 25.3,
+            "adultReachPct": 89,
+            "femaleShareOfAdultAdAudiencePct": 43.5,
+            "role": "female reach + creator/social discovery; first test channel"
+          },
+          "tiktok": {
+            "adAudienceMillions": 38.6,
+            "adultReachPct": 154.3,
+            "femaleShareOfAdultAdAudiencePct": 39.1,
+            "role": "short visual demo / trend discovery; reach above 100% is an ad-tool estimate, not unique people"
+          },
+          "instagram": {
+            "adAudienceMillions": 18.2,
+            "adultReachPct": 71,
+            "femaleShareOfAdultAdAudiencePct": 41.1,
+            "role": "visual validation, creator proof, save/share"
+          }
+        },
+        "uae": {
+          "tiktok": {
+            "adAudienceMillions": 12.5,
+            "adultReachPct": 134.6,
+            "femaleShareOfAdultAdAudiencePct": 32.9,
+            "role": "scale for short visual demos; ad reach above 100% is not unique people"
+          },
+          "instagram": {
+            "adAudienceMillions": 8.05,
+            "adultReachPct": 85.5,
+            "femaleShareOfAdultAdAudiencePct": 34,
+            "role": "visual proof and social validation"
+          },
+          "snapchat": {
+            "adAudienceMillions": 5.13,
+            "adultReachPct": 49.4,
+            "femaleShareOfAdultAdAudiencePct": 38,
+            "role": "localized creator/short-form reach; strongest female share among these three"
+          }
+        },
+        "attribution": "No SKU-level creator-view-to-Noon/Amazon paid-order attribution verified. Noon Finds remains a possible on-platform discovery surface, not a proven conversion source.",
+        "limitation": "The reports were published at end-2025 and mostly use late-2025 platform ad-tool estimates; percentages over 100% reflect reach methodology/identities and must not be interpreted as unique buyers."
+      },
+      "newMarketEvidence": [
+        {
+          "sku": "cosmetic-bag-set",
+          "type": "HISTORICAL_4PC_CATEGORY_AND_USE_CASE_MATCH",
+          "market": "Saudi",
+          "listing": "TRENZ Set of four multi-sized makeup bags",
+          "price": {
+            "currency": "SAR",
+            "value": 59.9
+          },
+          "sellerSignals": {
+            "rating": 4.5,
+            "positivePct": 87,
+            "lowStockUnitsShown": 4
+          },
+          "productDetails": "Four sizes; padded/lightweight wording; makeup, skincare and travel organization use cases.",
+          "freshness": "Search index approximately 3 months old; not a new sale and no recent-sales label observed.",
+          "comparability": "Piece count and use case match; material, dimensions, packed weight and exact target BOM remain unverified.",
+          "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/"
+        },
+        {
+          "sku": "hair-accessories",
+          "type": "HISTORICAL_BESTSELLER_PAGE_SOLD_RECENTLY_LABEL",
+          "market": "UAE",
+          "listing": "ORiTi Ceetug 8 PCS large claw clips",
+          "price": {
+            "currency": "AED",
+            "value": 39
+          },
+          "sellerSignals": {
+            "rating": 4.4,
+            "ratingsCount": 49,
+            "soldRecentlyLabel": "10+ sold recently",
+            "sellingOutFast": true
+          },
+          "freshness": "Bestseller page search index approximately 3 months old; badge is historical page evidence, not a live 2026 order count.",
+          "comparability": "8-piece clip set category match; exact clip geometry/material and China BOM not verified.",
+          "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/"
+        },
+        {
+          "sku": "press-on-nails",
+          "type": "HISTORICAL_SAUDI_BESTSELLER_PAGE_PRICE_CLUSTER",
+          "market": "Saudi",
+          "listings": [
+            {
+              "item": "KHAJUL 24-piece press-on nails",
+              "price": {
+                "currency": "SAR",
+                "value": 19.2
+              },
+              "rating": 4.6,
+              "ratingsCount": 125,
+              "badge": "Selling out fast"
+            },
+            {
+              "item": "24-piece natural-look nails with fibrous adhesive stickers",
+              "price": {
+                "currency": "SAR",
+                "value": 24.3
+              },
+              "rating": 4.3,
+              "ratingsCount": 31,
+              "badge": "Lowest price in a year"
+            }
+          ],
+          "priceBandSar": [
+            19.2,
+            24.3
+          ],
+          "freshness": "Bestseller page search index approximately 3 months old; not new transactions.",
+          "comparability": "The fibrous-adhesive-sticker item is the closest adhesive-tab direction; exact contents, adhesive chemistry, and absence of liquid glue must be checked before any sourcing.",
+          "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/"
+        },
+        {
+          "sku": "phone-charm-beaded",
+          "type": "NON_COMPARABLE_BRANDED_PLUSH_CHARM_REFERENCE",
+          "market": "UAE",
+          "listing": "A22 DABUBU 13cm collectible plush keychain blind box",
+          "price": {
+            "currency": "AED",
+            "value": 181.5
+          },
+          "seller": "noon",
+          "freshness": "Noon listing indexed approximately 3 months ago.",
+          "comparability": "Licensed/owned branded plush blind-box IP; not comparable to generic beaded phone charm and not evidence of a generic charm's willingness-to-pay.",
+          "rights": "A22-owned IP; no ChinaGCC resale authorization.",
+          "source": "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+        },
+        {
+          "sku": "original-ip-plush",
+          "type": "FIRST_PARTY_BRAND_RESTOCK_CLAIM_PLUS_PLATFORM_LISTING",
+          "market": "UAE",
+          "brand": "A22 DABUBU",
+          "officialClaim": "First drop sold out in 3 hours and restocked; First Edition 2,000 pieces at AED220; official page identifies Noon and Virgin Megastore Dubai Mall as retail touchpoints.",
+          "platformEvidence": "Noon listing AED181.50, sold by noon, product described as 13cm plush blind-box keychain; page indexed approximately 3 months ago.",
+          "evidenceQuality": "First-party sellout/restock statement and historical platform listing; no independent payment ledger or current stock audit.",
+          "rights": "OWNED_BY_A22_NOT_AUTHORIZED_FOR_CHINAGCC__HARD_STOP",
+          "source": [
+            "https://a22.ae/",
+            "https://www.dabubu.ae/",
+            "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+          ]
+        }
+      ],
+      "ngsDocumentationAudit": {
+        "officialFlow": [
+          "Create Organization ID and verify email/phone",
+          "Create UAE and/or KSA store; public EN/AR store name and contact",
+          "Create China Legal Entity: registration/license number, registered name/address, issue/expiry dates, upload Commercial Registration; select Non-VAT Registered under NGS; add authorized signatory and sign program T&Cs",
+          "Create China warehouse address for inventory control; it is not the shipping hub",
+          "Select noon International Logistics (UAE/KSA) delivery model and set seller processing time",
+          "Create Seller SKUs and pass content/category/brand QC",
+          "Upload USD Transfer Price and inventory; approved items may automatically go live",
+          "Complete invoicing profile",
+          "Add payout method, obtain approval, then map it to the correct selling origin"
+        ],
+        "acceptedPayoutOptionsListed": [
+          "Bank Account",
+          "Payoneer",
+          "LianLian",
+          "WorldFirst",
+          "PingPong"
+        ],
+        "processingTimeMeaning": "Seller time to fulfil order and drop it at nearest China consolidation hub; it is not Legal Entity review time or end-to-end onboarding SLA.",
+        "officialSlaDays": null,
+        "chineseSoleProprietorApprovalCase": null,
+        "accountSpecificNgsIneligibilityReason": null,
+        "conflictsPreserved": [
+          "Commercial Registration remaining validity: 15-day general document page vs 30-day rejection-remediation guidance; >=30 days is only a conservative preparation buffer, not a confirmed NGS minimum.",
+          "Representative identity: passport listed in international seller requirements while Chinese resident ID appears in a rejection guide; actual China NGS acceptance remains unverified."
+        ],
+        "actualAccountCheck": "No live Seller Lab session in this run. Last verified historical snapshot remains UAE GCC Picks store created; China LE not approved/submitted; NGS not eligible with unspecified reason; payout and selling-origin mapping unknown.",
+        "sources": [
+          "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+          "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+        ]
+      },
+      "saudiDesignPolicy": {
+        "officialRule": "Noon prohibited-products page lists rainbow-colored products as prohibited in Saudi Arabia; also restricts certain religious symbols and Christmas/Halloween/Easter terms or imagery.",
+        "action": "Do not assume every multicolor item is prohibited, but avoid rainbow palettes and prohibited motifs in KSA-facing SKU/colorways, titles, tags and imagery; obtain SKU-specific QC.",
+        "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+      },
+      "newIndependentPaidOrders": 0,
+      "newIndependentSameBomRFQs": 0,
+      "newIndependentSameBomRestocks": 0,
+      "supplierDeepSearchPerformed": false,
+      "scoreChanged": false,
+      "historicalScoresRetained": {
+        "cosmetic-bag-set": [
+          78,
+          90,
+          73
+        ],
+        "hair-accessories": [
+          70,
+          92,
+          78
+        ],
+        "press-on-nails": [
+          67,
+          92,
+          80
+        ],
+        "phone-charm-beaded": [
+          68,
+          84,
+          76
+        ],
+        "original-ip-plush": [
+          69,
+          67,
+          58
+        ]
+      },
+      "certifiedWorstLoss100Usd": {
+        "cosmetic-bag-set": null,
+        "hair-accessories": null,
+        "press-on-nails": null,
+        "phone-charm-beaded": null,
+        "original-ip-plush": null
+      },
+      "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_BRAND_QC_INVOICE_UNVERIFIED",
+      "trendLag": {
+        "chinaToGccFirstPaidDatePairs": 0,
+        "chinaFirstPaidDate": null,
+        "gccFirstPaidDate": null,
+        "lagDays": null,
+        "reverseFlow": "A22 Dubai-born DABUBU -> China launch/200-unit allocation; first paid dates in either market not independently verified; reverse flow only.",
+        "ipRights": "Third-party IP hard stop without written authorization; DABUBU belongs to A22."
+      },
+      "report": "research/2026-11-03/CHINAGCC_C03_AUDIENCE_DISCOVERY_FOURSKU_NGS_ACCESS.md",
+      "sources": [
+        "https://datareportal.com/reports/digital-2026-saudi-arabia",
+        "https://datareportal.com/reports/digital-2026-united-arab-emirates",
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+        "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
+        "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+        "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+        "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+        "https://www.dabubu.ae/",
+        "https://a22.ae/",
+        "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+      ]
     }
   ],
   "lossCertificationBySku": {
@@ -6129,5 +6782,348 @@
     }
   },
   "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-  "latest20261103C02Audit": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM"
+  "latest20261103C02Audit": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+  "discoveryChannelAudit": {
+    "dataBasis": "DataReportal Digital 2026 reports; platform advertising-planning reach and demographic estimates, primarily late-2025 data, not unique monthly active users or buyers.",
+    "saudi": {
+      "snapchat": {
+        "adAudienceMillions": 25.3,
+        "adultReachPct": 89,
+        "femaleShareOfAdultAdAudiencePct": 43.5,
+        "role": "female reach + creator/social discovery; first test channel"
+      },
+      "tiktok": {
+        "adAudienceMillions": 38.6,
+        "adultReachPct": 154.3,
+        "femaleShareOfAdultAdAudiencePct": 39.1,
+        "role": "short visual demo / trend discovery; reach above 100% is an ad-tool estimate, not unique people"
+      },
+      "instagram": {
+        "adAudienceMillions": 18.2,
+        "adultReachPct": 71,
+        "femaleShareOfAdultAdAudiencePct": 41.1,
+        "role": "visual validation, creator proof, save/share"
+      }
+    },
+    "uae": {
+      "tiktok": {
+        "adAudienceMillions": 12.5,
+        "adultReachPct": 134.6,
+        "femaleShareOfAdultAdAudiencePct": 32.9,
+        "role": "scale for short visual demos; ad reach above 100% is not unique people"
+      },
+      "instagram": {
+        "adAudienceMillions": 8.05,
+        "adultReachPct": 85.5,
+        "femaleShareOfAdultAdAudiencePct": 34,
+        "role": "visual proof and social validation"
+      },
+      "snapchat": {
+        "adAudienceMillions": 5.13,
+        "adultReachPct": 49.4,
+        "femaleShareOfAdultAdAudiencePct": 38,
+        "role": "localized creator/short-form reach; strongest female share among these three"
+      }
+    },
+    "attribution": "No SKU-level creator-view-to-Noon/Amazon paid-order attribution verified. Noon Finds remains a possible on-platform discovery surface, not a proven conversion source.",
+    "limitation": "The reports were published at end-2025 and mostly use late-2025 platform ad-tool estimates; percentages over 100% reflect reach methodology/identities and must not be interpreted as unique buyers."
+  },
+  "latest20261103C03Audit": {
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "date": "2026-11-03",
+    "observedAt": "2026-11-03T20:07:15+08:00",
+    "observedAtPrecision": "DATE_ONLY_PUBLIC_SOURCES_NO_LIVE_SELLER_LAB",
+    "modelPreference": "GPT-6 Extra High preferred; actual thinking effort unavailable for verification",
+    "researchSequence": [
+      "人群",
+      "种草/发现渠道",
+      "现实成交渠道",
+      "购买触发",
+      "产品族",
+      "具体SKU",
+      "中国供应链（仅新独立成交/RFQ/补货证据后深查）",
+      "单位经济性/风险"
+    ],
+    "targetSegments": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z / students",
+      "young families secondary",
+      "50+ WATCH only"
+    ],
+    "discoveryChannelAudit": {
+      "dataBasis": "DataReportal Digital 2026 reports; platform advertising-planning reach and demographic estimates, primarily late-2025 data, not unique monthly active users or buyers.",
+      "saudi": {
+        "snapchat": {
+          "adAudienceMillions": 25.3,
+          "adultReachPct": 89,
+          "femaleShareOfAdultAdAudiencePct": 43.5,
+          "role": "female reach + creator/social discovery; first test channel"
+        },
+        "tiktok": {
+          "adAudienceMillions": 38.6,
+          "adultReachPct": 154.3,
+          "femaleShareOfAdultAdAudiencePct": 39.1,
+          "role": "short visual demo / trend discovery; reach above 100% is an ad-tool estimate, not unique people"
+        },
+        "instagram": {
+          "adAudienceMillions": 18.2,
+          "adultReachPct": 71,
+          "femaleShareOfAdultAdAudiencePct": 41.1,
+          "role": "visual validation, creator proof, save/share"
+        }
+      },
+      "uae": {
+        "tiktok": {
+          "adAudienceMillions": 12.5,
+          "adultReachPct": 134.6,
+          "femaleShareOfAdultAdAudiencePct": 32.9,
+          "role": "scale for short visual demos; ad reach above 100% is not unique people"
+        },
+        "instagram": {
+          "adAudienceMillions": 8.05,
+          "adultReachPct": 85.5,
+          "femaleShareOfAdultAdAudiencePct": 34,
+          "role": "visual proof and social validation"
+        },
+        "snapchat": {
+          "adAudienceMillions": 5.13,
+          "adultReachPct": 49.4,
+          "femaleShareOfAdultAdAudiencePct": 38,
+          "role": "localized creator/short-form reach; strongest female share among these three"
+        }
+      },
+      "attribution": "No SKU-level creator-view-to-Noon/Amazon paid-order attribution verified. Noon Finds remains a possible on-platform discovery surface, not a proven conversion source.",
+      "limitation": "The reports were published at end-2025 and mostly use late-2025 platform ad-tool estimates; percentages over 100% reflect reach methodology/identities and must not be interpreted as unique buyers."
+    },
+    "checkout": [
+      "Noon China NGS first",
+      "Amazon UAE/Saudi second"
+    ],
+    "purchaseTriggers": [
+      {
+        "trigger": "fast nail look / event-ready styling",
+        "evidence": "Noon product listing copy and bestseller positioning; conversion trigger not measured"
+      },
+      {
+        "trigger": "quick daily hair styling and secure hold",
+        "evidence": "8-piece claw-clip bestseller listing; conversion attribution not measured"
+      },
+      {
+        "trigger": "travel and beauty organization",
+        "evidence": "4-piece padded cosmetic bag listing use cases; exact target BOM not fully matched"
+      },
+      {
+        "trigger": "collectible identity / gifting / unboxing",
+        "evidence": "A22 DABUBU first-party brand story and restock claim; brand-specific, not transferable to generic charms"
+      }
+    ],
+    "marketEvidence": [
+      {
+        "sku": "cosmetic-bag-set",
+        "type": "HISTORICAL_4PC_CATEGORY_AND_USE_CASE_MATCH",
+        "market": "Saudi",
+        "listing": "TRENZ Set of four multi-sized makeup bags",
+        "price": {
+          "currency": "SAR",
+          "value": 59.9
+        },
+        "sellerSignals": {
+          "rating": 4.5,
+          "positivePct": 87,
+          "lowStockUnitsShown": 4
+        },
+        "productDetails": "Four sizes; padded/lightweight wording; makeup, skincare and travel organization use cases.",
+        "freshness": "Search index approximately 3 months old; not a new sale and no recent-sales label observed.",
+        "comparability": "Piece count and use case match; material, dimensions, packed weight and exact target BOM remain unverified.",
+        "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/"
+      },
+      {
+        "sku": "hair-accessories",
+        "type": "HISTORICAL_BESTSELLER_PAGE_SOLD_RECENTLY_LABEL",
+        "market": "UAE",
+        "listing": "ORiTi Ceetug 8 PCS large claw clips",
+        "price": {
+          "currency": "AED",
+          "value": 39
+        },
+        "sellerSignals": {
+          "rating": 4.4,
+          "ratingsCount": 49,
+          "soldRecentlyLabel": "10+ sold recently",
+          "sellingOutFast": true
+        },
+        "freshness": "Bestseller page search index approximately 3 months old; badge is historical page evidence, not a live 2026 order count.",
+        "comparability": "8-piece clip set category match; exact clip geometry/material and China BOM not verified.",
+        "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/"
+      },
+      {
+        "sku": "press-on-nails",
+        "type": "HISTORICAL_SAUDI_BESTSELLER_PAGE_PRICE_CLUSTER",
+        "market": "Saudi",
+        "listings": [
+          {
+            "item": "KHAJUL 24-piece press-on nails",
+            "price": {
+              "currency": "SAR",
+              "value": 19.2
+            },
+            "rating": 4.6,
+            "ratingsCount": 125,
+            "badge": "Selling out fast"
+          },
+          {
+            "item": "24-piece natural-look nails with fibrous adhesive stickers",
+            "price": {
+              "currency": "SAR",
+              "value": 24.3
+            },
+            "rating": 4.3,
+            "ratingsCount": 31,
+            "badge": "Lowest price in a year"
+          }
+        ],
+        "priceBandSar": [
+          19.2,
+          24.3
+        ],
+        "freshness": "Bestseller page search index approximately 3 months old; not new transactions.",
+        "comparability": "The fibrous-adhesive-sticker item is the closest adhesive-tab direction; exact contents, adhesive chemistry, and absence of liquid glue must be checked before any sourcing.",
+        "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/"
+      },
+      {
+        "sku": "phone-charm-beaded",
+        "type": "NON_COMPARABLE_BRANDED_PLUSH_CHARM_REFERENCE",
+        "market": "UAE",
+        "listing": "A22 DABUBU 13cm collectible plush keychain blind box",
+        "price": {
+          "currency": "AED",
+          "value": 181.5
+        },
+        "seller": "noon",
+        "freshness": "Noon listing indexed approximately 3 months ago.",
+        "comparability": "Licensed/owned branded plush blind-box IP; not comparable to generic beaded phone charm and not evidence of a generic charm's willingness-to-pay.",
+        "rights": "A22-owned IP; no ChinaGCC resale authorization.",
+        "source": "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+      },
+      {
+        "sku": "original-ip-plush",
+        "type": "FIRST_PARTY_BRAND_RESTOCK_CLAIM_PLUS_PLATFORM_LISTING",
+        "market": "UAE",
+        "brand": "A22 DABUBU",
+        "officialClaim": "First drop sold out in 3 hours and restocked; First Edition 2,000 pieces at AED220; official page identifies Noon and Virgin Megastore Dubai Mall as retail touchpoints.",
+        "platformEvidence": "Noon listing AED181.50, sold by noon, product described as 13cm plush blind-box keychain; page indexed approximately 3 months ago.",
+        "evidenceQuality": "First-party sellout/restock statement and historical platform listing; no independent payment ledger or current stock audit.",
+        "rights": "OWNED_BY_A22_NOT_AUTHORIZED_FOR_CHINAGCC__HARD_STOP",
+        "source": [
+          "https://a22.ae/",
+          "https://www.dabubu.ae/",
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+        ]
+      }
+    ],
+    "ngsDocumentationAudit": {
+      "officialFlow": [
+        "Create Organization ID and verify email/phone",
+        "Create UAE and/or KSA store; public EN/AR store name and contact",
+        "Create China Legal Entity: registration/license number, registered name/address, issue/expiry dates, upload Commercial Registration; select Non-VAT Registered under NGS; add authorized signatory and sign program T&Cs",
+        "Create China warehouse address for inventory control; it is not the shipping hub",
+        "Select noon International Logistics (UAE/KSA) delivery model and set seller processing time",
+        "Create Seller SKUs and pass content/category/brand QC",
+        "Upload USD Transfer Price and inventory; approved items may automatically go live",
+        "Complete invoicing profile",
+        "Add payout method, obtain approval, then map it to the correct selling origin"
+      ],
+      "acceptedPayoutOptionsListed": [
+        "Bank Account",
+        "Payoneer",
+        "LianLian",
+        "WorldFirst",
+        "PingPong"
+      ],
+      "processingTimeMeaning": "Seller time to fulfil order and drop it at nearest China consolidation hub; it is not Legal Entity review time or end-to-end onboarding SLA.",
+      "officialSlaDays": null,
+      "chineseSoleProprietorApprovalCase": null,
+      "accountSpecificNgsIneligibilityReason": null,
+      "conflictsPreserved": [
+        "Commercial Registration remaining validity: 15-day general document page vs 30-day rejection-remediation guidance; >=30 days is only a conservative preparation buffer, not a confirmed NGS minimum.",
+        "Representative identity: passport listed in international seller requirements while Chinese resident ID appears in a rejection guide; actual China NGS acceptance remains unverified."
+      ],
+      "actualAccountCheck": "No live Seller Lab session in this run. Last verified historical snapshot remains UAE GCC Picks store created; China LE not approved/submitted; NGS not eligible with unspecified reason; payout and selling-origin mapping unknown.",
+      "sources": [
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      ]
+    },
+    "saudiDesignPolicy": {
+      "officialRule": "Noon prohibited-products page lists rainbow-colored products as prohibited in Saudi Arabia; also restricts certain religious symbols and Christmas/Halloween/Easter terms or imagery.",
+      "action": "Do not assume every multicolor item is prohibited, but avoid rainbow palettes and prohibited motifs in KSA-facing SKU/colorways, titles, tags and imagery; obtain SKU-specific QC.",
+      "source": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    },
+    "newIndependentPaidOrders": 0,
+    "newIndependentSameBomRfqs": 0,
+    "newIndependentSameBomRestocks": 0,
+    "newSupplierDeepSearch": false,
+    "supplierSearchReason": "No new independent paid orders, same-BOM RFQ or fresh restock/stockout ledger. Historical marketplace labels and a first-party branded-IP restock claim do not qualify as a new unrelated SKU demand proof.",
+    "scoreChanged": false,
+    "historicalScoresRetained": {
+      "cosmetic-bag-set": [
+        78,
+        90,
+        73
+      ],
+      "hair-accessories": [
+        70,
+        92,
+        78
+      ],
+      "press-on-nails": [
+        67,
+        92,
+        80
+      ],
+      "phone-charm-beaded": [
+        68,
+        84,
+        76
+      ],
+      "original-ip-plush": [
+        69,
+        67,
+        58
+      ]
+    },
+    "certifiedWorstLoss100Usd": {
+      "cosmetic-bag-set": null,
+      "hair-accessories": null,
+      "press-on-nails": null,
+      "phone-charm-beaded": null,
+      "original-ip-plush": null
+    },
+    "channelAccessGate": "NO_GO_LE_NOT_APPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_BRAND_QC_INVOICE_UNVERIFIED",
+    "trendLag": {
+      "chinaToGccFirstPaidDatePairs": 0,
+      "chinaFirstPaidDate": null,
+      "gccFirstPaidDate": null,
+      "lagDays": null,
+      "reverseFlow": "A22 Dubai-born DABUBU -> China launch/200-unit allocation; first paid dates in either market not independently verified; reverse flow only.",
+      "ipRights": "Third-party IP hard stop without written authorization; DABUBU belongs to A22."
+    },
+    "sources": {
+      "saudiDigital": "https://datareportal.com/reports/digital-2026-saudi-arabia",
+      "uaeDigital": "https://datareportal.com/reports/digital-2026-united-arab-emirates",
+      "ngs": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "registration": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
+      "payout": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "restricted": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "brand": "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
+      "trenz": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+      "hair": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+      "nails": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+      "dabubuBrand": "https://www.dabubu.ae/",
+      "a22": "https://a22.ae/",
+      "dabubuNoon": "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+    }
+  }
 }
