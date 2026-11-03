@@ -888,7 +888,7 @@
     "newSameBomRestocks": 0,
     "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
   },
-  "historicalWorstLossBudget": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+  "historicalWorstLossBudget": null,
   "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
   "worstLoss100CertifiedUpperBound": false,
   "worstLoss100Formula": {
@@ -898,7 +898,7 @@
   "worstLoss100MissingInputs": [
     "sameBOM supplier unit cost and MOQ",
     "final packed weight and dimensions",
-    "per-order China domestic delivery cost to Shenzhen NGS hub or Amazon import consolidation",
+    "per-order China domestic delivery cost",
     "actual platform price/fees/returns and non-saleable handling",
     "verified liquidation/residual recovery and fixed setup costs"
   ],
@@ -906,9 +906,8 @@
   "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
   "latestRadar20261103C04": {
     "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
-    "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
-    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__NGS_ACCOUNT_NOT_VERIFIED",
-    "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
     "certifiedWorstLoss100": null,
     "certifiedUpperBound": false,
     "scoreChanged": false,
