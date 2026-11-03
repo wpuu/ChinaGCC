@@ -16,11 +16,11 @@
     "dataIntegrity": "10支刷具统一规范ID makeup-brushes-10pc，原makeup-brush-set-10pc文件待标记Legacy；历史A-K缺失或41子项与总分不符的数据不得当已审定值",
     "latestRadarDate": "2026-11-03",
     "latestRadarPath": "data/daily/2026-11-03.json",
-    "latestRadarStatus": "UAE_STORE_VERIFIED_20261101__LE_UNAPPROVED__NGS_INELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_UNKNOWN__NO_GO",
-    "latestRadarNote": "2026-11-03 C02: official Noon brand verification mandatory before go-live; NGS bank payout threshold policy may delay first cash receipt (100/1000 AED/SAR by account currency under general policy, NGS-specific application unverified). Historical UAE tabs-only nails listing AED28, 2 reviews/one left not current sale; Saudi 4-mesh bags not same quilted BOM. Channel remains NO_GO; scores unchanged.",
+    "latestRadarStatus": "UAE_STORE_VERIFIED_20261101__LE_UNAPPROVED__NGS_INELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_BRAND_QC_INVOICE_UNKNOWN__NO_GO",
+    "latestRadarNote": "2026-11-03 C03: late-2025 DataReportal audience data prioritizes Saudi Snapchat/TikTok/Instagram and UAE TikTok/Instagram/Snapchat for discovery only; Noon/Amazon remain checkout channels. Historical Noon pages show Saudi 4pc TRENZ bag SAR59.90, UAE 8pc clips AED39 with 10+ sold recently label, Saudi adhesive-tab nail price cluster SAR19.20–24.30; pages are ~3 months old and not new owner transactions. A22 DABUBU is GCC-origin/A22-owned, not authorized for ChinaGCC; trend lag remains unknown. NGS 7-step materials and no published onboarding SLA documented; no live Seller Lab check. Channel remains NO-GO; scores and 100-unit certified losses unchanged/null.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "latestDailyAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -50,7 +50,20 @@
       ]
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
-    "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION"
+    "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
+    "latestRadarAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "latestRadarC03": {
+      "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+      "observedAt": "2026-11-03T20:07:15+08:00",
+      "discoverySource": "DataReportal Digital 2026 late-2025 ad-planning estimates",
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "newSameBomRestocks": 0,
+      "channelAccessGate": "NO_GO",
+      "scoreRecalculated": false,
+      "trendLagDays": null,
+      "reportPath": "research/2026-11-03/CHINAGCC_C03_AUDIENCE_DISCOVERY_FOURSKU_NGS_ACCESS.md"
+    }
   },
   "skus": [
     {
@@ -458,6 +471,45 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "Saudi TRENZ four-piece multi-sized padded/lightweight makeup bag, SAR59.90, seller 4.5/87% positive, low stock 4; indexed ~3 months ago. Piece count/use-case match only; exact fabric, packed dimensions/weight and target BOM unverified.",
+        "consumerRetailReference": {
+          "currency": "SAR",
+          "value": 59.9,
+          "lowStockUnitsShown": 4,
+          "sellerRating": 4.5,
+          "sellerPositivePct": 87
+        },
+        "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+        "freshness": "HISTORICAL_INDEX_3_MONTHS_NOT_NEW_ORDER",
+        "transferPriceScenarioUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "q10CostCapUsd": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 620,
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Obtain exact four-piece BOM, dimensions/packed weight and independent same-BOM paid-order/RFQ/restock proof before supplier deep search."
       }
     },
     {
@@ -2554,6 +2606,48 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "UAE Noon bestseller page: ORiTi Ceetug 8 PCS large claw clips AED39, 4.4/49 ratings, 'Selling out fast' and '10+ sold recently'; page index ~3 months old, not live transaction evidence.",
+        "consumerRetailReference": {
+          "currency": "AED",
+          "value": 39,
+          "rating": 4.4,
+          "ratingsCount": 49,
+          "soldRecentlyLabel": "10+ sold recently",
+          "sellingOutFast": true
+        },
+        "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+        "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+        "transferPriceScenarioUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "q10CostCapUsd": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 210,
+        "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+        "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Confirm exact 8-piece clip structure/material and KSA-safe non-rainbow colorway; obtain fresh same-BOM sales evidence before supplier deep search."
       }
     },
     {
@@ -2988,6 +3082,49 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "Saudi bestseller page: KHAJUL 24pc SAR19.20, 4.6/125, selling-out-fast; 24pc natural-look fibrous adhesive sticker variant SAR24.30, 4.3/31. Page index ~3 months old; adhesive-only BOM not confirmed.",
+        "consumerRetailReference": {
+          "currency": "SAR",
+          "range": [
+            19.2,
+            24.3
+          ],
+          "closestAdhesiveTabReference": 24.3
+        },
+        "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+        "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+        "transferPriceScenarioUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "q10CostCapUsd": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 180,
+        "bomGate": "Verify 24 tips, size count, adhesive tabs/fibrous stickers, file, cuticle stick and confirm no liquid glue; claims such as non-toxic need substantiation.",
+        "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+        "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
       }
     },
     {
@@ -3478,6 +3615,47 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "No new comparable generic beaded phone-charm evidence. A22 DABUBU 13cm branded plush blind-box listing at AED181.50, sold by noon, indexed ~3 months ago is non-comparable.",
+        "nonComparableReference": {
+          "brand": "A22 DABUBU",
+          "currency": "AED",
+          "price": 181.5,
+          "seller": "noon",
+          "type": "branded 13cm plush blind-box charm"
+        },
+        "source": [
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/",
+          "https://a22.ae/"
+        ],
+        "transferPriceScenarioUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "q10CostCapUsd": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "actualApprovedTPUsd": null,
+        "actualBuyerFinalPrice": null,
+        "actualNoonMarkup": null,
+        "actualChinaSameBomQuote": null,
+        "actualChinaToShenzhenCost": null,
+        "actualReturnLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "historicalPlanningStopLossUsd": 150,
+        "top5RisksRetained": true,
+        "hardStop": "UNLICENSED_IP_ONLY",
+        "newPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "nextGate": "Keep generic/original bead designs separate from branded plush IP; require new comparable generic charm sales evidence before supply search."
       }
     },
     {
@@ -4249,6 +4427,37 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": false,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "latestRadar20261103C03": {
+        "date": "2026-11-03",
+        "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+        "scoreChanged": false,
+        "marketEvidence": "A22 official DABUBU page claims first 2,000-piece drop at AED220 sold out in 3 hours and restocked; official page names Noon and Virgin Megastore Dubai Mall as retail touchpoints. Noon page shows AED181.50 and seller noon, historical index ~3 months. First-party claim/platform listing only; no independent order ledger.",
+        "source": [
+          "https://a22.ae/",
+          "https://www.dabubu.ae/",
+          "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+        ],
+        "rights": "DABUBU is owned by A22; no ChinaGCC resale/license evidence; hard stop for sourcing/resale.",
+        "trendLag": {
+          "chinaFirstPaidDate": null,
+          "gccFirstPaidDate": null,
+          "lagDays": null,
+          "reverseFlow": "Dubai/GCC -> China launch/200-unit allocation; not China -> GCC."
+        },
+        "actualApprovedTPUsd": null,
+        "consumerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomQuotation": null,
+        "chinaToShenzhenPerUnit": null,
+        "returnsExpectedLoss": null,
+        "certifiedWorstLoss100Usd": null,
+        "top5RisksRetained": true,
+        "hardStop": true,
+        "newIndependentPaidOrders": 0,
+        "newRFQs": 0,
+        "newRestocks": 0,
+        "nextGate": "Do not source or resell DABUBU. Only investigate a separate original IP after written ownership/licensing proof and independent GCC demand evidence."
       }
     },
     {
