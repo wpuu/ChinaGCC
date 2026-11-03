@@ -6064,7 +6064,7 @@
     "noonNgs": {
       "completed": 1,
       "total": 12,
-      "percent": 8,
+      "percent": 8.33,
       "items": {
         "organizationId": false,
         "uaeStore": true,
