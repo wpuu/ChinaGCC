@@ -205,9 +205,9 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Owner主体未Ready",
@@ -570,7 +570,7 @@
           ]
         },
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       },
       "latestRadar20261103C03": {
@@ -611,6 +611,33 @@
         "newSameBomRFQs": 0,
         "newSameBomRestocks": 0,
         "nextGate": "Obtain exact four-piece BOM, dimensions/packed weight and independent same-BOM paid-order/RFQ/restock proof before supplier deep search."
+      },
+      "historicalWorstLossBudget": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -856,9 +883,9 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -1013,8 +1040,36 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -1054,7 +1109,7 @@
         "Eid"
       ],
       "localPlatformFit": "Saudi-high UAE-unverified",
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "opportunityBreakdown": {
         "A1": 4,
         "A2": 3,
@@ -1211,13 +1266,7 @@
         }
       ],
       "hardStop": false,
-      "worstLoss100": {
-        "currency": "CNY",
-        "type": "ESTIMATE_NOT_QUOTE",
-        "lossIfZeroReceipts": 2480,
-        "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
-        "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
-      },
+      "worstLoss100": null,
       "unitEconomics": {
         "transferPriceUsd": [
           3.5,
@@ -1325,8 +1374,41 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": {
+        "currency": "CNY",
+        "type": "ESTIMATE_NOT_QUOTE",
+        "lossIfZeroReceipts": 2480,
+        "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
+        "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
+      },
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -1571,9 +1653,9 @@
         "J": 3,
         "K": 2
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -1744,6 +1826,34 @@
         "v2ScoresRetainedNoRescore": true,
         "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -1987,9 +2097,9 @@
         "J": 5,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -2144,8 +2254,36 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -2170,9 +2308,9 @@
         "J": 4,
         "K": 2
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -2621,7 +2759,7 @@
           ]
         },
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       },
       "latestRadar20261103C03": {
@@ -2665,6 +2803,33 @@
         "newSameBomRFQs": 0,
         "newSameBomRestocks": 0,
         "nextGate": "Confirm exact 8-piece clip structure/material and KSA-safe non-rainbow colorway; obtain fresh same-BOM sales evidence before supplier deep search."
+      },
+      "historicalWorstLossBudget": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -2689,9 +2854,9 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -3081,7 +3246,7 @@
           ]
         },
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       },
       "latestRadar20261103C03": {
@@ -3126,6 +3291,33 @@
         "newSameBomRFQs": 0,
         "newSameBomRestocks": 0,
         "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
+      },
+      "historicalWorstLossBudget": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -3166,7 +3358,7 @@
         "日常穿搭"
       ],
       "localPlatformFit": "medium in Saudi; weak/unproven in UAE",
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "opportunityBreakdown": {
         "A1": 3,
         "A2": 1,
@@ -3337,7 +3529,7 @@
         }
       ],
       "hardStop": "UNLICENSED_IP_ONLY",
-      "worstLoss100": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -3641,6 +3833,33 @@
         "newSameBomRFQs": 0,
         "newSameBomRestocks": 0,
         "nextGate": "Keep generic/original bead designs separate from branded plush IP; require new comparable generic charm sales evidence before supply search."
+      },
+      "historicalWorstLossBudget": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -3665,9 +3884,9 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -3824,8 +4043,35 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -3901,9 +4147,9 @@
         "J": 3,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -4058,8 +4304,36 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -4084,10 +4358,10 @@
         "J": 2,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": true,
       "hardStopNote": "若不能证明原创自有IP、正式授权或正品稳定渠道，则不得销售该IP商品。",
-      "worstLoss100": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "IP授权/正品渠道Hard Stop",
@@ -4356,7 +4630,7 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
       },
       "latestRadar20261103C03": {
@@ -4389,6 +4663,33 @@
         "newRFQs": 0,
         "newRestocks": 0,
         "nextGate": "Do not source or resell DABUBU. Only investigate a separate original IP after written ownership/licensing proof and independent GCC demand evidence."
+      },
+      "historicalWorstLossBudget": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -4464,9 +4765,9 @@
         "J": 4,
         "K": 1
       },
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "hardStop": false,
-      "worstLoss100": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
+      "worstLoss100": null,
       "sampleReady": false,
       "sampleBlockers": [
         "Opportunity<80",
@@ -4613,8 +4914,36 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -4679,7 +5008,7 @@
         "gccSalesEvidence",
         "nextAction"
       ],
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "latestGateReconciliation": {
         "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
@@ -4782,8 +5111,38 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": null,
+      "worstLoss100": null,
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "topRisks": [],
+      "riskMatrixStatus": "NOT_EVALUATED_NO_EVIDENCE",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     },
     {
@@ -4847,7 +5206,7 @@
         "gccSalesEvidence",
         "nextAction"
       ],
-      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+      "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
       "latestGateReconciliation": {
         "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
         "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
@@ -4950,8 +5309,38 @@
         "certifiedWorstLoss100Usd": null,
         "tpScenarioStatus": "NOT_ESTIMATED",
         "v2ScoresRetainedNoRescore": true,
-        "scoreConflictUntouched": false,
+        "scoreConflictUntouched": true,
         "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+      },
+      "historicalWorstLossBudget": null,
+      "worstLoss100": null,
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "worstLoss100CertifiedUpperBound": false,
+      "worstLoss100Formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "worstLoss100MissingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalWorstLoss100Aed": null,
+      "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+      "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+      "topRisks": [],
+      "riskMatrixStatus": "NOT_EVALUATED_NO_EVIDENCE",
+      "latestRadar20261103C04": {
+        "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+        "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+        "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+        "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+        "certifiedWorstLoss100": null,
+        "certifiedUpperBound": false,
+        "scoreChanged": false,
+        "channelAccessGate": "NO_GO"
       }
     }
   ],
@@ -5707,6 +6096,14 @@
         "standaloneDimensionAnd41SubitemSum": 69,
         "status": "UNRESOLVED__DO_NOT_INVENT_OR_AUTOCORRECT"
       }
+    ],
+    "scoreConflictsResolved": false,
+    "certifiedWorstLoss100Count": 0,
+    "certifiedWorstLoss100UnknownCount": 14,
+    "canonicalSkuCount": 14,
+    "unscoredSkuIds": [
+      "hanlin-mask",
+      "microfiber-cloth"
     ]
   },
   "channelAccess": {
@@ -5874,12 +6271,11 @@
       "ipRights": "Third-party IP hard stop without written authorization; DABUBU belongs to A22."
     }
   },
-  "topDecision": "NO_GO: discovery channel ranking refined from late-2025 DataReportal estimates; Noon/Amazon checkout order unchanged. Historical SKU pages and A22 first-party restock claim do not constitute new owner paid orders or generic-SKU demand proof. No supplier deep search; NGS LE/payout-origin/brand/QC/invoicing remain unverified.",
+  "topDecision": "NO_GO：Noon NGS仍为第一验证渠道但账号级资格未通过；Generic仅适用于真实无品牌SKU；Payout阈值官方页面冲突需账号核实；Amazon.sa商业登记接受中国执照未知，FBA非居民VAT与IOR责任不能省略。无新增独立订单/RFQ/补货，历史V2不重算，14个SKU的100件认证最坏亏损全部UNKNOWN。",
   "nextExecution": [
-    "Read only the existing authorized Noon Seller Lab to identify the exact NGS ineligibility reason and China Legal Entity state; verify approved payout and selling-origin mapping. No submissions or account changes.",
-    "For four-piece bags, 8-piece hair clips and adhesive-only nails, obtain fresh independent same-BOM paid-order/RFQ/restock evidence and exact buyer final-price references before any supplier deep search.",
-    "Verify SKU-specific KSA rainbow-color/motif policy and product QC; avoid rainbow colorways and unauthorized IP.",
-    "Keep China-to-GCC original-IP first-paid-date pair collection separate from GCC-to-China reverse-flow cases."
+    "只读已授权Noon Seller Lab：NGS Not Eligible原因、China LE要求、Brand/Generic状态、Payout审批+Selling Origin映射及Invoicing Profile；不提交、不改动。",
+    "向Amazon书面确认Saudi Commercial Registration是否接受中国营业执照，并确认UAE/Saudi FBA VAT、IOR及DDP责任；不创建货件。",
+    "渠道路径明确后，再验证四件包/发饰/胶贴甲的新鲜同BOM成交或RFQ、最终包装参数、深圳单票成本和真实消费者终价。"
   ],
   "blocked": true,
   "SampleReadyCount": 0,
@@ -5914,9 +6310,16 @@
     "https://helpcenter.noon.partners/en/category/onboarding-and-registration/seller-registration-process",
     "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
     "https://www.noon.com/uae-en/best-sellers/clips-24997/",
-    "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+    "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/",
+    "https://helpcenter.noon.partners/en/category/product-listing/the-seller-sku-brand",
+    "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy",
+    "https://sell.amazon.sa/en",
+    "https://sell.amazon.sa/en/content/listing-guide",
+    "https://gs.amazon.cn/middle-east",
+    "https://gs.amazon.cn/middle-east/uae-vat",
+    "https://sellercentral.amazon.ae/seller-forums/discussions/t/ca9dfda2-d873-4494-8d94-5c3e242c623f"
   ],
-  "latestRadarAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+  "latestRadarAuditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
   "incrementalAudits": [
     {
       "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
@@ -6641,6 +7044,13 @@
         "https://a22.ae/",
         "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
       ]
+    },
+    {
+      "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+      "report": "research/2026-11-03/CHINAGCC_C04_BRAND_GENERIC_PAYOUT_CONFLICT_AMAZON_CR_IOR_LOSS_DATA.md",
+      "summary": "Brand/Generic path correction; payout threshold conflict; Amazon Saudi CR ambiguity; FBA IOR and 14-SKU loss certification/data repair.",
+      "scoreChanged": false,
+      "verifiedPaidOrders": 0
     }
   ],
   "lossCertificationBySku": {
@@ -6650,12 +7060,16 @@
       "historicalWorstLossOnly": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "silicone-brush": {
       "certifiedWorstLoss100": null,
@@ -6663,12 +7077,16 @@
       "historicalWorstLossOnly": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "makeup-brushes-10pc": {
       "certifiedWorstLoss100": null,
@@ -6682,12 +7100,16 @@
       },
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "travel-bottles": {
       "certifiedWorstLoss100": null,
@@ -6695,12 +7117,16 @@
       "historicalWorstLossOnly": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "lint-roller": {
       "certifiedWorstLoss100": null,
@@ -6708,12 +7134,16 @@
       "historicalWorstLossOnly": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "hair-accessories": {
       "certifiedWorstLoss100": null,
@@ -6721,12 +7151,16 @@
       "historicalWorstLossOnly": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "press-on-nails": {
       "certifiedWorstLoss100": null,
@@ -6734,12 +7168,16 @@
       "historicalWorstLossOnly": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "phone-charm-beaded": {
       "certifiedWorstLoss100": null,
@@ -6747,12 +7185,16 @@
       "historicalWorstLossOnly": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "cable-management": {
       "certifiedWorstLoss100": null,
@@ -6760,12 +7202,16 @@
       "historicalWorstLossOnly": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     },
     "makeup-sponge": {
       "certifiedWorstLoss100": null,
@@ -6773,12 +7219,84 @@
       "historicalWorstLossOnly": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
       "status": "UNKNOWN_NOT_VERIFIABLE",
       "reasons": [
-        "sameBOMUnitCost",
-        "finalPackedWeightDimensions",
-        "singleOrderShenzhenCost",
-        "returnsAndFees",
-        "verifiedLiquidationRecovery"
-      ]
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
+    },
+    "original-ip-plush": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
+    },
+    "car-sunshade": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
+    },
+    "hanlin-mask": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": null,
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
+    },
+    "microfiber-cloth": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "historicalWorstLossOnly": null,
+      "status": "UNKNOWN_NOT_VERIFIABLE",
+      "reasons": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "formulas": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      }
     }
   },
   "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
@@ -7125,5 +7643,243 @@
       "a22": "https://a22.ae/",
       "dabubuNoon": "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
     }
-  }
+  },
+  "firstSaleReadiness": {
+    "noonNGS": {
+      "completed": 1,
+      "total": 12,
+      "percent": 8.33,
+      "items": [
+        {
+          "name": "Organization ID",
+          "status": "UNKNOWN_NOT_INDEPENDENTLY_VERIFIED",
+          "blocker": "未归档可核验Organization ID凭证；不能仅由UAE店存在推定验收"
+        },
+        {
+          "name": "UAE Store",
+          "status": "DONE",
+          "evidence": "GCC Picks于2026-11-01通过Work049/055后台验收；本轮未重新登录"
+        },
+        {
+          "name": "KSA Store",
+          "status": "NOT_VERIFIED",
+          "blocker": "无KSA Store创建及后台验收证据"
+        },
+        {
+          "name": "China Legal Entity approval",
+          "status": "NOT_DONE",
+          "blocker": "China LE未提交/未批准；上次NGS Not Eligible原因未知"
+        },
+        {
+          "name": "NGS warehouse",
+          "status": "NOT_DONE",
+          "blocker": "未验收中国库存管理仓及NGS delivery model；库存仓不等于深圳集货仓"
+        },
+        {
+          "name": "Payout approved",
+          "status": "NOT_DONE",
+          "blocker": "无银行/Payoneer/LianLian/WorldFirst/PingPong获批凭证"
+        },
+        {
+          "name": "First SKU QC",
+          "status": "NOT_DONE",
+          "blocker": "无首SKU类目、内容、品牌/Generic路径和QC批准"
+        },
+        {
+          "name": "Transfer Price live",
+          "status": "NOT_DONE",
+          "blocker": "无Seller Lab批准TP、库存和live offer证据"
+        },
+        {
+          "name": "First order",
+          "status": "NOT_DONE",
+          "blocker": "无本店真实买家付款订单"
+        },
+        {
+          "name": "Shenzhen handoff",
+          "status": "NOT_DONE",
+          "blocker": "无订单对应深圳集货仓交接记录"
+        },
+        {
+          "name": "Delivered",
+          "status": "NOT_DONE",
+          "blocker": "无平台妥投记录"
+        },
+        {
+          "name": "First payout",
+          "status": "NOT_DONE",
+          "blocker": "无对账单、付款交易ID及实际到账记录"
+        }
+      ]
+    },
+    "amazon": {
+      "completed": 0,
+      "total": 15,
+      "percent": 0,
+      "items": [
+        {
+          "name": "China seller account",
+          "status": "NOT_VERIFIED",
+          "blocker": "无全球开店账户审批/卖家后台证据；需真实中国主体、身份证明及国际信用卡"
+        },
+        {
+          "name": "UAE account",
+          "status": "NOT_DONE",
+          "blocker": "未提交/未验收UAE站卖家账户"
+        },
+        {
+          "name": "Saudi account",
+          "status": "NOT_DONE",
+          "blocker": "未提交/未验收Saudi账户；Amazon.sa要求Commercial Registration，是否接受中国营业执照需书面确认"
+        },
+        {
+          "name": "VAT",
+          "status": "NOT_DONE",
+          "blocker": "未取得UAE/Saudi FBA对应VAT注册；非居民FBA无销售额门槛，需依法在首笔当地FBA销售触发时注册"
+        },
+        {
+          "name": "IOR/import",
+          "status": "NOT_DONE",
+          "blocker": "无具名进口商、报关行/货代IOR委托、DDP报价及进口单证责任分配；Amazon不作为FBA进口商"
+        },
+        {
+          "name": "SKU locked",
+          "status": "NOT_DONE",
+          "blocker": "未通过渠道准入、同BOM成本、合规与15%利润门槛锁定首SKU"
+        },
+        {
+          "name": "3 supplier quotes",
+          "status": "NOT_DONE",
+          "blocker": "无3份同BOM、含MOQ/交期/包装的可执行正式报价"
+        },
+        {
+          "name": "final packed weight",
+          "status": "NOT_DONE",
+          "blocker": "无最终零售包装毛重、长宽高和计费重实测"
+        },
+        {
+          "name": "sample QC",
+          "status": "NOT_DONE",
+          "blocker": "无样品和验收记录"
+        },
+        {
+          "name": "listing ready",
+          "status": "NOT_DONE",
+          "blocker": "无合规英阿Listing、图片权利、品牌/类目/GTIN批准"
+        },
+        {
+          "name": "FBA shipment created",
+          "status": "NOT_DONE",
+          "blocker": "未建立Seller Central FBA货件及箱标"
+        },
+        {
+          "name": "inventory received",
+          "status": "NOT_DONE",
+          "blocker": "无Amazon仓库收货和可售库存证据"
+        },
+        {
+          "name": "ads live",
+          "status": "NOT_DONE",
+          "blocker": "未创建或启动Sponsored Products"
+        },
+        {
+          "name": "first order",
+          "status": "NOT_DONE",
+          "blocker": "无真实买家付款订单"
+        },
+        {
+          "name": "first payout",
+          "status": "NOT_DONE",
+          "blocker": "无结算单和银行/收款工具到账证据"
+        }
+      ]
+    }
+  },
+  "latest20261103C04Audit": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "date": "2026-11-03",
+    "scope": "公开官方政策与GitHub结构化数据；未登录Seller Lab、未提交证件、未改账户、未采购、未上架、未投广告、未外联",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "scoresChanged": false,
+    "sampleReady": 0,
+    "purchaseApproved": 0,
+    "brandRoute": {
+      "generic": "真实无品牌商品Brand字段填generic；不是N/A/unbranded/no brand",
+      "ownBrand": "新品牌需英阿名称、Logo、网站或可验证社媒；Pending可预建SKU但批准前不能Go Live",
+      "gatedBrand": "Noon-controlled/gated brand需whitelist/authorization及可能的发票/进口/监管文件",
+      "thirdPartyIP": "无书面授权Hard Stop",
+      "accountStatus": "未登录Seller Lab，当前SKU Brand/Generic状态未知"
+    },
+    "payoutPolicy": {
+      "helpCenter": {
+        "sameCurrency": "100 AED/SAR",
+        "foreignCurrency": "1,000 AED/SAR",
+        "statement": "Wednesday",
+        "uaeKsaProcessing": "following Thursday if eligible"
+      },
+      "supportAgent": {
+        "weeklyThreshold": "1,000 AED/SAR",
+        "belowThreshold": "50–1,000 monthly; 50 or less held"
+      },
+      "officialDocumentationConflict": true,
+      "ngsSpecificApplicability": "regular policy referenced by NGS, actual PSP/currency not account-verified",
+      "requiredGate": "approved method must be mapped to correct Selling Origin"
+    },
+    "amazon": {
+      "chinaGlobalSelling": "China Global Selling page lists UAE/Saudi; identity, international card and company business-license details needed",
+      "saudiRegistration": "Amazon.sa says Commercial Registration mandatory; Chinese business license acceptance vs local KSA CR UNKNOWN",
+      "vat": "non-resident UAE/Saudi FBA seller VAT obligation irrespective of turnover; NGS exception does not apply",
+      "ior": "Seller Central staff reply says cross-border FBA seller is destination IOR and arranges customs broker; no Amazon IOR assumption",
+      "status": "NO_GO"
+    },
+    "lossCertification": {
+      "certifiedWorstLoss100": null,
+      "certifiedUpperBound": false,
+      "status": "UNKNOWN_NOT_CERTIFIED",
+      "formula": {
+        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+      },
+      "missingInputs": [
+        "sameBOM supplier unit cost and MOQ",
+        "final packed weight and dimensions",
+        "per-order China domestic delivery cost to Shenzhen/forwarder",
+        "actual platform price/fees/returns and non-saleable handling",
+        "verified liquidation/residual recovery and fixed setup costs"
+      ],
+      "historicalBudgetsAreNotUpperBounds": true
+    },
+    "dataIntegrity": {
+      "canonicalSkuCount": 14,
+      "scoredCandidates": 12,
+      "unscoredCandidates": 2,
+      "knownScoreConflicts": [
+        "travel-bottles main 75 vs standalone 74",
+        "phone-charm-beaded main 68 vs standalone 69"
+      ],
+      "scoreConflictsResolved": false
+    },
+    "nextActions": [
+      "只读已授权Noon Seller Lab：NGS Not Eligible原因、China LE要求、Brand/Generic状态、Payout审批+Selling Origin映射及Invoicing Profile；不提交、不改动。",
+      "向Amazon书面确认Saudi Commercial Registration是否接受中国营业执照，并确认UAE/Saudi FBA VAT、IOR及DDP责任；不创建货件。",
+      "渠道路径明确后，再验证四件包/发饰/胶贴甲的新鲜同BOM成交或RFQ、最终包装参数、深圳单票成本和真实消费者终价。"
+    ],
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/product-listing/the-seller-sku-brand",
+      "https://helpcenter.noon.partners/en/category/product-listing/brand-registration",
+      "https://helpcenter.noon.partners/en/category/product-listing/product-listing-policy",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://sell.amazon.sa/en",
+      "https://sell.amazon.sa/en/content/listing-guide",
+      "https://gs.amazon.cn/middle-east",
+      "https://gs.amazon.cn/middle-east/uae-vat",
+      "https://sellercentral.amazon.ae/seller-forums/discussions/t/ca9dfda2-d873-4494-8d94-5c3e242c623f"
+    ]
+  },
+  "latestRadarNote": "C04 adds official brand/generic distinction, conflicting payout threshold pages, Amazon Saudi Commercial Registration ambiguity and IOR/VAT gates; no new transactions, scores unchanged, all 14 certified worst losses unknown."
 }
