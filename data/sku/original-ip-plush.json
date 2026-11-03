@@ -585,5 +585,36 @@
     "v2ScoresRetainedNoRescore": true,
     "scoreConflictUntouched": false,
     "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "latestRadar20261103C03": {
+    "date": "2026-11-03",
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "scoreChanged": false,
+    "marketEvidence": "A22 official DABUBU page claims first 2,000-piece drop at AED220 sold out in 3 hours and restocked; official page names Noon and Virgin Megastore Dubai Mall as retail touchpoints. Noon page shows AED181.50 and seller noon, historical index ~3 months. First-party claim/platform listing only; no independent order ledger.",
+    "source": [
+      "https://a22.ae/",
+      "https://www.dabubu.ae/",
+      "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/"
+    ],
+    "rights": "DABUBU is owned by A22; no ChinaGCC resale/license evidence; hard stop for sourcing/resale.",
+    "trendLag": {
+      "chinaFirstPaidDate": null,
+      "gccFirstPaidDate": null,
+      "lagDays": null,
+      "reverseFlow": "Dubai/GCC -> China launch/200-unit allocation; not China -> GCC."
+    },
+    "actualApprovedTPUsd": null,
+    "consumerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomQuotation": null,
+    "chinaToShenzhenPerUnit": null,
+    "returnsExpectedLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "top5RisksRetained": true,
+    "hardStop": true,
+    "newIndependentPaidOrders": 0,
+    "newRFQs": 0,
+    "newRestocks": 0,
+    "nextGate": "Do not source or resell DABUBU. Only investigate a separate original IP after written ownership/licensing proof and independent GCC demand evidence."
   }
 }
