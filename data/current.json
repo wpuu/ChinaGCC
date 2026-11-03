@@ -2,8 +2,8 @@
   "version": "2026-10-08-v2",
   "meta": {
     "name": "ChinaGCC",
-    "status": "继续研究，不采购；Noon NGS 1/12（UAE Store已验收，Legal Entity和NGS未获批准）、Amazon 0/15、Sample Ready 0",
-    "thirtyDayJudgment": "CONTINUE（74/100）：低成本验证优先，未闭环中国经营主体、Noon消费者终价、同款3家完整报价/整包重量/QC；不投入主要库存资金。",
+    "status": "HOLD / CONDITIONAL_RESTART；Noon NGS仍为第一渠道但账号级资格未通过；Amazon中国卖家路径已有官方文档、账户仍未创建；不新增SKU/供应商深搜，不采购、不上架、不投广告。",
+    "thirtyDayJudgment": "HOLD / CONDITIONAL_RESTART（历史研究置信度74/100，不是GO）：只对新的外部准入、真实买家价格/订单或同BOM成本证据响应；停止重复空店铺检查和无成交SKU扩榜。",
     "overallConfidence": 74,
     "lastUpdated": "2026-11-03",
     "lastSynced": "2026-11-03",
@@ -16,8 +16,8 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-03",
     "latestRadarPath": "data/daily/2026-11-03.json",
-    "latestRadarStatus": "NGS_NO_GO__GENERIC_ROUTE_CLARIFIED__PAYOUT_THRESHOLD_DOC_CONFLICT__AMAZON_KSA_CR_ACCEPTANCE_UNKNOWN__IOR_REQUIRED__ALL_100UNIT_LOSSES_UNCERTIFIED",
-    "latestRadarNote": "C04: Noon Generic applies only to genuinely unbranded items; own brand approval before go-live and gated/third-party IP rights remain separate. Payout threshold official pages conflict; NGS provider/currency/origin not verified. Amazon.sa requires Commercial Registration but Chinese CR acceptance is unknown; foreign FBA VAT and named IOR remain blockers. No new paid orders/RFQs/restocks; scores unchanged; all 14 certified 100-unit worst losses null.",
+    "latestRadarStatus": "NGS_NO_GO__AMAZON_CHINA_SELLER_PATH_DOCUMENTED__NOON_LE_PREFLIGHT_CLARIFIED__PAYOUT_THRESHOLD_CONFLICT__NO_NEW_SKU_TRANSACTIONS",
+    "latestRadarNote": "C05: Amazon China Global Selling officially documents UAE/Saudi path; Amazon.sa local CR requirement is for businesses located in KSA, not a universal foreign-seller local-license rule. Actual KYC remains unverified; Saudi new-seller incentive is temporary and excluded from steady-state margin. Noon rejection guide clarifies business activity, CR/ID validity, representative/POA and payout-beneficiary checks; actual China NGS approval still unknown. No new paid orders/RFQs/restocks; no SKU rescoring or procurement.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
@@ -51,7 +51,7 @@
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-    "latestRadarAuditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "latestRadarAuditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
     "latestRadarC03": {
       "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
       "observedAt": "2026-11-03T20:07:15+08:00",
@@ -150,7 +150,7 @@
           {
             "name": "Saudi account",
             "status": "NOT_DONE",
-            "blocker": "未提交/未验收Saudi账户；Amazon.sa要求Commercial Registration，是否接受中国营业执照需书面确认"
+            "blocker": "Amazon中国全球开店已公开列出Saudi站点；Amazon.sa本地CR要求针对位于KSA的企业。中国主体的实际Seller Central KYC/国家资格仍未申请或验收。"
           },
           {
             "name": "VAT",
@@ -299,6 +299,76 @@
         "https://gs.amazon.cn/middle-east",
         "https://gs.amazon.cn/middle-east/uae-vat",
         "https://sellercentral.amazon.ae/seller-forums/discussions/t/ca9dfda2-d873-4494-8d94-5c3e242c623f"
+      ]
+    },
+    "latestRadarC05": {
+      "auditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
+      "date": "2026-11-03",
+      "report": "research/2026-11-03/CHINAGCC_C05_AMAZON_CHINA_PATH_NOON_LE_DOCUMENT_GATES.md",
+      "scope": "只读官方公开政策及既有GitHub；未登录平台、提交证件、签约、外联、注册、采购、上架或投放",
+      "scoreChanged": false,
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "newSameBomRestocks": 0,
+      "amazon": {
+        "chinaSellerPath": "DOCUMENTED_BY_AMAZON_CHINA_GLOBAL_SELLING",
+        "markets": [
+          "UAE",
+          "Saudi"
+        ],
+        "registrationEvidence": "Amazon China Global Selling lists UAE/Saudi and asks for company business-license name/address, identity and international credit card.",
+        "ksaLocalCRScope": "Amazon.sa page says businesses located in KSA need KSA-issued CR; do not generalize this local requirement to all foreign sellers.",
+        "actualAccountKyc": "NOT_VERIFIED",
+        "saudiIncentive": {
+          "validUntil": "2026-12-31",
+          "referralFeeDiscountPct": 30,
+          "durationDays": 60,
+          "salesCapSAR": 150000,
+          "adsCreditSAR": 370,
+          "note": "Conditional new-seller offer; do not include in steady-state margin."
+        },
+        "vat": "Non-UAE/Saudi resident FBA seller must meet local VAT obligations; Amazon China page describes filing within 30 days after first taxable sale. Tax timing requires local professional confirmation.",
+        "ior": "FBA seller/importer must arrange named IOR and DDP; Amazon is not the IOR."
+      },
+      "noonLegalEntity": {
+        "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+        "businessActivity": "Trading/Selling/Manufacturing/Distribution/Wholesale/E-commerce/Retail must be permitted by registration",
+        "registrationValidityDays": 30,
+        "validityConflict": "General documents page still says 15 days; 30 days is conservative buffer, not certified NGS-specific minimum.",
+        "representativeIdValidityDays": 15,
+        "chineseResidentIdListedAsAccepted": true,
+        "representative": "Must be owner named on CR or provide Power of Attorney",
+        "payoutBeneficiary": "Must match owner/registration; mismatch needs Noon confirmation",
+        "foreignPayoutProof": "Payoneer or LianLian authorization letter signed and stamped may be accepted for sellers outside UAE/KSA/Egypt",
+        "actualChinaNgsApproval": "NOT_VERIFIED"
+      },
+      "payoutThreshold": {
+        "helpCenter": "100 AED/SAR same currency; 1000 AED/SAR foreign currency",
+        "supportAgent": "1000 weekly; 50-1000 monthly; <=50 held",
+        "conflict": true,
+        "ngsAccountApplicability": "UNKNOWN_NOT_ACCOUNT_VERIFIED"
+      },
+      "channelAccessGate": "NGS_NO_GO__AMAZON_CHINA_PATH_DOCUMENTED_BUT_ACCOUNT_KYC_VAT_IOR_NOT_DONE",
+      "readiness": {
+        "noonNGS": "1/12=8.33% unchanged",
+        "amazon": "0/15=0% unchanged"
+      },
+      "nextActions": [
+        "Owner-side read-only verify existing Chinese commercial registration, permitted business scope, validity, named owner/authorized representative and matching payout entity; no upload or submission.",
+        "Do not repeat known empty Seller Lab pages. Only with user authorization and a usable Work session, read the existing NGS ineligibility reason, LE, Payout, Selling Origin and Invoicing Profile; read-only.",
+        "Keep Amazon as documented second-channel option; no account creation or FBA shipment until entity, VAT, named IOR/DDP and first-SKU economics are evidenced."
+      ],
+      "sources": [
+        "https://gs.amazon.cn/middle-east",
+        "https://sell.amazon.sa/en/sell/business",
+        "https://sell.amazon.sa/en/",
+        "https://sell.amazon.ae/pricing",
+        "https://gs.amazon.cn/middle-east/uae-vat",
+        "https://sellercentral.amazon.ae/seller-forums/discussions/t/87becf9a-1cd2-4d02-98e6-542e3452427f",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+        "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+        "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
       ]
     }
   },
@@ -5976,7 +6046,7 @@
       "blockers": {
         "amazonChinaSellerAccount": "缺已审批的中国经营主体及亚马逊实际Seller Account状态。",
         "uaeAccount": "Amazon主卖家资料尚未批准开通UAE站。",
-        "saudiAccount": "Amazon主卖家资料尚未批准开通Saudi站。",
+        "saudiAccount": "Amazon中国全球开店官方已列Saudi站点；KSA本地CR规则适用于位于KSA的企业。中国主体实际Seller Central KYC/账户审批仍未完成。",
         "vat": "FBA模式下目的国VAT登记/履责方案未完成，不能发库存。",
         "iorImport": "进口商IOR、清关责任、发票/HS编码和货代方案未完成。",
         "skuLocked": "0个SKU达到Sample Ready；NGS消费者最终价、风险和样品未闭环。",
@@ -6051,10 +6121,14 @@
       "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program"
     },
     "amazonMiddleEast": {
-      "status": "PASS_CONDITIONAL",
+      "status": "PASS_CONDITIONAL_CHINA_PATH_DOCUMENTED",
       "priority": 2,
-      "note": "Amazon全球开店中国明确开放UAE/Saudi，当前中东站免月租；FBA非居民卖家仍有当地VAT义务，进口/IOR需在发货前闭环。",
-      "source": "https://gs.amazon.cn/middle-east"
+      "note": "Amazon China Global Selling officially lists UAE/Saudi; Amazon.sa local CR page applies to businesses located in KSA. Actual Chinese seller KYC/account remains unverified; FBA VAT and named IOR/DDP are still required blockers.",
+      "source": "https://gs.amazon.cn/middle-east",
+      "chinaSellerPathDocumented": true,
+      "actualAccountKyc": "NOT_VERIFIED",
+      "saudiLocalCrScope": "KSA-issued CR requirement is stated for businesses located in KSA; do not generalize to all foreign sellers.",
+      "saudiIncentiveUntil": "2026-12-31"
     },
     "latestObservation": {
       "date": "2026-10-30",
@@ -6159,6 +6233,76 @@
       },
       "timeToLiveDays": "UNKNOWN_NO_OFFICIAL_SLA_OR_ACTUAL_CHINA_CASE",
       "chineseIndividualBusinessEligibility": "UNKNOWN_NO_APPROVAL_RECORD"
+    },
+    "latestPublicPolicyAudit": {
+      "auditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
+      "date": "2026-11-03",
+      "report": "research/2026-11-03/CHINAGCC_C05_AMAZON_CHINA_PATH_NOON_LE_DOCUMENT_GATES.md",
+      "scope": "只读官方公开政策及既有GitHub；未登录平台、提交证件、签约、外联、注册、采购、上架或投放",
+      "scoreChanged": false,
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "newSameBomRestocks": 0,
+      "amazon": {
+        "chinaSellerPath": "DOCUMENTED_BY_AMAZON_CHINA_GLOBAL_SELLING",
+        "markets": [
+          "UAE",
+          "Saudi"
+        ],
+        "registrationEvidence": "Amazon China Global Selling lists UAE/Saudi and asks for company business-license name/address, identity and international credit card.",
+        "ksaLocalCRScope": "Amazon.sa page says businesses located in KSA need KSA-issued CR; do not generalize this local requirement to all foreign sellers.",
+        "actualAccountKyc": "NOT_VERIFIED",
+        "saudiIncentive": {
+          "validUntil": "2026-12-31",
+          "referralFeeDiscountPct": 30,
+          "durationDays": 60,
+          "salesCapSAR": 150000,
+          "adsCreditSAR": 370,
+          "note": "Conditional new-seller offer; do not include in steady-state margin."
+        },
+        "vat": "Non-UAE/Saudi resident FBA seller must meet local VAT obligations; Amazon China page describes filing within 30 days after first taxable sale. Tax timing requires local professional confirmation.",
+        "ior": "FBA seller/importer must arrange named IOR and DDP; Amazon is not the IOR."
+      },
+      "noonLegalEntity": {
+        "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+        "businessActivity": "Trading/Selling/Manufacturing/Distribution/Wholesale/E-commerce/Retail must be permitted by registration",
+        "registrationValidityDays": 30,
+        "validityConflict": "General documents page still says 15 days; 30 days is conservative buffer, not certified NGS-specific minimum.",
+        "representativeIdValidityDays": 15,
+        "chineseResidentIdListedAsAccepted": true,
+        "representative": "Must be owner named on CR or provide Power of Attorney",
+        "payoutBeneficiary": "Must match owner/registration; mismatch needs Noon confirmation",
+        "foreignPayoutProof": "Payoneer or LianLian authorization letter signed and stamped may be accepted for sellers outside UAE/KSA/Egypt",
+        "actualChinaNgsApproval": "NOT_VERIFIED"
+      },
+      "payoutThreshold": {
+        "helpCenter": "100 AED/SAR same currency; 1000 AED/SAR foreign currency",
+        "supportAgent": "1000 weekly; 50-1000 monthly; <=50 held",
+        "conflict": true,
+        "ngsAccountApplicability": "UNKNOWN_NOT_ACCOUNT_VERIFIED"
+      },
+      "channelAccessGate": "NGS_NO_GO__AMAZON_CHINA_PATH_DOCUMENTED_BUT_ACCOUNT_KYC_VAT_IOR_NOT_DONE",
+      "readiness": {
+        "noonNGS": "1/12=8.33% unchanged",
+        "amazon": "0/15=0% unchanged"
+      },
+      "nextActions": [
+        "Owner-side read-only verify existing Chinese commercial registration, permitted business scope, validity, named owner/authorized representative and matching payout entity; no upload or submission.",
+        "Do not repeat known empty Seller Lab pages. Only with user authorization and a usable Work session, read the existing NGS ineligibility reason, LE, Payout, Selling Origin and Invoicing Profile; read-only.",
+        "Keep Amazon as documented second-channel option; no account creation or FBA shipment until entity, VAT, named IOR/DDP and first-SKU economics are evidenced."
+      ],
+      "sources": [
+        "https://gs.amazon.cn/middle-east",
+        "https://sell.amazon.sa/en/sell/business",
+        "https://sell.amazon.sa/en/",
+        "https://sell.amazon.ae/pricing",
+        "https://gs.amazon.cn/middle-east/uae-vat",
+        "https://sellercentral.amazon.ae/seller-forums/discussions/t/87becf9a-1cd2-4d02-98e6-542e3452427f",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+        "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+        "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
+      ]
     }
   },
   "latestRadar": {
@@ -8064,6 +8208,76 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z81BA855B31B50C205F7CZ/p/",
       "https://www.noon.com/saudi-en/housoutil-4pcs-mesh-cosmetic-travel-bag-set-nylon-toiletry-organizer-mini-makeup-holder/ZEDBC0AA1A9C145B64EDEZ/p/"
+    ]
+  },
+  "latestRadar20261103C05": {
+    "auditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
+    "date": "2026-11-03",
+    "report": "research/2026-11-03/CHINAGCC_C05_AMAZON_CHINA_PATH_NOON_LE_DOCUMENT_GATES.md",
+    "scope": "只读官方公开政策及既有GitHub；未登录平台、提交证件、签约、外联、注册、采购、上架或投放",
+    "scoreChanged": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "amazon": {
+      "chinaSellerPath": "DOCUMENTED_BY_AMAZON_CHINA_GLOBAL_SELLING",
+      "markets": [
+        "UAE",
+        "Saudi"
+      ],
+      "registrationEvidence": "Amazon China Global Selling lists UAE/Saudi and asks for company business-license name/address, identity and international credit card.",
+      "ksaLocalCRScope": "Amazon.sa page says businesses located in KSA need KSA-issued CR; do not generalize this local requirement to all foreign sellers.",
+      "actualAccountKyc": "NOT_VERIFIED",
+      "saudiIncentive": {
+        "validUntil": "2026-12-31",
+        "referralFeeDiscountPct": 30,
+        "durationDays": 60,
+        "salesCapSAR": 150000,
+        "adsCreditSAR": 370,
+        "note": "Conditional new-seller offer; do not include in steady-state margin."
+      },
+      "vat": "Non-UAE/Saudi resident FBA seller must meet local VAT obligations; Amazon China page describes filing within 30 days after first taxable sale. Tax timing requires local professional confirmation.",
+      "ior": "FBA seller/importer must arrange named IOR and DDP; Amazon is not the IOR."
+    },
+    "noonLegalEntity": {
+      "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "businessActivity": "Trading/Selling/Manufacturing/Distribution/Wholesale/E-commerce/Retail must be permitted by registration",
+      "registrationValidityDays": 30,
+      "validityConflict": "General documents page still says 15 days; 30 days is conservative buffer, not certified NGS-specific minimum.",
+      "representativeIdValidityDays": 15,
+      "chineseResidentIdListedAsAccepted": true,
+      "representative": "Must be owner named on CR or provide Power of Attorney",
+      "payoutBeneficiary": "Must match owner/registration; mismatch needs Noon confirmation",
+      "foreignPayoutProof": "Payoneer or LianLian authorization letter signed and stamped may be accepted for sellers outside UAE/KSA/Egypt",
+      "actualChinaNgsApproval": "NOT_VERIFIED"
+    },
+    "payoutThreshold": {
+      "helpCenter": "100 AED/SAR same currency; 1000 AED/SAR foreign currency",
+      "supportAgent": "1000 weekly; 50-1000 monthly; <=50 held",
+      "conflict": true,
+      "ngsAccountApplicability": "UNKNOWN_NOT_ACCOUNT_VERIFIED"
+    },
+    "channelAccessGate": "NGS_NO_GO__AMAZON_CHINA_PATH_DOCUMENTED_BUT_ACCOUNT_KYC_VAT_IOR_NOT_DONE",
+    "readiness": {
+      "noonNGS": "1/12=8.33% unchanged",
+      "amazon": "0/15=0% unchanged"
+    },
+    "nextActions": [
+      "Owner-side read-only verify existing Chinese commercial registration, permitted business scope, validity, named owner/authorized representative and matching payout entity; no upload or submission.",
+      "Do not repeat known empty Seller Lab pages. Only with user authorization and a usable Work session, read the existing NGS ineligibility reason, LE, Payout, Selling Origin and Invoicing Profile; read-only.",
+      "Keep Amazon as documented second-channel option; no account creation or FBA shipment until entity, VAT, named IOR/DDP and first-SKU economics are evidenced."
+    ],
+    "sources": [
+      "https://gs.amazon.cn/middle-east",
+      "https://sell.amazon.sa/en/sell/business",
+      "https://sell.amazon.sa/en/",
+      "https://sell.amazon.ae/pricing",
+      "https://gs.amazon.cn/middle-east/uae-vat",
+      "https://sellercentral.amazon.ae/seller-forums/discussions/t/87becf9a-1cd2-4d02-98e6-542e3452427f",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
     ]
   }
 }
