@@ -1,0 +1,230 @@
+{
+  "id": "cable-management",
+  "name": "线材整理/编织套管",
+  "rank": 9,
+  "rankChange": "→",
+  "status": "P2",
+  "opportunityScore": 69,
+  "evidenceConfidence": 63,
+  "dataCompleteness": 58,
+  "dimensionScores": {
+    "A": 10,
+    "B": 6,
+    "C": 11,
+    "D": 10,
+    "E": 10,
+    "F": 5,
+    "G": 1,
+    "H": 6,
+    "I": 5,
+    "J": 4,
+    "K": 1
+  },
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+  "hardStop": false,
+  "worstLoss100": null,
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Opportunity<80",
+    "Confidence<70",
+    "Completeness<75",
+    "低价带经济性风险"
+  ],
+  "topRisks": [
+    {
+      "name": "AED25-30低价带压缩Amazon利润",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false
+    },
+    {
+      "name": "同质化价格战",
+      "probability": 4,
+      "impact": 3,
+      "riskScore": 12,
+      "hardStop": false
+    },
+    {
+      "name": "粘胶或套管质量不稳",
+      "probability": 2,
+      "impact": 4,
+      "riskScore": 8,
+      "hardStop": false
+    },
+    {
+      "name": "跨市场证据不足",
+      "probability": 3,
+      "impact": 3,
+      "riskScore": 9,
+      "hardStop": false
+    },
+    {
+      "name": "复购弱",
+      "probability": 4,
+      "impact": 2,
+      "riskScore": 8,
+      "hardStop": false
+    }
+  ],
+  "nextAction": "女性主线优先后降研究位；除非NGS经济性明显优于女性候选，否则不占用下一轮人工任务。",
+  "scoreAuditNote": "研究初评，缺Seller Lab实际消费者价、完整供应报价或QC；Opportunity分不代表已验证利润",
+  "latestGateReconciliation": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+    "verification": "UAE store is verified, not NGS approval",
+    "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+  },
+  "latestAudit20261101C04": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+    "hundredUnitCertifiedWorstLoss": null,
+    "returnResaleFbnCost": "UNKNOWN",
+    "skuOpportunityRescored": false,
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md"
+  },
+  "corePersona": "NOT_EVALUATED",
+  "ageBand": [
+    "NOT_EVALUATED"
+  ],
+  "genderFit": "NOT_EVALUATED",
+  "discoveryChannel": [
+    "NOT_EVALUATED"
+  ],
+  "checkoutChannel": [
+    "NOT_EVALUATED"
+  ],
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
+  "IPRisk": "NOT_EVALUATED",
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "corePersona",
+      "ageBand",
+      "genderFit",
+      "discoveryChannel",
+      "checkoutChannel",
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "IPRisk",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notAnEvidenceBasedPersonaAssessment": true,
+    "noChangeToHistoricalScores": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "marketSignal": null,
+    "incrementalScoresChanged": false,
+    "score": {
+      "opportunity": 69,
+      "evidenceConfidence": 63,
+      "dataCompleteness": 58
+    },
+    "noNewValidatedPaidOrders": true,
+    "channelAccessGate": "NO_GO",
+    "certifiedWorstLoss100Usd": null,
+    "purchaseAuthorized": false
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "scoreRecalculated": false,
+    "historicalScores": [
+      69,
+      63,
+      58
+    ],
+    "v2Subitems": {
+      "id": "cable-management",
+      "stored": 69,
+      "items": 0,
+      "subitemSum": null,
+      "portraitFieldsPresent": 13
+    },
+    "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+    "newSameBomPaidOrdersVerified": 0,
+    "newSameBomRfqsVerified": 0,
+    "newSameBomRestocksVerified": 0,
+    "brandA22FirstPartySellOutRestockStatementObserved": false,
+    "brandA22UnauthorizedToResell": false,
+    "transferPriceUsdScenario": null,
+    "qAssumption": null,
+    "targetContributionMargin": null,
+    "actualApprovedTpUsd": null,
+    "noonBuyerPrice": null,
+    "noonMarkup": null,
+    "actualChinaSupplierQuote": null,
+    "actualDomesticShenzhenCost": null,
+    "returnAndFbnFeeActual": null,
+    "skuPolicyQcStatus": "NOT_VERIFIED",
+    "certifiedWorstLoss100Usd": null,
+    "scoreChange": false,
+    "sampleReady": false,
+    "purchaseApproved": false,
+    "sourceDaily": "data/daily/2026-11-03.json"
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "channelAccessGate": "NO_GO",
+    "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+    "brandOrGenericRoute": "NOT_VERIFIED",
+    "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+    "payoutOriginLinked": null,
+    "newIndependentPaidOrderVerified": false,
+    "newSameBomRfqVerified": false,
+    "newSameBomRestockVerified": false,
+    "newListingSignal": null,
+    "actualTP": null,
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaQuote": null,
+    "actualChinaShenzhenCost": null,
+    "actualReturnsFBNLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "tpScenarioStatus": "NOT_ESTIMATED",
+    "v2ScoresRetainedNoRescore": true,
+    "scoreConflictUntouched": false,
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "historicalWorstLossBudget": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "asOf": "2026-11-03",
+  "canonicalSource": "data/current.json",
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+}
