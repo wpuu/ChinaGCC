@@ -1,0 +1,271 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": "-3",
+  "legacyScore": 64,
+  "opportunityScore": 64,
+  "evidenceBreakdown": null,
+  "dataCompleteness": 72,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "car-sunshade",
+  "name": "汽车前挡遮阳",
+  "status": "P2",
+  "category": "auto",
+  "rank": null,
+  "evidenceConfidence": 82,
+  "opportunityBreakdown": null,
+  "advantages": [],
+  "risks": [],
+  "knownFacts": [
+    "Saudi成交信号强，但体积、尺寸兼容和红海竞争明显。"
+  ],
+  "pendingVerifications": [
+    "等待完整V2重评。"
+  ],
+  "uaeDemand": "有需求。",
+  "saudiDemand": "成交强。",
+  "currentPriceAed": null,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": null,
+  "weightG": null,
+  "dimensions": null,
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": null,
+  "returnAssumptionPct": null,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "保留强GCC场景证据，但不与轻小女性SKU争首单资源。",
+  "evidenceLinks": [],
+  "hasRepurchase": false,
+  "isStrategicAsset": false,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "nextAction"
+  ],
+  "dimensionScores": {
+    "A": 14,
+    "B": 7,
+    "C": 8,
+    "D": 10,
+    "E": 4,
+    "F": 7,
+    "G": 0,
+    "H": 4,
+    "I": 5,
+    "J": 4,
+    "K": 1
+  },
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+  "hardStop": false,
+  "worstLoss100": null,
+  "sampleReady": false,
+  "sampleBlockers": [
+    "Opportunity<80",
+    "Completeness<75",
+    "尺寸不适配16/25",
+    "体积物流16/25"
+  ],
+  "topRisks": [
+    {
+      "name": "尺寸不适配",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false
+    },
+    {
+      "name": "体积物流成本",
+      "probability": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "hardStop": false
+    },
+    {
+      "name": "价格战",
+      "probability": 4,
+      "impact": 3,
+      "riskScore": 12,
+      "hardStop": false
+    },
+    {
+      "name": "无复购",
+      "probability": 5,
+      "impact": 2,
+      "riskScore": 10,
+      "hardStop": false
+    },
+    {
+      "name": "伞骨/面料耐久",
+      "probability": 3,
+      "impact": 3,
+      "riskScore": 9,
+      "hardStop": false
+    }
+  ],
+  "latestGateReconciliation": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+    "verification": "UAE store is verified, not NGS approval",
+    "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+  },
+  "corePersona": "NOT_EVALUATED",
+  "ageBand": [
+    "NOT_EVALUATED"
+  ],
+  "genderFit": "NOT_EVALUATED",
+  "discoveryChannel": [
+    "NOT_EVALUATED"
+  ],
+  "checkoutChannel": [
+    "NOT_EVALUATED"
+  ],
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
+  "IPRisk": "NOT_EVALUATED",
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "corePersona",
+      "ageBand",
+      "genderFit",
+      "discoveryChannel",
+      "checkoutChannel",
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "IPRisk",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notAnEvidenceBasedPersonaAssessment": true,
+    "noChangeToHistoricalScores": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "marketSignal": null,
+    "incrementalScoresChanged": false,
+    "score": {
+      "opportunity": 64,
+      "evidenceConfidence": 82,
+      "dataCompleteness": 72
+    },
+    "noNewValidatedPaidOrders": true,
+    "channelAccessGate": "NO_GO",
+    "certifiedWorstLoss100Usd": null,
+    "purchaseAuthorized": false
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "scoreRecalculated": false,
+    "historicalScores": [
+      64,
+      82,
+      72
+    ],
+    "v2Subitems": {
+      "id": "car-sunshade",
+      "stored": 64,
+      "items": 0,
+      "subitemSum": null,
+      "portraitFieldsPresent": 13
+    },
+    "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+    "newSameBomPaidOrdersVerified": 0,
+    "newSameBomRfqsVerified": 0,
+    "newSameBomRestocksVerified": 0,
+    "brandA22FirstPartySellOutRestockStatementObserved": false,
+    "brandA22UnauthorizedToResell": false,
+    "transferPriceUsdScenario": null,
+    "qAssumption": null,
+    "targetContributionMargin": null,
+    "actualApprovedTpUsd": null,
+    "noonBuyerPrice": null,
+    "noonMarkup": null,
+    "actualChinaSupplierQuote": null,
+    "actualDomesticShenzhenCost": null,
+    "returnAndFbnFeeActual": null,
+    "skuPolicyQcStatus": "NOT_VERIFIED",
+    "certifiedWorstLoss100Usd": null,
+    "scoreChange": false,
+    "sampleReady": false,
+    "purchaseApproved": false,
+    "sourceDaily": "data/daily/2026-11-03.json"
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "channelAccessGate": "NO_GO",
+    "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+    "brandOrGenericRoute": "NOT_VERIFIED",
+    "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+    "payoutOriginLinked": null,
+    "newIndependentPaidOrderVerified": false,
+    "newSameBomRfqVerified": false,
+    "newSameBomRestockVerified": false,
+    "newListingSignal": null,
+    "actualTP": null,
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaQuote": null,
+    "actualChinaShenzhenCost": null,
+    "actualReturnsFBNLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "tpScenarioStatus": "NOT_ESTIMATED",
+    "v2ScoresRetainedNoRescore": true,
+    "scoreConflictUntouched": false,
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "historicalWorstLossBudget": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "asOf": "2026-11-03",
+  "canonicalSource": "data/current.json",
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+}
