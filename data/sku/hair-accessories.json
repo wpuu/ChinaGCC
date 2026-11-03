@@ -890,5 +890,47 @@
     "v2ScoresRetainedNoRescore": true,
     "scoreConflictUntouched": false,
     "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "latestRadar20261103C03": {
+    "date": "2026-11-03",
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "scoreChanged": false,
+    "marketEvidence": "UAE Noon bestseller page: ORiTi Ceetug 8 PCS large claw clips AED39, 4.4/49 ratings, 'Selling out fast' and '10+ sold recently'; page index ~3 months old, not live transaction evidence.",
+    "consumerRetailReference": {
+      "currency": "AED",
+      "value": 39,
+      "rating": 4.4,
+      "ratingsCount": 49,
+      "soldRecentlyLabel": "10+ sold recently",
+      "sellingOutFast": true
+    },
+    "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+    "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+    "transferPriceScenarioUsd": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "q10CostCapUsd": [
+      1.836,
+      2.2185,
+      2.601
+    ],
+    "actualApprovedTPUsd": null,
+    "actualBuyerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualChinaSameBomQuote": null,
+    "actualChinaToShenzhenCost": null,
+    "actualReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "historicalPlanningStopLossUsd": 210,
+    "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+    "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "newPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "nextGate": "Confirm exact 8-piece clip structure/material and KSA-safe non-rainbow colorway; obtain fresh same-BOM sales evidence before supplier deep search."
   }
 }
