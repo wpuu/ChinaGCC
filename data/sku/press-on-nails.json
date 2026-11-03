@@ -48,7 +48,7 @@
     "J": 3,
     "K": 1
   },
-  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_UNKNOWN__NO_GO",
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_NOT_ELIGIBLE_REASON_UNKNOWN__PAYOUT_ORIGIN_AND_INVOICE_UNVERIFIED__BRAND_ROUTE_NOT_CHECKED__NO_GO",
   "transferPriceTestGridUsd": {
     "basic": [
       1.5,
@@ -130,7 +130,7 @@
     }
   ],
   "hardStop": false,
-  "worstLoss100": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+  "worstLoss100": null,
   "sampleReady": false,
   "sampleBlockers": [
     "Opportunity<80",
@@ -887,5 +887,32 @@
     "newSameBomRFQs": 0,
     "newSameBomRestocks": 0,
     "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
-  }
+  },
+  "historicalWorstLossBudget": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost to Shenzhen NGS hub or Amazon import consolidation",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "GENERIC_OR_NEW_BRAND_OR_GATED_BRAND_NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__NGS_ACCOUNT_NOT_VERIFIED",
+    "amazonIOR": "NOT_APPLICABLE_TO_NGS__AMAZON_FBA_REQUIRES_NAMED_IOR",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
 }
