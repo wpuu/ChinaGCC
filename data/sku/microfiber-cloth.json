@@ -1,0 +1,214 @@
+{
+  "englishName": "",
+  "channels": [
+    "B2C"
+  ],
+  "markets": [
+    "UAE",
+    "Saudi"
+  ],
+  "rankChange": null,
+  "legacyScore": 58,
+  "opportunityScore": null,
+  "evidenceBreakdown": null,
+  "dataCompleteness": null,
+  "suppliers": [],
+  "tianjinHebeiAdvantage": null,
+  "githubIssue": null,
+  "rankingHistory": [],
+  "complianceNote": null,
+  "realNegativeReviews": null,
+  "id": "microfiber-cloth",
+  "name": "微纤维清洁布",
+  "status": "WATCH",
+  "category": "cleaning",
+  "rank": null,
+  "evidenceConfidence": null,
+  "opportunityBreakdown": null,
+  "advantages": [],
+  "risks": [],
+  "knownFacts": [
+    "Amazon UAE FBA固定费用使低价零售经济性偏弱。",
+    "保留B2B大包装、酒店清洁、汽车美容批发观察。"
+  ],
+  "pendingVerifications": [
+    "如出现明确B2B需求再复活。"
+  ],
+  "uaeDemand": "需求存在但跨境FBA经济性弱。",
+  "saudiDemand": "需求存在。",
+  "currentPriceAed": null,
+  "currentPriceSar": null,
+  "chinaCostCny": null,
+  "moq": null,
+  "weightG": null,
+  "dimensions": null,
+  "amazonCategory": null,
+  "amazonCommissionPct": null,
+  "fbaFeeAed": null,
+  "inboundCostAed": null,
+  "adSpendAssumptionPct": null,
+  "returnAssumptionPct": null,
+  "contributionProfitAed": null,
+  "contributionMarginPct": null,
+  "worstLoss100Aed": null,
+  "nextAction": "只保留B2B观察。",
+  "evidenceLinks": [],
+  "hasRepurchase": true,
+  "isStrategicAsset": false,
+  "confirmedFields": [
+    "gccSalesEvidence",
+    "nextAction"
+  ],
+  "channelAccessGate": "UAE_GCC_PICKS_STORE_VERIFIED__CHINA_LE_REQUIRED_NOT_SUBMITTED__NGS_CURRENTLY_NOT_QUALIFIED_REASON_UNKNOWN__PAYOUT_UNVERIFIED__NO_GO",
+  "latestGateReconciliation": {
+    "auditId": "2026-11-01/C03-GATE-RECON-GLUEBOM-OFFICIAL",
+    "priorValue": "OWNER_ORG_VERIFIED__STORES_NONE__NO_VALID_LE__PAYOUT_UNKNOWN__NGS_NOT_READY",
+    "verification": "UAE store is verified, not NGS approval",
+    "source": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-01/CHINAGCC_055_WORK049_STORE_ACCEPTANCE_AND_HONGLIANG_1688_RIGHTS_GATE.md"
+  },
+  "corePersona": "NOT_EVALUATED",
+  "ageBand": [
+    "NOT_EVALUATED"
+  ],
+  "genderFit": "NOT_EVALUATED",
+  "discoveryChannel": [
+    "NOT_EVALUATED"
+  ],
+  "checkoutChannel": [
+    "NOT_EVALUATED"
+  ],
+  "viralPotential": "NOT_EVALUATED",
+  "collectibility": "NOT_EVALUATED",
+  "giftability": "NOT_EVALUATED",
+  "visualDemoStrength": "NOT_EVALUATED",
+  "trendHalfLife": "NOT_EVALUATED",
+  "IPRisk": "NOT_EVALUATED",
+  "seasonalTrigger": [
+    "NOT_EVALUATED"
+  ],
+  "localPlatformFit": "NOT_EVALUATED",
+  "profileCoverage20261102": {
+    "missingFieldsReplacedByExplicitUnknown": [
+      "corePersona",
+      "ageBand",
+      "genderFit",
+      "discoveryChannel",
+      "checkoutChannel",
+      "viralPotential",
+      "collectibility",
+      "giftability",
+      "visualDemoStrength",
+      "trendHalfLife",
+      "IPRisk",
+      "seasonalTrigger",
+      "localPlatformFit"
+    ],
+    "notAnEvidenceBasedPersonaAssessment": true,
+    "noChangeToHistoricalScores": true
+  },
+  "latestRadar20261102C02": {
+    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
+    "marketSignal": null,
+    "incrementalScoresChanged": false,
+    "score": {
+      "opportunity": null,
+      "evidenceConfidence": null,
+      "dataCompleteness": null
+    },
+    "noNewValidatedPaidOrders": true,
+    "channelAccessGate": "NO_GO",
+    "certifiedWorstLoss100Usd": null,
+    "purchaseAuthorized": false
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "scoreRecalculated": false,
+    "historicalScores": [
+      null,
+      null,
+      null
+    ],
+    "v2Subitems": {
+      "id": "microfiber-cloth",
+      "stored": null,
+      "items": 0,
+      "subitemSum": null,
+      "portraitFieldsPresent": 13
+    },
+    "channelAccessGate": "NO_GO_LE_UNAPPROVED_NGS_INELIGIBLE_REASON_UNKNOWN_PAYOUT_ORIGIN_UNVERIFIED",
+    "newSameBomPaidOrdersVerified": 0,
+    "newSameBomRfqsVerified": 0,
+    "newSameBomRestocksVerified": 0,
+    "brandA22FirstPartySellOutRestockStatementObserved": false,
+    "brandA22UnauthorizedToResell": false,
+    "transferPriceUsdScenario": null,
+    "qAssumption": null,
+    "targetContributionMargin": null,
+    "actualApprovedTpUsd": null,
+    "noonBuyerPrice": null,
+    "noonMarkup": null,
+    "actualChinaSupplierQuote": null,
+    "actualDomesticShenzhenCost": null,
+    "returnAndFbnFeeActual": null,
+    "skuPolicyQcStatus": "NOT_VERIFIED",
+    "certifiedWorstLoss100Usd": null,
+    "scoreChange": false,
+    "sampleReady": false,
+    "purchaseApproved": false,
+    "sourceDaily": "data/daily/2026-11-03.json"
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "channelAccessGate": "NO_GO",
+    "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+    "brandOrGenericRoute": "NOT_VERIFIED",
+    "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+    "payoutOriginLinked": null,
+    "newIndependentPaidOrderVerified": false,
+    "newSameBomRfqVerified": false,
+    "newSameBomRestockVerified": false,
+    "newListingSignal": null,
+    "actualTP": null,
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaQuote": null,
+    "actualChinaShenzhenCost": null,
+    "actualReturnsFBNLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "tpScenarioStatus": "NOT_ESTIMATED",
+    "v2ScoresRetainedNoRescore": true,
+    "scoreConflictUntouched": false,
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "historicalWorstLossBudget": null,
+  "worstLoss100": null,
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "asOf": "2026-11-03",
+  "canonicalSource": "data/current.json",
+  "riskMatrixStatus": "NOT_EVALUATED_NO_EVIDENCE"
+}
