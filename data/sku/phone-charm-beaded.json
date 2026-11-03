@@ -895,5 +895,46 @@
     "v2ScoresRetainedNoRescore": true,
     "scoreConflictUntouched": true,
     "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "latestRadar20261103C03": {
+    "date": "2026-11-03",
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "scoreChanged": false,
+    "marketEvidence": "No new comparable generic beaded phone-charm evidence. A22 DABUBU 13cm branded plush blind-box listing at AED181.50, sold by noon, indexed ~3 months ago is non-comparable.",
+    "nonComparableReference": {
+      "brand": "A22 DABUBU",
+      "currency": "AED",
+      "price": 181.5,
+      "seller": "noon",
+      "type": "branded 13cm plush blind-box charm"
+    },
+    "source": [
+      "https://www.noon.com/uae-en/dabubu-collectible-plush-keychain-blind-box-13-cm/ZA01488F7C7061E849803Z/p/",
+      "https://a22.ae/"
+    ],
+    "transferPriceScenarioUsd": [
+      1.7,
+      2.2,
+      2.7
+    ],
+    "q10CostCapUsd": [
+      1.3005,
+      1.683,
+      2.0655
+    ],
+    "actualApprovedTPUsd": null,
+    "actualBuyerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualChinaSameBomQuote": null,
+    "actualChinaToShenzhenCost": null,
+    "actualReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "historicalPlanningStopLossUsd": 150,
+    "top5RisksRetained": true,
+    "hardStop": "UNLICENSED_IP_ONLY",
+    "newPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "nextGate": "Keep generic/original bead designs separate from branded plush IP; require new comparable generic charm sales evidence before supply search."
   }
 }
