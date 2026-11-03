@@ -844,5 +844,48 @@
     "v2ScoresRetainedNoRescore": true,
     "scoreConflictUntouched": false,
     "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "latestRadar20261103C03": {
+    "date": "2026-11-03",
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "scoreChanged": false,
+    "marketEvidence": "Saudi bestseller page: KHAJUL 24pc SAR19.20, 4.6/125, selling-out-fast; 24pc natural-look fibrous adhesive sticker variant SAR24.30, 4.3/31. Page index ~3 months old; adhesive-only BOM not confirmed.",
+    "consumerRetailReference": {
+      "currency": "SAR",
+      "range": [
+        19.2,
+        24.3
+      ],
+      "closestAdhesiveTabReference": 24.3
+    },
+    "source": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+    "freshness": "HISTORICAL_BESTSELLER_PAGE_INDEX_3_MONTHS",
+    "transferPriceScenarioUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "q10CostCapUsd": [
+      1.1475,
+      1.4535,
+      1.7595
+    ],
+    "actualApprovedTPUsd": null,
+    "actualBuyerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualChinaSameBomQuote": null,
+    "actualChinaToShenzhenCost": null,
+    "actualReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "historicalPlanningStopLossUsd": 180,
+    "bomGate": "Verify 24 tips, size count, adhesive tabs/fibrous stickers, file, cuticle stick and confirm no liquid glue; claims such as non-toxic need substantiation.",
+    "saudiDesignRestriction": "Avoid rainbow-colored products and restricted religious/holiday motifs in KSA listings; exact SKU/colorway review required.",
+    "saudiPolicySource": "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "newPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "nextGate": "Get current exact adhesive-only SKU transaction/RFQ and approved category/ingredient-material QC before sourcing."
   }
 }
