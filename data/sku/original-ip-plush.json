@@ -520,5 +520,46 @@
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
     ]
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "modelPreference": "GPT-6 Extra High preferred; actual effort unverified",
+    "currentGate": "NO_GO_LE_NOT_APPROVED_NGS_NOT_ELIGIBLE_REASON_UNKNOWN_PAYOUT_SELLING_ORIGIN_UNVERIFIED",
+    "marketEvidenceNote": "A22 UAE original camel DABUBU: own first-party sell-out/restock claim, AED220 and 2000 First Edition; brand says later China launch and 200 units allocated there. Reverse GCC→China direction and no first paid-order dates; ownership A22, resale rights UNVERIFIED. HERE SEC company distributors cover Middle East but no per-IP UAE/KSA first transactions.",
+    "verifiedIndependentPaidOrderThisRun": false,
+    "verifiedSameBomRfqThisRun": false,
+    "verifiedSameBomRestockThisRun": false,
+    "firstPartyA22BrandRestockClaimObserved": true,
+    "originalIpLegalRight": "UNVERIFIED_NO_PURCHASE",
+    "chinaToGccPaidOrderLagDays": null,
+    "tpScenarioUsd": null,
+    "costCeilingUsdAtQ10Margin15": null,
+    "qHypothesis": null,
+    "actualTP": null,
+    "noonConsumerFinalPrice": null,
+    "noonMarkup": null,
+    "actualChinaSameBOMQuote": null,
+    "actualShenzhenHubPerUnitCost": null,
+    "actualReturnsCost": null,
+    "noonSpecificSkuQcAndRestrictedPolicy": "NOT_VERIFIED",
+    "certified100UnitsWorstLossUsd": null,
+    "unsoldFormula": "100*(purchase+pack+domestic hub+sunk costs)-salvage",
+    "unsaleableReturnsFormula": "100*(purchase+pack+domestic hub+extra return costs)+sunk costs-salvage; no TP",
+    "scoreRetained": [
+      69,
+      67,
+      58
+    ],
+    "rescore41Subitems": false,
+    "top5RisksRetained": true,
+    "hardStopIfUnlicensedIp": true,
+    "decision": "NO_SAMPLE_NO_PURCHASE",
+    "report": "research/2026-11-03/CHINAGCC_C01_GCC_LOCAL_IP_REVERSE_FLOW_NGS_GATES.md",
+    "sources": [
+      "https://a22.ae/",
+      "https://www.dabubu.ae/",
+      "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm"
+    ]
   }
 }
