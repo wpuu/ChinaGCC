@@ -849,5 +849,44 @@
     "v2ScoresRetainedNoRescore": true,
     "scoreConflictUntouched": false,
     "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
+  },
+  "latestRadar20261103C03": {
+    "date": "2026-11-03",
+    "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "scoreChanged": false,
+    "marketEvidence": "Saudi TRENZ four-piece multi-sized padded/lightweight makeup bag, SAR59.90, seller 4.5/87% positive, low stock 4; indexed ~3 months ago. Piece count/use-case match only; exact fabric, packed dimensions/weight and target BOM unverified.",
+    "consumerRetailReference": {
+      "currency": "SAR",
+      "value": 59.9,
+      "lowStockUnitsShown": 4,
+      "sellerRating": 4.5,
+      "sellerPositivePct": 87
+    },
+    "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+    "freshness": "HISTORICAL_INDEX_3_MONTHS_NOT_NEW_ORDER",
+    "transferPriceScenarioUsd": [
+      4.5,
+      5.5,
+      6.5
+    ],
+    "q10CostCapUsd": [
+      3.4425,
+      4.2075,
+      4.9725
+    ],
+    "actualApprovedTPUsd": null,
+    "actualBuyerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualChinaSameBomQuote": null,
+    "actualChinaToShenzhenCost": null,
+    "actualReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "historicalPlanningStopLossUsd": 620,
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "newPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "nextGate": "Obtain exact four-piece BOM, dimensions/packed weight and independent same-BOM paid-order/RFQ/restock proof before supplier deep search."
   }
 }
