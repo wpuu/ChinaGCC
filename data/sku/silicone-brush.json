@@ -272,5 +272,34 @@
     "profileFieldsComplete": true,
     "newDemandVerified": false,
     "historicalScoresUnchanged": true
-  }
+  },
+  "historicalWorstLossBudget": null,
+  "worstLoss100": null,
+  "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+  "worstLoss100CertifiedUpperBound": false,
+  "worstLoss100Formula": {
+    "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
+    "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
+  },
+  "worstLoss100MissingInputs": [
+    "sameBOM supplier unit cost and MOQ",
+    "final packed weight and dimensions",
+    "per-order China domestic delivery cost",
+    "actual platform price/fees/returns and non-saleable handling",
+    "verified liquidation/residual recovery and fixed setup costs"
+  ],
+  "historicalWorstLoss100Aed": null,
+  "brandRouteStatus": "NOT_CHECKED__GENERIC_ONLY_IF_PHYSICALLY_UNBRANDED__OWN_BRAND_APPROVAL_BEFORE_GO_LIVE__THIRD_PARTY_IP_REQUIRES_WRITTEN_RIGHTS",
+  "payoutOriginGate": "NOT_VERIFIED__APPROVED_METHOD_MUST_BE_MAPPED_TO_SELLING_ORIGIN",
+  "latestRadar20261103C04": {
+    "auditId": "2026-11-03/C04-BRAND-GENERIC-PAYOUT-CONFLICT-AMAZON-CR-IOR-LOSS-DATA",
+    "brandRoute": "NOT_CHECKED",
+    "payoutThreshold": "CONFLICTING_OFFICIAL_DOCS__ACCOUNT_NOT_VERIFIED",
+    "certifiedWorstLoss100": null,
+    "certifiedUpperBound": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO"
+  },
+  "topRisks": [],
+  "riskMatrixStatus": "NOT_EVALUATED_NO_EVIDENCE"
 }
