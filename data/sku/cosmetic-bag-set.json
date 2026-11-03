@@ -756,5 +756,53 @@
     "ngsLiveBuyerTotal": "UNKNOWN",
     "channelGate": "NO_GO",
     "riskNote": "Official NGS page payout prelive wording differs from end-of-page optional before listing; use stricter internal approval gate."
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "modelPreference": "GPT-6 Extra High preferred; actual effort unverified",
+    "currentGate": "NO_GO_LE_NOT_APPROVED_NGS_NOT_ELIGIBLE_REASON_UNKNOWN_PAYOUT_SELLING_ORIGIN_UNVERIFIED",
+    "marketEvidenceNote": "Exact light 4-piece set has no new same-BOM sale and no verified full weight/China-to-Shenzhen cost.",
+    "verifiedIndependentPaidOrderThisRun": false,
+    "verifiedSameBomRfqThisRun": false,
+    "verifiedSameBomRestockThisRun": false,
+    "firstPartyA22BrandRestockClaimObserved": false,
+    "originalIpLegalRight": "UNVERIFIED_NO_PURCHASE",
+    "chinaToGccPaidOrderLagDays": null,
+    "tpScenarioUsd": [
+      4.5,
+      5.5,
+      6.5
+    ],
+    "costCeilingUsdAtQ10Margin15": [
+      3.4425,
+      4.2075,
+      4.9725
+    ],
+    "qHypothesis": 0.1,
+    "actualTP": null,
+    "noonConsumerFinalPrice": null,
+    "noonMarkup": null,
+    "actualChinaSameBOMQuote": null,
+    "actualShenzhenHubPerUnitCost": null,
+    "actualReturnsCost": null,
+    "noonSpecificSkuQcAndRestrictedPolicy": "NOT_VERIFIED",
+    "certified100UnitsWorstLossUsd": null,
+    "unsoldFormula": "100*(purchase+pack+domestic hub+sunk costs)-salvage",
+    "unsaleableReturnsFormula": "100*(purchase+pack+domestic hub+extra return costs)+sunk costs-salvage; no TP",
+    "scoreRetained": [
+      78,
+      90,
+      73
+    ],
+    "rescore41Subitems": false,
+    "top5RisksRetained": true,
+    "hardStopIfUnlicensedIp": true,
+    "decision": "NO_SAMPLE_NO_PURCHASE",
+    "report": "research/2026-11-03/CHINAGCC_C01_GCC_LOCAL_IP_REVERSE_FLOW_NGS_GATES.md",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    ]
   }
 }
