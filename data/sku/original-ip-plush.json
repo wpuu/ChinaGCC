@@ -561,5 +561,29 @@
       "https://www.dabubu.ae/",
       "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm"
     ]
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "channelAccessGate": "NO_GO",
+    "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+    "brandOrGenericRoute": "NOT_VERIFIED",
+    "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+    "payoutOriginLinked": null,
+    "newIndependentPaidOrderVerified": false,
+    "newSameBomRfqVerified": false,
+    "newSameBomRestockVerified": false,
+    "newListingSignal": null,
+    "actualTP": null,
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaQuote": null,
+    "actualChinaShenzhenCost": null,
+    "actualReturnsFBNLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "tpScenarioStatus": "NOT_ESTIMATED",
+    "v2ScoresRetainedNoRescore": true,
+    "scoreConflictUntouched": false,
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
   }
 }
