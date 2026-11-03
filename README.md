@@ -26,6 +26,14 @@
 
 中国现成产品面向GCC（海湾合作委员会）市场的自营跨境电商验证项目。
 
+### 2026-11-03 C05｜公开政策增量（不改变HOLD）
+
+- Amazon中国全球开店官方页面明确列出UAE/Saudi站点；Amazon.sa本地CR说明针对**位于KSA的企业**，不能泛化为所有中国境外企业必须先设Saudi公司。中国主体实际KYC仍未验收。
+- Amazon Saudi新卖家优惠页面显示30%佣金折扣及SAR370广告抵用额，页面有效至2026-12-31；仅作短期情景，不计入长期利润。
+- Noon通用LE拒绝修复指南新增明确经营范围、CR/身份证件有效期、法人/POA及收款受益人核对项；这不是中国NGS账号批准。Noon付款阈值Help Center与Support Agent页面仍冲突。
+- **执行决策不变：** Noon NGS第一、Amazon第二；Noon NGS保持HOLD/CONDITIONAL_RESTART，Amazon账户未创建，VAT/IOR未闭环；不新增SKU深搜、不采购、不上架、不投广告。
+- [C05审计报告](research/2026-11-03/CHINAGCC_C05_AMAZON_CHINA_PATH_NOON_LE_DOCUMENT_GATES.md)｜[当日日报](data/daily/2026-11-03.json)｜[Issue #30](https://github.com/wpuu/ChinaGCC/issues/30)
+
 ## 历史收口结论（2026-10-22）｜已由037B接续
 
 **主目标是自有商品合法销售、真实买家付款、妥投、实际到账及全成本利润验证，不是采购服务接单。** 项目没有永久取消；当前先纠正错误依据，不以报告数量或代码提交代替交易进展。
