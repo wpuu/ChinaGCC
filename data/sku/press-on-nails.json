@@ -799,5 +799,50 @@
       "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
       "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
     ]
+  },
+  "latestRadar20261103C02": {
+    "auditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+    "date": "2026-11-03",
+    "channelAccessGate": "NO_GO",
+    "brandApprovalStatus": "UNKNOWN_NOT_VERIFIED",
+    "brandOrGenericRoute": "NOT_VERIFIED",
+    "payoutThresholdApplicability": "GENERAL_POLICY_CONDITIONAL_NOT_VERIFIED_FOR_ACCOUNT",
+    "payoutOriginLinked": null,
+    "newIndependentPaidOrderVerified": false,
+    "newSameBomRfqVerified": false,
+    "newSameBomRestockVerified": false,
+    "newListingSignal": "HISTORICAL_UAE_24_TABS_AED28_TWO_RATINGS_ONLY_ONE_LEFT_NO_NEW_SALE",
+    "actualTP": null,
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualSameBomChinaQuote": null,
+    "actualChinaShenzhenCost": null,
+    "actualReturnsFBNLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "tpHypothesesUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "costCeilingsUsd": {
+      "q0": [
+        1.275,
+        1.615,
+        1.955
+      ],
+      "q10": [
+        1.1475,
+        1.4535,
+        1.7595
+      ],
+      "q25": [
+        0.9562,
+        1.2112,
+        1.4662
+      ]
+    },
+    "v2ScoresRetainedNoRescore": true,
+    "scoreConflictUntouched": false,
+    "report": "research/2026-11-03/CHINAGCC_C02_NGS_BRAND_PAYOUT_CASHFLOW_AND_SAME_BOM.md"
   }
 }
