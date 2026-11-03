@@ -751,5 +751,53 @@
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
       "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
     ]
+  },
+  "latestRadar20261103C01": {
+    "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
+    "date": "2026-11-03",
+    "modelPreference": "GPT-6 Extra High preferred; actual effort unverified",
+    "currentGate": "NO_GO_LE_NOT_APPROVED_NGS_NOT_ELIGIBLE_REASON_UNKNOWN_PAYOUT_SELLING_ORIGIN_UNVERIFIED",
+    "marketEvidenceNote": "24 press-on nails with adhesive tabs ONLY; mixed liquid glue competitor kits cannot be used as same-BOM evidence.",
+    "verifiedIndependentPaidOrderThisRun": false,
+    "verifiedSameBomRfqThisRun": false,
+    "verifiedSameBomRestockThisRun": false,
+    "firstPartyA22BrandRestockClaimObserved": false,
+    "originalIpLegalRight": "UNVERIFIED_NO_PURCHASE",
+    "chinaToGccPaidOrderLagDays": null,
+    "tpScenarioUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "costCeilingUsdAtQ10Margin15": [
+      1.1475,
+      1.4535,
+      1.7595
+    ],
+    "qHypothesis": 0.1,
+    "actualTP": null,
+    "noonConsumerFinalPrice": null,
+    "noonMarkup": null,
+    "actualChinaSameBOMQuote": null,
+    "actualShenzhenHubPerUnitCost": null,
+    "actualReturnsCost": null,
+    "noonSpecificSkuQcAndRestrictedPolicy": "NOT_VERIFIED",
+    "certified100UnitsWorstLossUsd": null,
+    "unsoldFormula": "100*(purchase+pack+domestic hub+sunk costs)-salvage",
+    "unsaleableReturnsFormula": "100*(purchase+pack+domestic hub+extra return costs)+sunk costs-salvage; no TP",
+    "scoreRetained": [
+      67,
+      92,
+      80
+    ],
+    "rescore41Subitems": false,
+    "top5RisksRetained": true,
+    "hardStopIfUnlicensedIp": true,
+    "decision": "NO_SAMPLE_NO_PURCHASE",
+    "report": "research/2026-11-03/CHINAGCC_C01_GCC_LOCAL_IP_REVERSE_FLOW_NGS_GATES.md",
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products"
+    ]
   }
 }
