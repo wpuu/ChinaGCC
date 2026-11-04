@@ -801,5 +801,44 @@
     "approvedPurchase": false,
     "channelAccessGate": "NO_GO",
     "nextAction": "Do not purchase. Obtain independent same-BOM demand evidence first; if later eligible, measure final packed size/weight and verify exact Noon leaf category and local FBN return fees."
+  },
+  "latestRadar20261104C03": {
+    "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T20:14:06+08:00",
+    "scoreChanged": false,
+    "historicalScores": {
+      "opportunityScore": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58
+    },
+    "evidence": "THE MIDI official announcement reports 4th UAE store and 2,500+ SKU assortment; MUSE claims 50+ SKUs from 10+ Chinese brands and a Magic Planet IP case, but sales/POS not independently verified. Category is not greenfield; series-level first-paid lag remains unknown.",
+    "sameBomVerified": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "supplierDeepSearchPerformed": false,
+    "top5RisksRetained": [
+      "unlicensed IP rights hard stop",
+      "mature-IP demand cannot be transferred to generic designs",
+      "short trend half-life",
+      "counterfeit/reputation",
+      "Noon sculpture/statue + GCC toy safety classification"
+    ],
+    "hardStop": "Third-party IP without written resale/distribution authorization remains HARD STOP; figure category/QC and toy classification unresolved.",
+    "channelAccessGate": "NO_GO",
+    "actualApprovedTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "sameBomChinaCost": null,
+    "chinaToShenzhenCost": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md",
+    "compliance": {
+      "noonProhibitedClause": "Noon prohibited list includes original engravings/prints/lithographs/sculptures/statues; exact application to a specific vinyl figure requires category/QC interpretation.",
+      "gccToyRule": "If intended for play by children under 14, assess GCC Children Toys Technical Regulation, GC marking, technical documentation, declarations and Arabic safety information.",
+      "ageLabelAloneNotExemption": true,
+      "unlicensedThirdPartyIp": "HARD_STOP"
+    }
   }
 }
