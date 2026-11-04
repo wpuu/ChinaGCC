@@ -306,11 +306,13 @@
           "https://heyoneglobal.com/",
           "https://heyoneglobal.com/list-10070010",
           "https://heyoneglobal.com/list-1009000700010005",
-          "https://heyoneglobal.com/list-1007"
+          "https://heyoneglobal.com/list-1007",
+          "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting"
         ],
         "gccDirectShipping": true,
         "resaleAuthorizationForChinaGCC": false,
-        "verifiedGccFirstPaidDate": null
+        "verifiedGccFirstPaidDate": null,
+        "originEvidence": "HEYONE first-party brand story says the brand began in Chengdu in 2022."
       },
       {
         "subject": "HERE YONNNA China launch and GCC lag",
@@ -6747,7 +6749,8 @@
     "https://heyoneglobal.com/list-1009000700010005",
     "https://heyoneglobal.com/list-1007",
     "https://www.bbtnews.com.cn/2026/0805/601337.shtml",
-    "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6760676.shtml"
+    "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6760676.shtml",
+    "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting"
   ],
   "latestRadarAuditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
   "incrementalAudits": [
@@ -8426,7 +8429,11 @@
     "channelAccessGate": "NO_GO",
     "noonReadiness": "1/12 historical snapshot; no live account recheck",
     "amazonReadiness": "0/15 historical snapshot",
-    "certifiedWorstLoss100Usd": null
+    "certifiedWorstLoss100Usd": null,
+    "originalIp": {
+      "heyoneOrigin": "Brand's own story says founded in Chengdu in 2022",
+      "originSource": "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting"
+    }
   },
   "report": "research/2026-11-04/CHINAGCC_C01_NGS_ORIGIN_HAIR_CLIP_LIVE_SIGNAL_HEYONE_GCC_DTC.md",
   "issue": "https://github.com/wpuu/ChinaGCC/issues/31"
