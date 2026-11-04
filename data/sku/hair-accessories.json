@@ -1097,5 +1097,38 @@
     "approvedPurchase": false,
     "channelAccessGate": "NO_GO",
     "nextAction": "Do not purchase. Obtain independent same-BOM demand evidence first; if later eligible, measure final packed size/weight and verify exact Noon leaf category and local FBN return fees."
+  },
+  "latestRadar20261104C03": {
+    "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T20:14:06+08:00",
+    "scoreChanged": false,
+    "historicalScores": {
+      "opportunityScore": 70,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 78
+    },
+    "evidence": "Nahdi UAE Goody Medium Claw Clip 4ct AED21, no sales badge; 4ct branded product is not target 8ct 4-matte+4-glossy BOM. C01 Roro single-clip badge remains adjacent only.",
+    "sameBomVerified": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "supplierDeepSearchPerformed": false,
+    "top5RisksRetained": [
+      "low ASP vs TP",
+      "buyer final price/markup",
+      "spring/teeth breakage",
+      "colorway inventory dispersion",
+      "BOM mismatch"
+    ],
+    "hardStop": "No new hard stop; exact KSA colorway must avoid prohibited rainbow design; channel access remains NO_GO.",
+    "channelAccessGate": "NO_GO",
+    "actualApprovedTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "sameBomChinaCost": null,
+    "chinaToShenzhenCost": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
   }
 }
