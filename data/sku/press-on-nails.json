@@ -1052,5 +1052,38 @@
     "approvedPurchase": false,
     "channelAccessGate": "NO_GO",
     "nextAction": "Do not purchase. Obtain independent same-BOM demand evidence first; if later eligible, measure final packed size/weight and verify exact Noon leaf category and local FBN return fees."
+  },
+  "latestRadar20261104C03": {
+    "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T20:14:06+08:00",
+    "scoreChanged": false,
+    "historicalScores": {
+      "opportunityScore": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80
+    },
+    "evidence": "Carrefour UAE 24pc AED29, stock label 4, Adhesive Included field yes but adhesive type unknown; does not prove tabs-only/no liquid glue. Saudi Noon FEILIU 24pc SAR15.90/4.4/95/low stock is ~5-month historical index.",
+    "sameBomVerified": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "supplierDeepSearchPerformed": false,
+    "top5RisksRetained": [
+      "adhesive BOM/type and liquid glue exclusion",
+      "Noon category/Brand Generic QC",
+      "fit/size/finish mismatch",
+      "opened return salability",
+      "KSA color/motif restriction"
+    ],
+    "hardStop": "No purchase/listing until adhesive-tabs-only BOM and exact category QC are verified.",
+    "channelAccessGate": "NO_GO",
+    "actualApprovedTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "sameBomChinaCost": null,
+    "chinaToShenzhenCost": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
   }
 }
