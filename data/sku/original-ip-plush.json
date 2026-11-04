@@ -650,7 +650,8 @@
         "source": "https://heyoneglobal.com/",
         "observed": "Official global store displays FurFur/R3NA/OZAI/MIMI plush pendants and blind boxes, roughly USD12.90–34.90",
         "freshness": "LIVE_OFFICIAL_STORE_READ_2026-11-04",
-        "rights": "HEYONE_OR_LICENSORS_OWNED_NO_RESALE_RIGHTS_FOR_CHINAGCC"
+        "rights": "HEYONE_OR_LICENSORS_OWNED_NO_RESALE_RIGHTS_FOR_CHINAGCC",
+        "originEvidence": "First-party brand story says HEYONE began in Chengdu in 2022; source https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting"
       },
       {
         "source": "https://heyoneglobal.com/list-10070010",
@@ -671,6 +672,12 @@
         "freshness": "DATED_PRESS_REPORT_2026-10-09",
         "gccFirstPaidDate": null,
         "lagDays": null
+      },
+      {
+        "source": "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting",
+        "observed": "HEYONE first-party brand story states it began in Chengdu in 2022",
+        "freshness": "FIRST_PARTY_BRAND_STORY",
+        "rights": "BRAND_IP_OWNED_BY_HEYONE_OR_LICENSORS_NO_CHINAGCC_RESALE_RIGHTS"
       }
     ],
     "newTransactionCount": 0,
