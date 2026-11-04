@@ -1,3 +1,21 @@
+## 2026-11-04 C04｜4件包尺寸、穿戴甲高客单与退货结算补正（不改变HOLD）
+
+- **化妆包：** Saudi本地4件PVC/polyester竞品约SAR49–50，页面列商品尺寸（Homecentre三组尺寸；Centrepoint整体17×22×17cm），但均无数字包装重量；不是目标同BOM，15%安全利润仍NOT PROVEN。
+- **穿戴甲：** SAR35–49页面只有标价、低库存或不足评价，没有可靠近期sold count；较强评价信号仍集中SAR19.99–29.90。高客单真实成交仍未证实。
+- **Noon退货：** 周结算单会纳入本期收到、此前已付款订单的客户退货；不能把原NGS TP视为不可调整，但具体NGS冲回金额/机制仍UNKNOWN。FBN outbound在Delivered/NDR触发，后续退货不退款；计费重包含包装材料重量并按50g取整。
+- **Amazon：** 中国全球开店仍列UAE/Saudi；FBA非居民VAT及具名IOR责任没有变化，Seller仍需承担，Amazon不作为EOR/IOR。
+- **决策：** 无新同BOM实付/RFQ/补货；V2不重算；14个SKU认证100件最坏亏损UNKNOWN；Noon NGS 1/12=8.33%，Amazon FBA 0/15；不采购、不上架、不投广告。
+- [C04完整审计](research/2026-11-04/CHINAGCC_C04_BAG_PACK_DIMS_PRESSON_PREMIUM_RETURN_ACCOUNTING.md)｜[结构化日报](data/daily/2026-11-04.json)｜[Issue #31](https://github.com/wpuu/ChinaGCC/issues/31)
+
+---
+
+## 2026-11-04 C03｜NGS中国卖家材料、玩具/IP合规与GCC分销成熟度（不改变HOLD）
+
+- China LE文件要求、经营范围、owner/POA和收款主体匹配进一步明确；CR有效期15/30天冲突，30天仅作保守准备缓冲；端到端审核SLA未知。
+- GCC设计师玩具渠道并非空白；Noon sculptures/statues与14岁以下儿童玩具法规需按具体产品分类，未授权IP Hard Stop。
+- [C03完整审计](research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md)｜[Issue #31](https://github.com/wpuu/ChinaGCC/issues/31)
+
+---
 ## 2026-11-04 C02｜NGS退货转本地FBN与费率补正（不改变HOLD）
 
 - **新增关键规则：** NGS可售客户退货会转入当地FBN；后续本地FBN销售适用当地Referral/Outbound等费率，仓储费最多豁免60天。不可售退货由Noon清货、卖家无回款，NGS政策称免库存移除/销毁费。
