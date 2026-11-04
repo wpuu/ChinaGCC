@@ -268,6 +268,7 @@ Issue #12 V2三个分数必须分开：
 - HEYONE GCC Shipping：https://heyoneglobal.com/list-10070010
 - HEYONE IP rights：https://heyoneglobal.com/list-1009000700010005
 - HEYONE About：https://heyoneglobal.com/list-1007
+- HEYONE品牌故事（成都创立，2022）：https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting
 - YONNNA首发：https://www.bbtnews.com.cn/2026/0805/601337.shtml
 - HERE 22 IP矩阵：https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6760676.shtml
 - V2评分模型：https://github.com/wpuu/ChinaGCC/issues/12
