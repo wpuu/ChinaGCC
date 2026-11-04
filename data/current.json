@@ -8661,7 +8661,12 @@
       "yonnnaChinaLaunchDate": "2026-08-05",
       "yonnnaGccFirstPaidDate": null,
       "trendLagDays": null,
-      "thirdPartyIpHardStop": true
+      "thirdPartyIpHardStop": true,
+      "heyoneOrigin": "Brand's own story says founded in Chengdu in 2022",
+      "originSource": "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting",
+      "sources": [
+        "https://www.heyoneglobal.com/blog-detail/HEYONE-Our-Brand-Story-Character-Worlds-and-the-Joy-of-Collecting"
+      ]
     },
     "channelAccessGate": "NO_GO",
     "sampleReadyCount": 0,
