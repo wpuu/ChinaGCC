@@ -1130,5 +1130,20 @@
     "chinaToShenzhenCost": null,
     "certifiedWorstLoss100Usd": null,
     "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+  },
+  "latestRadar20261104C04": {
+    "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "date": "2026-11-04",
+    "adjacentSignal": "Roro 11cm single clip AED21 page labels vary across snapshots: one C01 observation 2 sold in last 8 hours / 178 ratings; search-indexed alternate snapshot shows 12 sold in last 25 hours / 164 ratings and was crawled about 3 weeks earlier.",
+    "sameBom": false,
+    "decision": "not counted as new same-BOM sales; retain rank 6 and V2 70/92/78; no supplier deep search",
+    "scoreChanged": false,
+    "opportunityScore": 70,
+    "evidenceConfidence": 92,
+    "dataCompleteness": 78,
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "worstLoss100": null,
+    "channelAccessGate": "NO_GO"
   }
 }
