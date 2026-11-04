@@ -364,6 +364,58 @@
           "https://helpcenter.noon.partners/en/category/fulfilled-by-noon-fbn/fulfilled-by-noon-fbn-fees-in-ksa"
         ],
         "exactSkuLeafCategory": "UNKNOWN"
+      },
+      {
+        "subject": "Saudi four-piece cosmetic bag retail comparables",
+        "type": "LOCAL_RETAIL_PRICE_AND_ITEM_DIMENSIONS_NO_PACKAGE_WEIGHT",
+        "details": "Homecentre KSA SAR49 4pc PVC/polyester lists three pouch dimensions 18x4x11, 20x8x11, 23.5x11x17cm; Centrepoint KSA SAR50 4pc PVC lists overall 17x22x17cm. Neither publishes numeric set/packed weight; not target same BOM.",
+        "source": [
+          "https://www.homecentre.com/sa/en/buy-travel-mate-cosmetic-bag-set-of-4/p/166098923",
+          "https://www.centrepointstores.com/sa/en/buy-assorted-4-piece-cosmetic-pouch-set/p/167828429"
+        ],
+        "sameBomVerified": false,
+        "packedWeight": null
+      },
+      {
+        "subject": "Saudi premium press-on nails SAR35-49",
+        "type": "PRICE_AND_LOW_STOCK_WITHOUT_VERIFIED_SALES",
+        "details": "SAR49 10pc Nailosophy shows 3 left/no meaningful ratings; SAR49 generic 24pc shows 1 left and includes nail glue; lower price 48pc SAR29.90 has 131 ratings. No reliable same-period sold count for premium SAR35-49.",
+        "source": [
+          "https://www.noon.com/saudi-en/handmade-gel-press-on-nails-classic-nude-white-french-tip-square-shape/ZB7BFD6983F6EF70DFC99Z/p/",
+          "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+          "https://www.noon.com/saudi-en/48-pieces-press-on-nails-for-hands-and-feet-square-glossy-fake-nails-with-jelly-glue-stickers-diy-manicure-and-pedicure-set-for-women-pink/Z7E8EE85C9A35CF1EDBC1Z/p/"
+        ],
+        "sameBomVerified": false,
+        "paidOrdersVerified": false
+      },
+      {
+        "subject": "Noon prior-paid customer returns in weekly statement",
+        "type": "OFFICIAL_PAYMENT_STATEMENT_RETURN_ADJUSTMENT_SIGNAL",
+        "details": "Weekly statements include new customer returns received in the period for orders paid in an earlier statement; positive weekly statement is calculated after returns. This means earlier NGS TP should not be assumed irrevocable, but the exact NGS reversal/adjustment amount remains unpublished.",
+        "source": [
+          "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy"
+        ],
+        "ngsSpecificAdjustmentAmount": null
+      },
+      {
+        "subject": "FBN outbound fee non-refundable after return",
+        "type": "OFFICIAL_FBN_FEE_RULE",
+        "details": "FBN outbound is charged at first Delivered or NDR; it is non-refundable if the FBN order is returned. Shipping weight includes product physical weight plus packaging material weight, rounded to nearest 50g; package classification uses dimensions.",
+        "source": [
+          "https://helpcenter.noon.partners/en/category/fulfilled-by-noon-fbn/how-to-calculate-the-fbn-outbound-fee-and-the-inventory-removal-fee-in-ksa"
+        ],
+        "sameBomVerified": false
+      },
+      {
+        "subject": "Amazon FBA VAT and IOR responsibility",
+        "type": "OFFICIAL_PLATFORM_POLICY_RECHECK",
+        "details": "Amazon China Global Selling lists UAE/Saudi; nonresident FBA sellers owe local VAT from first local FBA sale; Amazon terms assign EOR/IOR responsibility to seller unless otherwise agreed and say Amazon is not EOR/IOR.",
+        "source": [
+          "https://gs.amazon.cn/middle-east",
+          "https://gs.amazon.cn/middle-east/uae-vat",
+          "https://sellercentral.amazon.ae/help/hub/reference/external/G27F6UHDSSHW6WXF"
+        ],
+        "accountKycVerified": false
       }
     ],
     "policy": {
@@ -458,7 +510,8 @@
       "keyEvidence": [
         "Saudi Noon旧日内证据：4件套SAR66.58、460+ sold recently（仓库Issue #18，需继续复核）",
         "2026-10-06新鲜搜索：KHAJUL 3件大号绗缝化妆包SAR48.49，Selling out fast；BTFMEI 3件套SAR48.20",
-        "Alibaba一个4件绒布套装页面标30×30×20cm、1kg，说明“4件套一定轻小”的假设不能成立；另一个3件透明PVC套装可到150g但MOQ1000"
+        "Alibaba一个4件绒布套装页面标30×30×20cm、1kg，说明“4件套一定轻小”的假设不能成立；另一个3件透明PVC套装可到150g但MOQ1000",
+        "C04: Saudi 4pc PVC/polyester retail comparables show item dimensions but no package weight; not target BOM; 15% margin not proven."
       ],
       "nextAction": "只询3家轻量4件套；不能证明约200–300g则转3件套",
       "asOf": "2026-10-06",
@@ -871,6 +924,47 @@
         "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
         "scoreChanged": false,
         "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C04": {
+        "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+        "date": "2026-11-04",
+        "marketReferences": [
+          {
+            "retailer": "Homecentre KSA",
+            "priceSAR": 49,
+            "pieces": 4,
+            "listedIndividualBagDimensionsCm": [
+              "18x4x11",
+              "20x8x11",
+              "23.5x11x17"
+            ],
+            "material": "PVC + polyester",
+            "weight": null,
+            "notes": "页面称4件套但只列出3组尺寸；未公布整套净重/包装毛重/发货包装尺寸。"
+          },
+          {
+            "retailer": "Centrepoint KSA",
+            "priceSAR": 50,
+            "pieces": 4,
+            "listedOverallDimensionsCm": "17x22x17",
+            "material": "PVC",
+            "weight": null,
+            "notes": "页面列出Weight & Dimensions标题及整体尺寸，但未给出数字重量。"
+          }
+        ],
+        "targetPackedWeight": null,
+        "targetPackedDimensions": null,
+        "sameBomVerified": false,
+        "margin15": "NOT_PROVEN",
+        "reason": "竞品为PVC/polyester，不能代替目标棉/绗缝或指定BOM；零售商品尺寸不是最终运输包装尺寸；没有重量、供应商成本、深圳逐单成本、批准TP或买家最终价。",
+        "scoreChanged": false,
+        "opportunityScore": 78,
+        "evidenceConfidence": 90,
+        "dataCompleteness": 73,
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "worstLoss100": null,
         "channelAccessGate": "NO_GO"
       }
     },
@@ -3107,7 +3201,25 @@
         "scoreChanged": false,
         "newSameBomEvidence": false,
         "channelAccessGate": "NO_GO"
-      }
+      },
+      "latestRadar20261104C04": {
+        "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+        "date": "2026-11-04",
+        "adjacentSignal": "Roro 11cm single clip AED21 page labels vary across snapshots: one C01 observation 2 sold in last 8 hours / 178 ratings; search-indexed alternate snapshot shows 12 sold in last 25 hours / 164 ratings and was crawled about 3 weeks earlier.",
+        "sameBom": false,
+        "decision": "not counted as new same-BOM sales; retain rank 6 and V2 70/92/78; no supplier deep search",
+        "scoreChanged": false,
+        "opportunityScore": 70,
+        "evidenceConfidence": 92,
+        "dataCompleteness": 78,
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "worstLoss100": null,
+        "channelAccessGate": "NO_GO"
+      },
+      "keyEvidence": [
+        "C04: Roro single-clip sales labels/review counts differ across indexed snapshots; not target 8-piece BOM and not counted as incremental sales."
+      ]
     },
     {
       "id": "press-on-nails",
@@ -3186,7 +3298,8 @@
       "keyEvidence": [
         "KHAJUL 24片French Tips SAR19，640+ sold recently",
         "Generic 240片预制甲片 SAR33.80，340+ sold recently，但它不是目标的成品穿戴甲高客单套装",
-        "KHAJUL 48片手足套装 SAR29.90，未看到等强sold recently信号"
+        "KHAJUL 48片手足套装 SAR29.90，未看到等强sold recently信号",
+        "C04: SAR35–49 premium listings have no reliable sold count; low-stock/rating labels are not paid-order proof."
       ],
       "nextAction": "只做基础款NGS价格映射；TP约$1.9若最终价明显高于SAR19–24则继续P2",
       "asOf": "2026-10-08",
@@ -3637,6 +3750,68 @@
         "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
         "scoreChanged": false,
         "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C04": {
+        "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+        "date": "2026-11-04",
+        "premiumSar35to49Sales": "NOT_PROVEN",
+        "observations": [
+          {
+            "market": "Saudi",
+            "priceSAR": 49,
+            "pieces": 10,
+            "product": "Nailosophy handmade gel French tip",
+            "stockLabel": "Only 3 left",
+            "ratings": "not enough ratings",
+            "soldRecentlyLabel": null,
+            "indexAge": "approximately 3 months"
+          },
+          {
+            "market": "Saudi",
+            "priceSAR": 49,
+            "pieces": 24,
+            "product": "Generic short almond 3D press-on nails",
+            "stockLabel": "Only 1 left",
+            "soldRecentlyLabel": null,
+            "adhesiveBOM": "includes nail glue and adhesive tabs"
+          },
+          {
+            "market": "Saudi",
+            "priceSAR": 29.9,
+            "pieces": 48,
+            "product": "KHAJUL hands-and-feet set",
+            "ratings": 131,
+            "stockLabel": "Only 2 left",
+            "soldRecentlyLabel": null
+          },
+          {
+            "market": "Saudi",
+            "priceSAR": 19.99,
+            "pieces": 24,
+            "product": "Al Kanzi 24pc",
+            "ratings": 98,
+            "categoryRank": 35,
+            "soldRecentlyLabel": null
+          },
+          {
+            "market": "UAE",
+            "priceAED": 35,
+            "pieces": null,
+            "product": "Goolsky premium teardrop",
+            "stockLabel": "Only 5 left",
+            "soldRecentlyLabel": null,
+            "indexAge": "approximately 3 months"
+          }
+        ],
+        "evidenceCaveat": "Ratings and low-stock labels are not verified current paid orders; no SAR35–49 product with a reliable same-period sold count was found.",
+        "scoreChanged": false,
+        "opportunityScore": 67,
+        "evidenceConfidence": 92,
+        "dataCompleteness": 80,
+        "top5RisksRetained": true,
+        "hardStop": false,
+        "worstLoss100": null,
         "channelAccessGate": "NO_GO"
       }
     },
@@ -6993,9 +7168,16 @@
     "https://saber.sa/Home/index/",
     "https://www.nahdionline.com/en-ae/goody-claw-clip-medium-4ct/pdp/102827906",
     "https://www.carrefouruae.com/mafuae/en/press-on/24-piece-full-cover-press-fake-nails-nude/p/727640703886",
-    "https://www.noon.com/saudi-en/press-no-nails-24pcs-fake-nails/Z3D80AC3E5125D820F635Z/p/"
+    "https://www.noon.com/saudi-en/press-no-nails-24pcs-fake-nails/Z3D80AC3E5125D820F635Z/p/",
+    "https://helpcenter.noon.partners/en/category/fulfilled-by-noon-fbn/how-to-calculate-the-fbn-outbound-fee-and-the-inventory-removal-fee-in-ksa",
+    "https://www.homecentre.com/sa/en/buy-travel-mate-cosmetic-bag-set-of-4/p/166098923",
+    "https://www.centrepointstores.com/sa/en/buy-assorted-4-piece-cosmetic-pouch-set/p/167828429",
+    "https://www.noon.com/saudi-en/handmade-gel-press-on-nails-classic-nude-white-french-tip-square-shape/ZB7BFD6983F6EF70DFC99Z/p/",
+    "https://www.noon.com/saudi-en/48-pieces-press-on-nails-for-hands-and-feet-square-glossy-fake-nails-with-jelly-glue-stickers-diy-manicure-and-pedicure-set-for-women-pink/Z7E8EE85C9A35CF1EDBC1Z/p/",
+    "https://www.noon.com/uae-en/premium-teardrop-press-on-nails-with-nude-crushed-diamonds-for-subtle-bling/Z6CEDAEA49BB71A5FE033Z/p/",
+    "https://sellercentral.amazon.ae/help/hub/reference/external/G27F6UHDSSHW6WXF"
   ],
-  "latestRadarAuditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+  "latestRadarAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
   "incrementalAudits": [
     {
       "auditId": "2026-11-03/C01-GCC-ORIGINAL-IP-REVERSE-FLOW-NGS-ACCESS",
@@ -7804,250 +7986,20 @@
     }
   ],
   "lossCertificationBySku": {
-    "cosmetic-bag-set": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "规划止损上限暂记USD620；正式值待目标4件套报价和国内交仓成本",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "silicone-brush": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "Amazon旧FBA压力测试约AED1,128；若改NGS且按$0.76/件采购，100件裸货约SAR285，未含国内运费/包装",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "makeup-brushes-10pc": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": {
-        "currency": "CNY",
-        "type": "ESTIMATE_NOT_QUOTE",
-        "lossIfZeroReceipts": 2480,
-        "assumptions": "100×¥7.8货+100包装+800交深圳+500推广封顶+300退货储备",
-        "notIncluded": "注册税费/超预算损失；非真正全部风险上界"
-      },
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "travel-bottles": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "Amazon旧模型约AED1,500；NGS模型因完整8件套真实采购价仍未核实，暂不能给总损失数",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "lint-roller": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "Amazon旧模型约AED1,517；NGS下可下降，但需先确认套装采购价/包装和noon最终零售价",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "hair-accessories": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "河北8件套$1.23–1.36×100约USD123–136裸货；加国内包装/交仓/QC/不可售退货储备后100件止损上限暂定USD210",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "press-on-nails": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "预贴胶款按$1.21–1.35并加约30%中国侧压力储备，100件按USD180止损；未计广告/不可售退货",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "phone-charm-beaded": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "按义乌CN¥5.7级款100件裸货约CN¥570；含包装/交仓/QC后首测止损上限暂定USD150",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "cable-management": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "UNKNOWN：缺中国具体报价、包装与当前渠道全成本",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "makeup-sponge": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "UNKNOWN总额；中国低MOQ货值低，但NGS最终零售价与肤感退货尚未闭环",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "original-ip-plush": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "普通原创毛绒挂件公开裸货$0.48-$1.01/件，100件约SAR180-379；授权IP采购成本未知",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "car-sunshade": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": "UNKNOWN：体积物流尚未闭环，Amazon旧方向风险显著高于轻小SKU",
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "hanlin-mask": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": null,
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    },
-    "microfiber-cloth": {
-      "certifiedWorstLoss100": null,
-      "certifiedUpperBound": false,
-      "historicalWorstLossOnly": null,
-      "status": "UNKNOWN_NOT_VERIFIABLE",
-      "reasons": [
-        "sameBOM supplier unit cost and MOQ",
-        "final packed weight and dimensions",
-        "per-order China domestic delivery cost to Shenzhen/forwarder",
-        "actual platform price/fees/returns and non-saleable handling",
-        "verified liquidation/residual recovery and fixed setup costs"
-      ],
-      "formulas": {
-        "unsold100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost) + nonrecoverable setup/marketing/fees - verified recovery",
-        "nonSalableReturns100": "100*(sameBOM purchase cost + packaging + China domestic inbound/hub cost + non-salable return/handling cost) + nonrecoverable setup/fees - verified recovery; do not count unreceived Transfer Price"
-      }
-    }
+    "cosmetic-bag-set": null,
+    "silicone-brush": null,
+    "makeup-brushes-10pc": null,
+    "travel-bottles": null,
+    "lint-roller": null,
+    "hair-accessories": null,
+    "press-on-nails": null,
+    "phone-charm-beaded": null,
+    "cable-management": null,
+    "makeup-sponge": null,
+    "original-ip-plush": null,
+    "car-sunshade": null,
+    "hanlin-mask": null,
+    "microfiber-cloth": null
   },
   "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
   "latest20261103C02Audit": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
@@ -8631,7 +8583,7 @@
       "https://sellercentral.amazon.ae/seller-forums/discussions/t/ca9dfda2-d873-4494-8d94-5c3e242c623f"
     ]
   },
-  "latestRadarNote": "C03: NGS中国卖家材料进一步明确（CR字段/经营范围、owner或POA代表、收款方式与Origin映射）；CR有效期文件15/30天冲突，按30天缓冲但非NGS专属最低值，端到端SLA未知。THE MIDI官方第4家UAE店及MUSE分销商自述表明GCC设计师玩具类目并非空白；中国原创IP同系列首笔实付时差仍未知。Noon雕塑/摆件条款与GCC儿童玩具分类增加figure合规闸门。新增同BOM实付/RFQ/补货均0，V2不变，Channel Access NO-GO。",
+  "latestRadarNote": "C04增量：Saudi 4件PVC/polyester竞品有尺寸无包装重量；穿戴甲SAR35–49无可靠近期成交；Noon周结算包括此前已付款订单的本期客户退货，原NGS TP调整金额仍未知；FBN outbound退货不退且shipping weight包含包装材料。无新同BOM实付/RFQ/补货，V2不重算，NGS NO-GO。",
   "latestRadarC05": {
     "auditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
     "date": "2026-11-03",
@@ -9284,5 +9236,186 @@
       "https://datareportal.com/reports/digital-2026-united-arab-emirates"
     ]
   },
-  "reportC03": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+  "reportC03": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md",
+  "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+  "reportC04": "research/2026-11-04/CHINAGCC_C04_BAG_PACK_DIMS_PRESSON_PREMIUM_RETURN_ACCOUNTING.md",
+  "latestRadar20261104C04Audit": {
+    "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04 (Asia/Shanghai; exact wall-clock time not recorded)",
+    "modelPreference": "GPT-6 Extra High preferred; automation runtime cannot independently force or verify actual effort",
+    "scope": "只读公开零售/官方平台政策及既有GitHub结构化数据；Browser list_tabs返回originating browser context错误，未进入Seller Lab；未提交证件、签约、外联、采购、上架或投放。",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "scoresChanged": false,
+    "rankChanges": "TOP10_ALL_UNCHANGED",
+    "sampleReady": 0,
+    "approvedPurchase": 0,
+    "channelAccessGate": "NO_GO",
+    "cosmeticBag": {
+      "retailReferences": [
+        {
+          "retailer": "Homecentre KSA",
+          "priceSAR": 49,
+          "pieces": 4,
+          "listedIndividualBagDimensionsCm": [
+            "18x4x11",
+            "20x8x11",
+            "23.5x11x17"
+          ],
+          "material": "PVC + polyester",
+          "weight": null,
+          "notes": "页面称4件套但只列出3组尺寸；未公布整套净重/包装毛重/发货包装尺寸。"
+        },
+        {
+          "retailer": "Centrepoint KSA",
+          "priceSAR": 50,
+          "pieces": 4,
+          "listedOverallDimensionsCm": "17x22x17",
+          "material": "PVC",
+          "weight": null,
+          "notes": "页面列出Weight & Dimensions标题及整体尺寸，但未给出数字重量。"
+        }
+      ],
+      "targetSameBomVerified": false,
+      "targetPackedWeight": null,
+      "targetPackedDimensions": null,
+      "fifteenPercentContributionMargin": "NOT_PROVEN",
+      "reason": "竞品为PVC/polyester，不能代替目标棉/绗缝或指定BOM；零售商品尺寸不是最终运输包装尺寸；没有重量、供应商成本、深圳逐单成本、批准TP或买家最终价。",
+      "decision": "retain rank 1 and historical V2 78/90/73; no supplier deep search or sample"
+    },
+    "pressOnNails": {
+      "premiumSar35to49Sales": "NOT_PROVEN",
+      "observations": [
+        {
+          "market": "Saudi",
+          "priceSAR": 49,
+          "pieces": 10,
+          "product": "Nailosophy handmade gel French tip",
+          "stockLabel": "Only 3 left",
+          "ratings": "not enough ratings",
+          "soldRecentlyLabel": null,
+          "indexAge": "approximately 3 months"
+        },
+        {
+          "market": "Saudi",
+          "priceSAR": 49,
+          "pieces": 24,
+          "product": "Generic short almond 3D press-on nails",
+          "stockLabel": "Only 1 left",
+          "soldRecentlyLabel": null,
+          "adhesiveBOM": "includes nail glue and adhesive tabs"
+        },
+        {
+          "market": "Saudi",
+          "priceSAR": 29.9,
+          "pieces": 48,
+          "product": "KHAJUL hands-and-feet set",
+          "ratings": 131,
+          "stockLabel": "Only 2 left",
+          "soldRecentlyLabel": null
+        },
+        {
+          "market": "Saudi",
+          "priceSAR": 19.99,
+          "pieces": 24,
+          "product": "Al Kanzi 24pc",
+          "ratings": 98,
+          "categoryRank": 35,
+          "soldRecentlyLabel": null
+        },
+        {
+          "market": "UAE",
+          "priceAED": 35,
+          "pieces": null,
+          "product": "Goolsky premium teardrop",
+          "stockLabel": "Only 5 left",
+          "soldRecentlyLabel": null,
+          "indexAge": "approximately 3 months"
+        }
+      ],
+      "evidenceCaveat": "Ratings and low-stock labels are not verified current paid orders; no SAR35–49 product with a reliable same-period sold count was found.",
+      "decision": "retain rank 7 and historical V2 67/92/80; P2; no premium price assumption"
+    },
+    "hairAccessories": {
+      "adjacentSignal": "Roro 11cm single clip AED21 page labels vary across snapshots: one C01 observation 2 sold in last 8 hours / 178 ratings; search-indexed alternate snapshot shows 12 sold in last 25 hours / 164 ratings and was crawled about 3 weeks earlier.",
+      "sameBom": false,
+      "channel": "UAE pharmacy DTC, not Noon",
+      "targetSku": "8-piece 4-matte+4-glossy set",
+      "decision": "not counted as new same-BOM sales; retain rank 6 and V2 70/92/78; no supplier deep search"
+    },
+    "returnsAccounting": {
+      "statementPolicy": "Noon weekly statements include new customer returns received in the statement period for orders paid in an earlier statement; positive weekly statement is calculated after returns.",
+      "implication": "Do not model an earlier NGS Transfer Price payout as irrevocable after customer return.",
+      "originalNgsTpAdjustment": "UNKNOWN_NGS_SPECIFIC_AMOUNT_AND_MECHANISM; the public policy does not state the exact reversal/partial-adjustment formula for a delivered NGS order.",
+      "salableReturn": "converted to local FBN; up to 60 days storage waiver; later local FBN fees apply.",
+      "nonSalableReturn": "liquidation yields no seller proceeds; NGS policy says no removal/disposal fee; RTV fee/timing unknown.",
+      "fbnOutbound": "charged when an FBN order first reaches Delivered or NDR; non-refundable if that FBN order is returned.",
+      "shippingWeightFormula": "product physical weight + packaging material weight, rounded to nearest 50g; packaging classification is dimension-based.",
+      "categoryFeeSensitivityKsa": {
+        "allOtherBags": "25%",
+        "travelLuggage": "20%",
+        "toys": "14%",
+        "hairPersonalCare": "Generic 15%; other brands <=SAR50 9%, >SAR50 12.5%",
+        "colourCosmetics": "Generic 15%; other brands 10%"
+      },
+      "exactSkuLeaf": "UNKNOWN_NOT_SELLER_LAB_VERIFIED"
+    },
+    "amazon": {
+      "chinaGlobalSelling": "official China Global Selling page lists UAE and Saudi registration paths",
+      "fbaVat": "non-UAE/non-Saudi resident FBA sellers are required to register local VAT from first local FBA sale; platform page describes 30-day filing window; tax timing should be confirmed with a qualified tax adviser",
+      "ior": "Amazon terms state seller is EOR/IOR unless agreed otherwise; Amazon/Affiliates will not act as EOR or IOR",
+      "accountKyc": "NOT_VERIFIED",
+      "fbaChecklistReadiness": "0/15",
+      "mfNNote": "Amazon China page also distinguishes MFN from FBA; this audit keeps the owner's 15-item checklist on the specified FBA route and does not treat MFN as a tax/import shortcut."
+    },
+    "firstSaleReadiness": {
+      "noonNGS": "1/12=8.33% unchanged; UAE GCC Picks historical Work049/055 acceptance only; no new account approval",
+      "amazon": "0/15=0% unchanged"
+    },
+    "lossCertification": {
+      "canonicalSkuCount": 14,
+      "certifiedWorstLoss100UsdBySku": {
+        "cosmetic-bag-set": null,
+        "silicone-brush": null,
+        "makeup-brushes-10pc": null,
+        "travel-bottles": null,
+        "lint-roller": null,
+        "hair-accessories": null,
+        "press-on-nails": null,
+        "phone-charm-beaded": null,
+        "cable-management": null,
+        "makeup-sponge": null,
+        "original-ip-plush": null,
+        "car-sunshade": null,
+        "hanlin-mask": null,
+        "microfiber-cloth": null
+      },
+      "status": "UNKNOWN_NOT_CERTIFIED",
+      "formula": "100*(same-BOM purchase + final retail packaging + China domestic handoff to Shenzhen + nonrecoverable setup/return costs) - verified recovery; no assumed TP proceeds for non-salable returns"
+    },
+    "nextActions": [
+      "Owner-side read-only preflight of any existing Chinese Commercial Registration: permitted trading/e-commerce scope, validity, named owner/representative and payout-beneficiary match; no upload or submission.",
+      "Only in an authorized originating browser session, read existing Seller Lab NGS ineligibility reason, LE, payout approval, Selling Origin and Invoicing Profile; no edits or submissions.",
+      "Do not reopen supplier deep search until same-BOM independent paid order, qualified RFQ or verified restock appears; then measure final packed dimensions/weight and calculate both NGS and local-FBN-return branches."
+    ],
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/fulfilled-by-noon-fbn/fulfilled-by-noon-fbn-fees-in-ksa",
+      "https://helpcenter.noon.partners/en/category/fulfilled-by-noon-fbn/how-to-calculate-the-fbn-outbound-fee-and-the-inventory-removal-fee-in-ksa",
+      "https://www.homecentre.com/sa/en/buy-travel-mate-cosmetic-bag-set-of-4/p/166098923",
+      "https://www.centrepointstores.com/sa/en/buy-assorted-4-piece-cosmetic-pouch-set/p/167828429",
+      "https://www.noon.com/saudi-en/handmade-gel-press-on-nails-classic-nude-white-french-tip-square-shape/ZB7BFD6983F6EF70DFC99Z/p/",
+      "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/",
+      "https://www.noon.com/saudi-en/48-pieces-press-on-nails-for-hands-and-feet-square-glossy-fake-nails-with-jelly-glue-stickers-diy-manicure-and-pedicure-set-for-women-pink/Z7E8EE85C9A35CF1EDBC1Z/p/",
+      "https://www.noon.com/uae-en/premium-teardrop-press-on-nails-with-nude-crushed-diamonds-for-subtle-bling/Z6CEDAEA49BB71A5FE033Z/p/",
+      "https://gs.amazon.cn/middle-east",
+      "https://gs.amazon.cn/middle-east/uae-vat",
+      "https://sellercentral.amazon.ae/help/hub/reference/external/G27F6UHDSSHW6WXF"
+    ],
+    "report": "research/2026-11-04/CHINAGCC_C04_BAG_PACK_DIMS_PRESSON_PREMIUM_RETURN_ACCOUNTING.md",
+    "issue": "https://github.com/wpuu/ChinaGCC/issues/31"
+  }
 }
