@@ -39,12 +39,12 @@ Noon官方AE与SA FBN费率表均标明以下费用不含VAT；Referral Fee费�
 | 尺寸/重量档 | ASP≤25 | ASP>25 |
 |---|---:|---:|
 | Small envelope | 5.5 AED/SAR | 7.5 AED/SAR |
-| Standard envelope ≤0.1kg | 6 / 8 | 8 / 8 |
-| Standard envelope ≤0.25kg | 6.2 / 8.2 | 8.2 / 8.2 |
-| Standard parcel ≤0.25kg | 7.2 / 9.2 | 9.2 / 9.2 |
-| Standard parcel >0.25–0.50kg | 7.5 / 9.5 | 9.5 / 9.5 |
+| Standard envelope ≤0.1kg | 6 | 8 |
+| Standard envelope ≤0.25kg | 6.2 | 8.2 |
+| Standard parcel ≤0.25kg | 7.2 | 9.2 |
+| Standard parcel >0.25–0.50kg | 7.5 | 9.5 |
 
-表内每格按当地货币“ASP≤25 / ASP>25”理解：UAE为AED，Saudi为SAR。实际应直接使用官方费率表对应的尺寸/ASP列；本表仅抽取常用档位，不能替代Seller Lab计算器。最终包装尺寸、重量和当地FBN ASP均未知，不能把某个档位直接套给SKU。
+表中第二列为ASP≤25，第三列为ASP>25；UAE按AED计，Saudi按SAR计。AE与SA常用档位数值相同，但当地货币不同。实际应直接使用官方费率表对应的尺寸/ASP列；本表仅抽取常用档位，不能替代Seller Lab计算器。最终包装尺寸、重量和当地FBN ASP均未知，不能把某个档位直接套给SKU。
 
 ### 其它费项
 
