@@ -65,7 +65,8 @@
     "Saudi基础款SAR19，1200+ sold recently",
     "KHAJUL SAR19，640+；kaixin SAR18.95，460+",
     "SAR35–49 premium仍无同等级强成交",
-    "中国预贴胶24片约$1.21–1.35、MOQ10"
+    "中国预贴胶24片约$1.21–1.35、MOQ10",
+    "2026-11-04 C04: SAR35–49 premium pages show price/low-stock/rating snapshots but no reliable sold-recently or paid-order proof; stronger rating signals remain SAR19.99–29.90."
   ],
   "advantages": [
     {
@@ -1085,5 +1086,67 @@
     "chinaToShenzhenCost": null,
     "certifiedWorstLoss100Usd": null,
     "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+  },
+  "latestRadar20261104C04": {
+    "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "date": "2026-11-04",
+    "premiumSar35to49Sales": "NOT_PROVEN",
+    "observations": [
+      {
+        "market": "Saudi",
+        "priceSAR": 49,
+        "pieces": 10,
+        "product": "Nailosophy handmade gel French tip",
+        "stockLabel": "Only 3 left",
+        "ratings": "not enough ratings",
+        "soldRecentlyLabel": null,
+        "indexAge": "approximately 3 months"
+      },
+      {
+        "market": "Saudi",
+        "priceSAR": 49,
+        "pieces": 24,
+        "product": "Generic short almond 3D press-on nails",
+        "stockLabel": "Only 1 left",
+        "soldRecentlyLabel": null,
+        "adhesiveBOM": "includes nail glue and adhesive tabs"
+      },
+      {
+        "market": "Saudi",
+        "priceSAR": 29.9,
+        "pieces": 48,
+        "product": "KHAJUL hands-and-feet set",
+        "ratings": 131,
+        "stockLabel": "Only 2 left",
+        "soldRecentlyLabel": null
+      },
+      {
+        "market": "Saudi",
+        "priceSAR": 19.99,
+        "pieces": 24,
+        "product": "Al Kanzi 24pc",
+        "ratings": 98,
+        "categoryRank": 35,
+        "soldRecentlyLabel": null
+      },
+      {
+        "market": "UAE",
+        "priceAED": 35,
+        "pieces": null,
+        "product": "Goolsky premium teardrop",
+        "stockLabel": "Only 5 left",
+        "soldRecentlyLabel": null,
+        "indexAge": "approximately 3 months"
+      }
+    ],
+    "evidenceCaveat": "Ratings and low-stock labels are not verified current paid orders; no SAR35–49 product with a reliable same-period sold count was found.",
+    "scoreChanged": false,
+    "opportunityScore": 67,
+    "evidenceConfidence": 92,
+    "dataCompleteness": 80,
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "worstLoss100": null,
+    "channelAccessGate": "NO_GO"
   }
 }
