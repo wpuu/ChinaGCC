@@ -1,7 +1,7 @@
 {
   "id": "hair-accessories",
   "name": "8件套强抓力抓夹",
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-04",
   "rank": 6,
   "status": "P1_CONDITIONAL",
   "opportunityScore": 70,
@@ -993,5 +993,109 @@
     "worstLoss100Usd": null,
     "channelAccessGate": "NO_GO",
     "notes": "Roro单只销售不能证明8件套；不触发供应商反查。"
+  },
+  "latestNGSReturnHandling20261104": {
+    "auditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+    "observedAt": "2026-11-04T14:07:07+08:00",
+    "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+    "commonReturnModel": {
+      "source": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "observedAt": "2026-11-04T14:07:07+08:00",
+      "initialNgsSale": {
+        "payout": "Official policy states seller payout equals USD Transfer Price after successful delivery; no additional international logistics/customs/VAT deductions from the defined TP.",
+        "postCustomerReturnAdjustment": "UNKNOWN: public NGS article does not state whether an already-issued original TP payout is reversed, partially adjusted, or retained when the delivered order is later returned."
+      },
+      "salableReturn": {
+        "disposition": "Noon moves the returned unit into local FBN inventory in the destination market.",
+        "pricing": "Seller may set the local FBN price; if omitted Noon applies a default price intended to yield an amount close to the original Transfer Price at time of sale.",
+        "storage": "FBN storage fee waived for up to 60 days.",
+        "feesAfterConversion": "Applicable marketplace FBN referral fee, outbound fee, and later storage/other applicable fees apply to subsequent local FBN sale/inventory.",
+        "sellerControlReturnAdmin": "If return is due to seller-controllable reasons such as item different from listing, fake, damaged, defective, used, missing parts or extra items, local FBN rate card lists a return administration fee equal to the lesser of 15 local currency units or 20% of referral fee."
+      },
+      "nonSalableReturn": {
+        "disposition": "Noon supports liquidation in UAE/KSA.",
+        "proceeds": 0,
+        "removalOrDisposalFee": "NGS policy says no inventory removal or disposal fee is charged for this liquidation route.",
+        "alternative": "Seller may choose return-to-vendor/local warehouse (RTV); exact NGS RTV charges and timing are not specified in the public NGS article.",
+        "otherCosts": "Original purchase, packaging, China domestic transport to Shenzhen and other sunk costs remain; no recovery value is established."
+      },
+      "fbnRateCard": {
+        "effectiveReferralFeeDate": "2026-09-10",
+        "feesExclusiveOfVAT": true,
+        "ae": {
+          "allOtherBags": "25% of sale price",
+          "travelLuggage": "20% of sale price",
+          "hairSkinPersonalCare": "8% when sale price <=50 AED; 15% when >50 AED",
+          "colourCosmetics": "8% when sale price <=50 AED; 15% when >50 AED",
+          "toys": "14% of sale price"
+        },
+        "sa": {
+          "allOtherBags": "25% of sale price",
+          "travelLuggage": "20% of sale price",
+          "hairSkinPersonalCare": "Generic brand 15%; other brands 9% when sale price <=50 SAR and 12.5% when >50 SAR",
+          "colourCosmetics": "Generic brand 15%; other brands 10%",
+          "toys": "14% of sale price"
+        },
+        "outboundFees": {
+          "note": "Per-unit FBN outbound fee; depends on size tier, shipping weight and ASP. Do not assign without final packed dimensions/weight and local FBN price.",
+          "aeAndSaCommonExamples": {
+            "smallEnvelope": "5.5 local currency when ASP <=25; 7.5 when ASP >25",
+            "standardEnvelopeUpTo0_1kg": "6 when ASP <=25; 8 when ASP >25",
+            "standardEnvelopeUpTo0_25kg": "6.2 when ASP <=25; 8.2 when ASP >25",
+            "standardParcelUpTo0_25kg": "7.2 when ASP <=25; 9.2 when ASP >25",
+            "standardParcel0_25To0_5kg": "7.5 when ASP <=25; 9.5 when ASP >25"
+          }
+        },
+        "storageAfterWaiver": {
+          "ae": "1.75 AED per cubic foot per month from 2026-10-01",
+          "sa": "2.75 SAR per cubic foot per month from 2026-10-01",
+          "formula": "CBF = length(cm) * width(cm) * height(cm) / 28317"
+        },
+        "exactSkuLeafCategory": "NOT_VERIFIED_IN_SELLER_LAB; category-specific rates below are conditional sensitivities, not a confirmed classification."
+      },
+      "evidenceClass": "OFFICIAL_NGS_POLICY_AND_OFFICIAL_AE_SA_FBN_RATE_CARDS_READ_2026-11-04",
+      "scoresChanged": false,
+      "channelAccessGate": "NO_GO__CHINA_LE_NOT_APPROVED_AS_LAST_VERIFIED__NGS_REASON_UNKNOWN__PAYOUT_ORIGIN_UNVERIFIED",
+      "sampleReady": false,
+      "approvedPurchase": false,
+      "certifiedWorstLoss100Usd": null
+    },
+    "skuSpecific": {
+      "likelyLeafCategory": "Hair & Personal Care is a plausible category only; exact leaf unverified.",
+      "conditionalReferral": "If Hair & Personal Care: UAE 8% at <=50 AED / 15% above; Saudi Generic 15%, non-Generic 9% at <=50 SAR / 12.5% above. Brand/Generic and exact category remain unknown.",
+      "outboundSensitivity": "Small envelope or standard envelope may apply; final packaged 8-piece set weight/dimensions required.",
+      "returnRisk": "Grip strength, count, size, spring breakage and color accuracy; seller-controllable mismatch/damage can trigger return administration fee."
+    },
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO",
+    "worstLoss100CertifiedUsd": null
+  },
+  "latestRadar20261104C02": {
+    "auditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T14:07:07+08:00",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "scoreStatus": "HISTORICAL_ISSUE_12_V2_UNCHANGED",
+    "opportunityScore": 70,
+    "evidenceConfidence": 92,
+    "dataCompleteness": 78,
+    "returnsFinding": "Salable NGS customer returns move to local FBN and incur FBN rate card on subsequent local sale; non-salable returns yield no proceeds but NGS waives removal/disposal fees; original TP reversal on later return UNKNOWN.",
+    "exactFbnLeafCategory": "Hair & Personal Care is a plausible category only; exact leaf unverified.",
+    "conditionalReferral": "If Hair & Personal Care: UAE 8% at <=50 AED / 15% above; Saudi Generic 15%, non-Generic 9% at <=50 SAR / 12.5% above. Brand/Generic and exact category remain unknown.",
+    "originalNgsPayoutReversalOnReturn": "UNKNOWN",
+    "actualConsumerFinalPrice": null,
+    "actualNoonMarkup": null,
+    "actualTransferPrice": null,
+    "sameBomSupplierCost": null,
+    "chinaToShenzhenCost": null,
+    "packedDimensions": null,
+    "packedWeight": null,
+    "certifiedWorstLoss100Usd": null,
+    "sampleReady": false,
+    "approvedPurchase": false,
+    "channelAccessGate": "NO_GO",
+    "nextAction": "Do not purchase. Obtain independent same-BOM demand evidence first; if later eligible, measure final packed size/weight and verify exact Noon leaf category and local FBN return fees."
   }
 }
