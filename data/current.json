@@ -5,8 +5,8 @@
     "status": "HOLD / CONDITIONAL_RESTART；Noon NGS仍为第一渠道但账号级资格未通过；Amazon中国卖家路径已有官方文档、账户仍未创建；不新增SKU/供应商深搜，不采购、不上架、不投广告。",
     "thirtyDayJudgment": "HOLD / CONDITIONAL_RESTART（历史研究置信度74/100，不是GO）：只对新的外部准入、真实买家价格/订单或同BOM成本证据响应；停止重复空店铺检查和无成交SKU扩榜。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-11-03",
-    "lastSynced": "2026-11-03",
+    "lastUpdated": "2026-11-04",
+    "lastSynced": "2026-11-04",
     "currentChannelPriority": [
       "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
       "Amazon UAE/Saudi（第二；未启动）",
@@ -14,13 +14,13 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
-    "latestRadarDate": "2026-11-03",
-    "latestRadarPath": "data/daily/2026-11-03.json",
-    "latestRadarStatus": "NGS_NO_GO__AMAZON_CHINA_SELLER_PATH_DOCUMENTED__NOON_LE_PREFLIGHT_CLARIFIED__PAYOUT_THRESHOLD_CONFLICT__NO_NEW_SKU_TRANSACTIONS",
-    "latestRadarNote": "C05: Amazon China Global Selling officially documents UAE/Saudi path; Amazon.sa local CR requirement is for businesses located in KSA, not a universal foreign-seller local-license rule. Actual KYC remains unverified; Saudi new-seller incentive is temporary and excluded from steady-state margin. Noon rejection guide clarifies business activity, CR/ID validity, representative/POA and payout-beneficiary checks; actual China NGS approval still unknown. No new paid orders/RFQs/restocks; no SKU rescoring or procurement.",
+    "latestRadarDate": "2026-11-04",
+    "latestRadarPath": "data/daily/2026-11-04.json",
+    "latestRadarStatus": "NGS_NO_GO__PAYOUT_ORIGIN_INVOICE_GATE_RECONFIRMED__UAE_SINGLE_CLIP_LIVE_ADJACENT_SIGNAL__HEYONE_OFFICIAL_GCC_DTC__NO_SAME_BOM_TRANSACTIONS",
+    "latestRadarNote": "C06: official NGS payment/origin/invoicing requirements clarified; current UAE single claw-clip page shows 2 sold in last 8 hours but is not the 8-piece target BOM or Noon; HEYONE official DTC ships to Saudi/UAE but resale rights are not granted; YONNNA GCC first-paid date unknown. No same-BOM paid orders/RFQs/restocks, no supplier deep search, no V2 rescore.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
+    "latestDailyAuditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -51,7 +51,7 @@
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-    "latestRadarAuditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
+    "latestRadarAuditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
     "latestRadarC03": {
       "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
       "observedAt": "2026-11-03T20:07:15+08:00",
@@ -844,6 +844,33 @@
         "certifiedUpperBound": false,
         "scoreChanged": false,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C01": {
+        "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+        "evidence": [
+          {
+            "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+            "observed": "SAR59.90; #1 Cosmetic Bags; 360+ sold recently label",
+            "freshness": "INDEX_AGE_APPROX_4_MONTHS",
+            "sameBom": false,
+            "interpretation": "历史需求参照，不是本轮新订单；材质/重量/BOM未完全验证"
+          }
+        ],
+        "newTransactionCount": 0,
+        "sameBomRfqCount": 0,
+        "sameBomRestockCount": 0,
+        "supplierDeepSearch": false,
+        "scoreChanged": false,
+        "scoreStatus": "HISTORICAL_V2_RETAINED",
+        "actualTP": null,
+        "buyerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomCost": null,
+        "chinaToShenzhenCost": null,
+        "returnLoss": null,
+        "worstLoss100Usd": null,
+        "channelAccessGate": "NO_GO",
+        "notes": "4件套候选不因历史360+标签提高评分；等待新鲜同BOM成交/RFQ与真实NGS结账价。"
       }
     },
     {
@@ -3120,6 +3147,41 @@
         "certifiedUpperBound": false,
         "scoreChanged": false,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C01": {
+        "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+        "evidence": [
+          {
+            "source": "https://medicinaonline.ae/products/roro-02-0188-hair-claw-clip-11cm",
+            "observed": "UAE Roro 11cm single clip AED21; page showed 2 sold in last 8 hours; 4.4/178",
+            "freshness": "LIVE_PAGE_READ_2026-11-04",
+            "sameBom": false,
+            "channel": "UAE pharmacy DTC",
+            "interpretation": "新鲜类目旁证，不是Noon，也不是8件套同BOM"
+          },
+          {
+            "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+            "observed": "UAE ORiTi 8pcs AED39; 4.4/49; 10+ sold recently",
+            "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+            "sameBom": false,
+            "interpretation": "历史套装参照，不是本轮新订单"
+          }
+        ],
+        "newTransactionCount": 0,
+        "sameBomRfqCount": 0,
+        "sameBomRestockCount": 0,
+        "supplierDeepSearch": false,
+        "scoreChanged": false,
+        "scoreStatus": "HISTORICAL_V2_RETAINED",
+        "actualTP": null,
+        "buyerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomCost": null,
+        "chinaToShenzhenCost": null,
+        "returnLoss": null,
+        "worstLoss100Usd": null,
+        "channelAccessGate": "NO_GO",
+        "notes": "Roro单只销售不能证明8件套；不触发供应商反查。"
       }
     },
     {
@@ -3624,6 +3686,41 @@
         "certifiedUpperBound": false,
         "scoreChanged": false,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C01": {
+        "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+        "evidence": [
+          {
+            "source": "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z3EF78666C40D46F71FBBZ/p/",
+            "observed": "UAE Kanza 24pcs AED40; 4.1/21; only 2 left; jelly glue stickers/tools listed",
+            "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+            "sameBom": false,
+            "adhesiveOnlyBOMVerified": false,
+            "interpretation": "历史低库存/评价信号；胶贴化学和无液体胶BOM未验证"
+          },
+          {
+            "source": "https://www.noon.com/saudi-en/nail-adhesive-tab-press-on-nail-glue-sticker-double-side-720-pcs-30-sheets-waterproof-breathable-super-sticky-nails-tab-for-fake-nail-tips-clear-jelly-adhesive-nail-tab-glue/Z5B2DAA28EE34430A085DZ/p/",
+            "observed": "Saudi HY 720 adhesive tabs SAR32; 4.6/5 ratings; only 1 left",
+            "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+            "sameBom": false,
+            "interpretation": "耗材旁证，不是穿戴甲套装"
+          }
+        ],
+        "newTransactionCount": 0,
+        "sameBomRfqCount": 0,
+        "sameBomRestockCount": 0,
+        "supplierDeepSearch": false,
+        "scoreChanged": false,
+        "scoreStatus": "HISTORICAL_V2_RETAINED",
+        "actualTP": null,
+        "buyerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomCost": null,
+        "chinaToShenzhenCost": null,
+        "returnLoss": null,
+        "worstLoss100Usd": null,
+        "channelAccessGate": "NO_GO",
+        "notes": "保持胶贴优先；液体胶是否存在仍须逐BOM核实。"
       }
     },
     {
@@ -4182,6 +4279,44 @@
         "certifiedUpperBound": false,
         "scoreChanged": false,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C01": {
+        "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+        "evidence": [
+          {
+            "source": "https://www.noon.com/saudi-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/ZD6D28524501EC98D57CDZ/p/",
+            "observed": "Saudi WAKUKU plush blind box SAR69.90",
+            "freshness": "INDEX_AGE_APPROX_5_MONTHS",
+            "sameBom": false,
+            "authenticityVerified": false,
+            "rightsVerified": false,
+            "interpretation": "第三方IP页面不证明授权或正品，不可比较为无IP串珠挂件价格"
+          },
+          {
+            "source": "https://www.noon.com/uae-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/Z5D4711AEA21856321684Z/p/",
+            "observed": "UAE WAKUKU plush blind box AED79.90",
+            "freshness": "INDEX_AGE_APPROX_5_MONTHS",
+            "sameBom": false,
+            "authenticityVerified": false,
+            "rightsVerified": false,
+            "interpretation": "同上；不构成ChinaGCC可售证据"
+          }
+        ],
+        "newTransactionCount": 0,
+        "sameBomRfqCount": 0,
+        "sameBomRestockCount": 0,
+        "supplierDeepSearch": false,
+        "scoreChanged": false,
+        "scoreStatus": "HISTORICAL_V2_RETAINED",
+        "actualTP": null,
+        "buyerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomCost": null,
+        "chinaToShenzhenCost": null,
+        "returnLoss": null,
+        "worstLoss100Usd": null,
+        "channelAccessGate": "NO_GO",
+        "notes": "无IP通用串珠仍独立评分；任何角色/Logo未经授权Hard Stop。"
       }
     },
     {
@@ -5066,6 +5201,54 @@
         "certifiedUpperBound": false,
         "scoreChanged": false,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261104C01": {
+        "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+        "evidence": [
+          {
+            "source": "https://heyoneglobal.com/",
+            "observed": "Official global store displays FurFur/R3NA/OZAI/MIMI plush pendants and blind boxes, roughly USD12.90–34.90",
+            "freshness": "LIVE_OFFICIAL_STORE_READ_2026-11-04",
+            "rights": "HEYONE_OR_LICENSORS_OWNED_NO_RESALE_RIGHTS_FOR_CHINAGCC"
+          },
+          {
+            "source": "https://heyoneglobal.com/list-10070010",
+            "observed": "Ships to Saudi Arabia and UAE; USD3.99 shipping; free over USD29.99; 5–10 business days",
+            "freshness": "LIVE_OFFICIAL_SHIPPING_POLICY_READ_2026-11-04",
+            "rights": "DTC_AVAILABILITY_NOT_RESELLER_AUTHORIZATION"
+          },
+          {
+            "source": "https://www.bbtnews.com.cn/2026/0805/601337.shtml",
+            "observed": "YONNNA China launch 2026-08-05 at RMB69; six regular plus one hidden",
+            "freshness": "DATED_PRESS_RELEASE_2026-08-05",
+            "gccFirstPaidDate": null,
+            "lagDays": null
+          },
+          {
+            "source": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6760676.shtml",
+            "observed": "HERE portfolio 22 IPs by 2026-10-09: 13 proprietary, 9 exclusive licensed",
+            "freshness": "DATED_PRESS_REPORT_2026-10-09",
+            "gccFirstPaidDate": null,
+            "lagDays": null
+          }
+        ],
+        "newTransactionCount": 0,
+        "sameBomRfqCount": 0,
+        "sameBomRestockCount": 0,
+        "supplierDeepSearch": false,
+        "scoreChanged": false,
+        "scoreStatus": "HISTORICAL_V2_RETAINED",
+        "actualTP": null,
+        "buyerFinalPrice": null,
+        "noonMarkup": null,
+        "chinaSameBomCost": null,
+        "chinaToShenzhenCost": null,
+        "returnLoss": null,
+        "worstLoss100Usd": null,
+        "channelAccessGate": "NO_GO",
+        "ipRightsHardStop": true,
+        "trendLagDays": null,
+        "notes": "HEYONE官方DTC已覆盖UAE/Saudi；没有ChinaGCC转售权。YONNNA GCC首付日期未知，不能用91天日历间隔当趋势滞后。"
       }
     },
     {
@@ -5979,6 +6162,112 @@
       "date": "2026-11-01",
       "headline": "049已到UAE/China Store表单但未提交；Noon Finds及WAKUKU/NOMMI旧GCC listing调查，0新独立成交凭证",
       "source": "data/daily/2026-11-01.json"
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "NGS Origin/付款闸门复核；UAE单只抓夹出现当前页面销售标签但非目标8件套；HEYONE官方DTC可直邮Saudi/UAE；无同BOM成交，V2和排名不变。",
+      "top10": [
+        {
+          "id": "cosmetic-bag-set",
+          "name": "轻量3/4件化妆/旅行收纳包",
+          "rank": 1,
+          "rankChange": "→",
+          "opportunityScore": 78,
+          "evidenceConfidence": 90,
+          "dataCompleteness": 73,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "silicone-brush",
+          "name": "硅胶沐浴刷",
+          "rank": 2,
+          "rankChange": "→",
+          "opportunityScore": 78,
+          "evidenceConfidence": 82,
+          "dataCompleteness": 84,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "makeup-brushes-10pc",
+          "name": "10件便携化妆刷+收纳袋",
+          "rank": 3,
+          "rankChange": "→",
+          "opportunityScore": 76,
+          "evidenceConfidence": 91,
+          "dataCompleteness": 82,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "travel-bottles",
+          "name": "旅行分装瓶套装",
+          "rank": 4,
+          "rankChange": "→",
+          "opportunityScore": 75,
+          "evidenceConfidence": 76,
+          "dataCompleteness": 84,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "lint-roller",
+          "name": "粘毛滚+refill",
+          "rank": 5,
+          "rankChange": "→",
+          "opportunityScore": 74,
+          "evidenceConfidence": 83,
+          "dataCompleteness": 80,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "hair-accessories",
+          "name": "8件套强抓力抓夹",
+          "rank": 6,
+          "rankChange": "→",
+          "opportunityScore": 70,
+          "evidenceConfidence": 92,
+          "dataCompleteness": 78,
+          "status": "P1_CONDITIONAL"
+        },
+        {
+          "id": "press-on-nails",
+          "name": "穿戴甲（胶贴优先）",
+          "rank": 7,
+          "rankChange": "→",
+          "opportunityScore": 67,
+          "evidenceConfidence": 92,
+          "dataCompleteness": 80,
+          "status": "P2"
+        },
+        {
+          "id": "phone-charm-beaded",
+          "name": "无IP串珠手机/包挂",
+          "rank": 8,
+          "rankChange": "→",
+          "opportunityScore": 68,
+          "evidenceConfidence": 84,
+          "dataCompleteness": 76,
+          "status": "P2"
+        },
+        {
+          "id": "cable-management",
+          "name": "线材整理/编织套管",
+          "rank": 9,
+          "rankChange": "→",
+          "opportunityScore": 69,
+          "evidenceConfidence": 63,
+          "dataCompleteness": 58,
+          "status": "P2"
+        },
+        {
+          "id": "makeup-sponge",
+          "name": "化妆海绵/粉扑套装",
+          "rank": 10,
+          "rankChange": "→",
+          "opportunityScore": 67,
+          "evidenceConfidence": 78,
+          "dataCompleteness": 68,
+          "status": "P2"
+        }
+      ]
     }
   ],
   "decisionLog": [
@@ -6303,28 +6592,45 @@
         "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
         "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
       ]
-    }
+    },
+    "latestC06OfficialPolicyRecheck": {
+      "observedAt": "2026-11-04T08:08:11+08:00",
+      "accountSession": false,
+      "historicalAccountSnapshot": "UAE GCC Picks created/verified 2026-11-01; China LE not approved; NGS ineligible reason unknown; payout/origin/invoicing profile not verified",
+      "officialFlow": "7 steps: Organization ID; UAE/KSA store; China LE and NGS Non-VAT workflow/T&C; China inventory warehouse; SKU QC; USD TP+inventory; invoicing profile",
+      "warehouseClarification": "China local warehouse is inventory-control only, not logistics; seller Processing Time is fulfilment and drop-off to Shenzhen hub, not review SLA",
+      "payout": "Approved payout method must be mapped to the relevant Selling Origin; otherwise sales accrue but no transfer",
+      "generalThreshold": "100 AED/SAR same-currency bank; 1,000 AED/SAR foreign-currency bank; NGS USD/PSP actual applicability remains unverified",
+      "onboardingSlaDays": null,
+      "status": "NO_GO",
+      "sources": [
+        "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+        "https://helpcenter.noon.partners/en/category/global-selling/how-to-setup-the-invoicing-profile-for-global-selling"
+      ]
+    },
+    "channelAccessGate": "NO_GO"
   },
   "latestRadar": {
-    "date": "2026-11-02",
-    "dailyPath": "data/daily/2026-11-02.json",
-    "auditId": "2026-11-02/C02-SEC-20F-PRIMARY-IP-NGS-POLICY-CROSSCHECK",
-    "modelPreference": "GPT-6 Extra High preferred; this run cannot verify actual extra-high effort selection",
+    "date": "2026-11-04",
+    "dailyPath": "data/daily/2026-11-04.json",
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently verified",
     "channelPriority": [
       "Noon China NGS first",
       "Amazon UAE/Saudi second"
     ],
     "firstSaleAccess": "NO_GO",
-    "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055",
-    "chinaLegalEntity": "REQUIRED_NOT_SUBMITTED_NOT_APPROVED",
-    "ngs": "CURRENTLY_NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
-    "payout": "UNKNOWN_NO_VERIFIED_APPROVAL",
+    "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055_HISTORICAL",
+    "chinaLegalEntity": "NOT_APPROVED_AS_LAST_VERIFIED",
+    "ngs": "NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
+    "payout": "UNKNOWN_NO_VERIFIED_APPROVAL_OR_ORIGIN_MAPPING",
     "newPaidOrdersVerified": 0,
     "newRFQVerified": 0,
     "newRestockEvidenceVerified": 0,
     "sampleReadyCount": 0,
-    "approvedPurchaseCount": 0,
-    "evidenceNewPaidOrdersVerified": 0
+    "approvedPurchaseCount": 0
   },
   "dailyReconciliation": {
     "auditDate": "2026-10-30",
@@ -6419,32 +6725,23 @@
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
   },
-  "latestDailyAuditId": "2026-11-03/C02-BRAND-PAYOUT-CASHFLOW-SAME-BOM",
+  "latestDailyAuditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
   "latestDailyAudit": {
-    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
-    "date": "2026-11-01",
-    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
-    "companionDaily": "data/daily/2026-11-01.json",
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "date": "2026-11-04",
+    "source": "data/daily/2026-11-04.json",
+    "report": "research/2026-11-04/CHINAGCC_C01_NGS_ORIGIN_HAIR_CLIP_LIVE_SIGNAL_HEYONE_GCC_DTC.md",
+    "issue": "https://github.com/wpuu/ChinaGCC/issues/31",
     "modelPreference": "GPT-6 Extra High; actual effort unverifiable",
-    "noonReadiness": "1/12 (8%): UAE Store completed only; Organization ID proof not captured",
-    "amazonReadiness": "0/15",
-    "noGoReasons": [
-      "REAL_CHINA_LE_REQUIRED_NOT_SUBMITTED",
-      "NGS_NOT_ELIGIBLE_REASON_UNKNOWN",
-      "PAYOUT_UNKNOWN",
-      "NO_SAME_BOM_FULL_COST_OR_PACK_WEIGHT",
-      "NO_VERIFIED_LIVE_BUYER_PRICE_ETA_RETURN_LOSS"
-    ],
-    "primaryEconomicsRisk": "Noon NGS salable returns may transfer to FBN for resale at automatically default price if not set; nonsalable returns may generate zero proceeds; general payout threshold is 100 AED/SAR local or 1000 AED/SAR cross-currency but China NGS USD special application remains unknown",
-    "margin15Formula": "C <= 0.85*(1-q)*TP, q hypothetical non-revenue attempts; no profit claim",
-    "historicScoresUnchanged": true,
-    "scoreConflictsNotFixed": [
-      "travel-bottles 75 vs subitems 74",
-      "phone-charm-beaded 68 vs subitems 69"
-    ],
-    "approvedInventory": false,
-    "firstPaidOrderVerified": false,
-    "firstPayoutVerified": false
+    "noonReadiness": "1/12 historical snapshot; no live account recheck",
+    "amazonReadiness": "0/15 historical snapshot",
+    "noNewSameBomOrders": true,
+    "noNewSameBomRFQs": true,
+    "noNewSameBomRestocks": true,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "channelAccessGate": "NO_GO",
+    "certifiedWorstLoss100Usd": null
   },
   "latest20261101Radar": {
     "auditId": "2026-11-01/C01",
@@ -8279,5 +8576,96 @@
       "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
       "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
     ]
+  },
+  "latestRadarAuditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+  "previousLatestDailyAuditBefore20261104": {
+    "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
+    "date": "2026-11-01",
+    "source": "ops/CHINAGCC_057_NGS_PAYOUT_RETURNS_MARGIN15_AUDIT_2026-11-01.md",
+    "companionDaily": "data/daily/2026-11-01.json",
+    "modelPreference": "GPT-6 Extra High; actual effort unverifiable",
+    "noonReadiness": "1/12 (8%): UAE Store completed only; Organization ID proof not captured",
+    "amazonReadiness": "0/15",
+    "noGoReasons": [
+      "REAL_CHINA_LE_REQUIRED_NOT_SUBMITTED",
+      "NGS_NOT_ELIGIBLE_REASON_UNKNOWN",
+      "PAYOUT_UNKNOWN",
+      "NO_SAME_BOM_FULL_COST_OR_PACK_WEIGHT",
+      "NO_VERIFIED_LIVE_BUYER_PRICE_ETA_RETURN_LOSS"
+    ],
+    "primaryEconomicsRisk": "Noon NGS salable returns may transfer to FBN for resale at automatically default price if not set; nonsalable returns may generate zero proceeds; general payout threshold is 100 AED/SAR local or 1000 AED/SAR cross-currency but China NGS USD special application remains unknown",
+    "margin15Formula": "C <= 0.85*(1-q)*TP, q hypothetical non-revenue attempts; no profit claim",
+    "historicScoresUnchanged": true,
+    "scoreConflictsNotFixed": [
+      "travel-bottles 75 vs subitems 74",
+      "phone-charm-beaded 68 vs subitems 69"
+    ],
+    "approvedInventory": false,
+    "firstPaidOrderVerified": false,
+    "firstPayoutVerified": false
+  },
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T08:08:11+08:00",
+    "report": "research/2026-11-04/CHINAGCC_C01_NGS_ORIGIN_HAIR_CLIP_LIVE_SIGNAL_HEYONE_GCC_DTC.md",
+    "daily": "data/daily/2026-11-04.json",
+    "issue": "https://github.com/wpuu/ChinaGCC/issues/31",
+    "scope": "Public official policies, public product pages, and existing GitHub records; no live Seller Lab, no account edits, no external contact",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "newLiveAdjacentCategorySalesSignals": 1,
+    "officialChinaBrandGccDtcShippingPathsObserved": 1,
+    "supplierDeepSearchPerformed": false,
+    "scoreChanged": false,
+    "historicalV2Retained": true,
+    "noonNGS": {
+      "programPolicyRechecked": true,
+      "accountSpecificRecheck": false,
+      "uaeStore": "CREATED_VERIFIED_2026-11-01_HISTORICAL_WORK049_055",
+      "chinaLegalEntity": "NOT_APPROVED_AS_LAST_VERIFIED",
+      "ngsEligibility": "NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
+      "payoutApproved": "UNKNOWN",
+      "sellingOriginMapped": "UNKNOWN",
+      "invoicingProfile": "NOT_VERIFIED",
+      "onboardingSlaDays": null,
+      "approvedTransferPriceUsd": null,
+      "buyerFinalPrice": null,
+      "markupFormula": null
+    },
+    "hairAccessorySignal": {
+      "source": "https://medicinaonline.ae/products/roro-02-0188-hair-claw-clip-11cm",
+      "item": "Roro 11cm single claw clip",
+      "priceAed": 21,
+      "pageSalesLabel": "2 sold in last 8 hours",
+      "rating": 4.4,
+      "ratingsCount": 178,
+      "sameBomAs8PieceTarget": false,
+      "checkoutChannel": "UAE pharmacy DTC",
+      "supplierSearchTriggered": false
+    },
+    "originalIp": {
+      "heyoneOfficialGccDtc": true,
+      "destinations": [
+        "Saudi Arabia",
+        "United Arab Emirates"
+      ],
+      "shippingUsd": 3.99,
+      "freeShippingThresholdUsd": 29.99,
+      "etaBusinessDays": [
+        5,
+        10
+      ],
+      "chinaGccResaleRights": false,
+      "yonnnaChinaLaunchDate": "2026-08-05",
+      "yonnnaGccFirstPaidDate": null,
+      "trendLagDays": null,
+      "thirdPartyIpHardStop": true
+    },
+    "channelAccessGate": "NO_GO",
+    "sampleReadyCount": 0,
+    "approvedPurchaseCount": 0,
+    "certifiedWorstLoss100Usd": null
   }
 }
