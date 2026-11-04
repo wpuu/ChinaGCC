@@ -642,5 +642,53 @@
     "scoreChanged": false,
     "channelAccessGate": "NO_GO"
   },
-  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "evidence": [
+      {
+        "source": "https://heyoneglobal.com/",
+        "observed": "Official global store displays FurFur/R3NA/OZAI/MIMI plush pendants and blind boxes, roughly USD12.90–34.90",
+        "freshness": "LIVE_OFFICIAL_STORE_READ_2026-11-04",
+        "rights": "HEYONE_OR_LICENSORS_OWNED_NO_RESALE_RIGHTS_FOR_CHINAGCC"
+      },
+      {
+        "source": "https://heyoneglobal.com/list-10070010",
+        "observed": "Ships to Saudi Arabia and UAE; USD3.99 shipping; free over USD29.99; 5–10 business days",
+        "freshness": "LIVE_OFFICIAL_SHIPPING_POLICY_READ_2026-11-04",
+        "rights": "DTC_AVAILABILITY_NOT_RESELLER_AUTHORIZATION"
+      },
+      {
+        "source": "https://www.bbtnews.com.cn/2026/0805/601337.shtml",
+        "observed": "YONNNA China launch 2026-08-05 at RMB69; six regular plus one hidden",
+        "freshness": "DATED_PRESS_RELEASE_2026-08-05",
+        "gccFirstPaidDate": null,
+        "lagDays": null
+      },
+      {
+        "source": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6760676.shtml",
+        "observed": "HERE portfolio 22 IPs by 2026-10-09: 13 proprietary, 9 exclusive licensed",
+        "freshness": "DATED_PRESS_REPORT_2026-10-09",
+        "gccFirstPaidDate": null,
+        "lagDays": null
+      }
+    ],
+    "newTransactionCount": 0,
+    "sameBomRfqCount": 0,
+    "sameBomRestockCount": 0,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "scoreStatus": "HISTORICAL_V2_RETAINED",
+    "actualTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomCost": null,
+    "chinaToShenzhenCost": null,
+    "returnLoss": null,
+    "worstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "ipRightsHardStop": true,
+    "trendLagDays": null,
+    "notes": "HEYONE官方DTC已覆盖UAE/Saudi；没有ChinaGCC转售权。YONNNA GCC首付日期未知，不能用91天日历间隔当趋势滞后。"
+  }
 }
