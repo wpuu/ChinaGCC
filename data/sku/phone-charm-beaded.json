@@ -962,5 +962,43 @@
     "scoreChanged": false,
     "channelAccessGate": "NO_GO"
   },
-  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "evidence": [
+      {
+        "source": "https://www.noon.com/saudi-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/ZD6D28524501EC98D57CDZ/p/",
+        "observed": "Saudi WAKUKU plush blind box SAR69.90",
+        "freshness": "INDEX_AGE_APPROX_5_MONTHS",
+        "sameBom": false,
+        "authenticityVerified": false,
+        "rightsVerified": false,
+        "interpretation": "第三方IP页面不证明授权或正品，不可比较为无IP串珠挂件价格"
+      },
+      {
+        "source": "https://www.noon.com/uae-en/wakuku-fuzzy-trendy-fun-party-series-blind-box-cute-wakuku-action-figure-mystery-box-plush-doll-bag-keychain-pendant-1-pack/Z5D4711AEA21856321684Z/p/",
+        "observed": "UAE WAKUKU plush blind box AED79.90",
+        "freshness": "INDEX_AGE_APPROX_5_MONTHS",
+        "sameBom": false,
+        "authenticityVerified": false,
+        "rightsVerified": false,
+        "interpretation": "同上；不构成ChinaGCC可售证据"
+      }
+    ],
+    "newTransactionCount": 0,
+    "sameBomRfqCount": 0,
+    "sameBomRestockCount": 0,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "scoreStatus": "HISTORICAL_V2_RETAINED",
+    "actualTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomCost": null,
+    "chinaToShenzhenCost": null,
+    "returnLoss": null,
+    "worstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "notes": "无IP通用串珠仍独立评分；任何角色/Logo未经授权Hard Stop。"
+  }
 }
