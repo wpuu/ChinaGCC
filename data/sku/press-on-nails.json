@@ -913,5 +913,40 @@
     "scoreChanged": false,
     "channelAccessGate": "NO_GO"
   },
-  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "evidence": [
+      {
+        "source": "https://www.noon.com/uae-en/24pcs-press-on-nails-false-nails-fake-nails-set-for-women-girls-nail-art-accessories-press-on-nail-with-glue-stickers-for-easy-apply-stick-on-fingernails-set/Z3EF78666C40D46F71FBBZ/p/",
+        "observed": "UAE Kanza 24pcs AED40; 4.1/21; only 2 left; jelly glue stickers/tools listed",
+        "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+        "sameBom": false,
+        "adhesiveOnlyBOMVerified": false,
+        "interpretation": "历史低库存/评价信号；胶贴化学和无液体胶BOM未验证"
+      },
+      {
+        "source": "https://www.noon.com/saudi-en/nail-adhesive-tab-press-on-nail-glue-sticker-double-side-720-pcs-30-sheets-waterproof-breathable-super-sticky-nails-tab-for-fake-nail-tips-clear-jelly-adhesive-nail-tab-glue/Z5B2DAA28EE34430A085DZ/p/",
+        "observed": "Saudi HY 720 adhesive tabs SAR32; 4.6/5 ratings; only 1 left",
+        "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+        "sameBom": false,
+        "interpretation": "耗材旁证，不是穿戴甲套装"
+      }
+    ],
+    "newTransactionCount": 0,
+    "sameBomRfqCount": 0,
+    "sameBomRestockCount": 0,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "scoreStatus": "HISTORICAL_V2_RETAINED",
+    "actualTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomCost": null,
+    "chinaToShenzhenCost": null,
+    "returnLoss": null,
+    "worstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "notes": "保持胶贴优先；液体胶是否存在仍须逐BOM核实。"
+  }
 }
