@@ -1,3 +1,13 @@
+## 2026-11-04 C02｜NGS退货转本地FBN与费率补正（不改变HOLD）
+
+- **新增关键规则：** NGS可售客户退货会转入当地FBN；后续本地FBN销售适用当地Referral/Outbound等费率，仓储费最多豁免60天。不可售退货由Noon清货、卖家无回款，NGS政策称免库存移除/销毁费。
+- **必须保留的未知项：** NGS妥投后已支付的原Transfer Price，在客户后来退货时是否冲回；NGS选择RTV回中国本地仓的具体费用/时效；各目标SKU的精确FBN叶类与包装尺寸/重量。
+- **费率影响：** FBN费率表自2026-09-10起；若四件化妆包归All other bags，AE/SA Referral为25%；玩具类14%；发饰/穿戴甲需按准确叶类、Brand/Generic及ASP判断，不能提前套用费率。FBN Outbound按包装尺寸/计费重及当地ASP计。
+- **决策不变：** 无新增同BOM实付/RFQ/补货；不重算Issue #12 V2；14个SKU认证100件最坏亏损仍UNKNOWN；NGS Channel Access Gate NO-GO；不采购、不上架、不投广告。
+- [C02完整审计](research/2026-11-04/CHINAGCC_C02_NGS_RETURN_FBN_RECOVERY_AND_CATEGORY_FEES.md)｜[当日日报](data/daily/2026-11-04.json)｜[Issue #31](https://github.com/wpuu/ChinaGCC/issues/31)
+
+---
+
 ## ChinaGCC-2026-11-04 C01｜NGS Origin付款闸门、UAE发饰新鲜信号、HEYONE官方GCC直邮
 
 - **渠道顺序不变：** Noon China NGS第一、Amazon UAE/Saudi第二；账户级NGS仍NO-GO。UAE GCC Picks只沿用11月1日Work049/055历史验收，China LE/Payout/Selling Origin/Invoicing Profile未获新批准证据。
