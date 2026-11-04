@@ -2,7 +2,7 @@
 
 - **渠道顺序不变：** Noon China NGS第一、Amazon UAE/Saudi第二；账户级NGS仍NO-GO。UAE GCC Picks只沿用11月1日Work049/055历史验收，China LE/Payout/Selling Origin/Invoicing Profile未获新批准证据。
 - **本轮新鲜类目信号：** UAE Medicina Pharmacy的Roro 11cm单只抓夹页面显示AED21、2 sold in last 8 hours、4.4/178；不是Noon订单，也不是目标8件套同BOM，不触发供应商深查。
-- **原创IP纠偏：** HEYONE官方全球店明确向Saudi/UAE直邮（USD3.99；满USD29.99免邮；5–10工作日），因此不能把它归为GCC未触达；但官方IP条款禁止未经书面许可使用。YONNNA GCC首笔实付日期仍未知，趋势滞后不计算。
+- **原创IP纠偏：** HEYONE第一方品牌故事称其2022年创立于成都；官方全球店明确向Saudi/UAE直邮（USD3.99；满USD29.99免邮；5–10工作日），因此不能把它归为GCC未触达；但官方IP条款禁止未经书面许可使用。YONNNA GCC首笔实付日期仍未知，趋势滞后不计算。
 - **NGS付款闸门：** Payout Method必须获批并映射Selling Origin；未映射时销售余额会累计但不会转款。中国库存管理warehouse不等于深圳集货仓；Processing Time不是审核SLA。
 - **决策不变：** 无新同BOM实付/RFQ/补货，V2不重算，14个SKU的100件认证最坏亏损仍UNKNOWN；不新增供应商深搜、不采购、不上架、不投广告。
 - [C01研究报告](research/2026-11-04/CHINAGCC_C01_NGS_ORIGIN_HAIR_CLIP_LIVE_SIGNAL_HEYONE_GCC_DTC.md)｜[结构化日报](data/daily/2026-11-04.json)｜[Issue #31](https://github.com/wpuu/ChinaGCC/issues/31)
