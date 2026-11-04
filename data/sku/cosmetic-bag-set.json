@@ -56,7 +56,8 @@
   ],
   "evidence": [
     "Saudi 4件套SAR66.58，460+ sold recently",
-    "公开4件绒布供应样本包装可达30×30×20cm、1kg；轻量假设未证实"
+    "公开4件绒布供应样本包装可达30×30×20cm、1kg；轻量假设未证实",
+    "2026-11-04 C04: Saudi local 4pc PVC/polyester cosmetic bag comparables SAR49–50; listed item dimensions but no numeric package weight; not same BOM, target final packed weight remains UNKNOWN."
   ],
   "advantages": [
     {
@@ -1078,5 +1079,46 @@
     "chinaToShenzhenCost": null,
     "certifiedWorstLoss100Usd": null,
     "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+  },
+  "latestRadar20261104C04": {
+    "auditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "date": "2026-11-04",
+    "marketReferences": [
+      {
+        "retailer": "Homecentre KSA",
+        "priceSAR": 49,
+        "pieces": 4,
+        "listedIndividualBagDimensionsCm": [
+          "18x4x11",
+          "20x8x11",
+          "23.5x11x17"
+        ],
+        "material": "PVC + polyester",
+        "weight": null,
+        "notes": "页面称4件套但只列出3组尺寸；未公布整套净重/包装毛重/发货包装尺寸。"
+      },
+      {
+        "retailer": "Centrepoint KSA",
+        "priceSAR": 50,
+        "pieces": 4,
+        "listedOverallDimensionsCm": "17x22x17",
+        "material": "PVC",
+        "weight": null,
+        "notes": "页面列出Weight & Dimensions标题及整体尺寸，但未给出数字重量。"
+      }
+    ],
+    "targetPackedWeight": null,
+    "targetPackedDimensions": null,
+    "sameBomVerified": false,
+    "margin15": "NOT_PROVEN",
+    "reason": "竞品为PVC/polyester，不能代替目标棉/绗缝或指定BOM；零售商品尺寸不是最终运输包装尺寸；没有重量、供应商成本、深圳逐单成本、批准TP或买家最终价。",
+    "scoreChanged": false,
+    "opportunityScore": 78,
+    "evidenceConfidence": 90,
+    "dataCompleteness": 73,
+    "top5RisksRetained": true,
+    "hardStop": false,
+    "worstLoss100": null,
+    "channelAccessGate": "NO_GO"
   }
 }
