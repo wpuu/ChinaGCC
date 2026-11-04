@@ -914,5 +914,32 @@
     "scoreChanged": false,
     "channelAccessGate": "NO_GO"
   },
-  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "evidence": [
+      {
+        "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+        "observed": "SAR59.90; #1 Cosmetic Bags; 360+ sold recently label",
+        "freshness": "INDEX_AGE_APPROX_4_MONTHS",
+        "sameBom": false,
+        "interpretation": "历史需求参照，不是本轮新订单；材质/重量/BOM未完全验证"
+      }
+    ],
+    "newTransactionCount": 0,
+    "sameBomRfqCount": 0,
+    "sameBomRestockCount": 0,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "scoreStatus": "HISTORICAL_V2_RETAINED",
+    "actualTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomCost": null,
+    "chinaToShenzhenCost": null,
+    "returnLoss": null,
+    "worstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "notes": "4件套候选不因历史360+标签提高评分；等待新鲜同BOM成交/RFQ与真实NGS结账价。"
+  }
 }
