@@ -958,5 +958,40 @@
     "scoreChanged": false,
     "channelAccessGate": "NO_GO"
   },
-  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED"
+  "riskMatrixStatus": "HISTORICAL_TOP5_RETAINED_NOT_REASSESSED",
+  "latestRadar20261104C01": {
+    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "evidence": [
+      {
+        "source": "https://medicinaonline.ae/products/roro-02-0188-hair-claw-clip-11cm",
+        "observed": "UAE Roro 11cm single clip AED21; page showed 2 sold in last 8 hours; 4.4/178",
+        "freshness": "LIVE_PAGE_READ_2026-11-04",
+        "sameBom": false,
+        "channel": "UAE pharmacy DTC",
+        "interpretation": "新鲜类目旁证，不是Noon，也不是8件套同BOM"
+      },
+      {
+        "source": "https://www.noon.com/uae-en/best-sellers/clips-24997/",
+        "observed": "UAE ORiTi 8pcs AED39; 4.4/49; 10+ sold recently",
+        "freshness": "INDEX_AGE_APPROX_3_MONTHS",
+        "sameBom": false,
+        "interpretation": "历史套装参照，不是本轮新订单"
+      }
+    ],
+    "newTransactionCount": 0,
+    "sameBomRfqCount": 0,
+    "sameBomRestockCount": 0,
+    "supplierDeepSearch": false,
+    "scoreChanged": false,
+    "scoreStatus": "HISTORICAL_V2_RETAINED",
+    "actualTP": null,
+    "buyerFinalPrice": null,
+    "noonMarkup": null,
+    "chinaSameBomCost": null,
+    "chinaToShenzhenCost": null,
+    "returnLoss": null,
+    "worstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "notes": "Roro单只销售不能证明8件套；不触发供应商反查。"
+  }
 }
