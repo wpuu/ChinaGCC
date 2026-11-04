@@ -16,11 +16,11 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-04",
     "latestRadarPath": "data/daily/2026-11-04.json",
-    "latestRadarStatus": "NGS_SALABLE_RETURNS_CONVERT_TO_LOCAL_FBN__FBN_FEES_2026_09_10__NON_SALABLE_ZERO_PROCEEDS__ORIGINAL_TP_REVERSAL_UNKNOWN__NO_NEW_SAME_BOM_DEMAND",
-    "latestRadarNote": "C02: NGS return flow is two-branch. Salable returns become local FBN stock and then face marketplace FBN referral/outbound fees; 60 days storage waived. Non-salable liquidation yields no proceeds and NGS waives removal/disposal fees. Public NGS policy does not say whether original delivered TP is reversed after a later return. No new same-BOM paid orders/RFQs/restocks; V2 unchanged; 100-unit certified loss remains UNKNOWN.",
+    "latestRadarStatus": "NGS_CR_DOCUMENTS_CLARIFIED__15_VS_30_DAY_VALIDITY_CONFLICT__NO_END_TO_END_SLA__DESIGNER_TOY_GCC_DISTRIBUTION_NOT_GREENFIELD__TOY_FIGURE_CLASSIFICATION_GATE__NO_NEW_SAME_BOM_DEMAND",
+    "latestRadarNote": "C03: NGS中国卖家材料进一步明确（CR字段/经营范围、owner或POA代表、收款方式与Origin映射）；CR有效期文件15/30天冲突，按30天缓冲但非NGS专属最低值，端到端SLA未知。THE MIDI官方第4家UAE店及MUSE分销商自述表明GCC设计师玩具类目并非空白；中国原创IP同系列首笔实付时差仍未知。Noon雕塑/摆件条款与GCC儿童玩具分类增加figure合规闸门。新增同BOM实付/RFQ/补货均0，V2不变，Channel Access NO-GO。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+    "latestDailyAuditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -51,7 +51,7 @@
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-    "latestRadarAuditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+    "latestRadarAuditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
     "latestRadarC03": {
       "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
       "observedAt": "2026-11-03T20:07:15+08:00",
@@ -871,6 +871,14 @@
         "worstLoss100Usd": null,
         "channelAccessGate": "NO_GO",
         "notes": "4件套候选不因历史360+标签提高评分；等待新鲜同BOM成交/RFQ与真实NGS结账价。"
+      },
+      "latestRadar20261104C03": {
+        "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+        "scoreChanged": false,
+        "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO",
+        "evidence": "TRENZ 4pc SAR59.90 cached page labels vary 360+/420+ sold recently across snapshots; ~4-month index, not new sale.",
+        "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
       }
     },
     {
@@ -3182,6 +3190,14 @@
         "worstLoss100Usd": null,
         "channelAccessGate": "NO_GO",
         "notes": "Roro单只销售不能证明8件套；不触发供应商反查。"
+      },
+      "latestRadar20261104C03": {
+        "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+        "scoreChanged": false,
+        "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO",
+        "evidence": "Nahdi Goody 4ct AED21 price reference only; no sales badge; not target 8ct BOM.",
+        "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
       }
     },
     {
@@ -3721,6 +3737,14 @@
         "worstLoss100Usd": null,
         "channelAccessGate": "NO_GO",
         "notes": "保持胶贴优先；液体胶是否存在仍须逐BOM核实。"
+      },
+      "latestRadar20261104C03": {
+        "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+        "scoreChanged": false,
+        "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO",
+        "evidence": "Carrefour UAE 24pc AED29/stock label 4; adhesive included field but adhesive type unknown; not verified tab-only/no liquid glue.",
+        "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
       }
     },
     {
@@ -4317,6 +4341,14 @@
         "worstLoss100Usd": null,
         "channelAccessGate": "NO_GO",
         "notes": "无IP通用串珠仍独立评分；任何角色/Logo未经授权Hard Stop。"
+      },
+      "latestRadar20261104C03": {
+        "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+        "scoreChanged": false,
+        "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO",
+        "evidence": "No new same-BOM transaction/RFQ/restock; designer-toy distribution evidence is non-comparable to generic beaded charm.",
+        "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
       }
     },
     {
@@ -5249,6 +5281,14 @@
         "ipRightsHardStop": true,
         "trendLagDays": null,
         "notes": "HEYONE官方DTC已覆盖UAE/Saudi；没有ChinaGCC转售权。YONNNA GCC首付日期未知，不能用91天日历间隔当趋势滞后。"
+      },
+      "latestRadar20261104C03": {
+        "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+        "scoreChanged": false,
+        "newSameBomEvidence": false,
+        "channelAccessGate": "NO_GO",
+        "evidence": "THE MIDI official 4th UAE store; MUSE self-reported China designer-toy distribution; no resale rights or matched first-paid date pair.",
+        "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
       }
     },
     {
@@ -6284,6 +6324,11 @@
       "date": "2026-10-08",
       "decision": "No new Sample Ready; 10pc brush canonically added; hair 8pc economic/logistics confidence reduced",
       "reason": "新验证没有闭合15%安全利润、同SKU包装和Noon准入；源文档分数按证据保守回填"
+    },
+    {
+      "date": "2026-11-04",
+      "decision": "Keep Noon NGS first; treat GCC designer-toy distribution as established rather than greenfield, and require SKU-specific IP/figure/toy compliance before any China-origin collectible route.",
+      "reason": "THE MIDI official fourth UAE store announcement and MUSE distributor self-claims indicate category-level distribution; exact China-origin IP first-paid lag remains UNKNOWN. Noon CR validity docs conflict 15 vs 30 days and no end-to-end SLA is published. No same-BOM new demand; no supplier search or purchase."
     }
   ],
   "hanlinMask": {
@@ -6615,22 +6660,25 @@
   "latestRadar": {
     "date": "2026-11-04",
     "dailyPath": "data/daily/2026-11-04.json",
-    "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
+    "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+    "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md",
     "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently verified",
     "channelPriority": [
       "Noon China NGS first",
       "Amazon UAE/Saudi second"
     ],
     "firstSaleAccess": "NO_GO",
-    "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_WORK049_055_HISTORICAL",
-    "chinaLegalEntity": "NOT_APPROVED_AS_LAST_VERIFIED",
+    "uaeStore": "GCC_PICKS_CREATED_VERIFIED_2026-11-01_HISTORICAL",
+    "chinaLegalEntity": "NOT_SUBMITTED_OR_APPROVED_AS_LAST_VERIFIED",
     "ngs": "NOT_ELIGIBLE_REASON_UNKNOWN_AS_LAST_VERIFIED",
     "payout": "UNKNOWN_NO_VERIFIED_APPROVAL_OR_ORIGIN_MAPPING",
     "newPaidOrdersVerified": 0,
-    "newRFQVerified": 0,
-    "newRestockEvidenceVerified": 0,
+    "newSameBomRFQsVerified": 0,
+    "newSameBomRestocksVerified": 0,
     "sampleReadyCount": 0,
-    "approvedPurchaseCount": 0
+    "approvedPurchaseCount": 0,
+    "scoresChanged": false,
+    "trendLagDays": null
   },
   "dailyReconciliation": {
     "auditDate": "2026-10-30",
@@ -6725,7 +6773,7 @@
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
   },
-  "latestDailyAuditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+  "latestDailyAuditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
   "latestDailyAudit": {
     "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
     "date": "2026-11-04",
@@ -8577,7 +8625,7 @@
       "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
     ]
   },
-  "latestRadarAuditId": "2026-11-04/C02-NGS-RETURN-FBN-FEE-RECON",
+  "latestRadarAuditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
   "previousLatestDailyAuditBefore20261104": {
     "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "date": "2026-11-01",
@@ -8813,5 +8861,424 @@
     "report": "research/2026-11-04/CHINAGCC_C02_NGS_RETURN_FBN_RECOVERY_AND_CATEGORY_FEES.md",
     "daily": "data/daily/2026-11-04.json",
     "issue": "https://github.com/wpuu/ChinaGCC/issues/31"
+  },
+  "latestRadar20261104C03": {
+    "auditId": "2026-11-04/C03-NGS-LE-DOCS-TOY-COMPLIANCE-IP-CHANNEL-MATURITY",
+    "date": "2026-11-04",
+    "observedAt": "2026-11-04T20:14:06+08:00",
+    "modelPreference": "GPT-6 Extra High preferred; automation runtime cannot independently force or verify actual effort",
+    "scope": "Official Noon documents, official GCC toy-regulation guidance, public retail/brand pages, and existing GitHub data. No live Seller Lab; no originating browser context; no submissions, edits, purchases, listings, ads, or outreach.",
+    "sequence": [
+      "人群",
+      "种草/发现渠道",
+      "现实成交渠道",
+      "购买触发",
+      "产品族",
+      "具体SKU",
+      "中国供应链（仅在独立同BOM实付/RFQ/补货证据后反查）",
+      "单位经济性/风险"
+    ],
+    "targetSegments": [
+      "Saudi female 18-45",
+      "UAE female 18-39",
+      "female Gen Z/students",
+      "young families secondary",
+      "50+ WATCH only"
+    ],
+    "audience": {
+      "newDemographicEvidence": 0,
+      "baseline": "沿用DataReportal Digital 2026（主要为2025年末广告规划数据），不是独立活跃用户或购买者。",
+      "sources": [
+        "https://datareportal.com/reports/digital-2026-saudi-arabia",
+        "https://datareportal.com/reports/digital-2026-united-arab-emirates"
+      ]
+    },
+    "discovery": {
+      "social": [
+        "TikTok",
+        "Snapchat",
+        "Instagram",
+        "Noon Finds (attribution unverified)"
+      ],
+      "physicalRetail": "THE MIDI官方新闻称其2026-07-22开出UAE第4家店，2,500+ SKU并设互动拍照区；品牌称其为当地年轻人的社媒热点。无客流/转化/POS。",
+      "attributionVerified": false,
+      "source": "https://www.midiointernational.com/events/grand-opening-the-midi-opens-its-4th-store-in-uae-at-saga-world-dubai.html"
+    },
+    "checkout": {
+      "priority": [
+        "Noon China NGS first",
+        "Amazon UAE/Saudi second"
+      ],
+      "physicalRetail": "THE MIDI门店和MUSE自述分销仅证明类目有线下零售/分销结构，不是本项目已获得渠道或订单。",
+      "accountGate": "NO_GO"
+    },
+    "purchaseTriggers": {
+      "hypotheses": [
+        "角色认同与系列收集",
+        "稀有款/开箱体验",
+        "线下拍照与社媒分享",
+        "Ramadan/Eid/UAE National Day礼赠",
+        "快速日常造型、旅行收纳与聚会美甲"
+      ],
+      "conversionAttributionVerified": false,
+      "evidenceCaveat": "THE MIDI/MUSE品牌陈述支持场景假设，不等于新SKU转化证据。"
+    },
+    "categoryMaturity": {
+      "finding": "GCC designer-toy/blind-box distribution is not a blank market; opportunity must be series-specific and rights-cleared.",
+      "midi": {
+        "publicationDate": "2026-08-04",
+        "storeOpeningDate": "2026-07-22",
+        "operator": "Youpinhui (Guangzhou) Commercial Management Co., Ltd.",
+        "uaeStoreCountClaim": 4,
+        "skuCountClaim": 2500,
+        "category": [
+          "IP blind boxes",
+          "trendy figurines",
+          "ACG merchandise",
+          "fashion accessories",
+          "beauty products"
+        ],
+        "interactivePhotoArea": true,
+        "evidenceClass": "FIRST_PARTY_OFFICIAL_STORE_OPENING_ANNOUNCEMENT",
+        "independentPOSVerified": false,
+        "source": "https://www.midiointernational.com/events/grand-opening-the-midi-opens-its-4th-store-in-uae-at-saga-world-dubai.html"
+      },
+      "muse": {
+        "catalogSkuCountClaim": "50+",
+        "chineseDesignerToyBrandCountClaim": "10+",
+        "localGccWarehouseClaim": true,
+        "deliveryClaimDays": [
+          2,
+          5
+        ],
+        "coverageClaim": [
+          "UAE",
+          "Saudi Arabia",
+          "Qatar",
+          "Kuwait",
+          "Bahrain",
+          "Oman"
+        ],
+        "evidenceClass": "DISTRIBUTOR_FIRST_PARTY_SELF_REPORTED",
+        "independentSalesOrPOSVerified": false,
+        "source": "https://toys.aimuse.ae/about/",
+        "caseStudy": "https://toys.aimuse.ae/case-studies/muse-magic-planet-majid-alfuttaim-collaboration/"
+      },
+      "chinaToGccMatchedFirstPaidDatePairs": 0,
+      "trendLagDays": null
+    },
+    "newMarketEvidence": [
+      {
+        "sku": "cosmetic-bag-set",
+        "type": "HISTORICAL_CACHED_LISTING_LABEL_RECONCILIATION",
+        "market": "Saudi",
+        "priceSar": 59.9,
+        "salesLabelsSeen": [
+          "360+ sold recently",
+          "420+ sold recently"
+        ],
+        "indexAge": "approximately 4 months",
+        "meaning": "Different cached/search snapshots; not a current transaction delta or sales growth.",
+        "sameBomNotVerified": true,
+        "source": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/"
+      },
+      {
+        "sku": "hair-accessories",
+        "type": "ADJACENT_RETAIL_PRICE_REFERENCE_NOT_TARGET_BOM",
+        "market": "UAE",
+        "item": "Goody Medium Claw Clip 4ct",
+        "priceAed": 21,
+        "brand": "Goody",
+        "salesLabel": null,
+        "meaning": "4ct branded item; not target 8ct 4-matte+4-glossy set; no sales count observed.",
+        "source": "https://www.nahdionline.com/en-ae/goody-claw-clip-medium-4ct/pdp/102827906"
+      },
+      {
+        "sku": "press-on-nails",
+        "type": "RECENT_INDEXED_RETAIL_AVAILABILITY_NOT_SALES",
+        "market": "UAE",
+        "item": "24-piece press fake nails",
+        "priceAed": 29,
+        "stockLabel": "Only 4 left",
+        "adhesiveIncludedField": true,
+        "adhesiveType": "UNKNOWN_TAB_VS_LIQUID",
+        "indexFreshness": "last-week search index; dynamic stock/delivery fields may be stale",
+        "sameBomVerified": false,
+        "source": "https://www.carrefouruae.com/mafuae/en/press-on/24-piece-full-cover-press-fake-nails-nude/p/727640703886"
+      },
+      {
+        "sku": "press-on-nails",
+        "type": "HISTORICAL_NOON_LISTING",
+        "market": "Saudi",
+        "priceSar": 15.9,
+        "rating": 4.4,
+        "ratingsCount": 95,
+        "stockLabel": "Only 2 left",
+        "indexAge": "approximately 5 months",
+        "sameBomVerified": false,
+        "source": "https://www.noon.com/saudi-en/press-no-nails-24pcs-fake-nails/Z3D80AC3E5125D820F635Z/p/"
+      },
+      {
+        "sku": "original-ip-plush",
+        "type": "CATEGORY_DISTRIBUTION_SIGNAL",
+        "market": "UAE/GCC",
+        "item": "THE MIDI official 4th UAE store; MUSE self-reported China designer-toy distributor footprint",
+        "independentPaidOrders": 0,
+        "rightsForChinaGCC": false,
+        "source": [
+          "https://www.midiointernational.com/events/grand-opening-the-midi-opens-its-4th-store-in-uae-at-saga-world-dubai.html",
+          "https://toys.aimuse.ae/about/",
+          "https://toys.aimuse.ae/case-studies/muse-magic-planet-majid-alfuttaim-collaboration/"
+        ]
+      }
+    ],
+    "ngsOnboarding": {
+      "officialFlow": [
+        "Create Organization ID; verify email/phone OTP; choose project name",
+        "Create UAE and/or KSA store; enter customer-facing English/Arabic store name and contact",
+        "Create China Legal Entity: registration number, registered name/address, issue/expiry dates; upload full Commercial Registration; choose Non-VAT Registered for NGS; add authorized signatory and sign NGS T&C",
+        "Create China inventory-control warehouse; not the logistics hub",
+        "Choose noon International Logistics (UAE/KSA) - For global shipping; set processing time to fulfil/drop at Shenzhen consolidation hub",
+        "Create SKUs and pass content/category/brand QC",
+        "Upload USD Transfer Price and inventory",
+        "Complete Invoicing Profile",
+        "Add and obtain approval for payout method; map to correct Selling Origin"
+      ],
+      "crFields": [
+        "government-issued full Commercial Registration",
+        "issuing authority",
+        "registration/license number",
+        "registered company name",
+        "registered address",
+        "issue date",
+        "expiry date",
+        "visible trading activity"
+      ],
+      "permittedActivityExamples": [
+        "Trading",
+        "Selling",
+        "Manufacturing",
+        "Distribution",
+        "Wholesale",
+        "E-commerce",
+        "Retail"
+      ],
+      "representative": {
+        "passport": "explicitly listed on international seller documents page",
+        "chineseResidentId": "listed in rejection guide as accepted identity type",
+        "ownerMatch": "representative must be owner named on CR or provide Power of Attorney",
+        "minimumRemainingValidityDays": 15,
+        "chinaNgsSpecificAcceptance": "NOT_ACCOUNT_VERIFIED"
+      },
+      "crValidityConflict": {
+        "generalDocumentsPageDays": 15,
+        "rejectionRemediationPageDays": 30,
+        "conservativePreparationBufferDays": 30,
+        "ngsSpecificMinimum": "NOT_PUBLISHED_OR_NOT_CONFIRMED"
+      },
+      "payout": {
+        "options": [
+          "Bank Account",
+          "Payoneer",
+          "LianLian",
+          "WorldFirst",
+          "PingPong"
+        ],
+        "newChinaSellerApprovedBeforeLive": true,
+        "beneficiaryMustMatchOwner": true,
+        "approvedMethodMustMapToSellingOrigin": true
+      },
+      "rejectionStatus": {
+        "rejected": "LE not approved; cannot sell until corrected",
+        "needsAttention": "may continue selling but payment may be blocked",
+        "sameDayFix": "document correction/resubmission only; not end-to-end onboarding SLA"
+      },
+      "processingTimeMeaning": "seller order fulfilment/drop-off at Shenzhen hub, not LE review or full onboarding duration",
+      "endToEndOnboardingSlaDays": null,
+      "chineseSoleProprietorApprovedCase": null,
+      "actualAccountSpecificIneligibilityReason": null,
+      "browserSessionAvailable": false,
+      "browserBlocker": "Browser connector returned no originating browser context; no Seller Lab account-specific recheck was possible.",
+      "lastVerifiedAccountSnapshot": "UAE GCC Picks store historically verified 2026-11-01; China LE not submitted/approved; NGS not eligible reason unknown; payout/origin/invoicing profile unknown."
+    },
+    "compliance": {
+      "noonSaudiDesign": "Rainbow-colored products and specified religious/holiday motifs/terms are restricted in KSA; inspect each colorway/listing, not a blanket ban on all multicolor.",
+      "noonFigureAmbiguity": "Noon prohibited list includes original engravings/prints/lithographs/sculptures/statues in any material. Whether a specific vinyl figure/collectible falls under this clause is unresolved; require category/QC determination.",
+      "toyRegulation": {
+        "scope": "GCC Children Toys regulation applies to products designed/intended for play by children under 14; adult collectible status depends on actual intended use/design/marketing, not label alone.",
+        "ifInScope": [
+          "safety assessment and technical documentation",
+          "applicable conformity assessment and GC marking",
+          "manufacturer/importer declarations and traceability",
+          "Arabic use/safety instructions and warnings"
+        ],
+        "source": "https://saso.gov.sa/ar/Laws-And-Regulations/Technical_regulations/Documents/TOYS.pdf",
+        "sourceType": "GSO guidance is informative and must be read with binding GTR"
+      },
+      "saberUpdate": "SABER 2026-11-02 HS-code notice concerns specified low-voltage panels/door locks; 2026-10-01 supplier-name/CR label notice lists 10 specific technical regulations. No evidence these notices directly cover the four light consumer SKUs; do not overgeneralize.",
+      "saberSource": "https://saber.sa/Home/index/",
+      "ipRights": "Third-party IP without written resale/distribution authorization remains HARD_STOP."
+    },
+    "economics": {
+      "formula": "Cmax=(1-q)*USD_Transfer_Price*(1-0.15)",
+      "targetContributionMargin": 0.15,
+      "qScenarios": [
+        0,
+        0.1,
+        0.25
+      ],
+      "qMeaning": "Hypothetical share of orders not producing net TP revenue, including non-delivery/cancellation and any eventual TP reversal; not observed return rate.",
+      "fullSellerCostDefinition": "same-BOM purchase + retail packaging + China domestic transport to Shenzhen hub + attributable payment/FX/loss costs",
+      "tpScenarioOnly": {
+        "cosmetic-bag-set": {
+          "tp": [
+            4.5,
+            5.5,
+            6.5
+          ],
+          "q0": [
+            3.825,
+            4.675,
+            5.525
+          ],
+          "q10": [
+            3.4425,
+            4.2075,
+            4.9725
+          ],
+          "q25": [
+            2.86875,
+            3.50625,
+            4.14375
+          ]
+        },
+        "hair-accessories": {
+          "tp": [
+            2.4,
+            2.9,
+            3.4
+          ],
+          "q0": [
+            2.04,
+            2.465,
+            2.89
+          ],
+          "q10": [
+            1.836,
+            2.2185,
+            2.601
+          ],
+          "q25": [
+            1.53,
+            1.84875,
+            2.1675
+          ]
+        },
+        "press-on-nails": {
+          "tp": [
+            1.5,
+            1.9,
+            2.3
+          ],
+          "q0": [
+            1.275,
+            1.615,
+            1.955
+          ],
+          "q10": [
+            1.1475,
+            1.4535,
+            1.7595
+          ],
+          "q25": [
+            0.95625,
+            1.21125,
+            1.46625
+          ]
+        },
+        "phone-charm-beaded": {
+          "tp": [
+            1.7,
+            2.2,
+            2.7
+          ],
+          "q0": [
+            1.445,
+            1.87,
+            2.295
+          ],
+          "q10": [
+            1.3005,
+            1.683,
+            2.0655
+          ],
+          "q25": [
+            1.08375,
+            1.4025,
+            1.72125
+          ]
+        }
+      },
+      "actualApprovedTP": null,
+      "actualConsumerFinalPrice": null,
+      "noonMarkupFormula": null,
+      "sameBomChinaCost": null,
+      "chinaToShenzhenCost": null,
+      "actualReturnRate": null,
+      "originalTPReversalOnPostDeliveryReturn": "UNKNOWN",
+      "certifiedWorstLoss100Usd": null,
+      "worstLoss100Status": "UNKNOWN_NOT_CERTIFIED",
+      "lossFormula": "100*(sameBOM purchase + packaging + China-to-Shenzhen + nonrecoverable setup/handling) - verified recovery; for non-salable returns do not count TP proceeds until reversal rule is verified."
+    },
+    "v2": {
+      "source": "https://github.com/wpuu/ChinaGCC/issues/12",
+      "historicalScoresRetained": true,
+      "rescored": false,
+      "canonicalSkuCount": 14,
+      "scoredCandidates": 12,
+      "unscoredCandidates": 2,
+      "personaFieldsPresentAll14": true,
+      "scoreConflictsRetained": [
+        "travel-bottles main 75 vs 41-item sum 74",
+        "phone-charm-beaded main 68 vs independent 41-item sum 69"
+      ],
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "newSameBomRestocks": 0,
+      "sampleReady": 0,
+      "approvedPurchase": 0,
+      "certifiedWorstLoss100UsdBySku": {
+        "cosmetic-bag-set": null,
+        "hair-accessories": null,
+        "press-on-nails": null,
+        "phone-charm-beaded": null,
+        "original-ip-plush": null
+      }
+    },
+    "channelAccessGate": "NO_GO__CHINA_LE_NOT_APPROVED_AS_LAST_VERIFIED__NGS_REASON_UNKNOWN__PAYOUT_ORIGIN_INVOICING_AND_SKU_QC_UNVERIFIED",
+    "decision": "HOLD / CONDITIONAL_RESTART; Noon NGS first, Amazon UAE/Saudi second; no purchase/listing/outreach",
+    "nextActions": [
+      "Only with an available authorized browser context, read the existing Seller Lab NGS Not Eligible reason, China LE, payout approval, Selling Origin, Invoicing Profile and exact SKU category/QC; no submissions or edits.",
+      "Before any collectible/figure SKU is considered, obtain category/QC interpretation of Noon sculptures/statues clause and determine whether GCC children-toy regulation applies.",
+      "Do not search new suppliers until an independent same-BOM paid transaction, qualified RFQ, restock or channel procurement record exists.",
+      "For China-to-GCC IP trend lag, pair the same series' first paid China date and first paid GCC date; global launch and DTC shipping availability are not substitutes."
+    ],
+    "sources": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/documents-required-to-sell-on-noon",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
+      "https://helpcenter.noon.partners/en/category/product-listing/prohibited-products",
+      "https://www.midiointernational.com/events/grand-opening-the-midi-opens-its-4th-store-in-uae-at-saga-world-dubai.html",
+      "https://toys.aimuse.ae/about/",
+      "https://toys.aimuse.ae/case-studies/muse-magic-planet-majid-alfuttaim-collaboration/",
+      "https://saso.gov.sa/ar/Laws-And-Regulations/Technical_regulations/Documents/TOYS.pdf",
+      "https://saber.sa/Home/index/",
+      "https://www.nahdionline.com/en-ae/goody-claw-clip-medium-4ct/pdp/102827906",
+      "https://www.carrefouruae.com/mafuae/en/press-on/24-piece-full-cover-press-fake-nails-nude/p/727640703886",
+      "https://www.noon.com/saudi-en/press-no-nails-24pcs-fake-nails/Z3D80AC3E5125D820F635Z/p/",
+      "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+      "https://datareportal.com/reports/digital-2026-saudi-arabia",
+      "https://datareportal.com/reports/digital-2026-united-arab-emirates"
+    ]
   }
 }
