@@ -1189,5 +1189,26 @@
     "certifiedWorstLoss100Usd": null,
     "channelAccessGate": "NO_GO",
     "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
+  },
+  "latestRadar20261105C07": {
+    "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+    "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md",
+    "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newSameBomRestocks": 0,
+    "tpTestUsd": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "allCostCapAt10pctNoTPAnd15pctMarginUsd": [
+      1.836,
+      2.2185,
+      2.601
+    ],
+    "firstSaleTPVsFbnReturnDistinct": true,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO"
   }
 }
