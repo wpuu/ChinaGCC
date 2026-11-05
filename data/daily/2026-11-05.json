@@ -2,7 +2,7 @@
   "schemaVersion": "2026-10-08-v2",
   "date": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "observedAt": "2026-11-05 08:05",
+  "observedAt": "2026-11-05 14:00",
   "modelPreference": "GPT-6 Extra High preferred; automation runtime cannot independently verify or force actual effort",
   "sequence": [
     "人群",
@@ -98,5 +98,137 @@
     "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
     "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
     "https://github.com/wpuu/ChinaGCC/issues/31"
+  ],
+  "intradayRuns": [
+    {
+      "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+      "date": "2026-11-05",
+      "window": "14:00 Asia/Shanghai",
+      "evidenceQuality": "PLATFORM_PRODUCT_PAGE_AND_OFFICIAL_POLICY_ONLY__NO_NEW_INDEPENDENT_PAID_ORDER_OR_RFQ",
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "newSameBomRestocks": 0,
+      "sellerLabReverified": false,
+      "genericSellerProtection": {
+        "type": "NOON_GENERIC_SELLER_PROTECTION_EXCLUSION",
+        "observedOn": "2026-11-05",
+        "evidence": "Noon通用Returns and Seller Protection Policy明列Generic/Non-Branded为NG等级、grading payout 0%；不能假设售后评级赔付会抵销损失。",
+        "applicationToNGS": "UNKNOWN_UNLESS_ACCOUNT_OR_POLICY_SPECIFIC_CONFIRMATION",
+        "mitigation": "核查具体NGS账户、类目、订单/退货账单；未证实前将等级赔偿收入按0做压力情景，不将其当作已发生损失。",
+        "source": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+      },
+      "nailSameBomEvidence": {
+        "qirra": {
+          "status": "UNAVAILABLE_NOT_SALES_PROOF",
+          "pieces": 24,
+          "adhesiveStickerMention": true,
+          "liquidGlueAbsence": "PRODUCT_TEXT_ONLY_NOT_PACKING_QC",
+          "source": "https://www.noon.com/saudi-en/24pcs-press-on-nails-with-gradient-milky-colors-false-nail-includes-nail-file-and-adhesive-stickers-nail-art-accessories/ZF371A513F3A017824417Z/p/"
+        },
+        "orange": {
+          "status": "LISTED_BUT_NOT_SAME_BOM_VERIFIED",
+          "advertisedBuiltInTabs": true,
+          "note": "同一Noon SKU不同索引/浏览器视图出现SAR22+419 ratings与SAR17.99+293 ratings等差异；可能缓存、地区或颜色规格，不据此推断今天销售变化。",
+          "salesOrderVerified": false,
+          "source": "https://supermall.noon.com/saudi-en/french-gold-edge-nude-press-on-nails-elegant-minimalist-glossy-nude-nails-set-with-transparent-nude-pink-base-golden-line-nails-luxury-nail-set-reusable-press-on-nails-easy-adhesive-nails-soft-pink-natural-nails-classic-french-style-nails-wedding-nai/Z5AA9B8F3970580607B5BZ/p/"
+        }
+      },
+      "historicalFourBag": {
+        "priceSAR": 59.9,
+        "soldBadge": "420+ sold recently",
+        "freshness": "3-month-old index not fresh transaction",
+        "source": "https://www.noon.com/saudi-en/best-sellers/cosmetic-bags/"
+      },
+      "verifiedNoonTransferPrices": 0,
+      "verifiedConsumerCheckoutPrices": 0,
+      "newChineseSupplierSearches": 0,
+      "originalIpChinaGccFirstPaidDatePairs": 0,
+      "chinaEntityApproved": false,
+      "ngsNotEligibleReason": "UNKNOWN",
+      "payoutApproved": "UNKNOWN",
+      "sellingOriginMapping": "UNKNOWN",
+      "invoicingProfile": "UNKNOWN",
+      "scoreRecalculated": false,
+      "channelAccessGate": "NO_GO",
+      "worstLoss100CertifiedUsd": null,
+      "decision": "HOLD / CONDITIONAL_RESTART",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy",
+        "https://www.noon.com/saudi-en/24pcs-press-on-nails-with-gradient-milky-colors-false-nail-includes-nail-file-and-adhesive-stickers-nail-art-accessories/ZF371A513F3A017824417Z/p/",
+        "https://supermall.noon.com/saudi-en/french-gold-edge-nude-press-on-nails-elegant-minimalist-glossy-nude-nails-set-with-transparent-nude-pink-base-golden-line-nails-luxury-nail-set-reusable-press-on-nails-easy-adhesive-nails-soft-pink-natural-nails-classic-french-style-nails-wedding-nai/Z5AA9B8F3970580607B5BZ/p/",
+        "https://www.noon.com/saudi-en/best-sellers/cosmetic-bags/"
+      ],
+      "lossStress": {
+        "formulaCostCap": "TP*(1-q)*(1-targetMargin)",
+        "q": 0.1,
+        "targetMargin": 0.15,
+        "perSku": [
+          {
+            "skuId": "cosmetic-bag-set",
+            "tpGridUsd": [
+              4.5,
+              5.5,
+              6.5
+            ],
+            "costCapsUsd": [
+              3.4425,
+              4.2075,
+              4.9725
+            ]
+          },
+          {
+            "skuId": "hair-accessories",
+            "tpGridUsd": [
+              2.4,
+              2.9,
+              3.4
+            ],
+            "costCapsUsd": [
+              1.836,
+              2.2185,
+              2.601
+            ]
+          },
+          {
+            "skuId": "press-on-nails",
+            "tpGridUsd": [
+              1.5,
+              1.9,
+              2.3
+            ],
+            "costCapsUsd": [
+              1.1475,
+              1.4535,
+              1.7595
+            ]
+          },
+          {
+            "skuId": "phone-charm-beaded",
+            "tpGridUsd": [
+              1.7,
+              2.2,
+              2.7
+            ],
+            "costCapsUsd": [
+              1.3005,
+              1.683,
+              2.0655
+            ]
+          }
+        ],
+        "certifiedWorstLoss100Usd": null,
+        "unknowns": [
+          "same BOM price",
+          "domestic Shenzhen fulfillment",
+          "actual TP and buyer price",
+          "returns TP reversal",
+          "category FBN recovery",
+          "Generic grading on NGS"
+        ]
+      },
+      "reportPath": "research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md",
+      "issueUrl": "https://github.com/wpuu/ChinaGCC/issues/33"
+    }
   ]
 }
