@@ -5,8 +5,8 @@
     "status": "HOLD / CONDITIONAL_RESTART；Noon NGS仍为第一渠道但账号级资格未通过；Amazon中国卖家路径已有官方文档、账户仍未创建；不新增SKU/供应商深搜，不采购、不上架、不投广告。",
     "thirtyDayJudgment": "HOLD / CONDITIONAL_RESTART（历史研究置信度74/100，不是GO）：只对新的外部准入、真实买家价格/订单或同BOM成本证据响应；停止重复空店铺检查和无成交SKU扩榜。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-11-04",
-    "lastSynced": "2026-11-04",
+    "lastUpdated": "2026-11-05",
+    "lastSynced": "2026-11-05",
     "currentChannelPriority": [
       "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
       "Amazon UAE/Saudi（第二；未启动）",
@@ -14,10 +14,10 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
-    "latestRadarDate": "2026-11-04",
-    "latestRadarPath": "data/daily/2026-11-04.json",
-    "latestRadarStatus": "NO_NEW_SAME_BOM_DEMAND__BAG_PACK_WEIGHT_UNKNOWN__SAR35_49_PRESSON_SALES_NOT_PROVEN__RETURN_ADJUSTMENT_IN_WEEKLY_STATEMENT__FBN_OUTBOUND_NONREFUNDABLE",
-    "latestRadarNote": "C04: Saudi 4件化妆包竞品有商品尺寸但无最终包装重量，且PVC/polyester不等于目标BOM；SAR35–49穿戴甲无可靠近期成交证明。Noon周结算包含此前已付款订单的本期客户退货，NGS原TP调整金额仍未知；FBN outbound在Delivered/NDR触发且退货不退，shipping weight含包装材料并按50g取整。V2不重算，14 SKU认证100件最坏亏损仍UNKNOWN，NGS NO-GO，Amazon FBA 0/15。",
+    "latestRadarDate": "2026-11-05",
+    "latestRadarPath": "data/daily/2026-11-05.json",
+    "latestRadarStatus": "NO_NEW_SAME_BOM_DEMAND__PRESSON_CATEGORY_SIGNAL_STABLE__NGS_ACCOUNT_GATE_UNCHANGED",
+    "latestRadarNote": "C05: Noon KSA公开索引再次显示穿戴甲高销量标签（480+/430+/310+），但页面索引约4个月旧且胶贴/液体胶BOM未完全核验，仅提升类目需求置信度，不作为本日新成交或首SKU证据；NGS China LE/Payout/Origin仍未账号级核验。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
@@ -51,7 +51,7 @@
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-    "latestRadarAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "latestRadarAuditId": "2026-11-05/C05-PRESSON-DEMAND-SIGNAL-NGS-GATE",
     "latestRadarC03": {
       "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
       "observedAt": "2026-11-03T20:07:15+08:00",
@@ -302,73 +302,66 @@
       ]
     },
     "latestRadarC05": {
-      "auditId": "2026-11-03/C05-AMAZON-CHINA-SELLER-PATH-NOON-LE-PREFLIGHT",
-      "date": "2026-11-03",
-      "report": "research/2026-11-03/CHINAGCC_C05_AMAZON_CHINA_PATH_NOON_LE_DOCUMENT_GATES.md",
-      "scope": "只读官方公开政策及既有GitHub；未登录平台、提交证件、签约、外联、注册、采购、上架或投放",
-      "scoreChanged": false,
+      "auditId": "2026-11-05/C05-PRESSON-DEMAND-SIGNAL-NGS-GATE",
+      "date": "2026-11-05",
+      "observedAt": "2026-11-05 08:05 Asia/Shanghai",
+      "scope": "公开Noon页面、官方NGS政策及既有GitHub；未进入Seller Lab，未提交证件、采购、上架、广告或外联。",
+      "modelPreference": "GPT-6 Extra High preferred; automation runtime cannot independently force or verify actual effort",
       "newIndependentPaidOrders": 0,
       "newSameBomRFQs": 0,
       "newSameBomRestocks": 0,
-      "amazon": {
-        "chinaSellerPath": "DOCUMENTED_BY_AMAZON_CHINA_GLOBAL_SELLING",
-        "markets": [
-          "UAE",
-          "Saudi"
+      "scoresChanged": false,
+      "channelAccessGate": "NO_GO",
+      "pressOnNails": {
+        "historicalDemandSignal": "UPGRADED_CATEGORY_CONFIDENCE_ONLY",
+        "priceClusterSAR": [
+          18.95,
+          19.5,
+          19.95
         ],
-        "registrationEvidence": "Amazon China Global Selling lists UAE/Saudi and asks for company business-license name/address, identity and international credit card.",
-        "ksaLocalCRScope": "Amazon.sa page says businesses located in KSA need KSA-issued CR; do not generalize this local requirement to all foreign sellers.",
-        "actualAccountKyc": "NOT_VERIFIED",
-        "saudiIncentive": {
-          "validUntil": "2026-12-31",
-          "referralFeeDiscountPct": 30,
-          "durationDays": 60,
-          "salesCapSAR": 150000,
-          "adsCreditSAR": 370,
-          "note": "Conditional new-seller offer; do not include in steady-state margin."
-        },
-        "vat": "Non-UAE/Saudi resident FBA seller must meet local VAT obligations; Amazon China page describes filing within 30 days after first taxable sale. Tax timing requires local professional confirmation.",
-        "ior": "FBA seller/importer must arrange named IOR and DDP; Amazon is not the IOR."
+        "soldRecentlyBadges": [
+          480,
+          430,
+          310
+        ],
+        "exactBOM": "UNKNOWN",
+        "adhesiveOnlyVerified": false,
+        "premiumSAR35to49": "NOT_PROVEN",
+        "decision": "retain P2 / historical V2 67/92/80; no premium-price assumption; no supplier deep search"
       },
-      "noonLegalEntity": {
-        "source": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
-        "businessActivity": "Trading/Selling/Manufacturing/Distribution/Wholesale/E-commerce/Retail must be permitted by registration",
-        "registrationValidityDays": 30,
-        "validityConflict": "General documents page still says 15 days; 30 days is conservative buffer, not certified NGS-specific minimum.",
-        "representativeIdValidityDays": 15,
-        "chineseResidentIdListedAsAccepted": true,
-        "representative": "Must be owner named on CR or provide Power of Attorney",
-        "payoutBeneficiary": "Must match owner/registration; mismatch needs Noon confirmation",
-        "foreignPayoutProof": "Payoneer or LianLian authorization letter signed and stamped may be accepted for sellers outside UAE/KSA/Egypt",
-        "actualChinaNgsApproval": "NOT_VERIFIED"
+      "fourPieceCosmeticBag": {
+        "status": "NO_NEW_SAME_BOM_EVIDENCE",
+        "decision": "retain rank 1 / historical V2 78/90/73"
       },
-      "payoutThreshold": {
-        "helpCenter": "100 AED/SAR same currency; 1000 AED/SAR foreign currency",
-        "supportAgent": "1000 weekly; 50-1000 monthly; <=50 held",
-        "conflict": true,
-        "ngsAccountApplicability": "UNKNOWN_NOT_ACCOUNT_VERIFIED"
+      "hairAccessories": {
+        "status": "NO_NEW_SAME_BOM_EVIDENCE",
+        "decision": "retain rank 6 / historical V2 70/92/78"
       },
-      "channelAccessGate": "NGS_NO_GO__AMAZON_CHINA_PATH_DOCUMENTED_BUT_ACCOUNT_KYC_VAT_IOR_NOT_DONE",
+      "phoneCharm": {
+        "status": "NO_NEW_SAME_BOM_EVIDENCE",
+        "decision": "retain historical V2 68/84/76"
+      },
+      "originalIp": {
+        "status": "NO_NEW_CHINA_TO_GCC_FIRST_PAID_DATE_PAIR",
+        "decision": "watch only; no resale without rights"
+      },
       "readiness": {
         "noonNGS": "1/12=8.33% unchanged",
         "amazon": "0/15=0% unchanged"
       },
-      "nextActions": [
-        "Owner-side read-only verify existing Chinese commercial registration, permitted business scope, validity, named owner/authorized representative and matching payout entity; no upload or submission.",
-        "Do not repeat known empty Seller Lab pages. Only with user authorization and a usable Work session, read the existing NGS ineligibility reason, LE, Payout, Selling Origin and Invoicing Profile; read-only.",
-        "Keep Amazon as documented second-channel option; no account creation or FBA shipment until entity, VAT, named IOR/DDP and first-SKU economics are evidenced."
-      ],
+      "lossCertification": {
+        "certifiedWorstLoss100UsdBySku": null,
+        "status": "UNKNOWN_NOT_CERTIFIED"
+      },
       "sources": [
-        "https://gs.amazon.cn/middle-east",
-        "https://sell.amazon.sa/en/sell/business",
-        "https://sell.amazon.sa/en/",
-        "https://sell.amazon.ae/pricing",
-        "https://gs.amazon.cn/middle-east/uae-vat",
-        "https://sellercentral.amazon.ae/seller-forums/discussions/t/87becf9a-1cd2-4d02-98e6-542e3452427f",
-        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/understanding-the-application-rejections-reason-and-how-to-resolve-them",
-        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
-        "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
-        "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
+        "https://www.noon.com/saudi-en/beauty/noon-collect/",
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      ],
+      "nextActions": [
+        "只读核验已授权Seller Lab中的NGS Not Eligible原因、China LE、Payout、Selling Origin、Invoicing Profile；无账号上下文时不声称已核验。",
+        "穿戴甲继续优先寻找同一BOM（24pc、adhesive-tab-only、无液体胶）的新鲜成交/RFQ/补货；历史480+/430+/310+销量标签只作为类目需求证据。",
+        "若出现同BOM真实成交，再反查中国供应链并实测深圳交仓成本；之前不深搜供应商。"
       ]
     }
   },
