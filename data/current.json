@@ -16,8 +16,8 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-05",
     "latestRadarPath": "data/daily/2026-11-05.json",
-    "latestRadarStatus": "NO_NEW_SAME_BOM_DEMAND__PRESSON_CATEGORY_SIGNAL_STABLE__NGS_ACCOUNT_GATE_UNCHANGED",
-    "latestRadarNote": "C05: Noon KSA公开索引再次显示穿戴甲高销量标签（480+/430+/310+），但页面索引约4个月旧且胶贴/液体胶BOM未完全核验，仅提升类目需求置信度，不作为本日新成交或首SKU证据；NGS China LE/Payout/Origin仍未账号级核验。",
+    "latestRadarStatus": "GENERIC_GRADING_PAYOUT_EXCLUSION_PRIMARY_POLICY__TAB_NAIL_LISTING_NOT_SALES__NO_GO",
+    "latestRadarNote": "2026-11-05 C06: Noon官方通用Seller Protection显示generic非品牌NG赔付0%，中国NGS专项适用仍U；同一Saudi甲片SKU不同索引价/评不一致，禁止当作实时订单；QIRRA明写24片胶贴但不可售；保留已存在的C05与全部历史V2和14 SKU亏损UNKNOWN。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
@@ -51,7 +51,7 @@
     },
     "previousDailyAuditId20261101": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "latestRiskCertificationAuditId": "2026-11-02/C04-PRELIVE-PAYOUT-AND-100UNIT-LOSS-CERTIFICATION",
-    "latestRadarAuditId": "2026-11-05/C05-PRESSON-DEMAND-SIGNAL-NGS-GATE",
+    "latestRadarAuditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
     "latestRadarC03": {
       "auditId": "2026-11-03/C03-AUDIENCE-DISCOVERY-FOURSKU-NGS-ACCESS",
       "observedAt": "2026-11-03T20:07:15+08:00",
@@ -363,6 +363,20 @@
         "穿戴甲继续优先寻找同一BOM（24pc、adhesive-tab-only、无液体胶）的新鲜成交/RFQ/补货；历史480+/430+/310+销量标签只作为类目需求证据。",
         "若出现同BOM真实成交，再反查中国供应链并实测深圳交仓成本；之前不深搜供应商。"
       ]
+    },
+    "latestRadarC06": {
+      "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+      "date": "2026-11-05",
+      "reportPath": "research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md",
+      "dailyPath": "data/daily/2026-11-05.json",
+      "issueUrl": "https://github.com/wpuu/ChinaGCC/issues/33",
+      "accountReverified": false,
+      "newIndependentPaidOrders": 0,
+      "newSameBomRFQs": 0,
+      "scoreRecalculated": false,
+      "firstSaleGate": "NO_GO",
+      "genericGradingNGSApplicability": "UNKNOWN",
+      "certifiedWorstLoss100Usd": null
     }
   },
   "skus": [
