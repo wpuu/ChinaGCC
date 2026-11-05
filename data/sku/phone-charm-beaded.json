@@ -1,7 +1,7 @@
 {
   "id": "phone-charm-beaded",
   "name": "无IP串珠手机挂绳/包挂",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "rank": 8,
   "status": "P2",
   "opportunityScore": 68,
@@ -1137,5 +1137,49 @@
     "chinaToShenzhenCost": null,
     "certifiedWorstLoss100Usd": null,
     "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+  },
+  "latestRadar20261105C06": {
+    "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+    "date": "2026-11-05",
+    "decision": "HOLD_NO_PURCHASE",
+    "personaToChannelToTrigger": "Saudi female Gen Z/学生，手机/包穿搭与生日礼赠；本轮无新实付或补货。",
+    "noNewIndependentPaidOrders": 0,
+    "noNewSameBomRFQ": 0,
+    "noNewSameBomRestock": 0,
+    "tpUsdScenarioNotApproved": [
+      1.7,
+      2.2,
+      2.7
+    ],
+    "totalSellerCostCapUsdScenario_q10_margin15": [
+      1.3005,
+      1.683,
+      2.0655
+    ],
+    "consumerActualPriceUsd": null,
+    "noonMarkupActual": null,
+    "sameBomSupplierQuoteVerified": null,
+    "chinaToShenzhenVerified": null,
+    "actualReturnsLoss": null,
+    "ngsCategoryApproval": null,
+    "commonPolicyGenericProtection": {
+      "type": "NOON_GENERIC_SELLER_PROTECTION_EXCLUSION",
+      "observedOn": "2026-11-05",
+      "evidence": "Noon通用Returns and Seller Protection Policy明列Generic/Non-Branded为NG等级、grading payout 0%；不能假设售后评级赔付会抵销损失。",
+      "applicationToNGS": "UNKNOWN_UNLESS_ACCOUNT_OR_POLICY_SPECIFIC_CONFIRMATION",
+      "mitigation": "核查具体NGS账户、类目、订单/退货账单；未证实前将等级赔偿收入按0做压力情景，不将其当作已发生损失。",
+      "source": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    },
+    "newPressOnEvidence": null,
+    "scoreSnapshot": {
+      "opportunity": 68,
+      "confidence": 84,
+      "completeness": 76
+    },
+    "recomputedScores": false,
+    "top5RisksRetained": true,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
   }
 }
