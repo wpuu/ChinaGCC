@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "2026-10-08-v2",
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "observedAt": "2026-11-05 08:05",
+  "modelPreference": "GPT-6 Extra High preferred; automation runtime cannot independently verify or force actual effort",
+  "sequence": [
+    "人群",
+    "种草/发现渠道",
+    "现实成交渠道",
+    "购买触发",
+    "产品族",
+    "具体SKU",
+    "中国供应链",
+    "单位经济性及风险"
+  ],
+  "prioritySegments": [
+    "Saudi female 18-45",
+    "UAE female 18-39",
+    "Female Gen Z / students",
+    "young families secondary",
+    "50+ WATCH only"
+  ],
+  "discoveryChannels": [
+    "Saudi Snapchat/TikTok/Instagram",
+    "UAE TikTok/Instagram/Snapchat",
+    "Noon on-platform discovery (attribution not verified)"
+  ],
+  "checkoutChannels": [
+    "Noon China NGS first",
+    "Amazon UAE/Saudi second"
+  ],
+  "researchBoundaries": {
+    "noPurchase": true,
+    "noNewAccount": true,
+    "noAdSpend": true,
+    "noExternalContacts": true,
+    "noUnlicensedIp": true,
+    "verifiedDemandBeforeNewSupplierSearch": true
+  },
+  "newEvidence": {
+    "independentNewPaidOrdersVerified": 0,
+    "independentNewRFQsVerified": 0,
+    "independentNewSameBomRestocksVerified": 0,
+    "pressOnNails": {
+      "type": "HISTORICAL_NOON_BESTSELLER_SALES_BADGE",
+      "details": "Noon KSA beauty page indexed a #1 press-on false nails listing with 480+ sold recently, a 24pc French-gradient product with 430+ sold recently, and a KHAJUL 24pc French-tip product with 310+ sold recently; prices about SAR18.95-19.95. Page crawl is approximately four months old.",
+      "source": "https://www.noon.com/saudi-en/beauty/noon-collect/",
+      "exactBOM": "UNKNOWN",
+      "adhesiveOnlyVerified": false,
+      "interpretation": "category demand strengthened; not counted as 2026-11-05 transaction"
+    },
+    "noonNGS": {
+      "type": "OFFICIAL_PRIMARY_POLICY_RECHECK",
+      "details": "China sellers with valid Chinese Commercial Registration can apply to NGS; seller sets USD Transfer Price; noon handles cross-border logistics/customs/destination VAT; payout requires approved method and mapping to selling origin.",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      ],
+      "accountSpecificVerification": false
+    },
+    "fourPieceCosmeticBag": {
+      "newSameBomDemand": 0,
+      "status": "unchanged"
+    },
+    "hairAccessories": {
+      "newSameBomDemand": 0,
+      "status": "unchanged"
+    },
+    "phoneCharm": {
+      "newSameBomDemand": 0,
+      "status": "unchanged"
+    },
+    "originalIP": {
+      "newChinaToGccFirstPaidDatePair": 0,
+      "status": "unchanged; rights gate remains hard stop"
+    }
+  },
+  "v2": {
+    "scoresRecalculated": false,
+    "historicalScoresRetained": true,
+    "top10Changed": false,
+    "certifiedWorstLoss100UsdBySku": null
+  },
+  "readiness": {
+    "noonNGS": "1/12=8.33% unchanged",
+    "amazon": "0/15=0% unchanged"
+  },
+  "channelAccessGate": "NO_GO",
+  "decision": "HOLD / CONDITIONAL_RESTART",
+  "nextActions": [
+    "只读核验已授权Seller Lab的NGS Not Eligible具体原因、China LE、Payout、Selling Origin、Invoicing Profile；无账号上下文不声称已核验。",
+    "继续寻找24pc adhesive-tab-only、无液体胶穿戴甲的新鲜同BOM成交/RFQ/补货；历史480+/430+/310+只作为类目需求证据。",
+    "出现同BOM真实需求后再反查中国供应链，并测算深圳交仓与100件最坏亏损。"
+  ],
+  "sources": [
+    "https://www.noon.com/saudi-en/beauty/noon-collect/",
+    "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+    "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+    "https://github.com/wpuu/ChinaGCC/issues/31"
+  ]
+}
