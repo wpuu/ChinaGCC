@@ -16,8 +16,8 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-05",
     "latestRadarPath": "data/daily/2026-11-05.json",
-    "latestRadarStatus": "GENERIC_GRADING_PAYOUT_EXCLUSION_PRIMARY_POLICY__TAB_NAIL_LISTING_NOT_SALES__NO_GO",
-    "latestRadarNote": "2026-11-05 C06: Noon官方通用Seller Protection显示generic非品牌NG赔付0%，中国NGS专项适用仍U；同一Saudi甲片SKU不同索引价/评不一致，禁止当作实时订单；QIRRA明写24片胶贴但不可售；保留已存在的C05与全部历史V2和14 SKU亏损UNKNOWN。",
+    "latestRadarStatus": "C07_NGS_PROGRAM_SCOPE_CROSSCHECK_AND_NAIL_BOM_GLUESTICK_CONTRADICTION__NO_GO",
+    "latestRadarNote": "2026-11-05 C07: 分开中国NGS与UAE→KSA Global VAT/24h条件；KHAJUL 24片标题含fibrous stickers但配件含额外small glue stick，未验证无液体胶；首售TP无额外扣费不能推到可售退货FBN再售；账号浏览器原始报错已归档。",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
@@ -928,6 +928,15 @@
         "hardStop": false,
         "worstLoss100": null,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261105C07": {
+        "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+        "decision": "HOLD_NO_GO",
+        "newIndependentPaidOrders": 0,
+        "exactBomDemandQualified": false,
+        "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+        "certifiedWorstLoss100Usd": null,
+        "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
       }
     },
     {
@@ -3265,7 +3274,16 @@
       },
       "keyEvidence": [
         "C04: Roro single-clip sales labels/review counts differ across indexed snapshots; not target 8-piece BOM and not counted as incremental sales."
-      ]
+      ],
+      "latestRadar20261105C07": {
+        "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+        "decision": "HOLD_NO_GO",
+        "newIndependentPaidOrders": 0,
+        "exactBomDemandQualified": false,
+        "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+        "certifiedWorstLoss100Usd": null,
+        "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
+      }
     },
     {
       "id": "press-on-nails",
@@ -3875,6 +3893,28 @@
         "hardStop": false,
         "worstLoss100": null,
         "channelAccessGate": "NO_GO"
+      },
+      "latestRadar20261105C07": {
+        "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+        "decision": "HOLD_NO_GO",
+        "newIndependentPaidOrders": 0,
+        "exactBomDemandQualified": false,
+        "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+        "certifiedWorstLoss100Usd": null,
+        "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md",
+        "nailSameBomRejection": {
+          "sku": "KHAJUL Z7F9A078917D1591DA616Z",
+          "priceSAR": 18.9,
+          "ratings": 236,
+          "crawledAboutDaysAgo": 6,
+          "features": "24 nails + 24 adhesive strips + file + alcohol pad",
+          "additionalGlueStick": true,
+          "glueStickForm": "UNKNOWN",
+          "noLiquidGlueConfirmed": false,
+          "exactBomPass": false,
+          "recentPaidOrdersVerified": 0,
+          "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
+        }
       }
     },
     {
@@ -4479,6 +4519,15 @@
         "channelAccessGate": "NO_GO",
         "evidence": "No new same-BOM transaction/RFQ/restock; designer-toy distribution evidence is non-comparable to generic beaded charm.",
         "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+      },
+      "latestRadar20261105C07": {
+        "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+        "decision": "HOLD_NO_GO",
+        "newIndependentPaidOrders": 0,
+        "exactBomDemandQualified": false,
+        "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+        "certifiedWorstLoss100Usd": null,
+        "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
       }
     },
     {
@@ -5419,6 +5468,15 @@
         "channelAccessGate": "NO_GO",
         "evidence": "THE MIDI official 4th UAE store; MUSE self-reported China designer-toy distribution; no resale rights or matched first-paid date pair.",
         "report": "research/2026-11-04/CHINAGCC_C03_NGS_REGISTRATION_DOCUMENTS_TOY_COMPLIANCE_AND_IP_CHANNEL_MATURITY.md"
+      },
+      "latestRadar20261105C07": {
+        "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+        "decision": "HOLD_NO_GO",
+        "newIndependentPaidOrders": 0,
+        "exactBomDemandQualified": false,
+        "scoreStatus": "HISTORICAL_V2_UNCHANGED",
+        "certifiedWorstLoss100Usd": null,
+        "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
       }
     },
     {
@@ -8755,7 +8813,7 @@
       "https://supportagent.noon.partners/portal/en/kb/articles/payments-processing-policy"
     ]
   },
-  "latestRadarAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+  "latestRadarAuditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
   "previousLatestDailyAuditBefore20261104": {
     "auditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
     "date": "2026-11-01",
@@ -9597,5 +9655,77 @@
     "fbnOutboundNonRefundableOnReturn": true,
     "shippingWeightIncludesPackaging": true,
     "exactSkuLeafCategory": "UNKNOWN"
+  },
+  "latestRadar20261105C07": {
+    "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+    "date": "2026-11-05",
+    "window": "20:00 Asia/Shanghai",
+    "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md",
+    "modelPreference": "GPT-6 Extra High requested; actual effort unverified",
+    "stageSequence": [
+      "Saudi/UAE female persona",
+      "Snapchat/TikTok/Instagram discovery",
+      "Noon China NGS checkout first",
+      "functional/occasion triggers",
+      "four priority families",
+      "exact BOM",
+      "supplier only after verified demand",
+      "TP and loss risk"
+    ],
+    "evidenceQuality": "OFFICIAL_PROGRAM_RULE_CROSSCHECK_AND_SINGLE_PRODUCT_DESCRIPTION__NOT_TRANSACTION",
+    "independentPaidOrders": 0,
+    "sameBomRFQs": 0,
+    "sameBomRestocks": 0,
+    "chineseSupplierDeepSearches": 0,
+    "nailBOM": {
+      "sku": "KHAJUL Z7F9A078917D1591DA616Z",
+      "priceSAR": 18.9,
+      "ratings": 236,
+      "crawledAboutDaysAgo": 6,
+      "features": "24 nails + 24 adhesive strips + file + alcohol pad",
+      "additionalGlueStick": true,
+      "glueStickForm": "UNKNOWN",
+      "noLiquidGlueConfirmed": false,
+      "exactBomPass": false,
+      "recentPaidOrdersVerified": 0,
+      "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
+    },
+    "programSeparation": {
+      "chinaNGS": "China CR, USD TP, China warehouse inventory only; Shenzhen handoff; no published full approval SLA",
+      "uaeToKsaGlobal": "Distinct program for UAE VAT-registered sellers; its up-to-24h step and AED-to-SAR VAT pricing cannot be transferred to China NGS",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://supportagent.noon.partners/portal/en/kb/articles/uae-to-ksa-onboarding-guide-for-noon-sellers"
+      ]
+    },
+    "returnAccounting": {
+      "firstSaleTPCommissionDeduction": "Noon NGS primary policy says zero additional fees deducted from TP",
+      "fbnResaleOnReturnedSaleable": "Local FBN rates; 60d storage waiver; TP reverse unknown",
+      "genericGradingProtection": "NG=0 in general policy, NGS scope unproven",
+      "TPClawback": "UNKNOWN",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+      ]
+    },
+    "sellerLabReadOnlyAttempt": {
+      "success": false,
+      "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again."
+    },
+    "ngsReadiness": "1/12 HISTORICAL_UNCHANGED",
+    "amazonReadiness": "0/15 HISTORICAL_UNCHANGED",
+    "channelAccessGate": "NO_GO",
+    "verifiedTransferPrice": 0,
+    "verifiedCheckoutFinalPrices": 0,
+    "certifiedWorstLoss100Usd": null,
+    "trendLagDays": null,
+    "scoreRecalculated": false,
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "sources": [
+      "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/",
+      "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+      "https://supportagent.noon.partners/portal/en/kb/articles/uae-to-ksa-onboarding-guide-for-noon-sellers",
+      "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    ]
   }
 }
