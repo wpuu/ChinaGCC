@@ -856,5 +856,14 @@
     ],
     "channelGate": "NO_GO",
     "reportPath": "research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
+  },
+  "latestRadar20261105C07": {
+    "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+    "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md",
+    "rightsGate": "HARD_STOP_WITHOUT_LICENSE",
+    "chinaToGccFirstPaidPairs": 0,
+    "lagDays": null,
+    "scoreStatus": "HISTORICAL_UNCHANGED",
+    "certifiedWorstLoss100Usd": null
   }
 }
