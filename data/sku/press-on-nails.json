@@ -1207,5 +1207,93 @@
     "certifiedWorstLoss100Usd": null,
     "channelAccessGate": "NO_GO",
     "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
+  },
+  "latestRadar20261105C07": {
+    "auditId": "2026-11-05/C07-NGS-PROGRAM-SCOPE-KHAJUL-GLUE-STICK-TP-RETURN-SPLIT",
+    "date": "2026-11-05",
+    "window": "20:00 Asia/Shanghai",
+    "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md",
+    "modelPreference": "GPT-6 Extra High requested; actual effort unverified",
+    "stageSequence": [
+      "Saudi/UAE female persona",
+      "Snapchat/TikTok/Instagram discovery",
+      "Noon China NGS checkout first",
+      "functional/occasion triggers",
+      "four priority families",
+      "exact BOM",
+      "supplier only after verified demand",
+      "TP and loss risk"
+    ],
+    "evidenceQuality": "OFFICIAL_PROGRAM_RULE_CROSSCHECK_AND_SINGLE_PRODUCT_DESCRIPTION__NOT_TRANSACTION",
+    "independentPaidOrders": 0,
+    "sameBomRFQs": 0,
+    "sameBomRestocks": 0,
+    "chineseSupplierDeepSearches": 0,
+    "nailBOM": {
+      "sku": "KHAJUL Z7F9A078917D1591DA616Z",
+      "priceSAR": 18.9,
+      "ratings": 236,
+      "crawledAboutDaysAgo": 6,
+      "features": "24 nails + 24 adhesive strips + file + alcohol pad",
+      "additionalGlueStick": true,
+      "glueStickForm": "UNKNOWN",
+      "noLiquidGlueConfirmed": false,
+      "exactBomPass": false,
+      "recentPaidOrdersVerified": 0,
+      "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
+    },
+    "programSeparation": {
+      "chinaNGS": "China CR, USD TP, China warehouse inventory only; Shenzhen handoff; no published full approval SLA",
+      "uaeToKsaGlobal": "Distinct program for UAE VAT-registered sellers; its up-to-24h step and AED-to-SAR VAT pricing cannot be transferred to China NGS",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://supportagent.noon.partners/portal/en/kb/articles/uae-to-ksa-onboarding-guide-for-noon-sellers"
+      ]
+    },
+    "returnAccounting": {
+      "firstSaleTPCommissionDeduction": "Noon NGS primary policy says zero additional fees deducted from TP",
+      "fbnResaleOnReturnedSaleable": "Local FBN rates; 60d storage waiver; TP reverse unknown",
+      "genericGradingProtection": "NG=0 in general policy, NGS scope unproven",
+      "TPClawback": "UNKNOWN",
+      "sources": [
+        "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+        "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+      ]
+    },
+    "sellerLabReadOnlyAttempt": {
+      "success": false,
+      "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again."
+    },
+    "ngsReadiness": "1/12 HISTORICAL_UNCHANGED",
+    "amazonReadiness": "0/15 HISTORICAL_UNCHANGED",
+    "channelAccessGate": "NO_GO",
+    "verifiedTransferPrice": 0,
+    "verifiedCheckoutFinalPrices": 0,
+    "certifiedWorstLoss100Usd": null,
+    "trendLagDays": null,
+    "scoreRecalculated": false,
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "sources": [
+      "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/",
+      "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
+      "https://supportagent.noon.partners/portal/en/kb/articles/uae-to-ksa-onboarding-guide-for-noon-sellers",
+      "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    ],
+    "perSku": {
+      "descriptionVsFullKitConflict": true,
+      "exactAdhesiveOnlyProof": false,
+      "hardStopForLiquidGlue": "HOLD_BOM_UNVERIFIED",
+      "riskAddition": "标题仅写胶贴但详情含one small glue stick；配件形态未证实，不能判纯胶贴",
+      "tpUsd": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "allCostCapUsd": [
+        1.1475,
+        1.4535,
+        1.7595
+      ]
+    }
   }
 }
