@@ -1,7 +1,7 @@
 {
   "id": "hair-accessories",
   "name": "8件套强抓力抓夹",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "rank": 6,
   "status": "P1_CONDITIONAL",
   "opportunityScore": 70,
@@ -1145,5 +1145,49 @@
     "hardStop": false,
     "worstLoss100": null,
     "channelAccessGate": "NO_GO"
+  },
+  "latestRadar20261105C06": {
+    "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+    "date": "2026-11-05",
+    "decision": "HOLD_NO_PURCHASE",
+    "personaToChannelToTrigger": "Saudi女性18–45，TikTok/Snapchat发型演示；仍无4雾面+4亮面同BOM新成交/补货。",
+    "noNewIndependentPaidOrders": 0,
+    "noNewSameBomRFQ": 0,
+    "noNewSameBomRestock": 0,
+    "tpUsdScenarioNotApproved": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "totalSellerCostCapUsdScenario_q10_margin15": [
+      1.836,
+      2.2185,
+      2.601
+    ],
+    "consumerActualPriceUsd": null,
+    "noonMarkupActual": null,
+    "sameBomSupplierQuoteVerified": null,
+    "chinaToShenzhenVerified": null,
+    "actualReturnsLoss": null,
+    "ngsCategoryApproval": null,
+    "commonPolicyGenericProtection": {
+      "type": "NOON_GENERIC_SELLER_PROTECTION_EXCLUSION",
+      "observedOn": "2026-11-05",
+      "evidence": "Noon通用Returns and Seller Protection Policy明列Generic/Non-Branded为NG等级、grading payout 0%；不能假设售后评级赔付会抵销损失。",
+      "applicationToNGS": "UNKNOWN_UNLESS_ACCOUNT_OR_POLICY_SPECIFIC_CONFIRMATION",
+      "mitigation": "核查具体NGS账户、类目、订单/退货账单；未证实前将等级赔偿收入按0做压力情景，不将其当作已发生损失。",
+      "source": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    },
+    "newPressOnEvidence": null,
+    "scoreSnapshot": {
+      "opportunity": 70,
+      "confidence": 92,
+      "completeness": 78
+    },
+    "recomputedScores": false,
+    "top5RisksRetained": true,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
   }
 }
