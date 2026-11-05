@@ -1,7 +1,7 @@
 {
   "id": "press-on-nails",
   "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "rank": 7,
   "status": "P2",
   "opportunityScore": 67,
@@ -1148,5 +1148,64 @@
     "hardStop": false,
     "worstLoss100": null,
     "channelAccessGate": "NO_GO"
+  },
+  "latestRadar20261105C06": {
+    "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+    "date": "2026-11-05",
+    "decision": "HOLD_NO_PURCHASE",
+    "personaToChannelToTrigger": "Saudi female Gen Z/女性18–45，聚会/婚礼/日常快妆。新增QIRRA '24pcs + adhesive stickers / without glue'但不可售，OrangeLife 'built-in adhesive tabs'但完整包装BOM与销量仍未知。",
+    "noNewIndependentPaidOrders": 0,
+    "noNewSameBomRFQ": 0,
+    "noNewSameBomRestock": 0,
+    "tpUsdScenarioNotApproved": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "totalSellerCostCapUsdScenario_q10_margin15": [
+      1.1475,
+      1.4535,
+      1.7595
+    ],
+    "consumerActualPriceUsd": null,
+    "noonMarkupActual": null,
+    "sameBomSupplierQuoteVerified": null,
+    "chinaToShenzhenVerified": null,
+    "actualReturnsLoss": null,
+    "ngsCategoryApproval": null,
+    "commonPolicyGenericProtection": {
+      "type": "NOON_GENERIC_SELLER_PROTECTION_EXCLUSION",
+      "observedOn": "2026-11-05",
+      "evidence": "Noon通用Returns and Seller Protection Policy明列Generic/Non-Branded为NG等级、grading payout 0%；不能假设售后评级赔付会抵销损失。",
+      "applicationToNGS": "UNKNOWN_UNLESS_ACCOUNT_OR_POLICY_SPECIFIC_CONFIRMATION",
+      "mitigation": "核查具体NGS账户、类目、订单/退货账单；未证实前将等级赔偿收入按0做压力情景，不将其当作已发生损失。",
+      "source": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    },
+    "newPressOnEvidence": {
+      "qirra": {
+        "status": "UNAVAILABLE_NOT_SALES_PROOF",
+        "pieces": 24,
+        "adhesiveStickerMention": true,
+        "liquidGlueAbsence": "PRODUCT_TEXT_ONLY_NOT_PACKING_QC",
+        "source": "https://www.noon.com/saudi-en/24pcs-press-on-nails-with-gradient-milky-colors-false-nail-includes-nail-file-and-adhesive-stickers-nail-art-accessories/ZF371A513F3A017824417Z/p/"
+      },
+      "orange": {
+        "status": "LISTED_BUT_NOT_SAME_BOM_VERIFIED",
+        "advertisedBuiltInTabs": true,
+        "note": "同一Noon SKU不同索引/浏览器视图出现SAR22+419 ratings与SAR17.99+293 ratings等差异；可能缓存、地区或颜色规格，不据此推断今天销售变化。",
+        "salesOrderVerified": false,
+        "source": "https://supermall.noon.com/saudi-en/french-gold-edge-nude-press-on-nails-elegant-minimalist-glossy-nude-nails-set-with-transparent-nude-pink-base-golden-line-nails-luxury-nail-set-reusable-press-on-nails-easy-adhesive-nails-soft-pink-natural-nails-classic-french-style-nails-wedding-nai/Z5AA9B8F3970580607B5BZ/p/"
+      }
+    },
+    "scoreSnapshot": {
+      "opportunity": 67,
+      "confidence": 92,
+      "completeness": 80
+    },
+    "recomputedScores": false,
+    "top5RisksRetained": true,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "sourceReport": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
   }
 }
