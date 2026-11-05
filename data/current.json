@@ -8,7 +8,7 @@
     "lastUpdated": "2026-11-05",
     "lastSynced": "2026-11-05",
     "currentChannelPriority": [
-      "Noon China NGS（第一；UAE GCC Picks店已创建，China LE未提交，NGS当前未符合资格、原因未知）",
+      "Noon China NGS（第一；GCC Picks已建；C08账号无有效Legal Entity；通用xborder空态不证明China NGS专项已正式拒绝）",
       "Amazon UAE/Saudi（第二；未启动）",
       "其它渠道仅观察"
     ],
@@ -16,11 +16,11 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-05",
     "latestRadarPath": "data/daily/2026-11-05.json",
-    "latestRadarStatus": "C07_NGS_PROGRAM_SCOPE_CROSSCHECK_AND_NAIL_BOM_GLUESTICK_CONTRADICTION__NO_GO",
-    "latestRadarNote": "2026-11-05 C07: 分开中国NGS与UAE→KSA Global VAT/24h条件；KHAJUL 24片标题含fibrous stickers但配件含额外small glue stick，未验证无液体胶；首售TP无额外扣费不能推到可售退货FBN再售；账号浏览器原始报错已归档。",
+    "latestRadarStatus": "C09_C08_ACCOUNT_RECONCILED__HOLD",
+    "latestRadarNote": "C08 authorized 2026-11-05 Work049 read: UAE GCC Picks verified; Legal Entities says No Valid Legal Entities Found; generic xborder Programs ineligible but China NGS specific denial reason UNKNOWN. Payout/Origin/Invoicing UNKNOWN. No new paid sales, no SKU rescore. HOLD.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+    "latestDailyAuditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -88,17 +88,17 @@
           {
             "name": "China Legal Entity approval",
             "status": "NOT_DONE",
-            "blocker": "China LE未提交/未批准；上次NGS Not Eligible原因未知"
+            "blocker": "2026-11-05 C08真实Legal Entities页面No Valid Legal Entities Found；无有效LE，提交及驳回历史UNKNOWN"
           },
           {
             "name": "NGS warehouse",
             "status": "NOT_DONE",
-            "blocker": "未验收中国库存管理仓及NGS delivery model；库存仓不等于深圳集货仓"
+            "blocker": "C08通用跨境Programs列表不合格，但China NGS专项资格/仓PT未知；不可把通用提示认作专项正式拒绝"
           },
           {
             "name": "Payout approved",
             "status": "NOT_DONE",
-            "blocker": "无银行/Payoneer/LianLian/WorldFirst/PingPong获批凭证"
+            "blocker": "C08 Add your bank account入口存在且按钮禁用；未验Payout Approved、Origin及Invoicing Profile"
           },
           {
             "name": "First SKU QC",
@@ -6605,9 +6605,9 @@
         "organizationId": "031已只读验证原Organization/Project存在且Owner可见，但本仓库脱敏证据未取得可作为Organization ID项完成的唯一标识/凭证；部分完成，未计1/12；不要求重注册。",
         "uaeStore": "已完成：Work049于2026-11-01 10:39在UAE Store Dashboard及My Stores实际看到GCC Picks；该项已不再阻塞。阿语店名及电话未再次逐字段核实。",
         "ksaStore": "031同项目Stores为空；049只触及UAE Store表单，无KSA Store创建凭证。",
-        "chinaLegalEntityApproved": "Work049在新店Setup Guide真实看到Submit your legal entity=Required；曾Skip商业注册材料填写但没有建立/批准合法LE。中国个体工商户能否被NGS专项接受仍UNKNOWN。",
-        "ngsWarehouse": "2026-11-01新店已建，但Cross-border Programs仍提示当前不符合任何跨境计划、无具体原因，NGS配置/实际中国仓/processing time尚未验证；不能直接归因于LE。",
-        "payoutApproved": "031/049未取得批准收款方法及Origin关联状态；一般收款门槛不等于中国USD NGS专项已批准门槛。",
+        "chinaLegalEntityApproved": "2026-11-05 C08真后台Legal Entities页: No Valid Legal Entities Found；未见批准的China LE，也未见可验证的拒件原因/提交历史。",
+        "ngsWarehouse": "2026-11-05 C08通用xborder Programs列表显示不符合任何跨境项目；未标中国NGS专项名称或拒因，NGS资格/仓/PT均未验证。",
+        "payoutApproved": "2026-11-05 C08仅见Add your bank account入口，Get started返回element is disabled；无Payout Approved/Receiving Payments Origin/Invoicing Profile凭证。",
         "firstSkuQcApproved": "049只有真实商品Identity表单可见，未提供有权商品图片和真实字段，未创建/提交/通过SKU QC；Health & Beauty类目可能需购买凭证/授权函。",
         "transferPriceLive": "NGS尚未获准；未取得Global项目专用USD Transfer Price、买家实际总价和ETA；不可拿普通本地Price冒充。",
         "firstOrder": "未取得本账号真实买家已支付订单；竞品sold recently只是公开标签。",
@@ -6961,7 +6961,7 @@
     "verified100UnitWorstLoss": null,
     "scoreChanged": false
   },
-  "latestDailyAuditId": "2026-11-04/C04-BAG-PACK-DIMS-PRESSON-PREMIUM-RETURN-ACCOUNTING",
+  "latestDailyAuditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
   "latestDailyAudit": {
     "auditId": "2026-11-04/C01-NGS-ORIGIN-HAIR-CLIP-HEYONE-GCC-DTC",
     "date": "2026-11-04",
@@ -9727,5 +9727,31 @@
       "https://supportagent.noon.partners/portal/en/kb/articles/uae-to-ksa-onboarding-guide-for-noon-sellers",
       "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
     ]
+  },
+  "latestRadar20261105C09": {
+    "auditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
+    "date": "2026-11-05",
+    "reportPath": "research/2026-11-05/CHINAGCC_C09_ACCOUNT_C08_DAILY_RECONCILIATION.md",
+    "sourceAccountEvidence": "research/2026-11-05/CHINAGCC_C08_WORK049_NOON_SELLER_LAB_READ_ONLY_EVIDENCE.md",
+    "accountObservedAt": "2026-11-05 18:20-18:26 Asia/Shanghai",
+    "uaeStore": "GCC_PICKS_VERIFIED",
+    "legalEntity": "NO_VALID_LEGAL_ENTITIES_FOUND_ON_VISIBLE_PAGE",
+    "legalEntityApplicationHistory": "UNKNOWN",
+    "genericXborder": "GENERIC_CROSSBORDER_LIST_INELIGIBLE",
+    "chinaNgsSpecialStatus": "UNKNOWN_NOT_SHOWN_IN_GENERIC_PAGE",
+    "payoutApproved": "UNKNOWN",
+    "sellingOriginMapping": "UNKNOWN",
+    "invoicingProfile": "UNKNOWN",
+    "ksaStore": "UNKNOWN",
+    "noonReady": "1/12=8.33%",
+    "amazonReady": "0/15=0%",
+    "scoreRecalculated": false,
+    "rankChange": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "modelPreference": "GPT-6 Extra High preferred, not independently verified"
   }
 }
