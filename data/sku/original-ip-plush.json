@@ -82,7 +82,7 @@
     "lagDays": null,
     "authorizedForResale": false
   },
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "corePersona": "NOT_VERIFIED",
   "ageBand": [
     "Saudi女性18–45",
@@ -840,5 +840,21 @@
       "ageLabelAloneNotExemption": true,
       "unlicensedThirdPartyIp": "HARD_STOP"
     }
+  },
+  "latestRadar20261105C06": {
+    "auditId": "2026-11-05/C06-GENERIC-RETURNS-NAIL-TAB-SAMEBOM-CHECK",
+    "marketLagDays": null,
+    "matchedChinaAndGccFirstPaidDates": 0,
+    "thirdPartyRightsApproved": false,
+    "hardStopRemains": true,
+    "newIndependentOrders": 0,
+    "scoreRecalculated": false,
+    "scoresRetained": [
+      69,
+      67,
+      58
+    ],
+    "channelGate": "NO_GO",
+    "reportPath": "research/2026-11-05/CHINAGCC_C06_GENERIC_RETURNS_PROTECTION_NAIL_TABS_EVIDENCE.md"
   }
 }
