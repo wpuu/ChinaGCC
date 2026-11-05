@@ -97,7 +97,9 @@
     "https://www.noon.com/saudi-en/beauty/noon-collect/",
     "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program",
     "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
-    "https://github.com/wpuu/ChinaGCC/issues/31"
+    "https://github.com/wpuu/ChinaGCC/issues/31",
+    "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C09_ACCOUNT_C08_DAILY_RECONCILIATION.md",
+    "https://helpcenter.noon.partners/en/category/global-selling/how-to-setup-the-invoicing-profile-for-global-selling"
   ],
   "intradayRuns": [
     {
@@ -310,5 +312,33 @@
     "uaeToKsaGlobalNotEquivalentToChinaNGS": true,
     "ngsFirstSaleNoExtraDeductionDifferentFromFbnResale": true,
     "sourceProduct": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
-  }
+  },
+  "dailyCloseC09": {
+    "auditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
+    "date": "2026-11-05",
+    "reportPath": "research/2026-11-05/CHINAGCC_C09_ACCOUNT_C08_DAILY_RECONCILIATION.md",
+    "sourceAccountEvidence": "research/2026-11-05/CHINAGCC_C08_WORK049_NOON_SELLER_LAB_READ_ONLY_EVIDENCE.md",
+    "accountObservedAt": "2026-11-05 18:20-18:26 Asia/Shanghai",
+    "uaeStore": "GCC_PICKS_VERIFIED",
+    "legalEntity": "NO_VALID_LEGAL_ENTITIES_FOUND_ON_VISIBLE_PAGE",
+    "legalEntityApplicationHistory": "UNKNOWN",
+    "genericXborder": "GENERIC_CROSSBORDER_LIST_INELIGIBLE",
+    "chinaNgsSpecialStatus": "UNKNOWN_NOT_SHOWN_IN_GENERIC_PAGE",
+    "payoutApproved": "UNKNOWN",
+    "sellingOriginMapping": "UNKNOWN",
+    "invoicingProfile": "UNKNOWN",
+    "ksaStore": "UNKNOWN",
+    "noonReady": "1/12=8.33%",
+    "amazonReady": "0/15=0%",
+    "scoreRecalculated": false,
+    "rankChange": false,
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "modelPreference": "GPT-6 Extra High preferred, not independently verified"
+  },
+  "latestDailyAuditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
+  "accountEvidenceC08Reconciled": true
 }
