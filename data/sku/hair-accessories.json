@@ -1253,5 +1253,42 @@
     "channelAccessGate": "NO_GO",
     "ipLicense": "unlicensed motifs prohibited",
     "decision": "HOLD"
+  },
+  "latestRadar20261106C02": {
+    "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+    "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+    "decision": "HOLD",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newRestocks": 0,
+    "fullKitQCConfirmed": false,
+    "ngsAccessGate": "NO_GO",
+    "all100WorstLossCertifiedUsd": null,
+    "scoreChanged": false,
+    "risksPreserved": true,
+    "coreProfile13FieldsPreserved": true,
+    "skuSpecificFinding": "No new exact-BOM demand or cost evidence; no SKU score promotion",
+    "sources": [],
+    "transferPriceScenariosUsd": [
+      2.4,
+      2.9,
+      3.4
+    ],
+    "costCapAt0MissingTP": [
+      2.04,
+      2.465,
+      2.89
+    ],
+    "costCapAt10pctMissingTP": [
+      1.836,
+      2.2185,
+      2.601
+    ],
+    "costCapAt25pctMissingTP": [
+      1.53,
+      1.84875,
+      2.1675
+    ],
+    "formulasOnlyNotCertified": true
   }
 }
