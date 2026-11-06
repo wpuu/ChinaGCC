@@ -735,5 +735,75 @@
         "label": "A22 FAQ reverse GCC-to-China launch"
       }
     ]
-  }
+  },
+  "dailyCloseC04": {
+    "auditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
+    "reportPath": "research/2026-11-06/CHINAGCC_C04_DAILY_CLOSE_READINESS_PROVENANCE_CONSISTENCY.md",
+    "type": "INCREMENTAL_DAILY_CLOSE_DATA_INTEGRITY",
+    "whatChanged": [
+      "Corrected stale firstSaleReadiness account authority date from 2026-11-01 to 2026-11-05 C08, while audit close on 2026-11-06",
+      "Corrected misleading generic xborder Programs ineligibility wording so China NGS named program rejection remains UNKNOWN",
+      "Preserved 12/12 A-K sum checks and 14/14 profile/100-unit-loss unknown safeguards"
+    ],
+    "currentJsonModified": true,
+    "historicalV2": {
+      "retained": true,
+      "rankChanges": 0,
+      "rankedCandidates": 10,
+      "scoredCandidates": 12,
+      "unscoredCandidates": 2,
+      "canonicalSkuCount": 14,
+      "allScoredAtoKSumMatch": "12/12",
+      "all14Have13ProfileFields": true,
+      "top5HistoricalRiskPresent": "12/12",
+      "scoreDiscrepanciesUnresolved": [
+        "travel-bottles main 75 vs standalone 74",
+        "phone-charm-beaded main 68 vs standalone 69"
+      ]
+    },
+    "evidenceNew": {
+      "independentSameBomPaidOrders": 0,
+      "formalRFQs": 0,
+      "verifiableRestocks": 0,
+      "ChinaGccGccFirstPaidIpDatePairs": 0,
+      "noonChinaNgsSpecificApproval": false,
+      "liveSellerLabRecheck": false,
+      "reason": "No originating browser context; C08 verified 2026-11-05; no related newly approved Noon/Amazon onboarding emails observed after 2026-11-04"
+    },
+    "readiness": {
+      "noonNGS": "1/12=8.33%",
+      "amazonFba": "0/15=0%",
+      "sampleReady": 0,
+      "certifiedWorstLoss100BySku": "UNKNOWN for all 14"
+    },
+    "opportunities": {
+      "pressOnNailsSar35to49PaidDemand": "NOT_PROVEN",
+      "cosmeticBagSameBomPackAnd15PctProfit": "NOT_PROVEN",
+      "lowestEconomicPressureCandidate": "silicone brush relative risk structure only, real margin unverified",
+      "strongDemandWeakEconomics": [
+        "press-on-nails",
+        "lint-roller",
+        "makeup-sponge"
+      ],
+      "chinaOriginalIpLagDays": null,
+      "unlicensedIpSale": "HARD_STOP",
+      "hanlinMask": "FROZEN"
+    },
+    "nextDayOnlyThree": [
+      "Only with authorized existing browser context, read named China NGS eligibility and legal entity / approved payout / Selling Origin / Invoicing Profile; no submission",
+      "Verify 24-piece tab-only nails exact physical box and independent Saudi SAR35–49 paid demand; no supplier expansion without hard same-BOM proof",
+      "Only after demand/channel evidence, obtain one precise 3/4pc cosmetic-bag final pack BOM, 3 formal quotes, China-to-Shenzhen per-order cost, approved TP, consumer checkout price and ETA"
+    ],
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "accountMutations": 0,
+    "gitHubWritesIntended": [
+      "research C04",
+      "data/current.json",
+      "data/daily/2026-11-06.json",
+      "Issue #34 comment"
+    ],
+    "modelPreference": "GPT-6 Extra High preferred; actual thinking effort cannot be independently verified"
+  },
+  "latestDailyAuditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
+  "dailyCloseReportC04": "research/2026-11-06/CHINAGCC_C04_DAILY_CLOSE_READINESS_PROVENANCE_CONSISTENCY.md"
 }
