@@ -1295,5 +1295,48 @@
         1.7595
       ]
     }
+  },
+  "latestRadar20261106C01": {
+    "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+    "reportPath": "research/2026-11-06/CHINAGCC_C01_NGS_C08_ACCOUNT_NAIL_NEAR_BOM_V2.md",
+    "date": "2026-11-06",
+    "historicalV2Retained": [
+      67,
+      92,
+      80
+    ],
+    "scoreRecalculated": false,
+    "top5RisksRetained": true,
+    "advantagesRetained": true,
+    "competitorEvidence": "Saudi Noon Generic 12 Pairs Nude French 24pcs, 1 sheet adhesive-tab stickers, SAR18.91, historical 380+ sold recently on category page (~3 months old); product text says no glue needed but optionally suggests glue for longer wear; no independent packing inspection; cannot certify liquid glue absent",
+    "competitorUrl": "https://www.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/",
+    "exactBOMStatus": "PLATFORM_TEXT_NEAR_BOM_24PCS_ADHESIVE_SHEET__FULL_KIT_NOT_QC_VERIFIED",
+    "independentNewPaidOrders": 0,
+    "validNewRFQs": 0,
+    "newRestockProof": 0,
+    "chinaSupplierDeepSearchTriggered": false,
+    "tpTestingOnly": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "costCap10pctLoss15pctMarginUsd": [
+      1.1475,
+      1.4535,
+      1.7595
+    ],
+    "costCap25pctLoss15pctMarginUsd": [
+      0.9562,
+      1.2112,
+      1.4662
+    ],
+    "actualTpUsd": null,
+    "consumerFinalPrice": null,
+    "shenzhenCost": null,
+    "returnTpReversal": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "ipLicense": "unlicensed motifs prohibited",
+    "decision": "HOLD"
   }
 }
