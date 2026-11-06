@@ -5,8 +5,8 @@
     "status": "HOLD / CONDITIONAL_RESTART；Noon NGS仍为第一渠道但账号级资格未通过；Amazon中国卖家路径已有官方文档、账户仍未创建；不新增SKU/供应商深搜，不采购、不上架、不投广告。",
     "thirtyDayJudgment": "HOLD / CONDITIONAL_RESTART（历史研究置信度74/100，不是GO）：只对新的外部准入、真实买家价格/订单或同BOM成本证据响应；停止重复空店铺检查和无成交SKU扩榜。",
     "overallConfidence": 74,
-    "lastUpdated": "2026-11-05",
-    "lastSynced": "2026-11-05",
+    "lastUpdated": "2026-11-06",
+    "lastSynced": "2026-11-06",
     "currentChannelPriority": [
       "Noon China NGS（第一；GCC Picks已建；C08账号无有效Legal Entity；通用xborder空态不证明China NGS专项已正式拒绝）",
       "Amazon UAE/Saudi（第二；未启动）",
@@ -14,10 +14,10 @@
     ],
     "strategyCorrection": "Issue #23的新官方证据取代Issue #20/#21中“Noon仅需求雷达、Amazon第一”的旧渠道判断。",
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
-    "latestRadarDate": "2026-11-05",
-    "latestRadarPath": "data/daily/2026-11-05.json",
-    "latestRadarStatus": "C09_C08_ACCOUNT_RECONCILED__HOLD",
-    "latestRadarNote": "C08 authorized 2026-11-05 Work049 read: UAE GCC Picks verified; Legal Entities says No Valid Legal Entities Found; generic xborder Programs ineligible but China NGS specific denial reason UNKNOWN. Payout/Origin/Invoicing UNKNOWN. No new paid sales, no SKU rescore. HOLD.",
+    "latestRadarDate": "2026-11-06",
+    "latestRadarPath": "data/daily/2026-11-06.json",
+    "latestRadarStatus": "C02_KX100158_SNAPSHOT_TRIANGULATION__HOLD",
+    "latestRadarNote": "2026-11-06 C02: new ~1-month historical indexed Noon KX-100158 24pc+adhesive sheet snapshot with 460+ sold recently / 549 ratings. Not November 6 independently verified sales; local offer non-returnable does not cancel NGS return risk. C08 Seller Lab baseline preserved; live browser originating-context denied. No LE, no China NGS approval proof; 100-unit worst loss unknown. HOLD.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
@@ -937,6 +937,29 @@
         "scoreStatus": "HISTORICAL_V2_UNCHANGED",
         "certifiedWorstLoss100Usd": null,
         "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
+      },
+      "latestRadar20261106C02": {
+        "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+        "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+        "scoreChanged": false,
+        "newIndependentPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "channelAccessGate": "NO_GO",
+        "certified100WorstLossUsd": null,
+        "TPtestUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "capAt10pctMissingTP": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "hasNewHistoricListingEvidence": false,
+        "source": null,
+        "licenseHardStopPreserved": false
       }
     },
     {
@@ -3283,6 +3306,29 @@
         "scoreStatus": "HISTORICAL_V2_UNCHANGED",
         "certifiedWorstLoss100Usd": null,
         "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
+      },
+      "latestRadar20261106C02": {
+        "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+        "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+        "scoreChanged": false,
+        "newIndependentPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "channelAccessGate": "NO_GO",
+        "certified100WorstLossUsd": null,
+        "TPtestUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "capAt10pctMissingTP": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "hasNewHistoricListingEvidence": false,
+        "source": null,
+        "licenseHardStopPreserved": false
       }
     },
     {
@@ -3915,6 +3961,29 @@
           "recentPaidOrdersVerified": 0,
           "source": "https://supermall.noon.com/saudi-en/24-pieces-natural-look-press-on-nails-with-fibrous-adhesive-stickers-and-nail-file-fake-nails/Z7F9A078917D1591DA616Z/p/"
         }
+      },
+      "latestRadar20261106C02": {
+        "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+        "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+        "scoreChanged": false,
+        "newIndependentPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "channelAccessGate": "NO_GO",
+        "certified100WorstLossUsd": null,
+        "TPtestUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "capAt10pctMissingTP": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "hasNewHistoricListingEvidence": true,
+        "source": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
+        "licenseHardStopPreserved": false
       }
     },
     {
@@ -4528,6 +4597,29 @@
         "scoreStatus": "HISTORICAL_V2_UNCHANGED",
         "certifiedWorstLoss100Usd": null,
         "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
+      },
+      "latestRadar20261106C02": {
+        "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+        "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+        "scoreChanged": false,
+        "newIndependentPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "channelAccessGate": "NO_GO",
+        "certified100WorstLossUsd": null,
+        "TPtestUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "capAt10pctMissingTP": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "hasNewHistoricListingEvidence": false,
+        "source": null,
+        "licenseHardStopPreserved": false
       }
     },
     {
@@ -5477,6 +5569,21 @@
         "scoreStatus": "HISTORICAL_V2_UNCHANGED",
         "certifiedWorstLoss100Usd": null,
         "reportPath": "research/2026-11-05/CHINAGCC_C07_NGS_PROGRAM_SCOPE_NAIL_BOM_CONTRADICTION_RETURN_ACCOUNTING.md"
+      },
+      "latestRadar20261106C02": {
+        "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+        "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+        "scoreChanged": false,
+        "newIndependentPaidOrders": 0,
+        "newSameBomRFQs": 0,
+        "newSameBomRestocks": 0,
+        "channelAccessGate": "NO_GO",
+        "certified100WorstLossUsd": null,
+        "TPtestUsd": null,
+        "capAt10pctMissingTP": null,
+        "hasNewHistoricListingEvidence": false,
+        "source": null,
+        "licenseHardStopPreserved": true
       }
     },
     {
@@ -9875,5 +9982,32 @@
     "trendFirstPaidPairs": 0,
     "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently set or verified",
     "decision": "HOLD / CONDITIONAL_RESTART"
+  },
+  "latestRadar20261106C02": {
+    "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+    "date": "2026-11-06",
+    "observedAt": "2026-11-06 14:07 Asia/Shanghai",
+    "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+    "sourceMain": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
+    "sourceOlder": "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/",
+    "sourceOtherVariant": "https://www.noon.com/saudi-en/24-piece-nude-color-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/Z229AF248805B46D40B8DZ/p/",
+    "newSellerLabRead": false,
+    "browserReadError": "Browser access requires the originating browser context",
+    "ngsSpecialEligibility": "UNKNOWN",
+    "accountBaseline": "2026-11-05 C08; GCC Picks existing; no valid LE; generic Programs ineligible not China NGS denial",
+    "channelGate": "NO_GO",
+    "readinessNoonNGS": "1/12",
+    "readinessAmazon": "0/15",
+    "sameBomPaidOrdersNew": 0,
+    "validSameBomRFQsNew": 0,
+    "verifiedSameBomRestocksNew": 0,
+    "newDeepSupplierChecks": 0,
+    "firstPaidChinaGccPairs": 0,
+    "trendLagDays": null,
+    "scoreRecomputed": false,
+    "all14WorstLoss100Certified": null,
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "keyEvidence": "Noon Saudi kaixin KX-100158 one-month-index historical snapshot SAR18.95, 460+ sold recently, 549 ratings; 24 nails + one adhesive sheet listed, no physical full-kit QC; local listing non-returnable is not China NGS returns waiver; no new independently verified orders.",
+    "modelPreference": "GPT-6 Extra High preferred; actual runtime effort not independently verified"
   }
 }
