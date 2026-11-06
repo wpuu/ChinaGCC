@@ -896,5 +896,26 @@
     "channelAccessGate": "NO_GO",
     "ipLicense": "HARD_STOP_NO_LICENSE",
     "decision": "HOLD"
+  },
+  "latestRadar20261106C02": {
+    "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+    "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+    "decision": "HOLD",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newRestocks": 0,
+    "fullKitQCConfirmed": false,
+    "ngsAccessGate": "NO_GO",
+    "all100WorstLossCertifiedUsd": null,
+    "scoreChanged": false,
+    "risksPreserved": true,
+    "coreProfile13FieldsPreserved": true,
+    "skuSpecificFinding": "No new China/GCC first paid sale date pair; no documented IP license; authorization remains Hard Stop",
+    "sources": [],
+    "transferPriceScenariosUsd": null,
+    "costCapAt0MissingTP": null,
+    "costCapAt10pctMissingTP": null,
+    "costCapAt25pctMissingTP": null,
+    "formulasOnlyNotCertified": true
   }
 }
