@@ -1202,5 +1202,48 @@
     "firstSaleTPVsFbnReturnDistinct": true,
     "certifiedWorstLoss100Usd": null,
     "channelAccessGate": "NO_GO"
+  },
+  "latestRadar20261106C01": {
+    "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+    "reportPath": "research/2026-11-06/CHINAGCC_C01_NGS_C08_ACCOUNT_NAIL_NEAR_BOM_V2.md",
+    "date": "2026-11-06",
+    "historicalV2Retained": [
+      68,
+      84,
+      76
+    ],
+    "scoreRecalculated": false,
+    "top5RisksRetained": true,
+    "advantagesRetained": true,
+    "competitorEvidence": "Saudi Noon ShebSheb beaded mermaid strap SAR22.90 10+ sold recently indexed ~4 months ago; pendant styling and rights not target-proof",
+    "competitorUrl": "https://www.noon.com/saudi-en/elegant-mermaid-beaded-phone-charm-strap-ocean-style-digital-camera-lanyard-phone-wrist-lanyard-for-phone-bag-keychain/Z00936FA4BC101EA4090EZ/p/",
+    "exactBOMStatus": "original unlicensed-IP-free design, cord strength, metal hardware and listing match UNKNOWN",
+    "independentNewPaidOrders": 0,
+    "validNewRFQs": 0,
+    "newRestockProof": 0,
+    "chinaSupplierDeepSearchTriggered": false,
+    "tpTestingOnly": [
+      1.7,
+      2.2,
+      2.7
+    ],
+    "costCap10pctLoss15pctMarginUsd": [
+      1.3005,
+      1.683,
+      2.0655
+    ],
+    "costCap25pctLoss15pctMarginUsd": [
+      1.0837,
+      1.4025,
+      1.7213
+    ],
+    "actualTpUsd": null,
+    "consumerFinalPrice": null,
+    "shenzhenCost": null,
+    "returnTpReversal": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "ipLicense": "unlicensed motifs prohibited",
+    "decision": "HOLD"
   }
 }
