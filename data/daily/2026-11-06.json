@@ -262,9 +262,34 @@
       "level": "B2-HISTORICAL",
       "label": "C02 fully detailed audit report",
       "url": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md"
+    },
+    {
+      "level": "A",
+      "url": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "label": "HERE 2026 20-F: IP rights, FY2026 revenue and Middle East distributor scope"
+    },
+    {
+      "level": "A",
+      "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "label": "Noon official Chinese NGS eligibility/TP/return accounting"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "url": "https://www.noon.com/saudi-en/8-piece-strong-hold-hair-claw-clips-2-styles-nonslip-medium-large-jaw-clip-for-women-and-girls-for-thick-thin-fine-long-hair-black/ZD9F830B12C0E91A3C753Z/p/",
+      "label": "Saudi 8pc hair clips, old crawl"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "url": "https://supermall.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/",
+      "label": "Saudi tab nails, old crawl"
+    },
+    {
+      "level": "B-COMPANY-CLAIM",
+      "url": "https://a22.ae/",
+      "label": "A22 FAQ reverse GCC-to-China launch"
     }
   ],
-  "latestIntradayAuditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+  "latestIntradayAuditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
   "intradayRuns": [
     {
       "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
@@ -533,6 +558,182 @@
           "ChinaNGSReturnApplicability": "UNKNOWN"
         }
       }
+    },
+    {
+      "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+      "date": "2026-11-06",
+      "observedAt": "2026-11-06 20:08 Asia/Shanghai (run context; source crawl ages separately labeled)",
+      "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+      "modelPreference": "GPT-6 Extra High preferred; cannot independently set or verify runtime thinking effort",
+      "researchSequence": [
+        "Saudi women 18–45; UAE women 18–39; female Gen Z and students first; young families secondary; 50+ WATCH",
+        "Saudi Snapchat/TikTok/Instagram; UAE TikTok/Instagram/Snapchat; organic channel attribution unproven",
+        "Noon China NGS first, Amazon UAE/Saudi second",
+        "occasion manicure/travel convenience/hair styling/gift/collectible",
+        "cosmetic 4pc, hair 8pc, adhesive-tabs-only 24pc nails, generic original unlicensed-IP-free charm, legally authorized plush/collectibles",
+        "no supplier deep search without new transaction/RFQ/restock",
+        "NGS TP, buyer final price, China-to-Shenzhen landed costs, returns and compliance"
+      ],
+      "newEvidence": {
+        "sec20fFiledAt": "2026-10-30",
+        "sec20fUrl": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+        "sourceLevel": "A_OFFICIAL_SEC_FILING",
+        "rightsFinding": "WAKUKU/ZIYULI/YONNNA proprietary; SIINONO globally exclusive licensed (Feb 2025-Feb 2033), not inherently sublicenseable to our seller",
+        "fy2026RevenueRmbM": 596.8,
+        "wakukuRevenueRmbM": 369.3,
+        "siinonoRevenueRmbM": 92.7,
+        "continuingNetLossRmbM": 254.935,
+        "goodwillImpairmentRmbM": 124.1,
+        "regionalDistributorClaim": "More than 20 countries across multiple regions including Middle East; no KSA/UAE named SKU POS or first paid date",
+        "a22ReverseDirection": "Dubai original DABUBU reportedly launched China, reverse GCC-to-China, not a usable China-to-GCC lag pair",
+        "historicalSaudiHair8pc": "SAR24.90, only 1 left, 10+ sold recently but indexed ~5 months old; not new replenishment",
+        "historicalSaudiNails24pc": "SAR18.91, 390+ sold recently indexed ~1 month ago; earlier 380+ different crawl may not be subtracted",
+        "newVerifiedSameBomOrders": 0,
+        "newVerifiedRFQ": 0,
+        "newVerifiedRestocks": 0,
+        "chinaGccFirstPaidDatePairs": 0,
+        "trendLagDays": null
+      },
+      "accountEvidence": "Carry forward 2026-11-05 C08 read-only: GCC Picks UAE store exists, no valid China LE; generic cross-border program ineligible is NOT China NGS final rejection; payout/origin/invoicing and special eligibility UNKNOWN; no live account view in this run",
+      "v2": {
+        "scoresRecomputed": false,
+        "reason": "No new independently verified same-BOM transaction/supplier/cost inputs; SEC corporate revenue is not SKU GCC sales",
+        "all14CertifiedWorstLoss100Usd": null,
+        "top5HistoricalRisksRetained": true,
+        "profile13FieldsPreserved": true,
+        "noonNGSReadiness": "1/12",
+        "amazonReadiness": "0/15",
+        "sampleReady": 0,
+        "approvedPurchase": 0,
+        "transferPrices": "SCENARIO_ONLY",
+        "costCapMultiplierQ10Margin15": 0.765
+      },
+      "channelAccessGate": "NO_GO",
+      "decision": "HOLD / CONDITIONAL_RESTART",
+      "restrictions": {
+        "uploadedDocuments": false,
+        "registered": false,
+        "purchased": false,
+        "listed": false,
+        "advertised": false,
+        "outreach": false,
+        "ipResaleWithoutLicense": false
+      },
+      "sources": [
+        {
+          "level": "A",
+          "url": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+          "label": "HERE 2026 20-F: IP rights, FY2026 revenue and Middle East distributor scope"
+        },
+        {
+          "level": "A",
+          "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+          "label": "Noon official Chinese NGS eligibility/TP/return accounting"
+        },
+        {
+          "level": "B2-HISTORICAL",
+          "url": "https://www.noon.com/saudi-en/8-piece-strong-hold-hair-claw-clips-2-styles-nonslip-medium-large-jaw-clip-for-women-and-girls-for-thick-thin-fine-long-hair-black/ZD9F830B12C0E91A3C753Z/p/",
+          "label": "Saudi 8pc hair clips, old crawl"
+        },
+        {
+          "level": "B2-HISTORICAL",
+          "url": "https://supermall.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/",
+          "label": "Saudi tab nails, old crawl"
+        },
+        {
+          "level": "B-COMPANY-CLAIM",
+          "url": "https://a22.ae/",
+          "label": "A22 FAQ reverse GCC-to-China launch"
+        }
+      ]
     }
-  ]
+  ],
+  "latestC03Audit": {
+    "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+    "date": "2026-11-06",
+    "observedAt": "2026-11-06 20:08 Asia/Shanghai (run context; source crawl ages separately labeled)",
+    "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+    "modelPreference": "GPT-6 Extra High preferred; cannot independently set or verify runtime thinking effort",
+    "researchSequence": [
+      "Saudi women 18–45; UAE women 18–39; female Gen Z and students first; young families secondary; 50+ WATCH",
+      "Saudi Snapchat/TikTok/Instagram; UAE TikTok/Instagram/Snapchat; organic channel attribution unproven",
+      "Noon China NGS first, Amazon UAE/Saudi second",
+      "occasion manicure/travel convenience/hair styling/gift/collectible",
+      "cosmetic 4pc, hair 8pc, adhesive-tabs-only 24pc nails, generic original unlicensed-IP-free charm, legally authorized plush/collectibles",
+      "no supplier deep search without new transaction/RFQ/restock",
+      "NGS TP, buyer final price, China-to-Shenzhen landed costs, returns and compliance"
+    ],
+    "newEvidence": {
+      "sec20fFiledAt": "2026-10-30",
+      "sec20fUrl": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "sourceLevel": "A_OFFICIAL_SEC_FILING",
+      "rightsFinding": "WAKUKU/ZIYULI/YONNNA proprietary; SIINONO globally exclusive licensed (Feb 2025-Feb 2033), not inherently sublicenseable to our seller",
+      "fy2026RevenueRmbM": 596.8,
+      "wakukuRevenueRmbM": 369.3,
+      "siinonoRevenueRmbM": 92.7,
+      "continuingNetLossRmbM": 254.935,
+      "goodwillImpairmentRmbM": 124.1,
+      "regionalDistributorClaim": "More than 20 countries across multiple regions including Middle East; no KSA/UAE named SKU POS or first paid date",
+      "a22ReverseDirection": "Dubai original DABUBU reportedly launched China, reverse GCC-to-China, not a usable China-to-GCC lag pair",
+      "historicalSaudiHair8pc": "SAR24.90, only 1 left, 10+ sold recently but indexed ~5 months old; not new replenishment",
+      "historicalSaudiNails24pc": "SAR18.91, 390+ sold recently indexed ~1 month ago; earlier 380+ different crawl may not be subtracted",
+      "newVerifiedSameBomOrders": 0,
+      "newVerifiedRFQ": 0,
+      "newVerifiedRestocks": 0,
+      "chinaGccFirstPaidDatePairs": 0,
+      "trendLagDays": null
+    },
+    "accountEvidence": "Carry forward 2026-11-05 C08 read-only: GCC Picks UAE store exists, no valid China LE; generic cross-border program ineligible is NOT China NGS final rejection; payout/origin/invoicing and special eligibility UNKNOWN; no live account view in this run",
+    "v2": {
+      "scoresRecomputed": false,
+      "reason": "No new independently verified same-BOM transaction/supplier/cost inputs; SEC corporate revenue is not SKU GCC sales",
+      "all14CertifiedWorstLoss100Usd": null,
+      "top5HistoricalRisksRetained": true,
+      "profile13FieldsPreserved": true,
+      "noonNGSReadiness": "1/12",
+      "amazonReadiness": "0/15",
+      "sampleReady": 0,
+      "approvedPurchase": 0,
+      "transferPrices": "SCENARIO_ONLY",
+      "costCapMultiplierQ10Margin15": 0.765
+    },
+    "channelAccessGate": "NO_GO",
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "restrictions": {
+      "uploadedDocuments": false,
+      "registered": false,
+      "purchased": false,
+      "listed": false,
+      "advertised": false,
+      "outreach": false,
+      "ipResaleWithoutLicense": false
+    },
+    "sources": [
+      {
+        "level": "A",
+        "url": "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+        "label": "HERE 2026 20-F: IP rights, FY2026 revenue and Middle East distributor scope"
+      },
+      {
+        "level": "A",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "label": "Noon official Chinese NGS eligibility/TP/return accounting"
+      },
+      {
+        "level": "B2-HISTORICAL",
+        "url": "https://www.noon.com/saudi-en/8-piece-strong-hold-hair-claw-clips-2-styles-nonslip-medium-large-jaw-clip-for-women-and-girls-for-thick-thin-fine-long-hair-black/ZD9F830B12C0E91A3C753Z/p/",
+        "label": "Saudi 8pc hair clips, old crawl"
+      },
+      {
+        "level": "B2-HISTORICAL",
+        "url": "https://supermall.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/",
+        "label": "Saudi tab nails, old crawl"
+      },
+      {
+        "level": "B-COMPANY-CLAIM",
+        "url": "https://a22.ae/",
+        "label": "A22 FAQ reverse GCC-to-China launch"
+      }
+    ]
+  }
 }
