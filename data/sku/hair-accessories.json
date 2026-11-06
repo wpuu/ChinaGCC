@@ -1290,5 +1290,26 @@
       2.1675
     ],
     "formulasOnlyNotCertified": true
+  },
+  "latestRadar20261106C03": {
+    "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+    "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+    "skuId": "hair-accessories",
+    "finding": "Saudi KHAJUL 8-piece SAR24.90 / 10+ sold recently / 1 remaining is a ~5-month old crawl, not live replenishment, matched packaging or recent paid proof.",
+    "channelAccessGate": "NO_GO",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQ": 0,
+    "newRestockEvidence": 0,
+    "scoreStatus": "HISTORICAL_UNCHANGED_NO_SAME_BOM_EVIDENCE",
+    "noonTPApproval": "UNKNOWN",
+    "buyerFinalPrice": "UNKNOWN",
+    "purchaseAndShenzhenCosts": "UNKNOWN",
+    "returnTPClawback": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "top5RisksRetained": true,
+    "profile13FieldsPreserved": true,
+    "sources": [
+      "https://www.noon.com/saudi-en/8-piece-strong-hold-hair-claw-clips-2-styles-nonslip-medium-large-jaw-clip-for-women-and-girls-for-thick-thin-fine-long-hair-black/ZD9F830B12C0E91A3C753Z/p/"
+    ]
   }
 }
