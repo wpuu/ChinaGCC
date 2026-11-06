@@ -1379,5 +1379,26 @@
       1.46625
     ],
     "formulasOnlyNotCertified": true
+  },
+  "latestRadar20261106C03": {
+    "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+    "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+    "skuId": "press-on-nails",
+    "finding": "Saudi Generic 24pc glue-tab listing 390+ sold recently / 97 ratings is ~1-month cached; old 380+ snapshot not a comparable incremental order series; full kit absent-liquid-glue unverified.",
+    "channelAccessGate": "NO_GO",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQ": 0,
+    "newRestockEvidence": 0,
+    "scoreStatus": "HISTORICAL_UNCHANGED_NO_SAME_BOM_EVIDENCE",
+    "noonTPApproval": "UNKNOWN",
+    "buyerFinalPrice": "UNKNOWN",
+    "purchaseAndShenzhenCosts": "UNKNOWN",
+    "returnTPClawback": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "top5RisksRetained": true,
+    "profile13FieldsPreserved": true,
+    "sources": [
+      "https://supermall.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
+    ]
   }
 }
