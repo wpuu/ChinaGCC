@@ -1282,5 +1282,24 @@
       1.72125
     ],
     "formulasOnlyNotCertified": true
+  },
+  "latestRadar20261106C03": {
+    "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+    "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+    "skuId": "phone-charm-beaded",
+    "finding": "Global collectible IP revenue must not transfer to original no-IP beaded phone charm paid demand; no matched buyer transaction/RFQ.",
+    "channelAccessGate": "NO_GO",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQ": 0,
+    "newRestockEvidence": 0,
+    "scoreStatus": "HISTORICAL_UNCHANGED_NO_SAME_BOM_EVIDENCE",
+    "noonTPApproval": "UNKNOWN",
+    "buyerFinalPrice": "UNKNOWN",
+    "purchaseAndShenzhenCosts": "UNKNOWN",
+    "returnTPClawback": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "top5RisksRetained": true,
+    "profile13FieldsPreserved": true,
+    "sources": []
   }
 }
