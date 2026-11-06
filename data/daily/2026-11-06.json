@@ -2,7 +2,7 @@
   "schemaVersion": "2026-10-08-v2",
   "date": "2026-11-06",
   "timezone": "Asia/Shanghai",
-  "observedAt": "2026-11-06 08:10 Asia/Shanghai (run context; webpage crawl ages differ)",
+  "observedAt": "2026-11-06T14:07:14+08:00",
   "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently set or verified",
   "sequence": [
     "Saudi女性18–45、UAE女性18–39、female Gen Z/学生; young families secondary; 50+ WATCH",
@@ -242,9 +242,29 @@
       "level": "D",
       "label": "MUSE Q4 2026 regional designer toy commentary, not authenticated POS or IP authorization",
       "url": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "Noon KX-100158 supermall cached snapshot",
+      "url": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "Noon KX-100158 older offer with local return label",
+      "url": "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "Noon KX-10026 alternative variant, not same SKU",
+      "url": "https://www.noon.com/saudi-en/24-piece-nude-color-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/Z229AF248805B46D40B8DZ/p/"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "C02 fully detailed audit report",
+      "url": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md"
     }
   ],
-  "latestIntradayAuditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+  "latestIntradayAuditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
   "intradayRuns": [
     {
       "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
@@ -472,6 +492,47 @@
         "Only after demand & account gates: collect exact China unit cost/weights/Shenzhen delivery quote/NGS live TP, checkout price and return accounting; compute a bounded 100-unit failure amount",
         "For IP record actual first paid sale in both China and GCC and written sales license before commercial screening"
       ]
+    },
+    {
+      "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+      "date": "2026-11-06",
+      "observedAt": "2026-11-06 14:07 Asia/Shanghai",
+      "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+      "sourceMain": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
+      "sourceOlder": "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/",
+      "sourceOtherVariant": "https://www.noon.com/saudi-en/24-piece-nude-color-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/Z229AF248805B46D40B8DZ/p/",
+      "newSellerLabRead": false,
+      "browserReadError": "Browser access requires the originating browser context",
+      "ngsSpecialEligibility": "UNKNOWN",
+      "accountBaseline": "2026-11-05 C08; GCC Picks existing; no valid LE; generic Programs ineligible not China NGS denial",
+      "channelGate": "NO_GO",
+      "readinessNoonNGS": "1/12",
+      "readinessAmazon": "0/15",
+      "sameBomPaidOrdersNew": 0,
+      "validSameBomRFQsNew": 0,
+      "verifiedSameBomRestocksNew": 0,
+      "newDeepSupplierChecks": 0,
+      "firstPaidChinaGccPairs": 0,
+      "trendLagDays": null,
+      "scoreRecomputed": false,
+      "all14WorstLoss100Certified": null,
+      "decision": "HOLD / CONDITIONAL_RESTART",
+      "keyEvidence": "Noon Saudi kaixin KX-100158 one-month-index historical snapshot SAR18.95, 460+ sold recently, 549 ratings; 24 nails + one adhesive sheet listed, no physical full-kit QC; local listing non-returnable is not China NGS returns waiver; no new independently verified orders.",
+      "modelPreference": "GPT-6 Extra High preferred; actual runtime effort not independently verified",
+      "sensitiveToReturnsTerms": true,
+      "completedRecords": {
+        "KX-100158": {
+          "source": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
+          "listingDateQuality": "INDEXED_APPROX_ONE_MONTH_OLD",
+          "soldRecentlyLabel": "460+",
+          "ratingCountLabel": 549,
+          "priceSar": 18.95,
+          "boxText": "24 nail pieces + one adhesive-sticker sheet",
+          "verifiedPhysicalContents": false,
+          "localOfferNonreturnableOldCache": true,
+          "ChinaNGSReturnApplicability": "UNKNOWN"
+        }
+      }
     }
   ]
 }
