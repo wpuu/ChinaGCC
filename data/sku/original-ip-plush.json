@@ -917,5 +917,27 @@
     "costCapAt10pctMissingTP": null,
     "costCapAt25pctMissingTP": null,
     "formulasOnlyNotCertified": true
+  },
+  "latestRadar20261106C03": {
+    "auditId": "2026-11-06/C03-HERE-20F-IP-RIGHTS-REGIONAL-LAG-RETURN-STRESS",
+    "reportPath": "research/2026-11-06/CHINAGCC_C03_HERE_20F_IP_RIGHTS_GCC_LAG_AND_NGS_EVIDENCE_GATES.md",
+    "skuId": "original-ip-plush",
+    "finding": "Official 2026 SEC 20-F: WAKUKU/ZIYULI/YONNNA proprietary, SIINONO exclusive licensed global Feb2025-Feb2033; no sublicense/resale rights for ChinaGCC. Middle East distributors claimed without named GCC POS or first paid dates; A22 reverse UAE-to-China not China-to-GCC.",
+    "channelAccessGate": "NO_GO",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQ": 0,
+    "newRestockEvidence": 0,
+    "scoreStatus": "HISTORICAL_UNCHANGED_NO_SAME_BOM_EVIDENCE",
+    "noonTPApproval": "UNKNOWN",
+    "buyerFinalPrice": "UNKNOWN",
+    "purchaseAndShenzhenCosts": "UNKNOWN",
+    "returnTPClawback": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "top5RisksRetained": true,
+    "profile13FieldsPreserved": true,
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
+      "https://a22.ae/"
+    ]
   }
 }
