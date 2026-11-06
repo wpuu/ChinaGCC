@@ -865,5 +865,36 @@
     "lagDays": null,
     "scoreStatus": "HISTORICAL_UNCHANGED",
     "certifiedWorstLoss100Usd": null
+  },
+  "latestRadar20261106C01": {
+    "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+    "reportPath": "research/2026-11-06/CHINAGCC_C01_NGS_C08_ACCOUNT_NAIL_NEAR_BOM_V2.md",
+    "date": "2026-11-06",
+    "historicalV2Retained": [
+      69,
+      67,
+      58
+    ],
+    "scoreRecalculated": false,
+    "top5RisksRetained": true,
+    "advantagesRetained": true,
+    "competitorEvidence": "MUSE GCC designer-toy Q4 2026 first-party market observation discusses AI LULUYA plush; marketing self-report and retail shelf claim, not independently paid or authorized for resale",
+    "competitorUrl": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/",
+    "exactBOMStatus": "rights written license absent, China vs GCC first paid dates absent",
+    "independentNewPaidOrders": 0,
+    "validNewRFQs": 0,
+    "newRestockProof": 0,
+    "chinaSupplierDeepSearchTriggered": false,
+    "tpTestingOnly": null,
+    "costCap10pctLoss15pctMarginUsd": null,
+    "costCap25pctLoss15pctMarginUsd": null,
+    "actualTpUsd": null,
+    "consumerFinalPrice": null,
+    "shenzhenCost": null,
+    "returnTpReversal": "UNKNOWN",
+    "certifiedWorstLoss100Usd": null,
+    "channelAccessGate": "NO_GO",
+    "ipLicense": "HARD_STOP_NO_LICENSE",
+    "decision": "HOLD"
   }
 }
