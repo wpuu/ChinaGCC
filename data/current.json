@@ -20,7 +20,7 @@
     "latestRadarNote": "2026-11-06 C03: HERE 2026-10-30 SEC 20-F separates own WAKUKU/ZIYULI/YONNNA from exclusively licensed SIINONO (not ChinaGCC reseller rights). FY26 corporate revenue cannot prove GCC paid SKU/lag; Middle East distribution claim not actual first paid date. No new same-BOM transactions; Seller Lab NGS-specific gate NO-GO; all 100-unit certified losses UNKNOWN.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
-    "latestDailyAuditId": "2026-11-05/C09-ACCOUNT-C08-DAILY-RECONCILIATION",
+    "latestDailyAuditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
     "latestWorkOnboardingAudit": {
       "observedAt": "2026-11-01 10:39:58 Asia/Shanghai",
       "source": "research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
@@ -377,6 +377,18 @@
       "firstSaleGate": "NO_GO",
       "genericGradingNGSApplicability": "UNKNOWN",
       "certifiedWorstLoss100Usd": null
+    },
+    "latestAccountEvidence": {
+      "observedDate": "2026-11-05",
+      "source": "research/2026-11-05/CHINAGCC_C08_WORK049_NOON_SELLER_LAB_READ_ONLY_EVIDENCE.md",
+      "uaeStore": "GCC Picks UAE verified",
+      "legalEntity": "NO_VALID_LE_VISIBLE",
+      "genericCrossBorderPrograms": "NO_ELIGIBLE_PROGRAMS_DISPLAYED_WITHOUT_SPECIFIC_REASON",
+      "chinaNgsSpecificEligibility": "UNKNOWN_NOT_FORMALLY_REJECTED",
+      "payoutApproved": "UNKNOWN",
+      "sellingOrigin": "UNKNOWN",
+      "invoicingProfile": "UNKNOWN",
+      "notRecheckedOn": "2026-11-06"
     }
   },
   "skus": [
@@ -6649,7 +6661,7 @@
     "signal": "品类需求仍强，但没有翰林具体SKU、成本、合规与渠道利润闭环，未达到正式启动信号。"
   },
   "firstSaleReadiness": {
-    "authorityDate": "2026-11-01",
+    "authorityDate": "2026-11-05",
     "primaryChannel": "Noon NGS",
     "amazon": {
       "completed": 0,
@@ -6724,21 +6736,22 @@
       }
     },
     "biggestBlockers": [
-      "UAE Store GCC Picks已实际创建；新店Setup Guide仍要求合法LE、NGS实际资格未通过且原因未说明、Payout/Origin未核获准。不能重复报‘缺店名电话/未创建Store’为当前第一阻塞。",
-      "首SKU无同BOM三家可执行报价、最终整包毛重尺寸、深圳宝安单票运费、供应商按真实Noon标签及时交仓及Health & Beauty所需购买凭证/合法授权核实。",
-      "无本账号China NGS USD Transfer Price→消费者最终含运费价/ETA、退货损失与结算门槛实测；不能宣称15%利润或100件最坏损失已封顶。"
+      "已验UAE GCC Picks店铺；11月5日C08真后台Legal页面无有效LE。通用Cross-border Programs未合格不等于中国NGS专项正式拒绝，China NGS具名资格/拒因仍UNKNOWN；不再将店铺未创建、中文NGS正式拒绝或店名电话空白写为现时事实。",
+      "首SKU无同BOM三家可执行报价、最终整包毛重尺寸、深圳逐单运费、合格商品素材和首SKU QC；真实需求与合规没有闭环。",
+      "Payout Approved、Selling Origin/Invoicing Profile绑定、实际USD TP→消费者最终到手价/ETA、退货结算/100件最坏亏损及首笔到账仍无账号级核验证据。"
     ],
-    "lastAuditDate": "2026-11-01",
+    "lastAuditDate": "2026-11-06",
     "auditNotes": [
       "Noon Org存在属于部分进展，Organization ID清单项严格待唯一标识完成凭证",
       "Amazon中国卖家方案未启动，所有15项仍缺完成证据",
       "2026-11-01 10:39 Work049在真实UAE Dashboard/My Stores验收GCC Picks，已跳过商业注册填写但LE仍Required、NGS仍未合格；来源research/2026-10-31/CHINAGCC_049_UAE_STORE_CREATION_AND_NONPUBLIC_PRODUCT_FORM_TEST.md",
       "C02 2026-11-01: reviewed latest 049/056 sources, store verified 1/12 remains; LE unsubmitted, NGS ineligible unknown reason; seller payout and approved TP are NOT validated.",
-      "C04: NGS salable returns can enter local FBN with default price, unsalable returns no proceeds; general 100/1000 currency payout thresholds not verified for this China USD account; preserve 1/12."
+      "C04: NGS salable returns can enter local FBN with default price, unsalable returns no proceeds; general 100/1000 currency payout thresholds not verified for this China USD account; preserve 1/12.",
+      "2026-11-06 C04只读交叉验收：原authorityDate及账号快照仍指11/01，但blockers引用11/05 C08。已将账号证据来源改为11/05（不冒充11/06实时登录），结构化审计日为11/06；Noon 1/12、Amazon 0/15不变；中国NGS专项具名拒因UNKNOWN。"
     ],
-    "latestAuditId": "2026-11-01/C04-RETURNS-PAYOUT-MARGIN15",
-    "lastDocumentReviewDate": "2026-11-02",
-    "accountSnapshotCarriedForwardFrom": "2026-11-01 10:39 Asia/Shanghai; no live account recheck in this audit",
+    "latestAuditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
+    "lastDocumentReviewDate": "2026-11-06",
+    "accountSnapshotCarriedForwardFrom": "2026-11-05 C08 real Work049 Seller Lab read-only (UAE GCC Picks; No Valid Legal Entities Found; generic cross-border Programs empty, China NGS-specific status unknown); no account browser view on 2026-11-06.",
     "technicalRiskGuard": "Noon payout approved plus Origin linked required to receive funds; NGS note before live differs from later before listing optional. No live listing until both approved and eligible."
   },
   "channelAccess": {
@@ -10097,5 +10110,40 @@
         "label": "A22 FAQ reverse GCC-to-China launch"
       }
     ]
+  },
+  "latestRadar20261106C04": {
+    "auditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
+    "date": "2026-11-06",
+    "type": "DAILY_CLOSE_INCREMENTAL_DATA_INTEGRITY_AND_PROVENANCE",
+    "reportPath": "research/2026-11-06/CHINAGCC_C04_DAILY_CLOSE_READINESS_PROVENANCE_CONSISTENCY.md",
+    "scoreRecalculated": false,
+    "ranked10Unchanged": true,
+    "canonicalSkuCount": 14,
+    "scoredSkuCount": 12,
+    "unscoredSkuCount": 2,
+    "aToK11SumMatchesOpportunityScore": "12/12",
+    "canonicalSkuProfile13FieldsComplete": "14/14",
+    "scoredSkuHistoricalTop5RiskPresent": "12/12",
+    "certifiedWorstLoss100": "14/14 UNKNOWN",
+    "standaloneScoreConflictsStillOpen": [
+      "travel-bottles main 75 vs standalone 74",
+      "phone-charm-beaded main 68 vs standalone 69"
+    ],
+    "accountEvidenceAsOf": "2026-11-05 C08; 2026-11-06 browser context unavailable",
+    "noonNGSFirstSaleReadiness": "1/12 8.33%",
+    "amazonFbaFirstSaleReadiness": "0/15 0%",
+    "newIndependentPaidOrders": 0,
+    "newQualifiedRFQs": 0,
+    "newVerifiedRestocks": 0,
+    "channelAccessGate": "NO_GO",
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "auditedOfficialPolicy": [
+      "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+      "https://helpcenter.noon.partners/en/category/finance-and-payments/payments-processing-policy",
+      "https://helpcenter.noon.partners/en/category/global-selling/how-to-setup-the-invoicing-profile-for-global-selling",
+      "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+      "https://gs.amazon.cn/middle-east/uae-vat"
+    ],
+    "writeSafety": "GitHub documentation + JSON only; no account modifications, uploads, purchases, advertising, vendor outreach"
   }
 }
