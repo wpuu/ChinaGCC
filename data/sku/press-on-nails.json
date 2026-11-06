@@ -1338,5 +1338,46 @@
     "channelAccessGate": "NO_GO",
     "ipLicense": "unlicensed motifs prohibited",
     "decision": "HOLD"
+  },
+  "latestRadar20261106C02": {
+    "auditId": "2026-11-06/C02-KAIXIN-KX100158-GLUETAB-RETURNS-SCOPE",
+    "reportPath": "research/2026-11-06/CHINAGCC_C02_SAUDI_KAIXIN_ADHESIVE_ONLY_SNAPSHOTS_LOCAL_RETURN_POLICY.md",
+    "decision": "HOLD",
+    "newIndependentPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newRestocks": 0,
+    "fullKitQCConfirmed": false,
+    "ngsAccessGate": "NO_GO",
+    "all100WorstLossCertifiedUsd": null,
+    "scoreChanged": false,
+    "risksPreserved": true,
+    "coreProfile13FieldsPreserved": true,
+    "skuSpecificFinding": "KX-100158 (different from C01 generic) historic ~1-month search snapshot 460+ sold recently, 549 ratings; listing in-box 24 pcs plus adhesive sheet; liquid glue absent in listing but physical pack unverified; older local offer marked non-returnable, not applicable to all China NGS returns",
+    "sources": [
+      "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
+      "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/",
+      "https://www.noon.com/saudi-en/24-piece-nude-color-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/Z229AF248805B46D40B8DZ/p/"
+    ],
+    "transferPriceScenariosUsd": [
+      1.5,
+      1.9,
+      2.3
+    ],
+    "costCapAt0MissingTP": [
+      1.275,
+      1.615,
+      1.955
+    ],
+    "costCapAt10pctMissingTP": [
+      1.1475,
+      1.4535,
+      1.7595
+    ],
+    "costCapAt25pctMissingTP": [
+      0.95625,
+      1.21125,
+      1.46625
+    ],
+    "formulasOnlyNotCertified": true
   }
 }
