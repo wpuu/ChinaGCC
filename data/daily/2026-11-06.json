@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "2026-10-08-v2",
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "observedAt": "2026-11-06 08:10 Asia/Shanghai (run context; webpage crawl ages differ)",
+  "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently set or verified",
+  "sequence": [
+    "Saudi女性18–45、UAE女性18–39、female Gen Z/学生; young families secondary; 50+ WATCH",
+    "Saudi Snapchat/TikTok/Instagram and UAE TikTok/Instagram/Snapchat (attribution unproven)",
+    "Noon China NGS first; Amazon UAE/Saudi second",
+    "quick occasion manicure, travel storage, hair styling, personalized gifts",
+    "four core product families and licensed IP watch",
+    "exact BOM before supply chain",
+    "NO new Chinese supplier deep search: current verified demand gate not met",
+    "USD TP vs buyer price/markup, Shenzhen cost, returns/FBN and compliance"
+  ],
+  "prioritySegments": [
+    "Saudi female 18-45",
+    "UAE female 18-39",
+    "female Gen Z/students",
+    "young families secondary",
+    "50+ WATCH only"
+  ],
+  "discoveryChannels": [
+    "Saudi Snapchat/TikTok/Instagram",
+    "UAE TikTok/Instagram/Snapchat"
+  ],
+  "checkoutChannels": [
+    "Noon China NGS first",
+    "Amazon UAE/Saudi second"
+  ],
+  "newEvidence": {
+    "historicalNearBomNailListing": "24pcs+adhesive sheet and historical 380+ sold recently, but product mentions optional nail glue and absence of liquid adhesive not independently certified; platform index around 3 months old",
+    "matchedNewIndependentPaidOrders": 0,
+    "matchedFreshRFQs": 0,
+    "matchedFreshRestockProof": 0,
+    "matchedChinaGccFirstPaidPairs": 0,
+    "skuComparables": [
+      {
+        "skuId": "cosmetic-bag-set",
+        "detail": "UAE Noon XiuWoo 4pcs clear bags AED39.70, 82 ratings; indexed ~4 months ago, no verified transaction or target pack weight",
+        "url": "https://www.noon.com/uae-en/fashion/luggage-and-bags/travel-accessories/travel-toiletry-bags/noon-fashion-deals-FA_03/"
+      },
+      {
+        "skuId": "hair-accessories",
+        "detail": "Saudi Noon KHAJUL 4pcs SAR18.90 40+ sold recently indexed ~3 months ago; not 8pcs same BOM",
+        "url": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/clips-24997/"
+      },
+      {
+        "skuId": "press-on-nails",
+        "detail": "Saudi Noon Generic 12 Pairs Nude French 24pcs, 1 sheet adhesive-tab stickers, SAR18.91, historical 380+ sold recently on category page (~3 months old); product text says no glue needed but optionally suggests glue for longer wear; no independent packing inspection; cannot certify liquid glue absent",
+        "url": "https://www.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
+      },
+      {
+        "skuId": "phone-charm-beaded",
+        "detail": "Saudi Noon ShebSheb beaded mermaid strap SAR22.90 10+ sold recently indexed ~4 months ago; pendant styling and rights not target-proof",
+        "url": "https://www.noon.com/saudi-en/elegant-mermaid-beaded-phone-charm-strap-ocean-style-digital-camera-lanyard-phone-wrist-lanyard-for-phone-bag-keychain/Z00936FA4BC101EA4090EZ/p/"
+      },
+      {
+        "skuId": "original-ip-plush",
+        "detail": "MUSE GCC designer-toy Q4 2026 first-party market observation discusses AI LULUYA plush; marketing self-report and retail shelf claim, not independently paid or authorized for resale",
+        "url": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/"
+      }
+    ],
+    "policyScope": "China NGS TP paid after successful delivery, no first-sale cross-border fee deducted per NGS document; generic cross-border import VAT recovery rule must not be imputed to China NGS; post-return FBN extra fees, reversal of original TP and seller protection applicability remain UNKNOWN"
+  },
+  "accountEvidence": {
+    "source": "2026-11-05 C08 read-only Work049 snapshot; not freshly logged in this run",
+    "uaeStore": "GCC Picks confirmed",
+    "chinaLegalEntity": "NO_VALID_LE_VISIBLE; Required; no accepted LE",
+    "genericCrossBorderPrograms": "not qualified at the moment (generic programs view only)",
+    "chinaNGSSpecificEligibility": "UNKNOWN_NOT_A_FORMAL_REJECTION",
+    "payoutApproval": "UNKNOWN",
+    "sellingOriginMapping": "UNKNOWN",
+    "invoicingProfile": "UNKNOWN",
+    "ksaStore": "UNKNOWN",
+    "onboardingSla": "UNKNOWN"
+  },
+  "v2": {
+    "opportunityRecalculated": false,
+    "evidenceConfidenceRecalculated": false,
+    "dataCompletenessRecalculated": false,
+    "retainHistoricalScores": true,
+    "top5RisksRetained": true,
+    "certifiedWorstLoss100": null,
+    "lossTestScenarioGrid": [
+      {
+        "skuId": "cosmetic-bag-set",
+        "tpScenarioUsd": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "costCapAt0pctMissingTP": [
+          3.825,
+          4.675,
+          5.525
+        ],
+        "costCapAt10pctMissingTP": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "costCapAt25pctMissingTP": [
+          2.8687,
+          3.5063,
+          4.1437
+        ],
+        "certifiedWorstLoss100Usd": null,
+        "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+      },
+      {
+        "skuId": "hair-accessories",
+        "tpScenarioUsd": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "costCapAt0pctMissingTP": [
+          2.04,
+          2.465,
+          2.89
+        ],
+        "costCapAt10pctMissingTP": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "costCapAt25pctMissingTP": [
+          1.53,
+          1.8487,
+          2.1675
+        ],
+        "certifiedWorstLoss100Usd": null,
+        "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+      },
+      {
+        "skuId": "press-on-nails",
+        "tpScenarioUsd": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "costCapAt0pctMissingTP": [
+          1.275,
+          1.615,
+          1.955
+        ],
+        "costCapAt10pctMissingTP": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "costCapAt25pctMissingTP": [
+          0.9562,
+          1.2112,
+          1.4662
+        ],
+        "certifiedWorstLoss100Usd": null,
+        "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+      },
+      {
+        "skuId": "phone-charm-beaded",
+        "tpScenarioUsd": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "costCapAt0pctMissingTP": [
+          1.445,
+          1.87,
+          2.295
+        ],
+        "costCapAt10pctMissingTP": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "costCapAt25pctMissingTP": [
+          1.0837,
+          1.4025,
+          1.7213
+        ],
+        "certifiedWorstLoss100Usd": null,
+        "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+      }
+    ]
+  },
+  "channelAccessGate": "NO_GO",
+  "decision": "HOLD / CONDITIONAL_RESTART",
+  "readiness": {
+    "noonNGS": "1/12",
+    "amazon": "0/15",
+    "sampleReady": 0,
+    "purchaseApproved": 0
+  },
+  "safety": {
+    "noAccountMutations": true,
+    "noDocumentsSubmitted": true,
+    "noPurchases": true,
+    "noAds": true,
+    "noExternalContacts": true,
+    "noSupplierDeepSearchBeforeVerifiedDemand": true
+  },
+  "sources": [
+    {
+      "level": "A",
+      "label": "Official China NGS commercial route and seller TP payout; international logistics from Shenzhen paid/managed by noon",
+      "url": "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program"
+    },
+    {
+      "level": "A",
+      "label": "Official generic returns seller protection NG=0; NGS-specific applicability unresolved",
+      "url": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+    },
+    {
+      "level": "A",
+      "label": "Official general Cross-Border Selling describes Import VAT recovery, a different scope from China NGS; do not merge fee models",
+      "url": "https://supportagent.noon.partners/portal/en/kb/articles/cross-border-selling-7-4-2025"
+    },
+    {
+      "level": "B1",
+      "label": "2026-11-05 C08 real Seller Lab read-only snapshot (UAE GCC Picks, no valid legal entity, generic cross-border Programs empty; NGS-specific approval unknown)",
+      "url": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C08_WORK049_NOON_SELLER_LAB_READ_ONLY_EVIDENCE.md"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "Saudi generic 12-pair no-glue-needed platform text: 24 pcs and one adhesive sticker sheet; not full physical kit QC",
+      "url": "https://www.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "Noon Saudi category historical 380+ sold recently for this listing, ~3-month index, not Nov 6 independent order",
+      "url": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/"
+    },
+    {
+      "level": "B2-HISTORICAL",
+      "label": "UAE Noon 4pcs cosmetic bag competitor with rating and archived listed price, not identical target material",
+      "url": "https://www.noon.com/uae-en/fashion/luggage-and-bags/travel-accessories/travel-toiletry-bags/noon-fashion-deals-FA_03/"
+    },
+    {
+      "level": "D",
+      "label": "MUSE Q4 2026 regional designer toy commentary, not authenticated POS or IP authorization",
+      "url": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/"
+    }
+  ],
+  "latestIntradayAuditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+  "intradayRuns": [
+    {
+      "auditId": "2026-11-06/C01-NAIL-NEAR-BOM-SOLD-BADGE-C08-GATE-RETURN-POLICY",
+      "date": "2026-11-06",
+      "observedAt": "2026-11-06 08:10 Asia/Shanghai (run context; webpage crawl ages differ)",
+      "modelPreference": "GPT-6 Extra High preferred; actual effort cannot be independently set or verified",
+      "researchSequence": [
+        "Saudi女性18–45、UAE女性18–39、female Gen Z/学生; young families secondary; 50+ WATCH",
+        "Saudi Snapchat/TikTok/Instagram and UAE TikTok/Instagram/Snapchat (attribution unproven)",
+        "Noon China NGS first; Amazon UAE/Saudi second",
+        "quick occasion manicure, travel storage, hair styling, personalized gifts",
+        "four core product families and licensed IP watch",
+        "exact BOM before supply chain",
+        "NO new Chinese supplier deep search: current verified demand gate not met",
+        "USD TP vs buyer price/markup, Shenzhen cost, returns/FBN and compliance"
+      ],
+      "accountEvidence": {
+        "source": "2026-11-05 C08 read-only Work049 snapshot; not freshly logged in this run",
+        "uaeStore": "GCC Picks confirmed",
+        "chinaLegalEntity": "NO_VALID_LE_VISIBLE; Required; no accepted LE",
+        "genericCrossBorderPrograms": "not qualified at the moment (generic programs view only)",
+        "chinaNGSSpecificEligibility": "UNKNOWN_NOT_A_FORMAL_REJECTION",
+        "payoutApproval": "UNKNOWN",
+        "sellingOriginMapping": "UNKNOWN",
+        "invoicingProfile": "UNKNOWN",
+        "ksaStore": "UNKNOWN",
+        "onboardingSla": "UNKNOWN"
+      },
+      "newEvidence": {
+        "historicalNearBomNailListing": "24pcs+adhesive sheet and historical 380+ sold recently, but product mentions optional nail glue and absence of liquid adhesive not independently certified; platform index around 3 months old",
+        "matchedNewIndependentPaidOrders": 0,
+        "matchedFreshRFQs": 0,
+        "matchedFreshRestockProof": 0,
+        "matchedChinaGccFirstPaidPairs": 0,
+        "skuComparables": [
+          {
+            "skuId": "cosmetic-bag-set",
+            "detail": "UAE Noon XiuWoo 4pcs clear bags AED39.70, 82 ratings; indexed ~4 months ago, no verified transaction or target pack weight",
+            "url": "https://www.noon.com/uae-en/fashion/luggage-and-bags/travel-accessories/travel-toiletry-bags/noon-fashion-deals-FA_03/"
+          },
+          {
+            "skuId": "hair-accessories",
+            "detail": "Saudi Noon KHAJUL 4pcs SAR18.90 40+ sold recently indexed ~3 months ago; not 8pcs same BOM",
+            "url": "https://www.noon.com/saudi-en/beauty/hair-care/hair-accessories/clips-24997/"
+          },
+          {
+            "skuId": "press-on-nails",
+            "detail": "Saudi Noon Generic 12 Pairs Nude French 24pcs, 1 sheet adhesive-tab stickers, SAR18.91, historical 380+ sold recently on category page (~3 months old); product text says no glue needed but optionally suggests glue for longer wear; no independent packing inspection; cannot certify liquid glue absent",
+            "url": "https://www.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
+          },
+          {
+            "skuId": "phone-charm-beaded",
+            "detail": "Saudi Noon ShebSheb beaded mermaid strap SAR22.90 10+ sold recently indexed ~4 months ago; pendant styling and rights not target-proof",
+            "url": "https://www.noon.com/saudi-en/elegant-mermaid-beaded-phone-charm-strap-ocean-style-digital-camera-lanyard-phone-wrist-lanyard-for-phone-bag-keychain/Z00936FA4BC101EA4090EZ/p/"
+          },
+          {
+            "skuId": "original-ip-plush",
+            "detail": "MUSE GCC designer-toy Q4 2026 first-party market observation discusses AI LULUYA plush; marketing self-report and retail shelf claim, not independently paid or authorized for resale",
+            "url": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/"
+          }
+        ],
+        "policyScope": "China NGS TP paid after successful delivery, no first-sale cross-border fee deducted per NGS document; generic cross-border import VAT recovery rule must not be imputed to China NGS; post-return FBN extra fees, reversal of original TP and seller protection applicability remain UNKNOWN"
+      },
+      "v2": {
+        "opportunityRecalculated": false,
+        "evidenceConfidenceRecalculated": false,
+        "dataCompletenessRecalculated": false,
+        "retainHistoricalScores": true,
+        "top5RisksRetained": true,
+        "certifiedWorstLoss100": null,
+        "lossTestScenarioGrid": [
+          {
+            "skuId": "cosmetic-bag-set",
+            "tpScenarioUsd": [
+              4.5,
+              5.5,
+              6.5
+            ],
+            "costCapAt0pctMissingTP": [
+              3.825,
+              4.675,
+              5.525
+            ],
+            "costCapAt10pctMissingTP": [
+              3.4425,
+              4.2075,
+              4.9725
+            ],
+            "costCapAt25pctMissingTP": [
+              2.8687,
+              3.5063,
+              4.1437
+            ],
+            "certifiedWorstLoss100Usd": null,
+            "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+          },
+          {
+            "skuId": "hair-accessories",
+            "tpScenarioUsd": [
+              2.4,
+              2.9,
+              3.4
+            ],
+            "costCapAt0pctMissingTP": [
+              2.04,
+              2.465,
+              2.89
+            ],
+            "costCapAt10pctMissingTP": [
+              1.836,
+              2.2185,
+              2.601
+            ],
+            "costCapAt25pctMissingTP": [
+              1.53,
+              1.8487,
+              2.1675
+            ],
+            "certifiedWorstLoss100Usd": null,
+            "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+          },
+          {
+            "skuId": "press-on-nails",
+            "tpScenarioUsd": [
+              1.5,
+              1.9,
+              2.3
+            ],
+            "costCapAt0pctMissingTP": [
+              1.275,
+              1.615,
+              1.955
+            ],
+            "costCapAt10pctMissingTP": [
+              1.1475,
+              1.4535,
+              1.7595
+            ],
+            "costCapAt25pctMissingTP": [
+              0.9562,
+              1.2112,
+              1.4662
+            ],
+            "certifiedWorstLoss100Usd": null,
+            "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+          },
+          {
+            "skuId": "phone-charm-beaded",
+            "tpScenarioUsd": [
+              1.7,
+              2.2,
+              2.7
+            ],
+            "costCapAt0pctMissingTP": [
+              1.445,
+              1.87,
+              2.295
+            ],
+            "costCapAt10pctMissingTP": [
+              1.3005,
+              1.683,
+              2.0655
+            ],
+            "costCapAt25pctMissingTP": [
+              1.0837,
+              1.4025,
+              1.7213
+            ],
+            "certifiedWorstLoss100Usd": null,
+            "interpretation": "hypothetical revenue loss and 15% target contribution margin; no real TP, costs or returns evidence"
+          }
+        ]
+      },
+      "channelAccessGate": "NO_GO",
+      "noonFirstSaleReadiness": "1/12 unchanged, only UAE store verified",
+      "amazonFirstSaleReadiness": "0/15 unchanged",
+      "sampleReady": 0,
+      "purchaseApproved": 0,
+      "action": "HOLD / CONDITIONAL_RESTART",
+      "sources": [
+        {
+          "level": "A",
+          "label": "Official China NGS commercial route and seller TP payout; international logistics from Shenzhen paid/managed by noon",
+          "url": "https://supportagent.noon.partners/portal/en/kb/articles/noon-global-shipping-program"
+        },
+        {
+          "level": "A",
+          "label": "Official generic returns seller protection NG=0; NGS-specific applicability unresolved",
+          "url": "https://supportagent.noon.partners/portal/en/kb/articles/returns-and-seller-protection-policy"
+        },
+        {
+          "level": "A",
+          "label": "Official general Cross-Border Selling describes Import VAT recovery, a different scope from China NGS; do not merge fee models",
+          "url": "https://supportagent.noon.partners/portal/en/kb/articles/cross-border-selling-7-4-2025"
+        },
+        {
+          "level": "B1",
+          "label": "2026-11-05 C08 real Seller Lab read-only snapshot (UAE GCC Picks, no valid legal entity, generic cross-border Programs empty; NGS-specific approval unknown)",
+          "url": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-11-05/CHINAGCC_C08_WORK049_NOON_SELLER_LAB_READ_ONLY_EVIDENCE.md"
+        },
+        {
+          "level": "B2-HISTORICAL",
+          "label": "Saudi generic 12-pair no-glue-needed platform text: 24 pcs and one adhesive sticker sheet; not full physical kit QC",
+          "url": "https://www.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
+        },
+        {
+          "level": "B2-HISTORICAL",
+          "label": "Noon Saudi category historical 380+ sold recently for this listing, ~3-month index, not Nov 6 independent order",
+          "url": "https://www.noon.com/saudi-en/best-sellers/press-on-false-nails/"
+        },
+        {
+          "level": "B2-HISTORICAL",
+          "label": "UAE Noon 4pcs cosmetic bag competitor with rating and archived listed price, not identical target material",
+          "url": "https://www.noon.com/uae-en/fashion/luggage-and-bags/travel-accessories/travel-toiletry-bags/noon-fashion-deals-FA_03/"
+        },
+        {
+          "level": "D",
+          "label": "MUSE Q4 2026 regional designer toy commentary, not authenticated POS or IP authorization",
+          "url": "https://toys.aimuse.ae/blog/gcc-designer-toy-market-watch-q4-2026/"
+        }
+      ],
+      "followUp": [
+        "Reuse legitimate already authorized Seller Lab context only: inspect China NGS explicitly named program and LE/Payout/Origin/Invoice; do not revisit only generic empty Programs page",
+        "Seek fresh independent real transaction/RFQ/restock for exact 24pc adhesive-only nail kit, including full accessories and sample QC",
+        "Only after demand & account gates: collect exact China unit cost/weights/Shenzhen delivery quote/NGS live TP, checkout price and return accounting; compute a bounded 100-unit failure amount",
+        "For IP record actual first paid sale in both China and GCC and written sales license before commercial screening"
+      ]
+    }
+  ]
+}
