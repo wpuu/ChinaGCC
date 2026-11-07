@@ -1,7 +1,7 @@
 {
   "id": "press-on-nails",
   "name": "穿戴甲/甲片（胶贴/预贴胶优先）",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
   "rank": 7,
   "status": "P2",
   "opportunityScore": 67,
@@ -1400,5 +1400,132 @@
     "sources": [
       "https://supermall.noon.com/saudi-en/12-pairs-nude-french-gradient-press-on-nails-short-square-style-reusable-finished-fake-nails-for-girls-and-women-no-glue-needed-removable-nail-friendly/ZD5F51F3629879FA15CDEZ/p/"
     ]
+  },
+  "latestRadar20261107C01": {
+    "auditId": "2026-11-07/C01-OFFICIAL-IP-NGS-RISK",
+    "report": "research/2026-11-07/CHINAGCC_C01_OFFICIAL_US_IP_NGS_V2_GATES.md",
+    "persona13FieldsPreserved": true,
+    "historicalV2": {
+      "opportunity": 67,
+      "evidenceConfidence": 92,
+      "dataCompleteness": 80,
+      "notRescored": true
+    },
+    "marketFinding": "Saudi 24pc kaixin/Generic历史约420+/380+ sold recently（约3月旧），胶贴整盒未核实",
+    "officialUSNewLaunchWatch": [],
+    "freshSameBomSales": 0,
+    "freshRFQ": 0,
+    "freshRestocks": 0,
+    "supplierDeepSearch": 0,
+    "gate": "NO_GO",
+    "approvedTP": null,
+    "consumerCheckoutPrice": null,
+    "actualMarkup": null,
+    "chinaProcurement": null,
+    "shenzhenHubFreight": null,
+    "returnTPClawback": "UNKNOWN",
+    "NGSRestrictionApproval": "UNKNOWN",
+    "scenario": {
+      "id": "press-on-nails",
+      "testTPUsd": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "maxAllCostUsdAtMargin15_q0": [
+        1.275,
+        1.615,
+        1.955
+      ],
+      "q10": [
+        1.1475,
+        1.4535,
+        1.7595
+      ],
+      "q25": [
+        0.9562,
+        1.2112,
+        1.4662
+      ],
+      "approvedTP": null,
+      "buyerActualCheckout": null,
+      "actualMarkup": null,
+      "actualChinaBomCost": null,
+      "actualShenzhenHubCost": null,
+      "returnLoss": null,
+      "ngsSkuApproval": null,
+      "certifiedWorst100LossUsd": null
+    },
+    "worst100CertifiedUsd": null,
+    "advantageAddendum": [
+      {
+        "name": "市场可观测性",
+        "evidence": "Saudi 24pc kaixin/Generic历史约420+/380+ sold recently（约3月旧），胶贴整盒未核实",
+        "businessImpact": "评估场景用途，不等于利润或当日成交",
+        "impactLevel": 3,
+        "sustainability": "UNKNOWN",
+        "ownerUnique": false,
+        "verified": "PARTIAL"
+      }
+    ],
+    "riskTop5Addendum": [
+      {
+        "name": "中国NGS Legal Entity及账号资格",
+        "p": 5,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 25,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "TP与消费者终价/markup未知",
+        "p": 4,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 20,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "无液体胶整盒BOM未验证",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "已妥投TP退货冲回及FBN二次销售费用未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "准确NGS类目、国家禁限售与图权未获核准",
+        "p": 3,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 15,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      }
+    ],
+    "hardStop": true,
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }

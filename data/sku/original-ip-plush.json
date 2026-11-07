@@ -82,7 +82,7 @@
     "lagDays": null,
     "authorizedForResale": false
   },
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
   "corePersona": "NOT_VERIFIED",
   "ageBand": [
     "Saudi女性18–45",
@@ -939,5 +939,125 @@
       "https://www.sec.gov/Archives/edgar/data/1932770/000121390026114370/ea030926901-20f_heregroup.htm",
       "https://a22.ae/"
     ]
+  },
+  "latestRadar20261107C01": {
+    "auditId": "2026-11-07/C01-OFFICIAL-IP-NGS-RISK",
+    "report": "research/2026-11-07/CHINAGCC_C01_OFFICIAL_US_IP_NGS_V2_GATES.md",
+    "persona13FieldsPreserved": true,
+    "historicalV2": {
+      "opportunity": 69,
+      "evidenceConfidence": 67,
+      "dataCompleteness": 58,
+      "notRescored": true
+    },
+    "marketFinding": "POP MART美国站新发DIMOO及Nyota，只能证明美国官方开售，非GCC需求",
+    "officialUSNewLaunchWatch": [
+      {
+        "name": "DIMOO Flying Fantasia pendant blind box",
+        "usOfficialRelease": "2026-11-05 17:00 PST",
+        "beijingTime": "2026-11-06 09:00",
+        "usdUS": 19.99,
+        "url": "https://www.popmart.com/en-US/products/9560/dimoo%27s-flying-fantasia-series-pendant-blind-box",
+        "chinaFirstPaid": null,
+        "gccFirstPaid": null,
+        "lagDays": null,
+        "licensedToOurSeller": false
+      },
+      {
+        "name": "Nyota Kitten Love plush pendant",
+        "usOfficialRelease": "2026-11-05 17:00 PST",
+        "beijingTime": "2026-11-06 09:00",
+        "usdUS": 39.99,
+        "url": "https://www.popmart.com/en-US/products/9564/nyota-kitten-love-plush-doll-pendant",
+        "chinaFirstPaid": null,
+        "gccFirstPaid": null,
+        "lagDays": null,
+        "licensedToOurSeller": false
+      }
+    ],
+    "freshSameBomSales": 0,
+    "freshRFQ": 0,
+    "freshRestocks": 0,
+    "supplierDeepSearch": 0,
+    "gate": "NO_GO",
+    "approvedTP": null,
+    "consumerCheckoutPrice": null,
+    "actualMarkup": null,
+    "chinaProcurement": null,
+    "shenzhenHubFreight": null,
+    "returnTPClawback": "UNKNOWN",
+    "NGSRestrictionApproval": "UNKNOWN",
+    "scenario": null,
+    "worst100CertifiedUsd": null,
+    "advantageAddendum": [
+      {
+        "name": "市场可观测性",
+        "evidence": "POP MART美国站新发DIMOO及Nyota，只能证明美国官方开售，非GCC需求",
+        "businessImpact": "评估场景用途，不等于利润或当日成交",
+        "impactLevel": 3,
+        "sustainability": "UNKNOWN",
+        "ownerUnique": false,
+        "verified": "PARTIAL"
+      }
+    ],
+    "riskTop5Addendum": [
+      {
+        "name": "中国NGS Legal Entity及账号资格",
+        "p": 5,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 25,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "TP与消费者终价/markup未知",
+        "p": 4,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 20,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "同BOM中国采购及深圳交仓未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "已妥投TP退货冲回及FBN二次销售费用未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "品牌IP书面转售授权缺失",
+        "p": 5,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 25,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "取得原厂书面销售授权",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      }
+    ],
+    "hardStop": true,
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }

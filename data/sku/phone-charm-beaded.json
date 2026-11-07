@@ -1,7 +1,7 @@
 {
   "id": "phone-charm-beaded",
   "name": "无IP串珠手机挂绳/包挂",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
   "rank": 8,
   "status": "P2",
   "opportunityScore": 68,
@@ -1301,5 +1301,132 @@
     "top5RisksRetained": true,
     "profile13FieldsPreserved": true,
     "sources": []
+  },
+  "latestRadar20261107C01": {
+    "auditId": "2026-11-07/C01-OFFICIAL-IP-NGS-RISK",
+    "report": "research/2026-11-07/CHINAGCC_C01_OFFICIAL_US_IP_NGS_V2_GATES.md",
+    "persona13FieldsPreserved": true,
+    "historicalV2": {
+      "opportunity": 68,
+      "evidenceConfidence": 84,
+      "dataCompleteness": 76,
+      "notRescored": true
+    },
+    "marketFinding": "原创无IP串珠挂件：本轮没有同BOM实付/RFQ/补货",
+    "officialUSNewLaunchWatch": [],
+    "freshSameBomSales": 0,
+    "freshRFQ": 0,
+    "freshRestocks": 0,
+    "supplierDeepSearch": 0,
+    "gate": "NO_GO",
+    "approvedTP": null,
+    "consumerCheckoutPrice": null,
+    "actualMarkup": null,
+    "chinaProcurement": null,
+    "shenzhenHubFreight": null,
+    "returnTPClawback": "UNKNOWN",
+    "NGSRestrictionApproval": "UNKNOWN",
+    "scenario": {
+      "id": "phone-charm-beaded",
+      "testTPUsd": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "maxAllCostUsdAtMargin15_q0": [
+        1.445,
+        1.87,
+        2.295
+      ],
+      "q10": [
+        1.3005,
+        1.683,
+        2.0655
+      ],
+      "q25": [
+        1.0837,
+        1.4025,
+        1.7212
+      ],
+      "approvedTP": null,
+      "buyerActualCheckout": null,
+      "actualMarkup": null,
+      "actualChinaBomCost": null,
+      "actualShenzhenHubCost": null,
+      "returnLoss": null,
+      "ngsSkuApproval": null,
+      "certifiedWorst100LossUsd": null
+    },
+    "worst100CertifiedUsd": null,
+    "advantageAddendum": [
+      {
+        "name": "市场可观测性",
+        "evidence": "原创无IP串珠挂件：本轮没有同BOM实付/RFQ/补货",
+        "businessImpact": "评估场景用途，不等于利润或当日成交",
+        "impactLevel": 3,
+        "sustainability": "UNKNOWN",
+        "ownerUnique": false,
+        "verified": "NO"
+      }
+    ],
+    "riskTop5Addendum": [
+      {
+        "name": "中国NGS Legal Entity及账号资格",
+        "p": 5,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 25,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "TP与消费者终价/markup未知",
+        "p": 4,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 20,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "同BOM中国采购及深圳交仓未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "已妥投TP退货冲回及FBN二次销售费用未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "准确NGS类目、国家禁限售与图权未获核准",
+        "p": 3,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 15,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      }
+    ],
+    "hardStop": true,
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }

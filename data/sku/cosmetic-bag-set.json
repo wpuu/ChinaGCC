@@ -1,7 +1,7 @@
 {
   "id": "cosmetic-bag-set",
   "name": "4件套化妆/旅行收纳包",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
   "rank": 1,
   "status": "P1_CONDITIONAL",
   "opportunityScore": 78,
@@ -1284,5 +1284,132 @@
     "top5RisksRetained": true,
     "profile13FieldsPreserved": true,
     "sources": []
+  },
+  "latestRadar20261107C01": {
+    "auditId": "2026-11-07/C01-OFFICIAL-IP-NGS-RISK",
+    "report": "research/2026-11-07/CHINAGCC_C01_OFFICIAL_US_IP_NGS_V2_GATES.md",
+    "persona13FieldsPreserved": true,
+    "historicalV2": {
+      "opportunity": 78,
+      "evidenceConfidence": 90,
+      "dataCompleteness": 73,
+      "notRescored": true
+    },
+    "marketFinding": "Saudi TRENZ 4pc SAR59.90，历史榜单420+ sold recently（约3月旧）",
+    "officialUSNewLaunchWatch": [],
+    "freshSameBomSales": 0,
+    "freshRFQ": 0,
+    "freshRestocks": 0,
+    "supplierDeepSearch": 0,
+    "gate": "NO_GO",
+    "approvedTP": null,
+    "consumerCheckoutPrice": null,
+    "actualMarkup": null,
+    "chinaProcurement": null,
+    "shenzhenHubFreight": null,
+    "returnTPClawback": "UNKNOWN",
+    "NGSRestrictionApproval": "UNKNOWN",
+    "scenario": {
+      "id": "cosmetic-bag-set",
+      "testTPUsd": [
+        4.5,
+        5.5,
+        6.5
+      ],
+      "maxAllCostUsdAtMargin15_q0": [
+        3.825,
+        4.675,
+        5.525
+      ],
+      "q10": [
+        3.4425,
+        4.2075,
+        4.9725
+      ],
+      "q25": [
+        2.8687,
+        3.5062,
+        4.1437
+      ],
+      "approvedTP": null,
+      "buyerActualCheckout": null,
+      "actualMarkup": null,
+      "actualChinaBomCost": null,
+      "actualShenzhenHubCost": null,
+      "returnLoss": null,
+      "ngsSkuApproval": null,
+      "certifiedWorst100LossUsd": null
+    },
+    "worst100CertifiedUsd": null,
+    "advantageAddendum": [
+      {
+        "name": "市场可观测性",
+        "evidence": "Saudi TRENZ 4pc SAR59.90，历史榜单420+ sold recently（约3月旧）",
+        "businessImpact": "评估场景用途，不等于利润或当日成交",
+        "impactLevel": 3,
+        "sustainability": "UNKNOWN",
+        "ownerUnique": false,
+        "verified": "PARTIAL"
+      }
+    ],
+    "riskTop5Addendum": [
+      {
+        "name": "中国NGS Legal Entity及账号资格",
+        "p": 5,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 25,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "TP与消费者终价/markup未知",
+        "p": 4,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 20,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "同BOM中国采购及深圳交仓未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "已妥投TP退货冲回及FBN二次销售费用未知",
+        "p": 4,
+        "i": 4,
+        "hardStop": true,
+        "riskValue": 16,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      },
+      {
+        "name": "准确NGS类目、国家禁限售与图权未获核准",
+        "p": 3,
+        "i": 5,
+        "hardStop": true,
+        "riskValue": 15,
+        "probabilityEstimate": "analyst scenario not an observed probability",
+        "mitigation": "先真实只读取证与严格同BOM匹配再核费用",
+        "mitigationCost": "UNKNOWN",
+        "residualRisk": "HIGH"
+      }
+    ],
+    "hardStop": true,
+    "decision": "NO_PURCHASE_NO_LISTING"
   }
 }
