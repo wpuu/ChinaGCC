@@ -1059,5 +1059,130 @@
     ],
     "hardStop": true,
     "decision": "NO_PURCHASE_NO_LISTING"
+  },
+  "latestRadar20261107C02": {
+    "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+    "asOf": "2026-11-07",
+    "historicalOpportunityScore": 69,
+    "historicalEvidenceConfidence": 67,
+    "historicalDataCompleteness": 58,
+    "scoreRecalculated": false,
+    "corePersona": "NOT_VERIFIED",
+    "ageBand": [
+      "Saudi女性18–45",
+      "UAE女性18–39"
+    ],
+    "genderFit": "NOT_VERIFIED",
+    "discoveryChannel": [
+      "TikTok",
+      "Snapchat",
+      "Instagram"
+    ],
+    "checkoutChannel": [
+      "Noon NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "viralPotential": "NOT_EVALUATED",
+    "collectibility": "NOT_EVALUATED",
+    "giftability": "NOT_EVALUATED",
+    "visualDemoStrength": "NOT_EVALUATED",
+    "trendHalfLife": "NOT_EVALUATED",
+    "IPRisk": "UNLICENSED_THIRD_PARTY_IP__HARD_STOP",
+    "seasonalTrigger": [
+      "NOT_EVALUATED"
+    ],
+    "localPlatformFit": "NOT_EVALUATED",
+    "channelAccessGate": "NO_GO_NO_VERIFIED_CHINA_LE_PAYOUT_ORIGIN_INVOICING",
+    "freshSameBomPaid": 0,
+    "freshSameBomRFQ": 0,
+    "freshSameBomRestock": 0,
+    "newChinaSupplierDeepSearch": 0,
+    "newEvidence": [
+      {
+        "kind": "C01_OFFICIAL_US_NEW_LAUNCH_RETAINED",
+        "chinaFirstPaidDate": null,
+        "gccFirstPaidDate": null,
+        "authorized": false
+      }
+    ],
+    "advantages": [
+      {
+        "name": "Official global launch watch available",
+        "evidence": "POP MART official US releases verified in C01, not China/GCC matched paid records",
+        "businessImpact": "trend and collector landscape only, NOT resale qualification",
+        "impactLevel": 2,
+        "persistence": "short",
+        "ownerUnique": false,
+        "verified": "yes"
+      },
+      {
+        "name": "Collectible gift theme",
+        "evidence": "official launched pendant formats but GCC same-series transactions unknown",
+        "businessImpact": "trend and collector landscape only, NOT resale qualification",
+        "impactLevel": 3,
+        "persistence": "medium",
+        "ownerUnique": false,
+        "verified": "partial"
+      }
+    ],
+    "top5ScenarioRisks": [
+      {
+        "name": "Third-party IP resale rights absent",
+        "probability": 5,
+        "impact": 5,
+        "riskScore": 25,
+        "hardStop": true,
+        "mitigation": "书面许可和正品分销权",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Noon China NGS access / LE",
+        "probability": 5,
+        "impact": 5,
+        "riskScore": 25,
+        "hardStop": true,
+        "mitigation": "核验LE与Origin",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "No China vs GCC same-series first paid date pair",
+        "probability": 5,
+        "impact": 4,
+        "riskScore": 20,
+        "hardStop": false,
+        "mitigation": "分市场同系列真实订单、非美国新品公告",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Figure vs toy regulatory and Noon category",
+        "probability": 4,
+        "impact": 4,
+        "riskScore": 16,
+        "hardStop": false,
+        "mitigation": "年龄适用、GCC合规与Noon QC",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Resale margin & counterfeit risk",
+        "probability": 4,
+        "impact": 5,
+        "riskScore": 20,
+        "hardStop": false,
+        "mitigation": "合法渠道、供货及TP后核算",
+        "scenarioNotObservedFrequency": true
+      }
+    ],
+    "hardStops": [
+      "Third-party IP resale rights absent",
+      "Noon China NGS access / LE"
+    ],
+    "realApprovedTP": null,
+    "realConsumerFinalPrice": null,
+    "realMarkup": null,
+    "realSameBomSupplierCost": null,
+    "realChinaToShenzhenCost": null,
+    "realReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-07/CHINAGCC_C02_NGS_INVOICE_ORIGIN_TRENZ_BRAND_24PC_NEAR_BOM.md"
   }
 }

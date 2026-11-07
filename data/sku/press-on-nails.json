@@ -1527,5 +1527,170 @@
     ],
     "hardStop": true,
     "decision": "NO_PURCHASE_NO_LISTING"
+  },
+  "latestRadar20261107C02": {
+    "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+    "asOf": "2026-11-07",
+    "historicalOpportunityScore": 67,
+    "historicalEvidenceConfidence": 92,
+    "historicalDataCompleteness": 80,
+    "scoreRecalculated": false,
+    "corePersona": "Saudi女性18–29趋势发现；25–39利润验证；UAE女性18–39观察",
+    "ageBand": [
+      "Saudi 18–45",
+      "UAE 18–39"
+    ],
+    "genderFit": "female-primary",
+    "discoveryChannel": [
+      "Snapchat",
+      "TikTok",
+      "Instagram"
+    ],
+    "checkoutChannel": [
+      "Noon NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "viralPotential": "high",
+    "collectibility": "medium",
+    "giftability": "medium",
+    "visualDemoStrength": "very-high",
+    "trendHalfLife": "short-medium",
+    "IPRisk": "low for original/generic designs",
+    "seasonalTrigger": [
+      "聚会",
+      "婚礼",
+      "节庆",
+      "周末社交"
+    ],
+    "localPlatformFit": "Saudi demand very high but low-price concentrated",
+    "channelAccessGate": "NO_GO_NO_VERIFIED_CHINA_LE_PAYOUT_ORIGIN_INVOICING",
+    "freshSameBomPaid": 0,
+    "freshSameBomRFQ": 0,
+    "freshSameBomRestock": 0,
+    "newChinaSupplierDeepSearch": 0,
+    "newEvidence": [
+      {
+        "url": "https://www.noon.com/uae-en/black-press-on-nails-almond-medium-artificial-acrylic-fake-nails-with-gold-shine-designs-full-cover-reusable-coffin-false-nails-set-women-glue-on-nails-stick-on-nails-for-nail-art-24-pcs/Z2F1D96703F9B58630833Z/p/",
+        "kind": "HISTORICAL_NEAR_BOM",
+        "physicalKitVerified": false,
+        "freshSale": false
+      },
+      {
+        "url": "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/",
+        "kind": "HISTORICAL_CATEGORY_SALES_BADGE",
+        "freshSale": false
+      }
+    ],
+    "advantages": [
+      {
+        "name": "24-piece tabs-only kit appears feasible as written BOM",
+        "evidence": "UAE TBRZTR page lists adhesive sticker, not liquid glue; real pack unseen",
+        "businessImpact": "category use-case and differentiation hypothesis; NOT same-BOM fresh paid proof",
+        "impactLevel": 3,
+        "persistence": "medium",
+        "ownerUnique": false,
+        "verified": "partial"
+      },
+      {
+        "name": "Quick self-manicure use case",
+        "evidence": "marketplace description only; not directly linked to recent same-BOM paid orders",
+        "businessImpact": "category use-case and differentiation hypothesis; NOT same-BOM fresh paid proof",
+        "impactLevel": 4,
+        "persistence": "medium",
+        "ownerUnique": false,
+        "verified": "partial"
+      }
+    ],
+    "top5ScenarioRisks": [
+      {
+        "name": "Noon China NGS access / LE",
+        "probability": 5,
+        "impact": 5,
+        "riskScore": 25,
+        "hardStop": true,
+        "mitigation": "核验LE与Origin",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Full box only-adhesive no-liquid-glue unverified",
+        "probability": 5,
+        "impact": 4,
+        "riskScore": 20,
+        "hardStop": true,
+        "mitigation": "取得完整封装配件清单/实物证据",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Old listing and sold badge lack fresh matched purchase",
+        "probability": 4,
+        "impact": 4,
+        "riskScore": 16,
+        "hardStop": false,
+        "mitigation": "同BOM真实订单/RFQ/补货",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Return hygiene / salability / TP clawback",
+        "probability": 4,
+        "impact": 4,
+        "riskScore": 16,
+        "hardStop": false,
+        "mitigation": "官方特殊类目和实际售后规则",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "TP / real cost / destination QC",
+        "probability": 4,
+        "impact": 4,
+        "riskScore": 16,
+        "hardStop": false,
+        "mitigation": "验证TP与合规禁限售",
+        "scenarioNotObservedFrequency": true
+      }
+    ],
+    "hardStops": [
+      "Noon China NGS access / LE",
+      "Full box only-adhesive no-liquid-glue unverified"
+    ],
+    "realApprovedTP": null,
+    "realConsumerFinalPrice": null,
+    "realMarkup": null,
+    "realSameBomSupplierCost": null,
+    "realChinaToShenzhenCost": null,
+    "realReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-07/CHINAGCC_C02_NGS_INVOICE_ORIGIN_TRENZ_BRAND_24PC_NEAR_BOM.md",
+    "ngsEconomicScenario": {
+      "id": "press-on-nails",
+      "transferPriceUsdTestOnly": [
+        1.5,
+        1.9,
+        2.3
+      ],
+      "fullCostCapUsdAt15pctContribution_Q0": [
+        1.275,
+        1.615,
+        1.955
+      ],
+      "Q10": [
+        1.1475,
+        1.4535,
+        1.7595
+      ],
+      "Q25": [
+        0.9563,
+        1.2113,
+        1.4663
+      ],
+      "actualApprovedTP": null,
+      "actualConsumerFinalPrice": null,
+      "actualMarkup": null,
+      "actualSameBomChinaPurchasePrice": null,
+      "actualChinaShenzhenHandoffCost": null,
+      "returnTpClawback": null,
+      "categoryNgsApproval": null,
+      "verifiedWorst100LossUsd": null,
+      "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+    }
   }
 }

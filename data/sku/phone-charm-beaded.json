@@ -1428,5 +1428,159 @@
     ],
     "hardStop": true,
     "decision": "NO_PURCHASE_NO_LISTING"
+  },
+  "latestRadar20261107C02": {
+    "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+    "asOf": "2026-11-07",
+    "historicalOpportunityScore": 68,
+    "historicalEvidenceConfidence": 84,
+    "historicalDataCompleteness": 76,
+    "scoreRecalculated": false,
+    "corePersona": "Saudi female Gen Z/学生18–29为主，UAE女性18–29观察",
+    "ageBand": [
+      "Saudi 18–29",
+      "UAE 18–29"
+    ],
+    "genderFit": "female-primary",
+    "discoveryChannel": [
+      "TikTok",
+      "Snapchat",
+      "Instagram"
+    ],
+    "checkoutChannel": [
+      "Noon NGS",
+      "Amazon UAE/Saudi"
+    ],
+    "viralPotential": "high",
+    "collectibility": "medium",
+    "giftability": "high",
+    "visualDemoStrength": "very-high",
+    "trendHalfLife": "short-medium",
+    "IPRisk": "low only for generic/original bead designs; any unlicensed character/logo is Hard Stop",
+    "seasonalTrigger": [
+      "返校",
+      "Eid礼赠",
+      "生日",
+      "旅行",
+      "日常穿搭"
+    ],
+    "localPlatformFit": "medium in Saudi; weak/unproven in UAE",
+    "channelAccessGate": "NO_GO_NO_VERIFIED_CHINA_LE_PAYOUT_ORIGIN_INVOICING",
+    "freshSameBomPaid": 0,
+    "freshSameBomRFQ": 0,
+    "freshSameBomRestock": 0,
+    "newChinaSupplierDeepSearch": 0,
+    "newEvidence": [],
+    "advantages": [
+      {
+        "name": "Short-form visual demonstrations",
+        "evidence": "existing generic examples and plausible gift use, not verified attributed purchase",
+        "businessImpact": "category use-case and differentiation hypothesis; NOT same-BOM fresh paid proof",
+        "impactLevel": 3,
+        "persistence": "short-medium",
+        "ownerUnique": false,
+        "verified": "partial"
+      },
+      {
+        "name": "No electronic parts",
+        "evidence": "simple resin/beads designs only; quality and IP risk remain",
+        "businessImpact": "category use-case and differentiation hypothesis; NOT same-BOM fresh paid proof",
+        "impactLevel": 3,
+        "persistence": "long",
+        "ownerUnique": false,
+        "verified": "partial"
+      }
+    ],
+    "top5ScenarioRisks": [
+      {
+        "name": "Noon China NGS access / LE",
+        "probability": 5,
+        "impact": 5,
+        "riskScore": 25,
+        "hardStop": true,
+        "mitigation": "核验LE与Origin",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "IP/logo infringement",
+        "probability": 5,
+        "impact": 5,
+        "riskScore": 25,
+        "hardStop": true,
+        "mitigation": "只做自有/通用设计，第三方角色需书面授权",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "New matched demand absent",
+        "probability": 5,
+        "impact": 4,
+        "riskScore": 20,
+        "hardStop": false,
+        "mitigation": "真实同BOM购买或补货",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "TP margin too thin",
+        "probability": 4,
+        "impact": 4,
+        "riskScore": 16,
+        "hardStop": false,
+        "mitigation": "真实消费者终价、采购和交仓成本",
+        "scenarioNotObservedFrequency": true
+      },
+      {
+        "name": "Fast-changing aesthetic / breakage",
+        "probability": 4,
+        "impact": 3,
+        "riskScore": 12,
+        "hardStop": false,
+        "mitigation": "小量SKU、挂绳拉力测试",
+        "scenarioNotObservedFrequency": true
+      }
+    ],
+    "hardStops": [
+      "Noon China NGS access / LE",
+      "IP/logo infringement"
+    ],
+    "realApprovedTP": null,
+    "realConsumerFinalPrice": null,
+    "realMarkup": null,
+    "realSameBomSupplierCost": null,
+    "realChinaToShenzhenCost": null,
+    "realReturnLoss": null,
+    "certifiedWorstLoss100Usd": null,
+    "report": "research/2026-11-07/CHINAGCC_C02_NGS_INVOICE_ORIGIN_TRENZ_BRAND_24PC_NEAR_BOM.md",
+    "ngsEconomicScenario": {
+      "id": "phone-charm-beaded",
+      "transferPriceUsdTestOnly": [
+        1.7,
+        2.2,
+        2.7
+      ],
+      "fullCostCapUsdAt15pctContribution_Q0": [
+        1.445,
+        1.87,
+        2.295
+      ],
+      "Q10": [
+        1.3005,
+        1.683,
+        2.0655
+      ],
+      "Q25": [
+        1.0838,
+        1.4025,
+        1.7213
+      ],
+      "actualApprovedTP": null,
+      "actualConsumerFinalPrice": null,
+      "actualMarkup": null,
+      "actualSameBomChinaPurchasePrice": null,
+      "actualChinaShenzhenHandoffCost": null,
+      "returnTpClawback": null,
+      "categoryNgsApproval": null,
+      "verifiedWorst100LossUsd": null,
+      "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+    }
   }
 }

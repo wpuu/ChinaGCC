@@ -16,8 +16,8 @@
     "dataIntegrity": "14/14 canonical SKU files present; 1 legacy makeup-brush alias retained separately; all 14 certified 100-unit worst losses UNKNOWN/null; 12 historical scored, 2 unscored; score conflicts retained.",
     "latestRadarDate": "2026-11-07",
     "latestRadarPath": "data/daily/2026-11-07.json",
-    "latestRadarStatus": "C01_OFFICIAL_US_IP_NGS_NO_GO",
-    "latestRadarNote": "Nov7 C01: POP MART US official Nov5 launches, NOT GCC sales; Seller Lab browser context denied; LE/Payout/Origin unresolved; historical V2 retained, 100-unit losses unknown.",
+    "latestRadarStatus": "C02_NGS_ORIGIN_BOM_BRAND_NO_GO",
+    "latestRadarNote": "Nov7 C02: official NGS Invoicing Profile depends on approved LE+contract+origin+payout mapping; generic 24-48h cross-border approval not China NGS SLA. Historical Saudi TRENZ Z40 is branded padded BOM, not generic same-BOM; UAE nail kit is written near-BOM without fresh paid proof. First-sale NO-GO.",
     "lastDailyReconciliation": "2026-10-30T22:34:58+08:00",
     "reconciledSupplierEvidence": "https://github.com/wpuu/ChinaGCC/blob/main/research/2026-10-30/CHINAGCC_029_SUPPLIER_DIRECT_SHENZHEN_UAE_PRICE_VERIFICATION.md",
     "latestDailyAuditId": "2026-11-06/C04-DAILY-CLOSE-READINESS-PROVENANCE-CONSISTENCY",
@@ -972,6 +972,14 @@
         "hasNewHistoricListingEvidence": false,
         "source": null,
         "licenseHardStopPreserved": false
+      },
+      "latestRadar20261107C02": {
+        "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+        "scoreRecalculated": false,
+        "brandedBOMConstraint": true,
+        "nearBOMAdhesiveOnlyEvidence": null,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorst100LossUsd": null
       }
     },
     {
@@ -3341,6 +3349,14 @@
         "hasNewHistoricListingEvidence": false,
         "source": null,
         "licenseHardStopPreserved": false
+      },
+      "latestRadar20261107C02": {
+        "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+        "scoreRecalculated": false,
+        "brandedBOMConstraint": false,
+        "nearBOMAdhesiveOnlyEvidence": null,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorst100LossUsd": null
       }
     },
     {
@@ -3996,6 +4012,14 @@
         "hasNewHistoricListingEvidence": true,
         "source": "https://supermall.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/?o=e8b5d4457ecef1dd",
         "licenseHardStopPreserved": false
+      },
+      "latestRadar20261107C02": {
+        "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+        "scoreRecalculated": false,
+        "brandedBOMConstraint": false,
+        "nearBOMAdhesiveOnlyEvidence": "HISTORICAL_LISTING_ONLY_NO_PHYSICAL_BOM",
+        "channelAccessGate": "NO_GO",
+        "certifiedWorst100LossUsd": null
       }
     },
     {
@@ -4632,6 +4656,14 @@
         "hasNewHistoricListingEvidence": false,
         "source": null,
         "licenseHardStopPreserved": false
+      },
+      "latestRadar20261107C02": {
+        "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+        "scoreRecalculated": false,
+        "brandedBOMConstraint": false,
+        "nearBOMAdhesiveOnlyEvidence": null,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorst100LossUsd": null
       }
     },
     {
@@ -5596,6 +5628,14 @@
         "hasNewHistoricListingEvidence": false,
         "source": null,
         "licenseHardStopPreserved": true
+      },
+      "latestRadar20261107C02": {
+        "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+        "scoreRecalculated": false,
+        "brandedBOMConstraint": false,
+        "nearBOMAdhesiveOnlyEvidence": null,
+        "channelAccessGate": "NO_GO",
+        "certifiedWorst100LossUsd": null
       }
     },
     {
@@ -10386,6 +10426,567 @@
       "purchased": false,
       "listed": false,
       "advertised": false,
+      "outreach": false
+    }
+  },
+  "latestRadar20261107C02": {
+    "auditId": "2026-11-07/C02-NGS-INVOICE-DEPENDENCY-BOM-BRAND-PROVENANCE",
+    "date": "2026-11-07",
+    "checkedLocalTime": "afternoon Beijing; exact page snapshot time not verified",
+    "modelPreference": "GPT-6 Extra High; actual thinking effort not independently verified",
+    "researchOrder": [
+      "Saudi/UAE women plus Gen Z",
+      "Snapchat/TikTok/Instagram discovery",
+      "Noon China NGS first/Amazon second",
+      "purchase trigger hypothesis",
+      "four consumer families + licensed IP",
+      "5 canonical SKUs",
+      "no supplier new search without matching transaction",
+      "TP/unit economics/returns and IP hard stop"
+    ],
+    "newIndependentSameBomPaidOrders": 0,
+    "newSameBomRFQs": 0,
+    "newVerifiedRestocks": 0,
+    "newSupplierDeepSearches": 0,
+    "ngsGate": "NO_GO",
+    "ngsHistoricalReadiness": "1/12",
+    "amazonHistoricalReadiness": "0/15",
+    "newEvidence": [
+      {
+        "type": "OFFICIAL_DEPENDENCY",
+        "finding": "Global Invoicing Profile requires available Origin, approved LE and method, contract states; approved payout must map Selling Origin",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/how-to-setup-the-invoicing-profile-for-global-selling",
+        "companionUrl": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity"
+      },
+      {
+        "type": "PROGRAM_SCOPE",
+        "finding": "24–48h approval in general cross-border page is not China NGS 7-stage end-to-end SLA",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/how-can-you-register-for-cross-border-business"
+      },
+      {
+        "type": "BRAND_AND_BOM_COUNTEREVIDENCE",
+        "finding": "Saudi TRENZ Z40 4-piece padded quilted product self-described Saudi brand; cannot extrapolate to generic light four-pack; historical 360+ sold recently not Nov7 sales",
+        "url": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/"
+      },
+      {
+        "type": "NEAR_BOM_NO_SALE",
+        "finding": "UAE TBRZTR 24pc kit lists adhesive stickers, file, wooden stick and cleaning paper, no liquid glue listed; physical contents and demand not independently verified",
+        "url": "https://www.noon.com/uae-en/black-press-on-nails-almond-medium-artificial-acrylic-fake-nails-with-gold-shine-designs-full-cover-reusable-coffin-false-nails-set-women-glue-on-nails-stick-on-nails-for-nail-art-24-pcs/Z2F1D96703F9B58630833Z/p/"
+      }
+    ],
+    "accountHistorical": "2026-11-05 C08: UAE GCC Picks store visible, no valid LE; general cross-border ineligible cannot prove China NGS reject",
+    "ngsSpecificReason": "UNKNOWN",
+    "chinaLegalEntityApproval": "NO_VALID_LE_IN_LAST_HISTORICAL_C08_SNAPSHOT",
+    "contractSigned": "UNKNOWN",
+    "payoutApproved": "UNKNOWN",
+    "originMapped": "UNKNOWN",
+    "invoicingProfileApproved": "UNKNOWN",
+    "ngsOnboardingSLA": "UNKNOWN",
+    "transferPriceTestEconomics": [
+      {
+        "id": "cosmetic-bag-set",
+        "transferPriceUsdTestOnly": [
+          4.5,
+          5.5,
+          6.5
+        ],
+        "fullCostCapUsdAt15pctContribution_Q0": [
+          3.825,
+          4.675,
+          5.525
+        ],
+        "Q10": [
+          3.4425,
+          4.2075,
+          4.9725
+        ],
+        "Q25": [
+          2.8688,
+          3.5063,
+          4.1438
+        ],
+        "actualApprovedTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualMarkup": null,
+        "actualSameBomChinaPurchasePrice": null,
+        "actualChinaShenzhenHandoffCost": null,
+        "returnTpClawback": null,
+        "categoryNgsApproval": null,
+        "verifiedWorst100LossUsd": null,
+        "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+      },
+      {
+        "id": "hair-accessories",
+        "transferPriceUsdTestOnly": [
+          2.4,
+          2.9,
+          3.4
+        ],
+        "fullCostCapUsdAt15pctContribution_Q0": [
+          2.04,
+          2.465,
+          2.89
+        ],
+        "Q10": [
+          1.836,
+          2.2185,
+          2.601
+        ],
+        "Q25": [
+          1.53,
+          1.8488,
+          2.1675
+        ],
+        "actualApprovedTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualMarkup": null,
+        "actualSameBomChinaPurchasePrice": null,
+        "actualChinaShenzhenHandoffCost": null,
+        "returnTpClawback": null,
+        "categoryNgsApproval": null,
+        "verifiedWorst100LossUsd": null,
+        "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+      },
+      {
+        "id": "press-on-nails",
+        "transferPriceUsdTestOnly": [
+          1.5,
+          1.9,
+          2.3
+        ],
+        "fullCostCapUsdAt15pctContribution_Q0": [
+          1.275,
+          1.615,
+          1.955
+        ],
+        "Q10": [
+          1.1475,
+          1.4535,
+          1.7595
+        ],
+        "Q25": [
+          0.9563,
+          1.2113,
+          1.4663
+        ],
+        "actualApprovedTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualMarkup": null,
+        "actualSameBomChinaPurchasePrice": null,
+        "actualChinaShenzhenHandoffCost": null,
+        "returnTpClawback": null,
+        "categoryNgsApproval": null,
+        "verifiedWorst100LossUsd": null,
+        "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+      },
+      {
+        "id": "phone-charm-beaded",
+        "transferPriceUsdTestOnly": [
+          1.7,
+          2.2,
+          2.7
+        ],
+        "fullCostCapUsdAt15pctContribution_Q0": [
+          1.445,
+          1.87,
+          2.295
+        ],
+        "Q10": [
+          1.3005,
+          1.683,
+          2.0655
+        ],
+        "Q25": [
+          1.0838,
+          1.4025,
+          1.7213
+        ],
+        "actualApprovedTP": null,
+        "actualConsumerFinalPrice": null,
+        "actualMarkup": null,
+        "actualSameBomChinaPurchasePrice": null,
+        "actualChinaShenzhenHandoffCost": null,
+        "returnTpClawback": null,
+        "categoryNgsApproval": null,
+        "verifiedWorst100LossUsd": null,
+        "modelBasis": "15% contribution margin; q is hypothetical no-TP-income share; not certified quote, loss bound or actual returns rate"
+      }
+    ],
+    "v2HistoricalScores": {
+      "cosmetic-bag-set": [
+        78,
+        90,
+        73
+      ],
+      "hair-accessories": [
+        70,
+        92,
+        78
+      ],
+      "press-on-nails": [
+        67,
+        92,
+        80
+      ],
+      "phone-charm-beaded": [
+        68,
+        84,
+        76
+      ],
+      "original-ip-plush": [
+        69,
+        67,
+        58
+      ]
+    },
+    "scoreRecalculated": false,
+    "top5ScenarioRisksPerSku": {
+      "cosmetic-bag-set": [
+        [
+          "Brand/BOM extrapolation from TRENZ quilted set",
+          4,
+          5,
+          true,
+          "不要把Saudi卖家自述品牌的绗缝四件套复制或当同BOM报价；确认自有通用款差异及设计权"
+        ],
+        [
+          "Noon China NGS access / China LE",
+          5,
+          5,
+          true,
+          "已授权后台只读核验并等待合规获批"
+        ],
+        [
+          "Noon markup and buyer final price",
+          5,
+          4,
+          false,
+          "账户合规后逐TP档观察真实终价"
+        ],
+        [
+          "Packed 4-piece weight and China hub freight",
+          4,
+          4,
+          false,
+          "同BOM独立采购价和最终包装毛重/交仓账单"
+        ],
+        [
+          "Returns original TP clawback / FBN recovery",
+          4,
+          4,
+          false,
+          "取得NGS实际账单/专项原文"
+        ]
+      ],
+      "hair-accessories": [
+        [
+          "Noon China NGS access / LE",
+          5,
+          5,
+          true,
+          "核验LE与Origin"
+        ],
+        [
+          "TP and actual final buyer price",
+          5,
+          4,
+          false,
+          "合规后实测TP"
+        ],
+        [
+          "Clip spring/tooth fracture",
+          4,
+          4,
+          false,
+          "定BOM后开合/跌落/夹持测试"
+        ],
+        [
+          "Old 8pc sales badge not new orders",
+          4,
+          4,
+          false,
+          "刷新同BOM独立成交或零售补货凭证"
+        ],
+        [
+          "FBN returns / damage recovery",
+          4,
+          4,
+          false,
+          "以实际TP冲回及损耗实测"
+        ]
+      ],
+      "press-on-nails": [
+        [
+          "Noon China NGS access / LE",
+          5,
+          5,
+          true,
+          "核验LE与Origin"
+        ],
+        [
+          "Full box only-adhesive no-liquid-glue unverified",
+          5,
+          4,
+          true,
+          "取得完整封装配件清单/实物证据"
+        ],
+        [
+          "Old listing and sold badge lack fresh matched purchase",
+          4,
+          4,
+          false,
+          "同BOM真实订单/RFQ/补货"
+        ],
+        [
+          "Return hygiene / salability / TP clawback",
+          4,
+          4,
+          false,
+          "官方特殊类目和实际售后规则"
+        ],
+        [
+          "TP / real cost / destination QC",
+          4,
+          4,
+          false,
+          "验证TP与合规禁限售"
+        ]
+      ],
+      "phone-charm-beaded": [
+        [
+          "Noon China NGS access / LE",
+          5,
+          5,
+          true,
+          "核验LE与Origin"
+        ],
+        [
+          "IP/logo infringement",
+          5,
+          5,
+          true,
+          "只做自有/通用设计，第三方角色需书面授权"
+        ],
+        [
+          "New matched demand absent",
+          5,
+          4,
+          false,
+          "真实同BOM购买或补货"
+        ],
+        [
+          "TP margin too thin",
+          4,
+          4,
+          false,
+          "真实消费者终价、采购和交仓成本"
+        ],
+        [
+          "Fast-changing aesthetic / breakage",
+          4,
+          3,
+          false,
+          "小量SKU、挂绳拉力测试"
+        ]
+      ],
+      "original-ip-plush": [
+        [
+          "Third-party IP resale rights absent",
+          5,
+          5,
+          true,
+          "书面许可和正品分销权"
+        ],
+        [
+          "Noon China NGS access / LE",
+          5,
+          5,
+          true,
+          "核验LE与Origin"
+        ],
+        [
+          "No China vs GCC same-series first paid date pair",
+          5,
+          4,
+          false,
+          "分市场同系列真实订单、非美国新品公告"
+        ],
+        [
+          "Figure vs toy regulatory and Noon category",
+          4,
+          4,
+          false,
+          "年龄适用、GCC合规与Noon QC"
+        ],
+        [
+          "Resale margin & counterfeit risk",
+          4,
+          5,
+          false,
+          "合法渠道、供货及TP后核算"
+        ]
+      ]
+    },
+    "ownerAdvantageAudit": {
+      "cosmetic-bag-set": [
+        [
+          "Saudi four-piece market category demand",
+          "TRENZ historic listing says 360+ sold recently; stale, seller-specific",
+          3,
+          "medium",
+          false,
+          "partial"
+        ],
+        [
+          "Demonstrable travel organization",
+          "product use case on official retail listing; no attributable local paid conversion",
+          3,
+          "long",
+          false,
+          "partial"
+        ]
+      ],
+      "hair-accessories": [
+        [
+          "Simple appearance demonstration",
+          "historic 8-piece marketplace consumer listings, not first-party conversion data",
+          4,
+          "medium",
+          false,
+          "partial"
+        ],
+        [
+          "No batteries/liquids",
+          "category physical attributes only; complete BOM/packaging not certified",
+          3,
+          "long",
+          false,
+          "partial"
+        ]
+      ],
+      "press-on-nails": [
+        [
+          "24-piece tabs-only kit appears feasible as written BOM",
+          "UAE TBRZTR page lists adhesive sticker, not liquid glue; real pack unseen",
+          3,
+          "medium",
+          false,
+          "partial"
+        ],
+        [
+          "Quick self-manicure use case",
+          "marketplace description only; not directly linked to recent same-BOM paid orders",
+          4,
+          "medium",
+          false,
+          "partial"
+        ]
+      ],
+      "phone-charm-beaded": [
+        [
+          "Short-form visual demonstrations",
+          "existing generic examples and plausible gift use, not verified attributed purchase",
+          3,
+          "short-medium",
+          false,
+          "partial"
+        ],
+        [
+          "No electronic parts",
+          "simple resin/beads designs only; quality and IP risk remain",
+          3,
+          "long",
+          false,
+          "partial"
+        ]
+      ],
+      "original-ip-plush": [
+        [
+          "Official global launch watch available",
+          "POP MART official US releases verified in C01, not China/GCC matched paid records",
+          2,
+          "short",
+          false,
+          "yes"
+        ],
+        [
+          "Collectible gift theme",
+          "official launched pendant formats but GCC same-series transactions unknown",
+          3,
+          "medium",
+          false,
+          "partial"
+        ]
+      ]
+    },
+    "all14CertifiedWorstLoss100": null,
+    "returnTPClawback": "UNKNOWN",
+    "realChinaToHubCost": null,
+    "realConsumerMarkup": null,
+    "ipChinaGccSameSeriesFirstPaidPairs": 0,
+    "ipTrendLagDays": null,
+    "thirdPartyIpAuthorizedForResale": false,
+    "sources": [
+      {
+        "id": "NGS_POLICY",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-global-shipping-program",
+        "level": "OFFICIAL_POLICY",
+        "checkedDate": "2026-11-07",
+        "finding": "China CR, USD Transfer Price, Shenzhen hub, sales post-delivery, salable returns to FBN; no public complete NGS onboarding SLA or return TP clawback formula"
+      },
+      {
+        "id": "INVOICE_ORIGIN",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/how-to-setup-the-invoicing-profile-for-global-selling",
+        "level": "OFFICIAL_POLICY",
+        "checkedDate": "2026-11-07",
+        "finding": "Invoicing Profile origin links approved LE and approved payment method; contract signature state determines linking; only available origin countries"
+      },
+      {
+        "id": "PAYOUT_ORIGIN",
+        "url": "https://helpcenter.noon.partners/en/category/onboarding-and-registration/how-to-add-the-bank-details-in-the-legal-entity",
+        "level": "OFFICIAL_POLICY",
+        "checkedDate": "2026-11-07",
+        "finding": "approved payout method must be assigned to Selling Origin; otherwise earnings accumulated not transferred"
+      },
+      {
+        "id": "CROSS_BORDER_SCOPE",
+        "url": "https://helpcenter.noon.partners/en/category/global-selling/how-can-you-register-for-cross-border-business",
+        "level": "OFFICIAL_DIFFERENT_PROGRAM",
+        "checkedDate": "2026-11-07",
+        "finding": "24–48h approval claim attached to generic cross-border program, not a verified China NGS end-to-end onboarding SLA"
+      },
+      {
+        "id": "SAUDI_TRENZ",
+        "url": "https://www.noon.com/saudi-en/set-of-four-multi-sized-makeup-bags-z40/Z8B561DE15CDB81AA9BF9Z/p/",
+        "level": "MARKETPLACE_HISTORICAL_SNAPSHOT",
+        "checkedDate": "2026-11-07",
+        "finding": "Z40 padded quilted cotton 4-piece makeup bags, SAR59.90, 360+ sold recently in old cached listing; seller page describes TRENZ as Saudi brand, not independently validated brand ownership. Not matching hypothetical unbranded light set, not new paid order"
+      },
+      {
+        "id": "UAE_NAILS",
+        "url": "https://www.noon.com/uae-en/black-press-on-nails-almond-medium-artificial-acrylic-fake-nails-with-gold-shine-designs-full-cover-reusable-coffin-false-nails-set-women-glue-on-nails-stick-on-nails-for-nail-art-24-pcs/Z2F1D96703F9B58630833Z/p/",
+        "level": "MARKETPLACE_HISTORICAL_SNAPSHOT",
+        "checkedDate": "2026-11-07",
+        "finding": "UAE TBRZTR 24pc kit lists nail file, wooden stick, adhesive sheet and cleaning paper, without liquid glue in written package list; physical BOM unverified, no sales proof"
+      },
+      {
+        "id": "SAUDI_KAIXIN",
+        "url": "https://www.noon.com/saudi-en/24-piece-french-gradient-wearable-nails-short-style-versatile-removable-no-damage-to-nails-finished-nails-suitable-for-girls/ZAD7D6325DF21BE214D0EZ/p/",
+        "level": "MARKETPLACE_HISTORICAL_SNAPSHOT",
+        "checkedDate": "2026-11-07",
+        "finding": "24pcs + adhesive sheet listed; historical 430+ sold recently not fresh; physical package unverified"
+      }
+    ],
+    "reportPath": "research/2026-11-07/CHINAGCC_C02_NGS_INVOICE_ORIGIN_TRENZ_BRAND_24PC_NEAR_BOM.md",
+    "decision": "HOLD / CONDITIONAL_RESTART",
+    "actions": {
+      "accountModified": false,
+      "registrationSubmitted": false,
+      "identityUploaded": false,
+      "contractSigned": false,
+      "purchase": false,
+      "listing": false,
+      "advertising": false,
       "outreach": false
     }
   }
